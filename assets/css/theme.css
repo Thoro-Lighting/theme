@@ -22332,3 +22332,12 @@ margin-right: 8px; margin-top: -7px;}
 .ekomi_reviews .ekomi-text {font-size: 11px;line-height: 15px;margin: 3px 0px;}
 .ekomi-stars {text-align: center}
 .ekomi_reviews p {font-size: 11px;margin: 0px;}
+
+.m_column_row #st_menu_column_3 > div:last-child .mu_level_1:last-child,
+.m_column_row #st_menu_column_3 > div:last-child .mu_level_1:last-child a{
+	margin-bottom: 0;
+}
+
+#st_mobile_menu_ul .mo_mu_level_1 a[href="javascript:;"]{
+	display: none;
+}
