@@ -7,10 +7,10 @@
   display: block;
   margin: 25px 0 15px;
   padding: 0px;
-  background: #222;
+  background: #87cedd;
   border: 0px;
 }
-.side-filter-button.btn:hover {background: #333}
+.side-filter-button.btn:hover {background: #699da8}
 .side-filter-button .PM_ASSubmitSearch {border: 0; background: transparent; color: #fff; font-weight: 700; text-transform: uppercase; margin: 0 !important; z-index: 1; position: relative; padding-right: 35px;}
 .show-button .mobile-filter-count {
   position: absolute;

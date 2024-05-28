@@ -2742,8 +2742,8 @@ a.btn.disabled,fieldset[disabled] a.btn {
 
 .btn-primary {
 	color: #fff;
-	background-color: #222;
-	border-color: #222
+	background-color: #87cedd;
+	border-color: #87cedd
 }
 
 
@@ -2752,8 +2752,8 @@ a.btn.disabled,fieldset[disabled] a.btn {
 
 .btn-primary:hover {
 	color: #fff;
-	background-color: #000;
-	border-color: #000
+	background-color: #699da8;
+	border-color: #699da8
 }
 
 .btn-primary.focus,.btn-primary:focus {
@@ -22355,4 +22355,9 @@ margin-right: 8px; margin-top: -7px;}
 }
 #steasy_column_88 .stsocial_list a:hover .social_wrap{
 	color: #ffffff !important;
+}
+
+#st_news_letter_1 .st_news_letter_submit:hover{
+	background-color: #699da8 !important;
+	border-color: #699da8 !important;
 }
