@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="sQOIx9i" resname="Twitter Embedded Timelines">
+        <source>Twitter Embedded Timelines</source>
+        <target>Twitter Embedded Timelines</target>
+      </trans-unit>
+      <trans-unit id="B614kld" resname="Display the recent tweets of a twitter user">
+        <source>Display the recent tweets of a twitter user</source>
+        <target>Display the recent tweets of a twitter user</target>
+      </trans-unit>
+      <trans-unit id="iD3gKVa" resname="The customisation documentation.">
+        <source>The customisation documentation.</source>
+        <target>The customisation documentation.</target>
+      </trans-unit>
+      <trans-unit id=".MoH0G9" resname="Twitter user name:">
+        <source>Twitter user name:</source>
+        <target>Twitter user name:</target>
+      </trans-unit>
+      <trans-unit id="3fD3Fsu" resname="Widget ID:">
+        <source>Widget ID:</source>
+        <target>Widget ID:</target>
+      </trans-unit>
+      <trans-unit id="yblvGE8" resname="Create your own embedded timeline.">
+        <source>Create your own embedded timeline.</source>
+        <target>Create your own embedded timeline.</target>
+      </trans-unit>
+      <trans-unit id="72fqpqF" resname="No header:">
+        <source>No header:</source>
+        <target>No header:</target>
+      </trans-unit>
+      <trans-unit id="MREBPuZ" resname="No Footer:">
+        <source>No Footer:</source>
+        <target>No Footer:</target>
+      </trans-unit>
+      <trans-unit id="1DtvG7v" resname="No Borders:">
+        <source>No Borders:</source>
+        <target>No Borders:</target>
+      </trans-unit>
+      <trans-unit id="lkfUv0r" resname="No scrollbar:">
+        <source>No scrollbar:</source>
+        <target>No scrollbar:</target>
+      </trans-unit>
+      <trans-unit id="qnCpqMx" resname="Transparent:">
+        <source>Transparent:</source>
+        <target>Transparent:</target>
+      </trans-unit>
+      <trans-unit id="hDgMecw" resname="Tweet limit:">
+        <source>Tweet limit:</source>
+        <target>Tweet limit:</target>
+      </trans-unit>
+      <trans-unit id="AfsSyw4" resname="The height setting above will be disregard, if this vaule is larger than 0">
+        <source>The height setting above will be disregard, if this vaule is larger than 0</source>
+        <target>The height setting above will be disregard, if this vaule is larger than 0</target>
+      </trans-unit>
+      <trans-unit id="l1P14LF" resname="Screen name:">
+        <source>Screen name:</source>
+        <target>Screen name:</target>
+      </trans-unit>
+      <trans-unit id="lulAJDl" resname="Whose timeline you want to display.">
+        <source>Whose timeline you want to display.</source>
+        <target>Whose timeline you want to display.</target>
+      </trans-unit>
+      <trans-unit id="XUwfpXH" resname="Show replies:">
+        <source>Show replies:</source>
+        <target>Show replies:</target>
+      </trans-unit>
+      <trans-unit id="RaUsGiT" resname="You have to fill the screen name for the show replies attribute to take effect">
+        <source>You have to fill the screen name for the show replies attribute to take effect</source>
+        <target>You have to fill the screen name for the show replies attribute to take effect</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

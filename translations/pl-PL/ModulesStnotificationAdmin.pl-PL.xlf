@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="nxf5bDL" resname="Button text:">
+        <source>Button text:</source>
+        <target>Button text:</target>
+      </trans-unit>
+      <trans-unit id="fDxk6.M" resname="If you do not fill in this filed, the  button would not show out.">
+        <source>If you do not fill in this filed, the  button would not show out.</source>
+        <target>If you do not fill in this filed, the  button would not show out.</target>
+      </trans-unit>
+      <trans-unit id="rch1GG4" resname="Button link:">
+        <source>Button link:</source>
+        <target>Button link:</target>
+      </trans-unit>
+      <trans-unit id="fTG4MxO" resname="Notification">
+        <source>Notification</source>
+        <target>Notification</target>
+      </trans-unit>
+      <trans-unit id="W7PB61v" resname="Display a responsive and custom warning notification on your site.">
+        <source>Display a responsive and custom warning notification on your site.</source>
+        <target>Display a responsive and custom warning notification on your site.</target>
+      </trans-unit>
+      <trans-unit id="z0FquNq" resname="Add a block">
+        <source>Add a block</source>
+        <target>Add a block</target>
+      </trans-unit>
+      <trans-unit id="5zf8VM4" resname="Set the value to 0 to make this block be full width.">
+        <source>Set the value to 0 to make this block be full width.</source>
+        <target>Set the value to 0 to make this block be full width.</target>
+      </trans-unit>
+      <trans-unit id="iHakXbE" resname="Do not work for full width notifications.">
+        <source>Do not work for full width notifications.</source>
+        <target>Do not work for full width notifications.</target>
+      </trans-unit>
+      <trans-unit id="MqH3seC" resname="&quot;Got it&quot; button text:">
+        <source>"Got it" button text:</source>
+        <target>"Got it" button text:</target>
+      </trans-unit>
+      <trans-unit id="WtPb0SQ" resname="Got it">
+        <source>Got it</source>
+        <target>Got it</target>
+      </trans-unit>
+      <trans-unit id=".QgcjHL" resname="Clicking on the button would close the notification.">
+        <source>Clicking on the button would close the notification.</source>
+        <target>Clicking on the button would close the notification.</target>
+      </trans-unit>
+      <trans-unit id="TNEpzNU" resname="If you do not fill in this filed, the &quot;Got it&quot; button would not show out.">
+        <source>If you do not fill in this filed, the "Got it" button would not show out.</source>
+        <target>If you do not fill in this filed, the "Got it" button would not show out.</target>
+      </trans-unit>
+      <trans-unit id="2ciCfGM" resname="Read more button text:">
+        <source>Read more button text:</source>
+        <target>Read more button text:</target>
+      </trans-unit>
+      <trans-unit id="g7eUFFw" resname="Read more">
+        <source>Read more</source>
+        <target>Read more</target>
+      </trans-unit>
+      <trans-unit id="T9uEYz1" resname="If you do not fill in this filed or link fields below, the more info button would not show out.">
+        <source>If you do not fill in this filed or link fields below, the more info button would not show out.</source>
+        <target>If you do not fill in this filed or link fields below, the more info button would not show out.</target>
+      </trans-unit>
+      <trans-unit id="4B9O3VE" resname="More info link:">
+        <source>More info link:</source>
+        <target>More info link:</target>
+      </trans-unit>
+      <trans-unit id="32FsgO." resname="Custom more info link:">
+        <source>Custom more info link:</source>
+        <target>Custom more info link:</target>
+      </trans-unit>
+      <trans-unit id="nipzbVP" resname="Display a X close button on the top right corner:">
+        <source>Display a X close button on the top right corner:</source>
+        <target>Display a X close button on the top right corner:</target>
+      </trans-unit>
+      <trans-unit id="XkJ7zii" resname="How to show this notification:">
+        <source>How to show this notification:</source>
+        <target>How to show this notification:</target>
+      </trans-unit>
+      <trans-unit id="QWqBpoJ" resname="At all time, do not show again if customers close it by clicking on the close buttons.">
+        <source>At all time, do not show again if customers close it by clicking on the close buttons.</source>
+        <target>At all time, do not show again if customers close it by clicking on the close buttons.</target>
+      </trans-unit>
+      <trans-unit id="OvFwQf3" resname="At all time">
+        <source>At all time</source>
+        <target>At all time</target>
+      </trans-unit>
+      <trans-unit id="Bp9d__s" resname="First time only">
+        <source>First time only</source>
+        <target>First time only</target>
+      </trans-unit>
+      <trans-unit id="E63k4Z9" resname="Delay:">
+        <source>Delay:</source>
+        <target>Delay:</target>
+      </trans-unit>
+      <trans-unit id="pprOfiY" resname="Other settings">
+        <source>Other settings</source>
+        <target>Other settings</target>
+      </trans-unit>
+      <trans-unit id="t4G6NAv" resname="The blur distance of shadow:">
+        <source>The blur distance of shadow:</source>
+        <target>The blur distance of shadow:</target>
+      </trans-unit>
+      <trans-unit id="02PSKfn" resname="Shadow opacity:">
+        <source>Shadow opacity:</source>
+        <target>Shadow opacity:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

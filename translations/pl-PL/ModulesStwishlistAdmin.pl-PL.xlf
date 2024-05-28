@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="XVk..Z5" resname="Wishlist block">
+        <source>Wishlist block</source>
+        <target>Wishlist block</target>
+      </trans-unit>
+      <trans-unit id="_IZf7sP" resname="Dispaly wishlist buttons on your store.">
+        <source>Dispaly wishlist buttons on your store.</source>
+        <target>Dispaly wishlist buttons on your store.</target>
+      </trans-unit>
+      <trans-unit id="CCNj2Ae" resname="Wishlist products">
+        <source>Wishlist products</source>
+        <target>Wishlist products</target>
+      </trans-unit>
+      <trans-unit id="oYqfnop" resname="Search for customer ID">
+        <source>Search for customer ID</source>
+        <target>Search for customer ID</target>
+      </trans-unit>
+      <trans-unit id="IEEucp6" resname="Custom ID:">
+        <source>Custom ID:</source>
+        <target>Custom ID:</target>
+      </trans-unit>
+      <trans-unit id="Ci4VbiI" resname="How to display the Add to wishlist button:">
+        <source>How to display the Add to wishlist button:</source>
+        <target>How to display the Add to wishlist button:</target>
+      </trans-unit>
+      <trans-unit id="M2GlZ5f" resname="How to display wishlist link on header:">
+        <source>How to display wishlist link on header:</source>
+        <target>How to display wishlist link on header:</target>
+      </trans-unit>
+      <trans-unit id="rdTGj_6" resname="Display the total number of products in wishlists:">
+        <source>Display the total number of products in wishlists:</source>
+        <target>Display the total number of products in wishlists:</target>
+      </trans-unit>
+      <trans-unit id="44ua7DF" resname="How to display on the product page:">
+        <source>How to display on the product page:</source>
+        <target>How to display on the product page:</target>
+      </trans-unit>
+      <trans-unit id="xf7pArS" resname="Wishlist name">
+        <source>Wishlist name</source>
+        <target>Wishlist name</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

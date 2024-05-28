@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="33AHLIP" resname="Related products">
+        <source>Related products</source>
+        <target>Related products</target>
+      </trans-unit>
+      <trans-unit id="c2ulu4U" resname="Add related products on product pages.">
+        <source>Add related products on product pages.</source>
+        <target>Add related products on product pages.</target>
+      </trans-unit>
+      <trans-unit id="GyX1FGN" resname="Automatically generate related products(using tags):">
+        <source>Automatically generate related products(using tags):</source>
+        <target>Automatically generate related products(using tags):</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

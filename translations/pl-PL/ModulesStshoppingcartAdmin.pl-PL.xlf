@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ZMwTv45" resname="Shopping cart mod">
+        <source>Shopping cart mod</source>
+        <target>Shopping cart mod</target>
+      </trans-unit>
+      <trans-unit id="Z6ZwXh3" resname="Adds a block containing the customer\'s shopping cart.">
+        <source>Adds a block containing the customer\'s shopping cart.</source>
+        <target>Adds a block containing the customer\'s shopping cart.</target>
+      </trans-unit>
+      <trans-unit id="3Td5zbB" resname="The &quot;Shopping cart&quot; text">
+        <source>The "Shopping cart" text</source>
+        <target>The "Shopping cart" text</target>
+      </trans-unit>
+      <trans-unit id="6QW.s02" resname="The number of items in cart, like &quot;2 items&quot;">
+        <source>The number of items in cart, like "2 items"</source>
+        <target>The number of items in cart, like "2 items"</target>
+      </trans-unit>
+      <trans-unit id=".DPWwId" resname="Display the number of items in cart along with the cart icon">
+        <source>Display the number of items in cart along with the cart icon</source>
+        <target>Display the number of items in cart along with the cart icon</target>
+      </trans-unit>
+      <trans-unit id="naepTwi" resname="Total price">
+        <source>Total price</source>
+        <target>Total price</target>
+      </trans-unit>
+      <trans-unit id="UXGEzcw" resname="Ajax: Invalid choice.">
+        <source>Ajax: Invalid choice.</source>
+        <target>Ajax: Invalid choice.</target>
+      </trans-unit>
+      <trans-unit id="oJWrqxV" resname="Animation: Invalid choice.">
+        <source>Animation: Invalid choice.</source>
+        <target>Animation: Invalid choice.</target>
+      </trans-unit>
+      <trans-unit id="vIPVJr9" resname="Ajax cart">
+        <source>Ajax cart</source>
+        <target>Ajax cart</target>
+      </trans-unit>
+      <trans-unit id="peK6eUN" resname="Activate Ajax mode for the cart (compatible with the default theme).">
+        <source>Activate Ajax mode for the cart (compatible with the default theme).</source>
+        <target>Activate Ajax mode for the cart (compatible with the default theme).</target>
+      </trans-unit>
+      <trans-unit id="Tj7UWA0" resname="What to do if customers click on the header cart icon:">
+        <source>What to do if customers click on the header cart icon:</source>
+        <target>What to do if customers click on the header cart icon:</target>
+      </trans-unit>
+      <trans-unit id="q9IAr2t" resname="Link to shopping cart page.">
+        <source>Link to shopping cart page.</source>
+        <target>Link to shopping cart page.</target>
+      </trans-unit>
+      <trans-unit id="OzEsvxh" resname="Display cart items on the right side bar.">
+        <source>Display cart items on the right side bar.</source>
+        <target>Display cart items on the right side bar.</target>
+      </trans-unit>
+      <trans-unit id="ugHiZgz" resname="Display cart items on the left side bar.">
+        <source>Display cart items on the left side bar.</source>
+        <target>Display cart items on the left side bar.</target>
+      </trans-unit>
+      <trans-unit id="Cj6jQRa" resname="Display cart items if mouse over the header cart icon">
+        <source>Display cart items if mouse over the header cart icon</source>
+        <target>Display cart items if mouse over the header cart icon</target>
+      </trans-unit>
+      <trans-unit id="nKD02Ov" resname="Yes, do nothing when no products in cart">
+        <source>Yes, do nothing when no products in cart</source>
+        <target>Yes, do nothing when no products in cart</target>
+      </trans-unit>
+      <trans-unit id="Sv137nx" resname="Yes, display a message when no products in cart">
+        <source>Yes, display a message when no products in cart</source>
+        <target>Yes, display a message when no products in cart</target>
+      </trans-unit>
+      <trans-unit id="5ZQwTej" resname="Add to cart animation:">
+        <source>Add to cart animation:</source>
+        <target>Add to cart animation:</target>
+      </trans-unit>
+      <trans-unit id="tlMjOgP" resname="Pop-up dialog">
+        <source>Pop-up dialog</source>
+        <target>Pop-up dialog</target>
+      </trans-unit>
+      <trans-unit id="TDDrF9h" resname="Product image to the header cart">
+        <source>Product image to the header cart</source>
+        <target>Product image to the header cart</target>
+      </trans-unit>
+      <trans-unit id="VGrFckX" resname="Product image to the header cart(Page scroll to top)">
+        <source>Product image to the header cart(Page scroll to top)</source>
+        <target>Product image to the header cart(Page scroll to top)</target>
+      </trans-unit>
+      <trans-unit id="hM9xRFh" resname="Product image to the right bar cart">
+        <source>Product image to the right bar cart</source>
+        <target>Product image to the right bar cart</target>
+      </trans-unit>
+      <trans-unit id="UELnBYK" resname="Cart style on the header:">
+        <source>Cart style on the header:</source>
+        <target>Cart style on the header:</target>
+      </trans-unit>
+      <trans-unit id="WZ3eH.M" resname="Classic style">
+        <source>Classic style</source>
+        <target>Classic style</target>
+      </trans-unit>
+      <trans-unit id="I7IDw8j" resname="Large cart icon">
+        <source>Large cart icon</source>
+        <target>Large cart icon</target>
+      </trans-unit>
+      <trans-unit id="iAgo8dh" resname="Small cart icon">
+        <source>Small cart icon</source>
+        <target>Small cart icon</target>
+      </trans-unit>
+      <trans-unit id="S_dnSdN" resname="Cart information on the header">
+        <source>Cart information on the header</source>
+        <target>Cart information on the header</target>
+      </trans-unit>
+      <trans-unit id="8jKWOb1" resname="Choose infomation to be displayed on the header shopping cart">
+        <source>Choose infomation to be displayed on the header shopping cart</source>
+        <target>Choose infomation to be displayed on the header shopping cart</target>
+      </trans-unit>
+      <trans-unit id="ZYye9Ag" resname="Checkout button and shopping cart button">
+        <source>Checkout button and shopping cart button</source>
+        <target>Checkout button and shopping cart button</target>
+      </trans-unit>
+      <trans-unit id="EyrfzXE" resname="Checkout button is used to direct customers to the checkout page without going to the shopping cart page.">
+        <source>Checkout button is used to direct customers to the checkout page without going to the shopping cart page.</source>
+        <target>Checkout button is used to direct customers to the checkout page without going to the shopping cart page.</target>
+      </trans-unit>
+      <trans-unit id="x.M_180" resname="Show cross-selling">
+        <source>Show cross-selling</source>
+        <target>Show cross-selling</target>
+      </trans-unit>
+      <trans-unit id=".uM8Q_L" resname="Activate cross-selling display for the cart.">
+        <source>Activate cross-selling display for the cart.</source>
+        <target>Activate cross-selling display for the cart.</target>
+      </trans-unit>
+      <trans-unit id="d2nc3As" resname="Products to display in cross-selling">
+        <source>Products to display in cross-selling</source>
+        <target>Products to display in cross-selling</target>
+      </trans-unit>
+      <trans-unit id="EATK_Pe" resname="Define the number of products to be displayed in the cross-selling block.">
+        <source>Define the number of products to be displayed in the cross-selling block.</source>
+        <target>Define the number of products to be displayed in the cross-selling block.</target>
+      </trans-unit>
+      <trans-unit id="EypxcIS" resname="Shopping cart on the header">
+        <source>Shopping cart on the header</source>
+        <target>Shopping cart on the header</target>
+      </trans-unit>
+      <trans-unit id="93dSPXW" resname="Text color:">
+        <source>Text color:</source>
+        <target>Text color:</target>
+      </trans-unit>
+      <trans-unit id="jvlTOL7" resname="Text hover color:">
+        <source>Text hover color:</source>
+        <target>Text hover color:</target>
+      </trans-unit>
+      <trans-unit id="pTLDTWR" resname="Hover background:">
+        <source>Hover background:</source>
+        <target>Hover background:</target>
+      </trans-unit>
+      <trans-unit id="rGpaBI5" resname="Only classic cart style has borders.">
+        <source>Only classic cart style has borders.</source>
+        <target>Only classic cart style has borders.</target>
+      </trans-unit>
+      <trans-unit id="x6vrF4T" resname="Max height of the drop down cart:">
+        <source>Max height of the drop down cart:</source>
+        <target>Max height of the drop down cart:</target>
+      </trans-unit>
+      <trans-unit id="rP58Nnh" resname="Leave it empty to use the default value">
+        <source>Leave it empty to use the default value</source>
+        <target>Leave it empty to use the default value</target>
+      </trans-unit>
+      <trans-unit id="snhWTA4" resname="Check the hook that you would like this module to display on.">
+        <source>Check the hook that you would like this module to display on.</source>
+        <target>Check the hook that you would like this module to display on.</target>
+      </trans-unit>
+      <trans-unit id="LQLWtNH" resname="Click here to see hook position">
+        <source>Click here to see hook position</source>
+        <target>Click here to see hook position</target>
+      </trans-unit>
+      <trans-unit id="bomgrOH" resname="This module was transplanted to these hooks at the same time. You should not have done that. This module can only be transplante to one of them, otherwise the front page might be messed up.">
+        <source>This module was transplanted to these hooks at the same time. You should not have done that. This module can only be transplante to one of them, otherwise the front page might be messed up.</source>
+        <target>This module was transplanted to these hooks at the same time. You should not have done that. This module can only be transplante to one of them, otherwise the front page might be messed up.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

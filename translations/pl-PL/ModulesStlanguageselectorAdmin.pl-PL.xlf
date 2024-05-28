@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="uXoIiq3" resname="Language selector block mod">
+        <source>Language selector block mod</source>
+        <target>Language selector block mod</target>
+      </trans-unit>
+      <trans-unit id="lrGq2I6" resname="Adds a language switcher to your site.">
+        <source>Adds a language switcher to your site.</source>
+        <target>Adds a language switcher to your site.</target>
+      </trans-unit>
+      <trans-unit id="XLi2B3v" resname="Settings updated">
+        <source>Settings updated</source>
+        <target>Settings updated</target>
+      </trans-unit>
+      <trans-unit id="JUjmV5_" resname="Language label:">
+        <source>Language label:</source>
+        <target>Language label:</target>
+      </trans-unit>
+      <trans-unit id="U4V9um2" resname="Flag + name">
+        <source>Flag + name</source>
+        <target>Flag + name</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="VSEnlz_" resname="Flag">
+        <source>Flag</source>
+        <target>Flag</target>
+      </trans-unit>
+      <trans-unit id="k9oDZC1" resname="How to display:">
+        <source>How to display:</source>
+        <target>How to display:</target>
+      </trans-unit>
+      <trans-unit id="0PoHkNb" resname="A drop-down list">
+        <source>A drop-down list</source>
+        <target>A drop-down list</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

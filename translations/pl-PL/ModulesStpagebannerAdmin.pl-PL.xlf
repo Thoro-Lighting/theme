@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="c2ZyeEh" resname="Breadcrumbs">
+        <source>Breadcrumbs</source>
+        <target>Breadcrumbs</target>
+      </trans-unit>
+      <trans-unit id="tIo7g.X" resname="This module allows you put different backgrounds to breadcrumbs on different pages.">
+        <source>This module allows you put different backgrounds to breadcrumbs on different pages.</source>
+        <target>This module allows you put different backgrounds to breadcrumbs on different pages.</target>
+      </trans-unit>
+      <trans-unit id="dcmT30R" resname="&quot;Pages&quot; error">
+        <source>"Pages" error</source>
+        <target>"Pages" error</target>
+      </trans-unit>
+      <trans-unit id="Osi2iBE" resname="The field &quot;Pages&quot; is required">
+        <source>The field "Pages" is required</source>
+        <target>The field "Pages" is required</target>
+      </trans-unit>
+      <trans-unit id="hlGzs_d" resname="Image is required at least in">
+        <source>Image is required at least in</source>
+        <target>Image is required at least in</target>
+      </trans-unit>
+      <trans-unit id="4qElNxg" resname="Breadcrumb width:">
+        <source>Breadcrumb width:</source>
+        <target>Breadcrumb width:</target>
+      </trans-unit>
+      <trans-unit id="fW6dTGx" resname="Add custom content">
+        <source>Add custom content</source>
+        <target>Add custom content</target>
+      </trans-unit>
+      <trans-unit id="93dSPXW" resname="Text color:">
+        <source>Text color:</source>
+        <target>Text color:</target>
+      </trans-unit>
+      <trans-unit id="inndNAk" resname="Link color:">
+        <source>Link color:</source>
+        <target>Link color:</target>
+      </trans-unit>
+      <trans-unit id="5Z5lPGQ" resname="Link hover color:">
+        <source>Link hover color:</source>
+        <target>Link hover color:</target>
+      </trans-unit>
+      <trans-unit id="eyfKjNx" resname="Background:">
+        <source>Background:</source>
+        <target>Background:</target>
+      </trans-unit>
+      <trans-unit id="WFQntX1" resname="Border color:">
+        <source>Border color:</source>
+        <target>Border color:</target>
+      </trans-unit>
+      <trans-unit id="ur.EnRx" resname="Format your entry with some basic HTML.">
+        <source>Format your entry with some basic HTML.</source>
+        <target>Format your entry with some basic HTML.</target>
+      </trans-unit>
+      <trans-unit id="QLAjORd" resname="How to use google fonts? Click here.">
+        <source>How to use google fonts? Click here.</source>
+        <target>How to use google fonts? Click here.</target>
+      </trans-unit>
+      <trans-unit id="8WAQ841" resname="Once a font has been added, you can use it everywhere without adding it again.">
+        <source>Once a font has been added, you can use it everywhere without adding it again.</source>
+        <target>Once a font has been added, you can use it everywhere without adding it again.</target>
+      </trans-unit>
+      <trans-unit id="3X9s_bC" resname="please ensure the image name is unique, or it will override the same name files.">
+        <source>please ensure the image name is unique, or it will override the same name files.</source>
+        <target>please ensure the image name is unique, or it will override the same name files.</target>
+      </trans-unit>
+      <trans-unit id="n9coxmy" resname="Add">
+        <source>Add</source>
+        <target>Add</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

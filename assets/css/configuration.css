@@ -1,0 +1,311 @@
+#configuration #center_column .btn.btn-default {padding: 0px 50px;height: 50px;line-height: 50px;}
+#configuration #center_column .button-configurator {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.laptop .img img {
+  width: 450px;
+}
+
+#configuration #center_column .box-text {position: relative; padding-left: 25px; margin-bottom: 25px;}
+#configuration #center_column .box-text:before {content: '';width: 5px;height: 60%;position: absolute;background: #8cd0e3;
+left: 0px;}
+
+#configuration #center_column .tekst {position: relative}
+#configuration #center_column .tekst:before {content: '';
+background-image: url(../img/svg/box-configuration.svg);
+background-size: 200px;
+background-repeat: no-repeat;
+background-position: top right;
+width: 200px;
+height: 200px;
+position: absolute;
+right: 0px;
+opacity: 0.02;}
+
+#configuration .about-intro {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+#configuration .easycontent h4 {
+  font-size: 36px;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+#configuration .about-intro p {
+  width: 60%;
+  margin: 0 auto;
+}
+#configuration .easycontent .opis .img {
+  padding-right: 5rem;
+}
+#configuration .easycontent .opis .tekst { 
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+}
+#configuration .easycontent .opis {
+  margin-bottom: 5rem;
+}
+#configuration .easycontent .linia {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 9rem;
+}
+
+#configuration .easycontent .linia::after {
+  content: '';
+  background: #ddd;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+}
+#configuration .easycontent .linia:before { }
+
+#configuration .easycontent .linia .nb {
+  position: relative;
+}
+#configuration .easycontent .linia  span.rok-1 {
+  position: absolute;
+  left: 0;	
+}
+#configuration .easycontent .linia span.rok-2 {
+  position: absolute;
+  right: 0;
+}
+
+#configuration .easycontent .linia span.rok-1, #configuration .easycontent .linia span.rok-2 {
+  bottom: -33px;
+  color: #888;
+  background: #fff;
+  z-index: 20;
+  padding: 0 20px;
+}
+
+#configuration .easycontent .linia .nb::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -10px;
+  bottom: -32px;
+  z-index: 10;
+}
+#configuration .easycontent .linia .nb span {
+  display: inline-block;
+  width: 100%;
+  font-size: 40px;
+  color: #2dc3e4;
+}
+#configuration .easycontent .linia .nb span.nbt {
+  font-size: 14px;
+  color: #222;
+}
+
+#configuration .easycontent .about-2.opis {
+  margin-bottom: 1rem;
+}
+
+#configuration .easycontent .about-3 { }
+#configuration .easycontent .about-3 .tekst { margin-left:12rem; }
+
+#configuration .easycontent .about-4 { margin-bottom: 4rem; }
+
+.laptop {text-align: center;width: 100%;margin-top: 45px;}
+.laptop img {max-width: 400px;}
+.laptop .img {
+  text-align: right;
+  padding-right: 5rem;  
+}
+.laptop .txt {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+	
+	#configuration .about-intro p {
+	  width: 100%;
+	}
+	#configuration .easycontent h4 {
+	  font-size: 30px;
+	}	
+	
+	#configuration .easycontent .opis {
+	  margin-bottom: 2rem;
+	}	
+	
+}
+
+
+@media only screen and (max-width:991px) {
+
+.ch2-icon.ch2-icon-standard, .fb_dialog_content iframe {display: none !important}
+
+	#configuration .about-intro p {
+	  width: 100%;
+	}
+	#configuration .easycontent h4 {
+	  font-size: 26px;
+	  margin-bottom:1rem;
+	}
+	#configuration .about-intro {
+	  margin-bottom: 3rem;
+	}
+	#configuration .easycontent .linia .nb span {
+	  font-size: 26px;
+	}	
+	#configuration .easycontent .opis {
+	  margin-bottom: 2rem;
+	}	
+	#configuration .easycontent .linia {
+	  width: 100%;
+	  margin-bottom: 7rem;
+	}
+	#configuration .easycontent .about-4 {
+	  margin-bottom: 0rem;
+	}	
+	.laptop .txt {
+	  padding-top: 2rem;
+	}
+
+}
+
+
+@media only screen and (max-width:767px) {
+
+	#configuration .easycontent .opis .img {
+	  padding: 0px 15px;
+	  margin-bottom:3rem;
+	}
+	
+	#configuration .easycontent h4 {
+	  font-size: 24px;
+	  margin-bottom: 1.5rem;
+	}	
+
+	#configuration .easycontent .linia .nb span.nbt {
+	  font-size: 12px;
+	  line-height: 18px;
+	}
+
+	#configuration .easycontent .linia .nb span {
+	  font-size: 26px;
+	  height: 36px;
+	}
+	#configuration .easycontent .linia {
+	  width: 80%;
+	  margin-bottom: 6rem;
+	}
+	
+	#configuration .easycontent .linia span.rok-1 {
+	  left: -62px;
+	}
+	#configuration .easycontent .linia span.rok-2 {
+	  right: -62px;
+	}
+	#configuration .easycontent .linia::after {
+	  top: 94px;
+	}		
+	#configuration .easycontent .linia .nb span.nbt {
+	  font-size: 12px;
+	  line-height: 18px;
+	  vertical-align: top;
+	}		
+
+	#configuration .easycontent .opis {
+	  margin-bottom: 2rem;
+	}
+	#configuration .easycontent .about-3 .tekst {
+	  margin-left: 0px;
+	}	
+
+	#configuration .easycontent .about-4 img { padding:0 15px; }
+	#configuration .easycontent .about-4.opis { margin-bottom: 0px; }
+	
+	#easycontent_75.block { margin-bottom: 0px; } 
+
+	section#wrapper.menu_blur {
+	  margin-top: 2rem;
+	}	
+	
+	.laptop .txt {
+	  padding-top: 1rem;
+	  order: 1;
+	  border: none;
+	}
+	
+	.laptop .img {
+	  text-align: center;
+	  padding-right: 0px;
+	  order: 2;
+	}
+	.privat_easy_11.block { margin-bottom: 0rem; }	
+	.laptop .img img {
+	  width: 340px;
+	  margin-top: 2rem;
+	}
+	#st_news_letter_1 .st_news_letter_content {
+	  margin-top: 2rem;
+	}	
+	
+}
+
+
+@media only screen and (max-width:480px) {
+	
+	#configuration .easycontent .linia .nb.col-sm-4 { 
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 33.33333%;
+		flex: 0 0 33.33333%;
+		max-width: 33.33333%;	
+	}
+	
+	#configuration .easycontent .linia .nb span.nbt {
+	  font-size: 10px;
+	  line-height: 14px;
+	  vertical-align: top;
+	}	
+
+	#configuration .easycontent .linia .nb span {
+	  font-size: 22px;
+	  height: 34px;
+	}	
+	
+	#configuration .easycontent .linia .nb::before {
+	  bottom: -25px;
+	}	
+	
+	#configuration .easycontent .linia::after {
+	  top: 83px;
+	}
+	
+	#configuration .easycontent .linia span.rok-1, #configuration .easycontent .linia span.rok-2 {
+	  bottom: -47px;
+	  padding: 0 30px;
+	}	
+	
+	#configuration .easycontent h4 {
+	  font-size: 22px;
+	}	
+	
+	#easycontent_75 .style_content p {
+	  margin-bottom: .5rem;
+	  font-size: 13px;
+	  line-height: 22px;
+	}
+		
+}

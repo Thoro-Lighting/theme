@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="172.751mm" height="153.376mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 18667 16574" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#FEFEFE;stroke-width:983.342}
+    .fil0 {fill:none}
+    .fil1 {fill:#333333}
+   ]]>
+  </style>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="492" y="492" width="3695" height="3704"/>
+  <rect class="fil0 str0" x="492" y="6435" width="3695" height="3704"/>
+  <rect class="fil0 str0" x="492" y="12378" width="3695" height="3704"/>
+  <polygon class="fil0 str0" points="6292,2184 18176,2184 18176,2459 6292,2459 "/>
+  <polygon class="fil0 str0" points="6292,8128 18176,8128 18176,8402 6292,8402 "/>
+  <polygon class="fil1 str0" points="6292,14071 18176,14071 18176,14345 6292,14345 "/>
+ </g>
+</svg>

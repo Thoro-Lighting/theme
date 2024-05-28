@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="1lcwYL2" resname="Tags block">
+        <source>Tags block</source>
+        <target>Tags block</target>
+      </trans-unit>
+      <trans-unit id="5VuMBdd" resname="Adds a block containing your product tags.">
+        <source>Adds a block containing your product tags.</source>
+        <target>Adds a block containing your product tags.</target>
+      </trans-unit>
+      <trans-unit id="M14E3Pa" resname="How many tags do you want to display.">
+        <source>How many tags do you want to display.</source>
+        <target>How many tags do you want to display.</target>
+      </trans-unit>
+      <trans-unit id="Hb7NhUf" resname="Set the number of tags you would like to see displayed in this block. (default: 10)">
+        <source>Set the number of tags you would like to see displayed in this block. (default: 10)</source>
+        <target>Set the number of tags you would like to see displayed in this block. (default: 10)</target>
+      </trans-unit>
+      <trans-unit id="rOF6.Va" resname="Tag levels">
+        <source>Tag levels</source>
+        <target>Tag levels</target>
+      </trans-unit>
+      <trans-unit id="V3yvylE" resname="Set the number of different tag levels you would like to use. (default: 3)">
+        <source>Set the number of different tag levels you would like to use. (default: 3)</source>
+        <target>Set the number of different tag levels you would like to use. (default: 3)</target>
+      </trans-unit>
+      <trans-unit id="h2vLz6S" resname="Does not work for Stacked footers">
+        <source>Does not work for Stacked footers</source>
+        <target>Does not work for Stacked footers</target>
+      </trans-unit>
+      <trans-unit id="snhWTA4" resname="Check the hook that you would like this module to display on.">
+        <source>Check the hook that you would like this module to display on.</source>
+        <target>Check the hook that you would like this module to display on.</target>
+      </trans-unit>
+      <trans-unit id="LQLWtNH" resname="Click here to see hook position">
+        <source>Click here to see hook position</source>
+        <target>Click here to see hook position</target>
+      </trans-unit>
+      <trans-unit id="6RdTUkS" resname="How many tags to be displayed:">
+        <source>How many tags to be displayed:</source>
+        <target>How many tags to be displayed:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

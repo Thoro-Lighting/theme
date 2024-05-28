@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="KiBAgp_" resname="Love buttons">
+        <source>Love buttons</source>
+        <target>Love buttons</target>
+      </trans-unit>
+      <trans-unit id="23.oGqg" resname="Display love buttons on your store.">
+        <source>Display love buttons on your store.</source>
+        <target>Display love buttons on your store.</target>
+      </trans-unit>
+      <trans-unit id="W5eH.KO" resname="Loved products">
+        <source>Loved products</source>
+        <target>Loved products</target>
+      </trans-unit>
+      <trans-unit id="yUgeMHf" resname="Loved articles">
+        <source>Loved articles</source>
+        <target>Loved articles</target>
+      </trans-unit>
+      <trans-unit id="vQv3nE3" resname="Loved count itialization">
+        <source>Loved count itialization</source>
+        <target>Loved count itialization</target>
+      </trans-unit>
+      <trans-unit id="5r8PgLh" resname="Search for product ID">
+        <source>Search for product ID</source>
+        <target>Search for product ID</target>
+      </trans-unit>
+      <trans-unit id="G4C1h4E" resname="Product ID:">
+        <source>Product ID:</source>
+        <target>Product ID:</target>
+      </trans-unit>
+      <trans-unit id="U.y10qs" resname="Initialize product loved count">
+        <source>Initialize product loved count</source>
+        <target>Initialize product loved count</target>
+      </trans-unit>
+      <trans-unit id="7PnggPr" resname="To add initialized count for products by random.">
+        <source>To add initialized count for products by random.</source>
+        <target>To add initialized count for products by random.</target>
+      </trans-unit>
+      <trans-unit id="bMWtLkf" resname="Type:">
+        <source>Type:</source>
+        <target>Type:</target>
+      </trans-unit>
+      <trans-unit id="MMMLC12" resname="Product / Article ID:">
+        <source>Product / Article ID:</source>
+        <target>Product / Article ID:</target>
+      </trans-unit>
+      <trans-unit id="RqDECj5" resname="Minimum random:">
+        <source>Minimum random:</source>
+        <target>Minimum random:</target>
+      </trans-unit>
+      <trans-unit id="tKQNFDT" resname="Maximum random:">
+        <source>Maximum random:</source>
+        <target>Maximum random:</target>
+      </trans-unit>
+      <trans-unit id="ivCNdBs" resname="Do it">
+        <source>Do it</source>
+        <target>Do it</target>
+      </trans-unit>
+      <trans-unit id="VcF0IIa" resname="How to display the Love button:">
+        <source>How to display the Love button:</source>
+        <target>How to display the Love button:</target>
+      </trans-unit>
+      <trans-unit id="ZcWsN_2" resname="Minimum time between 2 times click from the same user:">
+        <source>Minimum time between 2 times click from the same user:</source>
+        <target>Minimum time between 2 times click from the same user:</target>
+      </trans-unit>
+      <trans-unit id="zAdYzLd" resname="How to display link on the header:">
+        <source>How to display link on the header:</source>
+        <target>How to display link on the header:</target>
+      </trans-unit>
+      <trans-unit id="9xkf84q" resname="How many products show on sidebar">
+        <source>How many products show on sidebar</source>
+        <target>How many products show on sidebar</target>
+      </trans-unit>
+      <trans-unit id="VWtS1ts" resname="How to display love link on the product page:">
+        <source>How to display love link on the product page:</source>
+        <target>How to display love link on the product page:</target>
+      </trans-unit>
+      <trans-unit id="NUQ.OLe" resname="Display the number of loved products:">
+        <source>Display the number of loved products:</source>
+        <target>Display the number of loved products:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

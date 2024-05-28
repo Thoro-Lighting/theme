@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="aMfDON3" resname="Product video and size chart">
+        <source>Product video and size chart</source>
+        <target>Product video and size chart</target>
+      </trans-unit>
+      <trans-unit id="__ZefuA" resname="Show youtube, vimeo and size chart on your product page.">
+        <source>Show youtube, vimeo and size chart on your product page.</source>
+        <target>Show youtube, vimeo and size chart on your product page.</target>
+      </trans-unit>
+      <trans-unit id="yxQPlfi" resname="16:9">
+        <source>16:9</source>
+        <target>16:9</target>
+      </trans-unit>
+      <trans-unit id="O_UlBLw" resname="4:3">
+        <source>4:3</source>
+        <target>4:3</target>
+      </trans-unit>
+      <trans-unit id="MlgaUnd" resname="Top left of the main product image">
+        <source>Top left of the main product image</source>
+        <target>Top left of the main product image</target>
+      </trans-unit>
+      <trans-unit id="NEwyFr." resname="Top center of the main product image">
+        <source>Top center of the main product image</source>
+        <target>Top center of the main product image</target>
+      </trans-unit>
+      <trans-unit id="Dvaw_oP" resname="Top right of the main product image">
+        <source>Top right of the main product image</source>
+        <target>Top right of the main product image</target>
+      </trans-unit>
+      <trans-unit id="vc1iBQf" resname="Center left of the main product image">
+        <source>Center left of the main product image</source>
+        <target>Center left of the main product image</target>
+      </trans-unit>
+      <trans-unit id="FVEVHFm" resname="Center center of the main product image">
+        <source>Center center of the main product image</source>
+        <target>Center center of the main product image</target>
+      </trans-unit>
+      <trans-unit id="gVjUz3g" resname="Center right of the main product image">
+        <source>Center right of the main product image</source>
+        <target>Center right of the main product image</target>
+      </trans-unit>
+      <trans-unit id="RK18tdz" resname="Bottom left of the main product image">
+        <source>Bottom left of the main product image</source>
+        <target>Bottom left of the main product image</target>
+      </trans-unit>
+      <trans-unit id="f3OyvI3" resname="Bottom center of the main product image">
+        <source>Bottom center of the main product image</source>
+        <target>Bottom center of the main product image</target>
+      </trans-unit>
+      <trans-unit id="wa8GKDP" resname="Bottom right of the main product image">
+        <source>Bottom right of the main product image</source>
+        <target>Bottom right of the main product image</target>
+      </trans-unit>
+      <trans-unit id="5Hlt1Rw" resname="Right side of product name">
+        <source>Right side of product name</source>
+        <target>Right side of product name</target>
+      </trans-unit>
+      <trans-unit id="jALNwZP" resname="Right side of price">
+        <source>Right side of price</source>
+        <target>Right side of price</target>
+      </trans-unit>
+      <trans-unit id="_rVYk_L" resname="Right side of add to cart button">
+        <source>Right side of add to cart button</source>
+        <target>Right side of add to cart button</target>
+      </trans-unit>
+      <trans-unit id="5ATAr8J" resname="Product left column">
+        <source>Product left column</source>
+        <target>Product left column</target>
+      </trans-unit>
+      <trans-unit id="vkV7XXt" resname="Product center column">
+        <source>Product center column</source>
+        <target>Product center column</target>
+      </trans-unit>
+      <trans-unit id="L4WAvhw" resname="Product right column">
+        <source>Product right column</source>
+        <target>Product right column</target>
+      </trans-unit>
+      <trans-unit id="HfQBGTQ" resname="An error occurred during while">
+        <source>An error occurred during while</source>
+        <target>An error occurred during while</target>
+      </trans-unit>
+      <trans-unit id="LHe3PeH" resname="Video width:">
+        <source>Video width:</source>
+        <target>Video width:</target>
+      </trans-unit>
+      <trans-unit id="Gwp0ely" resname="Video popup window width.">
+        <source>Video popup window width.</source>
+        <target>Video popup window width.</target>
+      </trans-unit>
+      <trans-unit id="0wKWoaC" resname="Video height:">
+        <source>Video height:</source>
+        <target>Video height:</target>
+      </trans-unit>
+      <trans-unit id="5Xhnosl" resname="Video popup window height.">
+        <source>Video popup window height.</source>
+        <target>Video popup window height.</target>
+      </trans-unit>
+      <trans-unit id="jPSvA2L" resname="Specific products:">
+        <source>Specific products:</source>
+        <target>Specific products:</target>
+      </trans-unit>
+      <trans-unit id="hxwEh37" resname="Video ratio">
+        <source>Video ratio</source>
+        <target>Video ratio</target>
+      </trans-unit>
+      <trans-unit id="BJ1MnS4" resname="select ratio">
+        <source>select ratio</source>
+        <target>select ratio</target>
+      </trans-unit>
+      <trans-unit id="ANOilrm" resname="Type product name to add prodcuts:">
+        <source>Type product name to add prodcuts:</source>
+        <target>Type product name to add prodcuts:</target>
+      </trans-unit>
+      <trans-unit id="N4f4tcT" resname="Add size chart">
+        <source>Add size chart</source>
+        <target>Add size chart</target>
+      </trans-unit>
+      <trans-unit id="Uif8sSZ" resname="Size charts list">
+        <source>Size charts list</source>
+        <target>Size charts list</target>
+      </trans-unit>
+      <trans-unit id="IZCdWNd" resname="Video url">
+        <source>Video url</source>
+        <target>Video url</target>
+      </trans-unit>
+      <trans-unit id="Nq6u.lb" resname="Add video">
+        <source>Add video</source>
+        <target>Add video</target>
+      </trans-unit>
+      <trans-unit id="n4CEo45" resname="Videos list">
+        <source>Videos list</source>
+        <target>Videos list</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

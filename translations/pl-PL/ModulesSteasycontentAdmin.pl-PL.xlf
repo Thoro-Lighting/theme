@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id=".QNB1iW" resname="Advanced custom content">
+        <source>Advanced custom content</source>
+        <target>Advanced custom content</target>
+      </trans-unit>
+      <trans-unit id="QhoNs5F" resname="This module is used to create tabs, accordions, FAQ, parallax block, products sliders, lists, textbox sliders, testimonials and more.">
+        <source>This module is used to create tabs, accordions, FAQ, parallax block, products sliders, lists, textbox sliders, testimonials and more.</source>
+        <target>This module is used to create tabs, accordions, FAQ, parallax block, products sliders, lists, textbox sliders, testimonials and more.</target>
+      </trans-unit>
+      <trans-unit id="Cv6M1Fy" resname="Featured products slider">
+        <source>Featured products slider</source>
+        <target>Featured products slider</target>
+      </trans-unit>
+      <trans-unit id="k0U_asR" resname="New products slider">
+        <source>New products slider</source>
+        <target>New products slider</target>
+      </trans-unit>
+      <trans-unit id="5PVbr18" resname="Product slider for each category">
+        <source>Product slider for each category</source>
+        <target>Product slider for each category</target>
+      </trans-unit>
+      <trans-unit id="y6t_7oR" resname="Special products slider">
+        <source>Special products slider</source>
+        <target>Special products slider</target>
+      </trans-unit>
+      <trans-unit id="u1ODeqS" resname="Top-sellers slider">
+        <source>Top-sellers slider</source>
+        <target>Top-sellers slider</target>
+      </trans-unit>
+      <trans-unit id="RyKDr0u" resname="Swiper">
+        <source>Swiper</source>
+        <target>Swiper</target>
+      </trans-unit>
+      <trans-unit id="ijwPk3E" resname="Owl carousel">
+        <source>Owl carousel</source>
+        <target>Owl carousel</target>
+      </trans-unit>
+      <trans-unit id="vqzIvbw" resname="Brands slider">
+        <source>Brands slider</source>
+        <target>Brands slider</target>
+      </trans-unit>
+      <trans-unit id="xZRGvMQ" resname="Featured categories">
+        <source>Featured categories</source>
+        <target>Featured categories</target>
+      </trans-unit>
+      <trans-unit id="U2.1BR0" resname="Hook">
+        <source>Hook</source>
+        <target>Hook</target>
+      </trans-unit>
+      <trans-unit id="8UgiSuR" resname="Module">
+        <source>Module</source>
+        <target>Module</target>
+      </trans-unit>
+      <trans-unit id="JNcr740" resname="CMS page">
+        <source>CMS page</source>
+        <target>CMS page</target>
+      </trans-unit>
+      <trans-unit id="iz2bV2s" resname="Category page header">
+        <source>Category page header</source>
+        <target>Category page header</target>
+      </trans-unit>
+      <trans-unit id="DkChf.T" resname="Category page footer">
+        <source>Category page footer</source>
+        <target>Category page footer</target>
+      </trans-unit>
+      <trans-unit id="L4WAvhw" resname="Product right column">
+        <source>Product right column</source>
+        <target>Product right column</target>
+      </trans-unit>
+      <trans-unit id="JVYKrp7" resname="Product footer">
+        <source>Product footer</source>
+        <target>Product footer</target>
+      </trans-unit>
+      <trans-unit id="vkV7XXt" resname="Product center column">
+        <source>Product center column</source>
+        <target>Product center column</target>
+      </trans-unit>
+      <trans-unit id="6zm3YPQ" resname="Product tab">
+        <source>Product tab</source>
+        <target>Product tab</target>
+      </trans-unit>
+      <trans-unit id="o8W31cf" resname="Product description">
+        <source>Product description</source>
+        <target>Product description</target>
+      </trans-unit>
+      <trans-unit id="_qx15F1" resname="Manufacture page header">
+        <source>Manufacture page header</source>
+        <target>Manufacture page header</target>
+      </trans-unit>
+      <trans-unit id="u6HreXx" resname="Manufacture page Footer">
+        <source>Manufacture page Footer</source>
+        <target>Manufacture page Footer</target>
+      </trans-unit>
+      <trans-unit id="1O6oKyI" resname="Blog article top">
+        <source>Blog article top</source>
+        <target>Blog article top</target>
+      </trans-unit>
+      <trans-unit id="zTwcnfz" resname="Blog article content">
+        <source>Blog article content</source>
+        <target>Blog article content</target>
+      </trans-unit>
+      <trans-unit id="Plo4PHa" resname="Page top">
+        <source>Page top</source>
+        <target>Page top</target>
+      </trans-unit>
+      <trans-unit id="2iyWLNY" resname="Page bottom">
+        <source>Page bottom</source>
+        <target>Page bottom</target>
+      </trans-unit>
+      <trans-unit id="VG699nV" resname="Page left">
+        <source>Page left</source>
+        <target>Page left</target>
+      </trans-unit>
+      <trans-unit id="gOS.Yq1" resname="Page right">
+        <source>Page right</source>
+        <target>Page right</target>
+      </trans-unit>
+      <trans-unit id="UulSaHu" resname="Page Center">
+        <source>Page Center</source>
+        <target>Page Center</target>
+      </trans-unit>
+      <trans-unit id="KhZg2Zq" resname="General settings">
+        <source>General settings</source>
+        <target>General settings</target>
+      </trans-unit>
+      <trans-unit id="_f8FpJc" resname="Style settings">
+        <source>Style settings</source>
+        <target>Style settings</target>
+      </trans-unit>
+      <trans-unit id="f_oByVJ" resname="Text banner">
+        <source>Text banner</source>
+        <target>Text banner</target>
+      </trans-unit>
+      <trans-unit id="XbhSogz" resname="Icon with text">
+        <source>Icon with text</source>
+        <target>Icon with text</target>
+      </trans-unit>
+      <trans-unit id="D.VIhlX" resname="Plain text, Text with image">
+        <source>Plain text, Text with image</source>
+        <target>Plain text, Text with image</target>
+      </trans-unit>
+      <trans-unit id="ukgC0e6" resname="Teams, Text sliders, Testimonals">
+        <source>Teams, Text sliders, Testimonals</source>
+        <target>Teams, Text sliders, Testimonals</target>
+      </trans-unit>
+      <trans-unit id="e8gha45" resname="Accordions, FAQ">
+        <source>Accordions, FAQ</source>
+        <target>Accordions, FAQ</target>
+      </trans-unit>
+      <trans-unit id="jl6lCYk" resname="Tabs">
+        <source>Tabs</source>
+        <target>Tabs</target>
+      </trans-unit>
+      <trans-unit id="TtyL_vx" resname="Products">
+        <source>Products</source>
+        <target>Products</target>
+      </trans-unit>
+      <trans-unit id="ZBACZV6" resname="Slider settings">
+        <source>Slider settings</source>
+        <target>Slider settings</target>
+      </trans-unit>
+      <trans-unit id="oiBlcuD" resname="Google Map">
+        <source>Google Map</source>
+        <target>Google Map</target>
+      </trans-unit>
+      <trans-unit id="3Sxqi8s" resname="Cookie law">
+        <source>Cookie law</source>
+        <target>Cookie law</target>
+      </trans-unit>
+      <trans-unit id="tIql0vF" resname="Lists and social icons">
+        <source>Lists and social icons</source>
+        <target>Lists and social icons</target>
+      </trans-unit>
+      <trans-unit id="GURlvG6" resname="Separators">
+        <source>Separators</source>
+        <target>Separators</target>
+      </trans-unit>
+      <trans-unit id="yaljlGP" resname="Videos">
+        <source>Videos</source>
+        <target>Videos</target>
+      </trans-unit>
+      <trans-unit id="8NTYJnO" resname="Did you save all changes you just made? Unsaved changes will lose.">
+        <source>Did you save all changes you just made? Unsaved changes will lose.</source>
+        <target>Did you save all changes you just made? Unsaved changes will lose.</target>
+      </trans-unit>
+      <trans-unit id="kzziOd." resname="Column width is required.">
+        <source>Column width is required.</source>
+        <target>Column width is required.</target>
+      </trans-unit>
+      <trans-unit id="kVdzFeo" resname="Parameters error.">
+        <source>Parameters error.</source>
+        <target>Parameters error.</target>
+      </trans-unit>
+      <trans-unit id="vtRUzR6" resname="Create a new row">
+        <source>Create a new row</source>
+        <target>Create a new row</target>
+      </trans-unit>
+      <trans-unit id="k_TLLAC" resname="Click on the View button at the end of each column to add content or to add more nested rows.">
+        <source>Click on the View button at the end of each column to add content or to add more nested rows.</source>
+        <target>Click on the View button at the end of each column to add content or to add more nested rows.</target>
+      </trans-unit>
+      <trans-unit id="NOP2Rf3" resname="If you want to change element type, you have to delete all items you have added here.">
+        <source>If you want to change element type, you have to delete all items you have added here.</source>
+        <target>If you want to change element type, you have to delete all items you have added here.</target>
+      </trans-unit>
+      <trans-unit id="a7SnFzO" resname="You can continue to create rows to have a mixed content block, or choose an element below to display information on your site">
+        <source>You can continue to create rows to have a mixed content block, or choose an element below to display information on your site</source>
+        <target>You can continue to create rows to have a mixed content block, or choose an element below to display information on your site</target>
+      </trans-unit>
+      <trans-unit id="hQ8mxIT" resname="Click on the View button at the end of each line to use the Advanced content editor.">
+        <source>Click on the View button at the end of each line to use the Advanced content editor.</source>
+        <target>Click on the View button at the end of each line to use the Advanced content editor.</target>
+      </trans-unit>
+      <trans-unit id="t5yskm4" resname="Help">
+        <source>Help</source>
+        <target>Help</target>
+      </trans-unit>
+      <trans-unit id="BLheII4" resname="Click here to get help">
+        <source>Click here to get help</source>
+        <target>Click here to get help</target>
+      </trans-unit>
+      <trans-unit id="bjt9TbF" resname="1. Create a new row with columns first, and then you can create elemtns like tabs, icons, lists in the columns. You can create as many rows as you want.">
+        <source>1. Create a new row with columns first, and then you can create elemtns like tabs, icons, lists in the columns. You can create as many rows as you want.</source>
+        <target>1. Create a new row with columns first, and then you can create elemtns like tabs, icons, lists in the columns. You can create as many rows as you want.</target>
+      </trans-unit>
+      <trans-unit id="yd1YNyu" resname="2. If you have already mastered the Advanced banner module, then you know how to use this module, cause they are logically the same.">
+        <source>2. If you have already mastered the Advanced banner module, then you know how to use this module, cause they are logically the same.</source>
+        <target>2. If you have already mastered the Advanced banner module, then you know how to use this module, cause they are logically the same.</target>
+      </trans-unit>
+      <trans-unit id="7bLZzSH" resname="3. You can learn how to use this module within few minutes, after that you wound find that it has unlimted possibility, you can create various custom block and put them everywhere you want. With it you can even create a responsive CMS page with a lot of fancy elements.">
+        <source>3. You can learn how to use this module within few minutes, after that you wound find that it has unlimted possibility, you can create various custom block and put them everywhere you want. With it you can even create a responsive CMS page with a lot of fancy elements.</source>
+        <target>3. You can learn how to use this module within few minutes, after that you wound find that it has unlimted possibility, you can create various custom block and put them everywhere you want. With it you can even create a responsive CMS page with a lot of fancy elements.</target>
+      </trans-unit>
+      <trans-unit id="LQLWtNH" resname="Click here to see hook position">
+        <source>Click here to see hook position</source>
+        <target>Click here to see hook position</target>
+      </trans-unit>
+      <trans-unit id="WWUhRB8" resname="Select a hook:">
+        <source>Select a hook:</source>
+        <target>Select a hook:</target>
+      </trans-unit>
+      <trans-unit id="otqtg37" resname="Select a module:">
+        <source>Select a module:</source>
+        <target>Select a module:</target>
+      </trans-unit>
+      <trans-unit id="2BVrrgx" resname="--">
+        <source>--</source>
+        <target>--</target>
+      </trans-unit>
+      <trans-unit id="EXzOJYk" resname="Select a CMS page:">
+        <source>Select a CMS page:</source>
+        <target>Select a CMS page:</target>
+      </trans-unit>
+      <trans-unit id="VOj3klT" resname="Select a category:">
+        <source>Select a category:</source>
+        <target>Select a category:</target>
+      </trans-unit>
+      <trans-unit id="CclybVe" resname="Select a manufacture:">
+        <source>Select a manufacture:</source>
+        <target>Select a manufacture:</target>
+      </trans-unit>
+      <trans-unit id="l.dbMQY" resname="Select a blog:">
+        <source>Select a blog:</source>
+        <target>Select a blog:</target>
+      </trans-unit>
+      <trans-unit id="lAyPlfC" resname="Choose products/category/manufacturer:">
+        <source>Choose products/category/manufacturer:</source>
+        <target>Choose products/category/manufacturer:</target>
+      </trans-unit>
+      <trans-unit id="bsULBvR" resname="This option works for custom content blocks on FullWidth* hooks, cms pages, blog pages, most top of the page and blocks for visual composer.">
+        <source>This option works for custom content blocks on FullWidth* hooks, cms pages, blog pages, most top of the page and blocks for visual composer.</source>
+        <target>This option works for custom content blocks on FullWidth* hooks, cms pages, blog pages, most top of the page and blocks for visual composer.</target>
+      </trans-unit>
+      <trans-unit id="jPSvA2L" resname="Specific products:">
+        <source>Specific products:</source>
+        <target>Specific products:</target>
+      </trans-unit>
+      <trans-unit id="fnxVCOI" resname="For a reminder, show on backoffice only.">
+        <source>For a reminder, show on backoffice only.</source>
+        <target>For a reminder, show on backoffice only.</target>
+      </trans-unit>
+      <trans-unit id="dwSSIHL" resname="Show on front office.">
+        <source>Show on front office.</source>
+        <target>Show on front office.</target>
+      </trans-unit>
+      <trans-unit id="U_4eV8L" resname="Advanced content editor:">
+        <source>Advanced content editor:</source>
+        <target>Advanced content editor:</target>
+      </trans-unit>
+      <trans-unit id="D9RCrtk" resname="You can use this feature to easily add Icon boxs, Tabs, Accordins, Testimonals, FAQ, Text boxes, Social Icons, Typography and more. This is different with the Content Editor below.">
+        <source>You can use this feature to easily add Icon boxs, Tabs, Accordins, Testimonals, FAQ, Text boxes, Social Icons, Typography and more. This is different with the Content Editor below.</source>
+        <target>You can use this feature to easily add Icon boxs, Tabs, Accordins, Testimonals, FAQ, Text boxes, Social Icons, Typography and more. This is different with the Content Editor below.</target>
+      </trans-unit>
+      <trans-unit id="R2Iqi5q" resname="You can leave this empty, use the Advanced content editor feature above to edit content.">
+        <source>You can leave this empty, use the Advanced content editor feature above to edit content.</source>
+        <target>You can leave this empty, use the Advanced content editor feature above to edit content.</target>
+      </trans-unit>
+      <trans-unit id="r68H2sW" resname="Format your entry with some basic HTML. Click on Flash/Bolt button to use predefined templates.">
+        <source>Format your entry with some basic HTML. Click on Flash/Bolt button to use predefined templates.</source>
+        <target>Format your entry with some basic HTML. Click on Flash/Bolt button to use predefined templates.</target>
+      </trans-unit>
+      <trans-unit id="EahbF5o" resname="Usefull class names:">
+        <source>Usefull class names:</source>
+        <target>Usefull class names:</target>
+      </trans-unit>
+      <trans-unit id="QLAjORd" resname="How to use google fonts? Click here.">
+        <source>How to use google fonts? Click here.</source>
+        <target>How to use google fonts? Click here.</target>
+      </trans-unit>
+      <trans-unit id="Ry19urU" resname="Click here to see all available icons:">
+        <source>Click here to see all available icons:</source>
+        <target>Click here to see all available icons:</target>
+      </trans-unit>
+      <trans-unit id="8WAQ841" resname="Once a font has been added, you can use it everywhere without adding it again.">
+        <source>Once a font has been added, you can use it everywhere without adding it again.</source>
+        <target>Once a font has been added, you can use it everywhere without adding it again.</target>
+      </trans-unit>
+      <trans-unit id="pprOfiY" resname="Other settings">
+        <source>Other settings</source>
+        <target>Other settings</target>
+      </trans-unit>
+      <trans-unit id="atIxVjR" resname="Title bottom border height:">
+        <source>Title bottom border height:</source>
+        <target>Title bottom border height:</target>
+      </trans-unit>
+      <trans-unit id="ZsipFbX" resname="Title border highlight color:">
+        <source>Title border highlight color:</source>
+        <target>Title border highlight color:</target>
+      </trans-unit>
+      <trans-unit id="MuSJlfm" resname="100%">
+        <source>100%</source>
+        <target>100%</target>
+      </trans-unit>
+      <trans-unit id="9AkbpaJ" resname="Content alignment:">
+        <source>Content alignment:</source>
+        <target>Content alignment:</target>
+      </trans-unit>
+      <trans-unit id="gL8kBxs" resname="Content alignment on small screen devices (screen width &lt; 992px):">
+        <source>Content alignment on small screen devices (screen width &lt; 992px):</source>
+        <target><![CDATA[Content alignment on small screen devices (screen width < 992px):]]></target>
+      </trans-unit>
+      <trans-unit id="LJoVUO4" resname="Parallax background image">
+        <source>Parallax background image</source>
+        <target>Parallax background image</target>
+      </trans-unit>
+      <trans-unit id="pzjjGyK" resname="Parallax background image feature can not work fine on mobile devices, so it will be disalbed on mobile devices, the background image you uploaded below will be displayed as a static, centered background image, no parallax effect.">
+        <source>Parallax background image feature can not work fine on mobile devices, so it will be disalbed on mobile devices, the background image you uploaded below will be displayed as a static, centered background image, no parallax effect.</source>
+        <target>Parallax background image feature can not work fine on mobile devices, so it will be disalbed on mobile devices, the background image you uploaded below will be displayed as a static, centered background image, no parallax effect.</target>
+      </trans-unit>
+      <trans-unit id="28O4cyC" resname="Background image:">
+        <source>Background image:</source>
+        <target>Background image:</target>
+      </trans-unit>
+      <trans-unit id="M1PH8D6" resname="Generally a background image should be higher than the height of this block.">
+        <source>Generally a background image should be higher than the height of this block.</source>
+        <target>Generally a background image should be higher than the height of this block.</target>
+      </trans-unit>
+      <trans-unit id="5Y559P_" resname="Parallax speed factor:">
+        <source>Parallax speed factor:</source>
+        <target>Parallax speed factor:</target>
+      </trans-unit>
+      <trans-unit id="1DjXPUp" resname="Speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling.">
+        <source>Speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling.</source>
+        <target>Speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling.</target>
+      </trans-unit>
+      <trans-unit id="4zf8X8." resname="Background image vertical offset:">
+        <source>Background image vertical offset:</source>
+        <target>Background image vertical offset:</target>
+      </trans-unit>
+      <trans-unit id="xC6ov7O" resname="Unsigned int, like 0, 110, 300.">
+        <source>Unsigned int, like 0, 110, 300.</source>
+        <target>Unsigned int, like 0, 110, 300.</target>
+      </trans-unit>
+      <trans-unit id="ZvRQ77j" resname="This field is used to move the backgroumd image up.">
+        <source>This field is used to move the backgroumd image up.</source>
+        <target>This field is used to move the backgroumd image up.</target>
+      </trans-unit>
+      <trans-unit id="aN49uim" resname="Video thumbnail image(Required):">
+        <source>Video thumbnail image(Required):</source>
+        <target>Video thumbnail image(Required):</target>
+      </trans-unit>
+      <trans-unit id="AIViXzx" resname="Save your modifications before using this feature.">
+        <source>Save your modifications before using this feature.</source>
+        <target>Save your modifications before using this feature.</target>
+      </trans-unit>
+      <trans-unit id="j4255GL" resname="Advanced content editor">
+        <source>Advanced content editor</source>
+        <target>Advanced content editor</target>
+      </trans-unit>
+      <trans-unit id="ANOilrm" resname="Type product name to add prodcuts:">
+        <source>Type product name to add prodcuts:</source>
+        <target>Type product name to add prodcuts:</target>
+      </trans-unit>
+      <trans-unit id="5TGZbPC" resname="Save this custom content block first to use the Advanced content editor feature.">
+        <source>Save this custom content block first to use the Advanced content editor feature.</source>
+        <target>Save this custom content block first to use the Advanced content editor feature.</target>
+      </trans-unit>
+      <trans-unit id="req6r6s" resname="Specify some products">
+        <source>Specify some products</source>
+        <target>Specify some products</target>
+      </trans-unit>
+      <trans-unit id="tRSO1Kp" resname="Do you want to delete selected rows and their children ?">
+        <source>Do you want to delete selected rows and their children ?</source>
+        <target>Do you want to delete selected rows and their children ?</target>
+      </trans-unit>
+      <trans-unit id="UbVhy8p" resname="Element type">
+        <source>Element type</source>
+        <target>Element type</target>
+      </trans-unit>
+      <trans-unit id="5DifVQU" resname="Add a column">
+        <source>Add a column</source>
+        <target>Add a column</target>
+      </trans-unit>
+      <trans-unit id="NNbz2AK" resname="Edit row">
+        <source>Edit row</source>
+        <target>Edit row</target>
+      </trans-unit>
+      <trans-unit id="PQWEwBD" resname="Delete all columns on the list, are you sure ?">
+        <source>Delete all columns on the list, are you sure ?</source>
+        <target>Delete all columns on the list, are you sure ?</target>
+      </trans-unit>
+      <trans-unit id="inRoPFp" resname="Delete all columns">
+        <source>Delete all columns</source>
+        <target>Delete all columns</target>
+      </trans-unit>
+      <trans-unit id="ksHN.fT" resname="Enabled">
+        <source>Enabled</source>
+        <target>Enabled</target>
+      </trans-unit>
+      <trans-unit id="dQgbWT0" resname="Disabled">
+        <source>Disabled</source>
+        <target>Disabled</target>
+      </trans-unit>
+      <trans-unit id="G2ljcZm" resname="Back to parent">
+        <source>Back to parent</source>
+        <target>Back to parent</target>
+      </trans-unit>
+      <trans-unit id="IjW8Q3J" resname="Do you want to delete selected columns and their children ?">
+        <source>Do you want to delete selected columns and their children ?</source>
+        <target>Do you want to delete selected columns and their children ?</target>
+      </trans-unit>
+      <trans-unit id="DqCu_Bj" resname="Column list">
+        <source>Column list</source>
+        <target>Column list</target>
+      </trans-unit>
+      <trans-unit id="KX.tGwK" resname="This module cannot be transplanted to %hook%.">
+        <source>This module cannot be transplanted to %hook%.</source>
+        <target>This module cannot be transplanted to %hook%.</target>
+      </trans-unit>
+      <trans-unit id="MqFyY1k" resname="File %s got lost or damaged.">
+        <source>File %s got lost or damaged.</source>
+        <target>File %s got lost or damaged.</target>
+      </trans-unit>
+      <trans-unit id="QRIuUF2" resname="Method %method% not exists.">
+        <source>Method %method% not exists.</source>
+        <target>Method %method% not exists.</target>
+      </trans-unit>
+      <trans-unit id="1eecTek" resname="Change element type">
+        <source>Change element type</source>
+        <target>Change element type</target>
+      </trans-unit>
+      <trans-unit id="NmAUCrX" resname="All settings you made for the previous element will be removed, are you sure ?">
+        <source>All settings you made for the previous element will be removed, are you sure ?</source>
+        <target>All settings you made for the previous element will be removed, are you sure ?</target>
+      </trans-unit>
+      <trans-unit id="UsqAOjb" resname="Add an element">
+        <source>Add an element</source>
+        <target>Add an element</target>
+      </trans-unit>
+      <trans-unit id="dKiDoDe" resname="Settings">
+        <source>Settings</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="jGmBzxb" resname="Do you want to delete selected elements ?">
+        <source>Do you want to delete selected elements ?</source>
+        <target>Do you want to delete selected elements ?</target>
+      </trans-unit>
+      <trans-unit id="jGTGMxb" resname="An error occurred during the image upload.">
+        <source>An error occurred during the image upload.</source>
+        <target>An error occurred during the image upload.</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="YCW1mQw" resname="Row(s)">
+        <source>Row(s)</source>
+        <target>Row(s)</target>
+      </trans-unit>
+      <trans-unit id="P9yaWHa" resname="Column">
+        <source>Column</source>
+        <target>Column</target>
+      </trans-unit>
+      <trans-unit id="TltUjW1" resname="Element">
+        <source>Element</source>
+        <target>Element</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

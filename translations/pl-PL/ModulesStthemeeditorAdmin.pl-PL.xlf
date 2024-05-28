@@ -1,0 +1,3022 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="LJ2eAsH" resname="Theme editor">
+        <source>Theme editor</source>
+        <target>Theme editor</target>
+      </trans-unit>
+      <trans-unit id="A2G9vUo" resname="Allows to change theme design">
+        <source>Allows to change theme design</source>
+        <target>Allows to change theme design</target>
+      </trans-unit>
+      <trans-unit id="Z7aWRoY" resname="Dashboard">
+        <source>Dashboard</source>
+        <target>Dashboard</target>
+      </trans-unit>
+      <trans-unit id="DwwuS_2" resname="Sticky header &amp; Menu">
+        <source>Sticky header &amp; Menu</source>
+        <target><![CDATA[Sticky header & Menu]]></target>
+      </trans-unit>
+      <trans-unit id="2.nLvg0" resname="Stickers">
+        <source>Stickers</source>
+        <target>Stickers</target>
+      </trans-unit>
+      <trans-unit id="fafp6zB" resname="Product sliders">
+        <source>Product sliders</source>
+        <target>Product sliders</target>
+      </trans-unit>
+      <trans-unit id="TpB2kTB" resname="Custom codes">
+        <source>Custom codes</source>
+        <target>Custom codes</target>
+      </trans-unit>
+      <trans-unit id="GHGb9pX" resname="Iphone/Ipad icons">
+        <source>Iphone/Ipad icons</source>
+        <target>Iphone/Ipad icons</target>
+      </trans-unit>
+      <trans-unit id="XG19bYF" resname="Price: Lowest first">
+        <source>Price: Lowest first</source>
+        <target>Price: Lowest first</target>
+      </trans-unit>
+      <trans-unit id="MmrIrJ9" resname="Price: Highest first">
+        <source>Price: Highest first</source>
+        <target>Price: Highest first</target>
+      </trans-unit>
+      <trans-unit id="4_v0eIz" resname="Product Name: A to Z">
+        <source>Product Name: A to Z</source>
+        <target>Product Name: A to Z</target>
+      </trans-unit>
+      <trans-unit id="_Khy_.K" resname="Product Name: Z to A">
+        <source>Product Name: Z to A</source>
+        <target>Product Name: Z to A</target>
+      </trans-unit>
+      <trans-unit id="9mMV6w4" resname="In stock">
+        <source>In stock</source>
+        <target>In stock</target>
+      </trans-unit>
+      <trans-unit id="eVdyIg5" resname="Reference: Lowest first">
+        <source>Reference: Lowest first</source>
+        <target>Reference: Lowest first</target>
+      </trans-unit>
+      <trans-unit id="dZIJ2mh" resname="Reference: Highest first">
+        <source>Reference: Highest first</source>
+        <target>Reference: Highest first</target>
+      </trans-unit>
+      <trans-unit id="gg3xvID" resname="file isn\'t exists.">
+        <source>file isn\'t exists.</source>
+        <target>file isn\'t exists.</target>
+      </trans-unit>
+      <trans-unit id="KQ2tzE4" resname="Fetch configuration file content failed">
+        <source>Fetch configuration file content failed</source>
+        <target>Fetch configuration file content failed</target>
+      </trans-unit>
+      <trans-unit id="Z27CU3E" resname="Warning: If you have modified any theme files directly, you will lose your modifications, you need to re-do them after upgrade. Do you want to continue ?">
+        <source>Warning: If you have modified any theme files directly, you will lose your modifications, you need to re-do them after upgrade. Do you want to continue ?</source>
+        <target>Warning: If you have modified any theme files directly, you will lose your modifications, you need to re-do them after upgrade. Do you want to continue ?</target>
+      </trans-unit>
+      <trans-unit id="dFmTAIe" resname="Have you made a full backup your site including your site files and your database? Click the [Yes] button to continue.">
+        <source>Have you made a full backup your site including your site files and your database? Click the [Yes] button to continue.</source>
+        <target>Have you made a full backup your site including your site files and your database? Click the [Yes] button to continue.</target>
+      </trans-unit>
+      <trans-unit id="e2FIz70" resname="Upload config file failed.">
+        <source>Upload config file failed.</source>
+        <target>Upload config file failed.</target>
+      </trans-unit>
+      <trans-unit id="GXhCHf4" resname="Error occurred while import configuration:">
+        <source>Error occurred while import configuration:</source>
+        <target>Error occurred while import configuration:</target>
+      </trans-unit>
+      <trans-unit id="IBhjB7e" resname="Your theme has been upgraded, please go to the Installed modules page to upgrade modules which have a &quot;Upgrade&quot; button.">
+        <source>Your theme has been upgraded, please go to the Installed modules page to upgrade modules which have a "Upgrade" button.</source>
+        <target>Your theme has been upgraded, please go to the Installed modules page to upgrade modules which have a "Upgrade" button.</target>
+      </trans-unit>
+      <trans-unit id="amZ.voX" resname="Your theme version is up to date.">
+        <source>Your theme version is up to date.</source>
+        <target>Your theme version is up to date.</target>
+      </trans-unit>
+      <trans-unit id="v5SmvX5" resname="Unable to check update.">
+        <source>Unable to check update.</source>
+        <target>Unable to check update.</target>
+      </trans-unit>
+      <trans-unit id="YZVAVAC" resname="A new version %ver% is available.">
+        <source>A new version %ver% is available.</source>
+        <target>A new version %ver% is available.</target>
+      </trans-unit>
+      <trans-unit id="fu6bVtX" resname="Unable to de-registration.">
+        <source>Unable to de-registration.</source>
+        <target>Unable to de-registration.</target>
+      </trans-unit>
+      <trans-unit id=".Mhrb_r" resname="De-registered successfully.">
+        <source>De-registered successfully.</source>
+        <target>De-registered successfully.</target>
+      </trans-unit>
+      <trans-unit id="Fw7T8V9" resname="Registered successfully, please reload the page.">
+        <source>Registered successfully, please reload the page.</source>
+        <target>Registered successfully, please reload the page.</target>
+      </trans-unit>
+      <trans-unit id="Orw62mu" resname="Purchase code is required.">
+        <source>Purchase code is required.</source>
+        <target>Purchase code is required.</target>
+      </trans-unit>
+      <trans-unit id="iicFVLI" resname="Invalidate purchase code.">
+        <source>Invalidate purchase code.</source>
+        <target>Invalidate purchase code.</target>
+      </trans-unit>
+      <trans-unit id="GWQiOvp" resname="Theme registration failed, if the purchase code was registered by other domain, please de-register it then retry.">
+        <source>Theme registration failed, if the purchase code was registered by other domain, please de-register it then retry.</source>
+        <target>Theme registration failed, if the purchase code was registered by other domain, please de-register it then retry.</target>
+      </trans-unit>
+      <trans-unit id="lG6JbQY" resname="Pattern credits">
+        <source>Pattern credits</source>
+        <target>Pattern credits</target>
+      </trans-unit>
+      <trans-unit id="kpw7Yxk" resname="Demo 1">
+        <source>Demo 1</source>
+        <target>Demo 1</target>
+      </trans-unit>
+      <trans-unit id="9PQDi4x" resname="Demo 2">
+        <source>Demo 2</source>
+        <target>Demo 2</target>
+      </trans-unit>
+      <trans-unit id="DxPwxlK" resname="Demo 3">
+        <source>Demo 3</source>
+        <target>Demo 3</target>
+      </trans-unit>
+      <trans-unit id="F3opwhM" resname="Demo 4">
+        <source>Demo 4</source>
+        <target>Demo 4</target>
+      </trans-unit>
+      <trans-unit id="nJVMJky" resname="Demo 5">
+        <source>Demo 5</source>
+        <target>Demo 5</target>
+      </trans-unit>
+      <trans-unit id="239tnaf" resname="Demo 6">
+        <source>Demo 6</source>
+        <target>Demo 6</target>
+      </trans-unit>
+      <trans-unit id="mPzs0.L" resname="Demo 7">
+        <source>Demo 7</source>
+        <target>Demo 7</target>
+      </trans-unit>
+      <trans-unit id="fZJqu9L" resname="Demo 8">
+        <source>Demo 8</source>
+        <target>Demo 8</target>
+      </trans-unit>
+      <trans-unit id="yO14rMx" resname="Demo 9">
+        <source>Demo 9</source>
+        <target>Demo 9</target>
+      </trans-unit>
+      <trans-unit id="Q9n6frH" resname="Demo 10">
+        <source>Demo 10</source>
+        <target>Demo 10</target>
+      </trans-unit>
+      <trans-unit id="naQLF1C" resname="Demo 12">
+        <source>Demo 12</source>
+        <target>Demo 12</target>
+      </trans-unit>
+      <trans-unit id="aMHsfAQ" resname="Demo 13">
+        <source>Demo 13</source>
+        <target>Demo 13</target>
+      </trans-unit>
+      <trans-unit id="ospPBvc" resname="Demo 14">
+        <source>Demo 14</source>
+        <target>Demo 14</target>
+      </trans-unit>
+      <trans-unit id="PEzC1Qg" resname="Demo 15">
+        <source>Demo 15</source>
+        <target>Demo 15</target>
+      </trans-unit>
+      <trans-unit id="F0u.Fa9" resname="Demo 16">
+        <source>Demo 16</source>
+        <target>Demo 16</target>
+      </trans-unit>
+      <trans-unit id="chyQpvN" resname="Demo 17">
+        <source>Demo 17</source>
+        <target>Demo 17</target>
+      </trans-unit>
+      <trans-unit id="NmSJVXn" resname="Export">
+        <source>Export</source>
+        <target>Export</target>
+      </trans-unit>
+      <trans-unit id="PyN1.PD" resname="All data from">
+        <source>All data from</source>
+        <target>All data from</target>
+      </trans-unit>
+      <trans-unit id="KbmEO_G" resname="Import all data">
+        <source>Import all data</source>
+        <target>Import all data</target>
+      </trans-unit>
+      <trans-unit id=".mV0g1H" resname="Colors are set on the Theme editor module from">
+        <source>Colors are set on the Theme editor module from</source>
+        <target>Colors are set on the Theme editor module from</target>
+      </trans-unit>
+      <trans-unit id="uV.n7Qg" resname="Import colors only">
+        <source>Import colors only</source>
+        <target>Import colors only</target>
+      </trans-unit>
+      <trans-unit id="15MV0il" resname="Upload a custom configuration file:">
+        <source>Upload a custom configuration file:</source>
+        <target>Upload a custom configuration file:</target>
+      </trans-unit>
+      <trans-unit id="P.L6C6T" resname="Choose a .xml file">
+        <source>Choose a .xml file</source>
+        <target>Choose a .xml file</target>
+      </trans-unit>
+      <trans-unit id="ZfQH6hU" resname="Your current module settings will be overrided, are your sure?">
+        <source>Your current module settings will be overrided, are your sure?</source>
+        <target>Your current module settings will be overrided, are your sure?</target>
+      </trans-unit>
+      <trans-unit id="vHnjbHk" resname="Upload and import the file">
+        <source>Upload and import the file</source>
+        <target>Upload and import the file</target>
+      </trans-unit>
+      <trans-unit id="cBbY00H" resname="%1%1. Demo 17 is a speical demo which was created by the Visual composer module. You have to install the Visual composer module before importing data. You also need to carefully read the &quot;One-click demo importer&quot; section on the online documention before importing the demo.%2%">
+        <source>%1%1. Demo 17 is a speical demo which was created by the Visual composer module. You have to install the Visual composer module before importing data. You also need to carefully read the "One-click demo importer" section on the online documention before importing the demo.%2%</source>
+        <target>%1%1. Demo 17 is a speical demo which was created by the Visual composer module. You have to install the Visual composer module before importing data. You also need to carefully read the "One-click demo importer" section on the online documention before importing the demo.%2%</target>
+      </trans-unit>
+      <trans-unit id="5ogeFSB" resname="2. IMPORTANT Upload folders in the &quot;One click demo import&quot; folder into the root folder of your Prestashop installation before importing.">
+        <source>2. IMPORTANT Upload folders in the "One click demo import" folder into the root folder of your Prestashop installation before importing.</source>
+        <target>2. IMPORTANT Upload folders in the "One click demo import" folder into the root folder of your Prestashop installation before importing.</target>
+      </trans-unit>
+      <trans-unit id="AuZ6qNC" resname="3. Click &quot;Demo x&quot; buttons to import predefined demos. You have two choises, one is importing all data, another is improting colors only.">
+        <source>3. Click "Demo x" buttons to import predefined demos. You have two choises, one is importing all data, another is improting colors only.</source>
+        <target>3. Click "Demo x" buttons to import predefined demos. You have two choises, one is importing all data, another is improting colors only.</target>
+      </trans-unit>
+      <trans-unit id="IjoyRIt" resname="4. &quot;Featured categories slider&quot; module and &quot;Product slider for each category&quot; module can not be expored/imported, because of categories are differnt from sites to sites.">
+        <source>4. "Featured categories slider" module and "Product slider for each category" module can not be expored/imported, because of categories are differnt from sites to sites.</source>
+        <target>4. "Featured categories slider" module and "Product slider for each category" module can not be expored/imported, because of categories are differnt from sites to sites.</target>
+      </trans-unit>
+      <trans-unit id="V7CoJnF" resname="5. Sample accounts will be appied to these modules &quot;Facebook page plugin&quot;, &quot;Twitter Embedded Timelines&quot; and &quot;Instagram block&quot;, so you are going to use your account instead after importing.">
+        <source>5. Sample accounts will be appied to these modules "Facebook page plugin", "Twitter Embedded Timelines" and "Instagram block", so you are going to use your account instead after importing.</source>
+        <target>5. Sample accounts will be appied to these modules "Facebook page plugin", "Twitter Embedded Timelines" and "Instagram block", so you are going to use your account instead after importing.</target>
+      </trans-unit>
+      <trans-unit id="Z0.irND" resname="Full screen">
+        <source>Full screen</source>
+        <target>Full screen</target>
+      </trans-unit>
+      <trans-unit id=".WsT9ux" resname="Desktops (Full screen)">
+        <source>Desktops (Full screen)</source>
+        <target>Desktops (Full screen)</target>
+      </trans-unit>
+      <trans-unit id="6e3A38G" resname="Extra large devices">
+        <source>Extra large devices</source>
+        <target>Extra large devices</target>
+      </trans-unit>
+      <trans-unit id="0.f8uJp" resname="Desktops (&gt;1440px)">
+        <source>Desktops (&gt;1440px)</source>
+        <target><![CDATA[Desktops (>1440px)]]></target>
+      </trans-unit>
+      <trans-unit id="vq8dVtj" resname="Desktops (&gt;1200px)">
+        <source>Desktops (&gt;1200px)</source>
+        <target><![CDATA[Desktops (>1200px)]]></target>
+      </trans-unit>
+      <trans-unit id="3.N66zs" resname="Large devices">
+        <source>Large devices</source>
+        <target>Large devices</target>
+      </trans-unit>
+      <trans-unit id="YL6Rj3C" resname="Desktops (&gt;992px)">
+        <source>Desktops (&gt;992px)</source>
+        <target><![CDATA[Desktops (>992px)]]></target>
+      </trans-unit>
+      <trans-unit id="rBJdWjB" resname="Medium devices">
+        <source>Medium devices</source>
+        <target>Medium devices</target>
+      </trans-unit>
+      <trans-unit id="KofYQJO" resname="Tablets (&gt;768px)">
+        <source>Tablets (&gt;768px)</source>
+        <target><![CDATA[Tablets (>768px)]]></target>
+      </trans-unit>
+      <trans-unit id="SrxoHcV" resname="Small devices">
+        <source>Small devices</source>
+        <target>Small devices</target>
+      </trans-unit>
+      <trans-unit id="69hR3vZ" resname="Tablets (&lt;768px)">
+        <source>Tablets (&lt;768px)</source>
+        <target><![CDATA[Tablets (<768px)]]></target>
+      </trans-unit>
+      <trans-unit id="xB4FgHl" resname="Extra small devices">
+        <source>Extra small devices</source>
+        <target>Extra small devices</target>
+      </trans-unit>
+      <trans-unit id="2b.ZzXD" resname="Phones (&lt;480px)">
+        <source>Phones (&lt;480px)</source>
+        <target><![CDATA[Phones (<480px)]]></target>
+      </trans-unit>
+      <trans-unit id="cdF1_gk" resname="Phones (&gt;480px)">
+        <source>Phones (&gt;480px)</source>
+        <target><![CDATA[Phones (>480px)]]></target>
+      </trans-unit>
+      <trans-unit id="1A5OfDl" resname="Extremely small devices">
+        <source>Extremely small devices</source>
+        <target>Extremely small devices</target>
+      </trans-unit>
+      <trans-unit id="t50wdTy" resname="Phones (&lt;768px)">
+        <source>Phones (&lt;768px)</source>
+        <target><![CDATA[Phones (<768px)]]></target>
+      </trans-unit>
+      <trans-unit id="Ub8.3E_" resname="Desktops (&gt;768px)">
+        <source>Desktops (&gt;768px)</source>
+        <target><![CDATA[Desktops (>768px)]]></target>
+      </trans-unit>
+      <trans-unit id="S_G5iBh" resname="Phones (&lt;554px)">
+        <source>Phones (&lt;554px)</source>
+        <target><![CDATA[Phones (<554px)]]></target>
+      </trans-unit>
+      <trans-unit id="9TG7WSq" resname="Tablets (&gt;992px) and (&lt;=992px)">
+        <source>Tablets (&gt;992px) and (&lt;=992px)</source>
+        <target><![CDATA[Tablets (>992px) and (<=992px)]]></target>
+      </trans-unit>
+      <trans-unit id="2c_YF8g" resname="Large screen">
+        <source>Large screen</source>
+        <target>Large screen</target>
+      </trans-unit>
+      <trans-unit id="3nqkZBW" resname="Screen (&gt;1200px)">
+        <source>Screen (&gt;1200px)</source>
+        <target><![CDATA[Screen (>1200px)]]></target>
+      </trans-unit>
+      <trans-unit id="186RyLf" resname="Medium screen">
+        <source>Medium screen</source>
+        <target>Medium screen</target>
+      </trans-unit>
+      <trans-unit id="Uc3fAJx" resname="Screen (&gt;992px) and (&lt;=1200px)">
+        <source>Screen (&gt;992px) and (&lt;=1200px)</source>
+        <target><![CDATA[Screen (>992px) and (<=1200px)]]></target>
+      </trans-unit>
+      <trans-unit id="md4ypQd" resname="Column 1">
+        <source>Column 1</source>
+        <target>Column 1</target>
+      </trans-unit>
+      <trans-unit id="cbBGUBF" resname="Column 2">
+        <source>Column 2</source>
+        <target>Column 2</target>
+      </trans-unit>
+      <trans-unit id="4uzYYaD" resname="Column 3">
+        <source>Column 3</source>
+        <target>Column 3</target>
+      </trans-unit>
+      <trans-unit id="wvirnif" resname="Column 4">
+        <source>Column 4</source>
+        <target>Column 4</target>
+      </trans-unit>
+      <trans-unit id="zCztL0s" resname="Column 5">
+        <source>Column 5</source>
+        <target>Column 5</target>
+      </trans-unit>
+      <trans-unit id="DWZIMvO" resname="Column 6">
+        <source>Column 6</source>
+        <target>Column 6</target>
+      </trans-unit>
+      <trans-unit id="HUu.KQd" resname="First quarter">
+        <source>First quarter</source>
+        <target>First quarter</target>
+      </trans-unit>
+      <trans-unit id="ACJvC1o" resname="Second quarter">
+        <source>Second quarter</source>
+        <target>Second quarter</target>
+      </trans-unit>
+      <trans-unit id="f8OSZft" resname="Third quarter">
+        <source>Third quarter</source>
+        <target>Third quarter</target>
+      </trans-unit>
+      <trans-unit id="IPKnKxi" resname="Fourth quarter">
+        <source>Fourth quarter</source>
+        <target>Fourth quarter</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="8x_gVY." resname="Please select a store to export configurations.">
+        <source>Please select a store to export configurations.</source>
+        <target>Please select a store to export configurations.</target>
+      </trans-unit>
+      <trans-unit id="8FRpfwP" resname="directory isn\'t exists.">
+        <source>directory isn\'t exists.</source>
+        <target>directory isn\'t exists.</target>
+      </trans-unit>
+      <trans-unit id="cbOdSOi" resname="directory isn\'t writable.">
+        <source>directory isn\'t writable.</source>
+        <target>directory isn\'t writable.</target>
+      </trans-unit>
+      <trans-unit id="adifRWI" resname="Create config file failed.">
+        <source>Create config file failed.</source>
+        <target>Create config file failed.</target>
+      </trans-unit>
+      <trans-unit id="q_ToJqK" resname="Generate config file successfully, Click the link to download :">
+        <source>Generate config file successfully, Click the link to download :</source>
+        <target>Generate config file successfully, Click the link to download :</target>
+      </trans-unit>
+      <trans-unit id="F1OMv9M" resname="Unable to get information from ST-themes.">
+        <source>Unable to get information from ST-themes.</source>
+        <target>Unable to get information from ST-themes.</target>
+      </trans-unit>
+      <trans-unit id="GG7e4Cv" resname="Your theme is not registered, please register it first.">
+        <source>Your theme is not registered, please register it first.</source>
+        <target>Your theme is not registered, please register it first.</target>
+      </trans-unit>
+      <trans-unit id="en6wqd2" resname="Your theme is already the latest version.">
+        <source>Your theme is already the latest version.</source>
+        <target>Your theme is already the latest version.</target>
+      </trans-unit>
+      <trans-unit id="wYtIX5u" resname="Please ensure the %folder% folder is writable.">
+        <source>Please ensure the %folder% folder is writable.</source>
+        <target>Please ensure the %folder% folder is writable.</target>
+      </trans-unit>
+      <trans-unit id="hWBPC28" resname="Package is broken.">
+        <source>Package is broken.</source>
+        <target>Package is broken.</target>
+      </trans-unit>
+      <trans-unit id="lrBBwRg" resname="Unable to unzip package.">
+        <source>Unable to unzip package.</source>
+        <target>Unable to unzip package.</target>
+      </trans-unit>
+      <trans-unit id="_BdwKUz" resname="Unalbe to download.">
+        <source>Unalbe to download.</source>
+        <target>Unalbe to download.</target>
+      </trans-unit>
+      <trans-unit id="4wMwZKV" resname="One-click demo importer:">
+        <source>One-click demo importer:</source>
+        <target>One-click demo importer:</target>
+      </trans-unit>
+      <trans-unit id="LWMID3x" resname="Import/export">
+        <source>Import/export</source>
+        <target>Import/export</target>
+      </trans-unit>
+      <trans-unit id="0Vg7j8H" resname="Display switch back to desktop version link on mobile devices:">
+        <source>Display switch back to desktop version link on mobile devices:</source>
+        <target>Display switch back to desktop version link on mobile devices:</target>
+      </trans-unit>
+      <trans-unit id="72biQCi" resname="This option allows visitors to manually switch between mobile and desktop versions on mobile devices.">
+        <source>This option allows visitors to manually switch between mobile and desktop versions on mobile devices.</source>
+        <target>This option allows visitors to manually switch between mobile and desktop versions on mobile devices.</target>
+      </trans-unit>
+      <trans-unit id="eSZUZEb" resname="Maximum Page Width:">
+        <source>Maximum Page Width:</source>
+        <target>Maximum Page Width:</target>
+      </trans-unit>
+      <trans-unit id="X_zrZv." resname="0">
+        <source>0</source>
+        <target>992</target>
+      </trans-unit>
+      <trans-unit id="a4ayc.8" resname="1">
+        <source>1</source>
+        <target>1200</target>
+      </trans-unit>
+      <trans-unit id="1HNeOiZ" resname="2">
+        <source>2</source>
+        <target>1440</target>
+      </trans-unit>
+      <trans-unit id="r9i9dUH" resname="Maximum width of the page">
+        <source>Maximum width of the page</source>
+        <target>Maximum width of the page</target>
+      </trans-unit>
+      <trans-unit id="SHL7CQ7" resname="Box style:">
+        <source>Box style:</source>
+        <target>Box style:</target>
+      </trans-unit>
+      <trans-unit id="Z_AGnoX" resname="You can change the shadow around the main content when in boxed style under the &quot;Color&quot; tab.">
+        <source>You can change the shadow around the main content when in boxed style under the "Color" tab.</source>
+        <target>You can change the shadow around the main content when in boxed style under the "Color" tab.</target>
+      </trans-unit>
+      <trans-unit id="qatZZHM" resname="Left column width">
+        <source>Left column width</source>
+        <target>Left column width</target>
+      </trans-unit>
+      <trans-unit id="8VYVDnt" resname="This setting is used to change the width of left column, it would not enable the left column.">
+        <source>This setting is used to change the width of left column, it would not enable the left column.</source>
+        <target>This setting is used to change the width of left column, it would not enable the left column.</target>
+      </trans-unit>
+      <trans-unit id="ylTNrG9" resname="Right column width">
+        <source>Right column width</source>
+        <target>Right column width</target>
+      </trans-unit>
+      <trans-unit id="83.DL7R" resname="This setting is used to change the width of right column, it would not enable the right column.">
+        <source>This setting is used to change the width of right column, it would not enable the right column.</source>
+        <target>This setting is used to change the width of right column, it would not enable the right column.</target>
+      </trans-unit>
+      <trans-unit id="hU1kc5z" resname="Slide left/right column:">
+        <source>Slide left/right column:</source>
+        <target>Slide left/right column:</target>
+      </trans-unit>
+      <trans-unit id="RQpiZVV" resname="Click the &quot;Left&quot;/&quot;right&quot; button to slide the left/right column out on mobile devices.">
+        <source>Click the "Left"/"right" button to slide the left/right column out on mobile devices.</source>
+        <target>Click the "Left"/"right" button to slide the left/right column out on mobile devices.</target>
+      </trans-unit>
+      <trans-unit id="I0myxtO" resname="Set the width of columns/quarters on homepage:">
+        <source>Set the width of columns/quarters on homepage:</source>
+        <target>Set the width of columns/quarters on homepage:</target>
+      </trans-unit>
+      <trans-unit id="bROKT7h" resname="The sum of them should be 12. For example if you only need two columns, then set the width of 3rd quarter and 4th quareter to 0:">
+        <source>The sum of them should be 12. For example if you only need two columns, then set the width of 3rd quarter and 4th quareter to 0:</source>
+        <target>The sum of them should be 12. For example if you only need two columns, then set the width of 3rd quarter and 4th quareter to 0:</target>
+      </trans-unit>
+      <trans-unit id="CVjiYue" resname="Page top spacing:">
+        <source>Page top spacing:</source>
+        <target>Page top spacing:</target>
+      </trans-unit>
+      <trans-unit id="_WoXFNz" resname="Page bottom spacing:">
+        <source>Page bottom spacing:</source>
+        <target>Page bottom spacing:</target>
+      </trans-unit>
+      <trans-unit id="hHo9Q.J" resname="This is used to change spacings between blocks">
+        <source>This is used to change spacings between blocks</source>
+        <target>This is used to change spacings between blocks</target>
+      </trans-unit>
+      <trans-unit id="6osqTVa" resname="The number of columns for Homepage tab">
+        <source>The number of columns for Homepage tab</source>
+        <target>The number of columns for Homepage tab</target>
+      </trans-unit>
+      <trans-unit id="PV6Jkj1" resname="Enable animation:">
+        <source>Enable animation:</source>
+        <target>Enable animation:</target>
+      </trans-unit>
+      <trans-unit id="MG9vE2h" resname="Cart icon:">
+        <source>Cart icon:</source>
+        <target>Cart icon:</target>
+      </trans-unit>
+      <trans-unit id="thr16Gc" resname="Wishlist icon:">
+        <source>Wishlist icon:</source>
+        <target>Wishlist icon:</target>
+      </trans-unit>
+      <trans-unit id="CyLbLqh" resname="Love icon:">
+        <source>Love icon:</source>
+        <target>Love icon:</target>
+      </trans-unit>
+      <trans-unit id="gGJc2FD" resname="Compare icon:">
+        <source>Compare icon:</source>
+        <target>Compare icon:</target>
+      </trans-unit>
+      <trans-unit id="bYbT0j7" resname="Quick view icon:">
+        <source>Quick view icon:</source>
+        <target>Quick view icon:</target>
+      </trans-unit>
+      <trans-unit id="Y5.KHku" resname="View icon:">
+        <source>View icon:</source>
+        <target>View icon:</target>
+      </trans-unit>
+      <trans-unit id="aZsI4yN" resname="Login icon:">
+        <source>Login icon:</source>
+        <target>Login icon:</target>
+      </trans-unit>
+      <trans-unit id="e3SyB_C" resname="Guest welcome message:">
+        <source>Guest welcome message:</source>
+        <target>Guest welcome message:</target>
+      </trans-unit>
+      <trans-unit id="8D1_l2H" resname="Logged welcome message:">
+        <source>Logged welcome message:</source>
+        <target>Logged welcome message:</target>
+      </trans-unit>
+      <trans-unit id="pGbNACu" resname="Add a link to welcome message:">
+        <source>Add a link to welcome message:</source>
+        <target>Add a link to welcome message:</target>
+      </trans-unit>
+      <trans-unit id="LC79z0O" resname="Copyright text:">
+        <source>Copyright text:</source>
+        <target>Copyright text:</target>
+      </trans-unit>
+      <trans-unit id="51EeTsR" resname="Search label:">
+        <source>Search label:</source>
+        <target>Search label:</target>
+      </trans-unit>
+      <trans-unit id="cYiugdK" resname="Newsletter label:">
+        <source>Newsletter label:</source>
+        <target>Newsletter label:</target>
+      </trans-unit>
+      <trans-unit id="RoK6KxT" resname="Iframe background:">
+        <source>Iframe background:</source>
+        <target>Iframe background:</target>
+      </trans-unit>
+      <trans-unit id="h8zNmwF" resname="Set iframe background if transparency is not allowed.">
+        <source>Set iframe background if transparency is not allowed.</source>
+        <target>Set iframe background if transparency is not allowed.</target>
+      </trans-unit>
+      <trans-unit id="fPvSHdd" resname="Payment icon:">
+        <source>Payment icon:</source>
+        <target>Payment icon:</target>
+      </trans-unit>
+      <trans-unit id="fmUG43d" resname="Navigation pipe:">
+        <source>Navigation pipe:</source>
+        <target>Navigation pipe:</target>
+      </trans-unit>
+      <trans-unit id="EONCwWz" resname="Used for the navigation path: Store Name &gt; Category Name &gt; Product Name.">
+        <source>Used for the navigation path: Store Name &gt; Category Name &gt; Product Name.</source>
+        <target><![CDATA[Used for the navigation path: Store Name > Category Name > Product Name.]]></target>
+      </trans-unit>
+      <trans-unit id="6BBUEZb" resname="Custom fonts:">
+        <source>Custom fonts:</source>
+        <target>Custom fonts:</target>
+      </trans-unit>
+      <trans-unit id="KH0ZaLV" resname="Each font name has to be separated by a comma (&quot;,&quot;). Please refer to the Documenation to lear how to add custom fonts.">
+        <source>Each font name has to be separated by a comma (","). Please refer to the Documenation to lear how to add custom fonts.</source>
+        <target>Each font name has to be separated by a comma (","). Please refer to the Documenation to lear how to add custom fonts.</target>
+      </trans-unit>
+      <trans-unit id="yj3kLot" resname="Fits popup images vertically:">
+        <source>Fits popup images vertically:</source>
+        <target>Fits popup images vertically:</target>
+      </trans-unit>
+      <trans-unit id="KyLioLH" resname="Popup images will be resized down to be in full screen vertically, if they are larger than the height of screen.">
+        <source>Popup images will be resized down to be in full screen vertically, if they are larger than the height of screen.</source>
+        <target>Popup images will be resized down to be in full screen vertically, if they are larger than the height of screen.</target>
+      </trans-unit>
+      <trans-unit id="HQwVf2J" resname="How to open drop down lists:">
+        <source>How to open drop down lists:</source>
+        <target>How to open drop down lists:</target>
+      </trans-unit>
+      <trans-unit id="oJ9qGkT" resname="Fits product popup images vertically:">
+        <source>Fits product popup images vertically:</source>
+        <target>Fits product popup images vertically:</target>
+      </trans-unit>
+      <trans-unit id="haOas0X" resname="Yes">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="HqRCoTS" resname="No">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="ay47Tuz" resname="This setting is For product thumbnail images on the product page.">
+        <source>This setting is For product thumbnail images on the product page.</source>
+        <target>This setting is For product thumbnail images on the product page.</target>
+      </trans-unit>
+      <trans-unit id="Nw6veV5" resname="Enable responsive layout:">
+        <source>Enable responsive layout:</source>
+        <target>Enable responsive layout:</target>
+      </trans-unit>
+      <trans-unit id="QTbuFxO" resname="Enable responsive design for mobile devices.">
+        <source>Enable responsive design for mobile devices.</source>
+        <target>Enable responsive design for mobile devices.</target>
+      </trans-unit>
+      <trans-unit id="vqup2RU" resname="If this option is off, the Maximum Page Width of your site is 1440px, which means you can not have a full screen site if this option is off.">
+        <source>If this option is off, the Maximum Page Width of your site is 1440px, which means you can not have a full screen site if this option is off.</source>
+        <target>If this option is off, the Maximum Page Width of your site is 1440px, which means you can not have a full screen site if this option is off.</target>
+      </trans-unit>
+      <trans-unit id="R4UwC_i" resname="keep product variables in ajax search response:">
+        <source>keep product variables in ajax search response:</source>
+        <target>keep product variables in ajax search response:</target>
+      </trans-unit>
+      <trans-unit id="YaPGl_1" resname="Refer to the documentation to know more about this option, generally just keep it off.">
+        <source>Refer to the documentation to know more about this option, generally just keep it off.</source>
+        <target>Refer to the documentation to know more about this option, generally just keep it off.</target>
+      </trans-unit>
+      <trans-unit id="X3RnIzZ" resname="Product block settings">
+        <source>Product block settings</source>
+        <target>Product block settings</target>
+      </trans-unit>
+      <trans-unit id="dx538iG" resname="Settings here are for products in product sliders and products on product listings. You need to clear the Smarty cache after making changes here.">
+        <source>Settings here are for products in product sliders and products on product listings. You need to clear the Smarty cache after making changes here.</source>
+        <target>Settings here are for products in product sliders and products on product listings. You need to clear the Smarty cache after making changes here.</target>
+      </trans-unit>
+      <trans-unit id="KsP.se6" resname="Retina:">
+        <source>Retina:</source>
+        <target>Retina:</target>
+      </trans-unit>
+      <trans-unit id="OXwFBFh" resname="Retina support for logo and product images.">
+        <source>Retina support for logo and product images.</source>
+        <target>Retina support for logo and product images.</target>
+      </trans-unit>
+      <trans-unit id="3WJGZfL" resname="Yotpo Star Rating:">
+        <source>Yotpo Star Rating:</source>
+        <target>Yotpo Star Rating:</target>
+      </trans-unit>
+      <trans-unit id="86tU9UC" resname="How to display product images on the category page:">
+        <source>How to display product images on the category page:</source>
+        <target>How to display product images on the category page:</target>
+      </trans-unit>
+      <trans-unit id="eh_YgXU" resname="Display the cover images only">
+        <source>Display the cover images only</source>
+        <target>Display the cover images only</target>
+      </trans-unit>
+      <trans-unit id="Xy_Koie" resname="Display all images in a slider">
+        <source>Display all images in a slider</source>
+        <target>Display all images in a slider</target>
+      </trans-unit>
+      <trans-unit id="jIyW9CP" resname="Display all images in a slider with thumbnails below">
+        <source>Display all images in a slider with thumbnails below</source>
+        <target>Display all images in a slider with thumbnails below</target>
+      </trans-unit>
+      <trans-unit id="kGCJ051" resname="Hover image feature and zoom feature would not work when images are in a slider">
+        <source>Hover image feature and zoom feature would not work when images are in a slider</source>
+        <target>Hover image feature and zoom feature would not work when images are in a slider</target>
+      </trans-unit>
+      <trans-unit id="dVun5GJ" resname="If the cover image you set for a product is not in the images for the default combination, then prestashop will use the first image for the default combination to be the cover image.">
+        <source>If the cover image you set for a product is not in the images for the default combination, then prestashop will use the first image for the default combination to be the cover image.</source>
+        <target>If the cover image you set for a product is not in the images for the default combination, then prestashop will use the first image for the default combination to be the cover image.</target>
+      </trans-unit>
+      <trans-unit id="Yn8VHaP" resname="How to display product images on other places:">
+        <source>How to display product images on other places:</source>
+        <target>How to display product images on other places:</target>
+      </trans-unit>
+      <trans-unit id="MG_Ezro" resname="Product info alignment:">
+        <source>Product info alignment:</source>
+        <target>Product info alignment:</target>
+      </trans-unit>
+      <trans-unit id="djJaX1k" resname="Length of product names:">
+        <source>Length of product names:</source>
+        <target>Length of product names:</target>
+      </trans-unit>
+      <trans-unit id="VJHlfN8" resname="Normal(one line)">
+        <source>Normal(one line)</source>
+        <target>Normal(one line)</target>
+      </trans-unit>
+      <trans-unit id="nPZLStH" resname="Long(70 characters)">
+        <source>Long(70 characters)</source>
+        <target>Long(70 characters)</target>
+      </trans-unit>
+      <trans-unit id="8Tpkui." resname="Full name">
+        <source>Full name</source>
+        <target>Full name</target>
+      </trans-unit>
+      <trans-unit id="4jj6MsB" resname="Two lines, focus all product names having the same height">
+        <source>Two lines, focus all product names having the same height</source>
+        <target>Two lines, focus all product names having the same height</target>
+      </trans-unit>
+      <trans-unit id=".oXsyZk" resname="Product name font weight:">
+        <source>Product name font weight:</source>
+        <target>Product name font weight:</target>
+      </trans-unit>
+      <trans-unit id="6BEBDUR" resname="Product name color:">
+        <source>Product name color:</source>
+        <target>Product name color:</target>
+      </trans-unit>
+      <trans-unit id="kRJSaN9" resname="Product name transform:">
+        <source>Product name transform:</source>
+        <target>Product name transform:</target>
+      </trans-unit>
+      <trans-unit id="cS3R_a8" resname="Show fly-out buttons:">
+        <source>Show fly-out buttons:</source>
+        <target>Show fly-out buttons:</target>
+      </trans-unit>
+      <trans-unit id="yx6oexv" resname="Right below product image">
+        <source>Right below product image</source>
+        <target>Right below product image</target>
+      </trans-unit>
+      <trans-unit id="NQHE6x9" resname="At the bottom of product image when mouse hover">
+        <source>At the bottom of product image when mouse hover</source>
+        <target>At the bottom of product image when mouse hover</target>
+      </trans-unit>
+      <trans-unit id="98KdFFg" resname="At the very bottom of product">
+        <source>At the very bottom of product</source>
+        <target>At the very bottom of product</target>
+      </trans-unit>
+      <trans-unit id="y6m1LIK" resname="Lenght of fly-out buttons:">
+        <source>Lenght of fly-out buttons:</source>
+        <target>Lenght of fly-out buttons:</target>
+      </trans-unit>
+      <trans-unit id="BxICPuI" resname="Buttons have the same length">
+        <source>Buttons have the same length</source>
+        <target>Buttons have the same length</target>
+      </trans-unit>
+      <trans-unit id="lkQaMCW" resname="Uneven length, stretch buttons">
+        <source>Uneven length, stretch buttons</source>
+        <target>Uneven length, stretch buttons</target>
+      </trans-unit>
+      <trans-unit id="SXcl29x" resname="Fly-out buttons on mobile devices:">
+        <source>Fly-out buttons on mobile devices:</source>
+        <target>Fly-out buttons on mobile devices:</target>
+      </trans-unit>
+      <trans-unit id="UXFm687" resname="Show them all the time">
+        <source>Show them all the time</source>
+        <target>Show them all the time</target>
+      </trans-unit>
+      <trans-unit id="9enEIPu" resname="Display &quot;Add to cart&quot; button only if it is in fly-out">
+        <source>Display "Add to cart" button only if it is in fly-out</source>
+        <target>Display "Add to cart" button only if it is in fly-out</target>
+      </trans-unit>
+      <trans-unit id="xhfBUMa" resname="How to display &quot;Add to cart&quot; buttons:">
+        <source>How to display "Add to cart" buttons:</source>
+        <target>How to display "Add to cart" buttons:</target>
+      </trans-unit>
+      <trans-unit id="ouEmmdz" resname="Display as buttons, show out when mouse hover">
+        <source>Display as buttons, show out when mouse hover</source>
+        <target>Display as buttons, show out when mouse hover</target>
+      </trans-unit>
+      <trans-unit id="Or9dDCX" resname="Display as links, show out when mouse hover">
+        <source>Display as links, show out when mouse hover</source>
+        <target>Display as links, show out when mouse hover</target>
+      </trans-unit>
+      <trans-unit id="3MeTTNb" resname="Display as buttons">
+        <source>Display as buttons</source>
+        <target>Display as buttons</target>
+      </trans-unit>
+      <trans-unit id="oqrUnJc" resname="Display as links">
+        <source>Display as links</source>
+        <target>Display as links</target>
+      </trans-unit>
+      <trans-unit id="wd08.eY" resname="Display in fly-out buttons">
+        <source>Display in fly-out buttons</source>
+        <target>Display in fly-out buttons</target>
+      </trans-unit>
+      <trans-unit id="Nhd0mX7" resname="The first two options may be affected by the setting of how to displaying View more buttons. If view buttons are set to be shown out, then add to cart buttons will so be shown out, the &quot;show out when mouse hover&quot; would not take effect.">
+        <source>The first two options may be affected by the setting of how to displaying View more buttons. If view buttons are set to be shown out, then add to cart buttons will so be shown out, the "show out when mouse hover" would not take effect.</source>
+        <target>The first two options may be affected by the setting of how to displaying View more buttons. If view buttons are set to be shown out, then add to cart buttons will so be shown out, the "show out when mouse hover" would not take effect.</target>
+      </trans-unit>
+      <trans-unit id="XbSqUWc" resname="Display &quot;Add to cart&quot; buttons in grid view on mobile device:">
+        <source>Display "Add to cart" buttons in grid view on mobile device:</source>
+        <target>Display "Add to cart" buttons in grid view on mobile device:</target>
+      </trans-unit>
+      <trans-unit id="GUX.3m9" resname="Quantity input">
+        <source>Quantity input</source>
+        <target>Quantity input</target>
+      </trans-unit>
+      <trans-unit id="NE9IBqa" resname="Display quantity inputs along with &quot;Add to cart&quot; buttons">
+        <source>Display quantity inputs along with "Add to cart" buttons</source>
+        <target>Display quantity inputs along with "Add to cart" buttons</target>
+      </trans-unit>
+      <trans-unit id="xQhcVVN" resname="Display quantity inputs on drop down cart and side bar cart.">
+        <source>Display quantity inputs on drop down cart and side bar cart.</source>
+        <target>Display quantity inputs on drop down cart and side bar cart.</target>
+      </trans-unit>
+      <trans-unit id="Xp_TpUd" resname="The sum of the above two options.">
+        <source>The sum of the above two options.</source>
+        <target>The sum of the above two options.</target>
+      </trans-unit>
+      <trans-unit id="GFfhyYr" resname="If this setting is enable and the add to cart button is in the fly-out, then the add to cart button will be moved down to the product name.">
+        <source>If this setting is enable and the add to cart button is in the fly-out, then the add to cart button will be moved down to the product name.</source>
+        <target>If this setting is enable and the add to cart button is in the fly-out, then the add to cart button will be moved down to the product name.</target>
+      </trans-unit>
+      <trans-unit id="aLC2du8" resname="Display the &quot;Quick view&quot; button in the fly-out button:">
+        <source>Display the "Quick view" button in the fly-out button:</source>
+        <target>Display the "Quick view" button in the fly-out button:</target>
+      </trans-unit>
+      <trans-unit id="SazRZHx" resname="How to display the &quot;Add to wishlist&quot; button">
+        <source>How to display the "Add to wishlist" button</source>
+        <target>How to display the "Add to wishlist" button</target>
+      </trans-unit>
+      <trans-unit id="2owVh_4" resname="Go to the Wishlist module">
+        <source>Go to the Wishlist module</source>
+        <target>Go to the Wishlist module</target>
+      </trans-unit>
+      <trans-unit id="0ZcqKaT" resname="How to display the &quot;Love&quot; button">
+        <source>How to display the "Love" button</source>
+        <target>How to display the "Love" button</target>
+      </trans-unit>
+      <trans-unit id="1aTzB67" resname="Go to the Love product module">
+        <source>Go to the Love product module</source>
+        <target>Go to the Love product module</target>
+      </trans-unit>
+      <trans-unit id="C0knSD." resname="Display the &quot;Add to wishlist&quot; button in the fly-out button:">
+        <source>Display the "Add to wishlist" button in the fly-out button:</source>
+        <target>Display the "Add to wishlist" button in the fly-out button:</target>
+      </trans-unit>
+      <trans-unit id="xMP9FG8" resname="How to display the &quot;Love&quot; button:">
+        <source>How to display the "Love" button:</source>
+        <target>How to display the "Love" button:</target>
+      </trans-unit>
+      <trans-unit id="AGa5JIg" resname="Display in the fly-out button">
+        <source>Display in the fly-out button</source>
+        <target>Display in the fly-out button</target>
+      </trans-unit>
+      <trans-unit id="OBuo7Re" resname="Display on the top left hand side corner">
+        <source>Display on the top left hand side corner</source>
+        <target>Display on the top left hand side corner</target>
+      </trans-unit>
+      <trans-unit id="NVa9swt" resname="Display on the top right hand side corner">
+        <source>Display on the top right hand side corner</source>
+        <target>Display on the top right hand side corner</target>
+      </trans-unit>
+      <trans-unit id="VTMmXRt" resname="Display the &quot;View more&quot; button:">
+        <source>Display the "View more" button:</source>
+        <target>Display the "View more" button:</target>
+      </trans-unit>
+      <trans-unit id="obkiLHN" resname="Display the &quot;View more&quot; button below the product name when mouse hover over">
+        <source>Display the "View more" button below the product name when mouse hover over</source>
+        <target>Display the "View more" button below the product name when mouse hover over</target>
+      </trans-unit>
+      <trans-unit id="FJBvS1x" resname="Display the &quot;View more&quot; button below the product name">
+        <source>Display the "View more" button below the product name</source>
+        <target>Display the "View more" button below the product name</target>
+      </trans-unit>
+      <trans-unit id="suv2DtI" resname="The sencond options may be affected by the setting of how to displaying Add to cart buttons. If Add to cart buttons are set to be shown out, then View more buttons will so be shown out, the &quot;show out when mouse hover&quot; would not take effect.">
+        <source>The sencond options may be affected by the setting of how to displaying Add to cart buttons. If Add to cart buttons are set to be shown out, then View more buttons will so be shown out, the "show out when mouse hover" would not take effect.</source>
+        <target>The sencond options may be affected by the setting of how to displaying Add to cart buttons. If Add to cart buttons are set to be shown out, then View more buttons will so be shown out, the "show out when mouse hover" would not take effect.</target>
+      </trans-unit>
+      <trans-unit id="Rb0hiE6" resname="Display social share links in the fly-out button:">
+        <source>Display social share links in the fly-out button:</source>
+        <target>Display social share links in the fly-out button:</target>
+      </trans-unit>
+      <trans-unit id="diQYCIJ" resname="Display the &quot;Add to compare&quot; button in the fly-out button:">
+        <source>Display the "Add to compare" button in the fly-out button:</source>
+        <target>Display the "Add to compare" button in the fly-out button:</target>
+      </trans-unit>
+      <trans-unit id="5DAAhtf" resname="Display product short descriptions:">
+        <source>Display product short descriptions:</source>
+        <target>Display product short descriptions:</target>
+      </trans-unit>
+      <trans-unit id="eNEgcyl" resname="Yes, 200 characters">
+        <source>Yes, 200 characters</source>
+        <target>Yes, 200 characters</target>
+      </trans-unit>
+      <trans-unit id="rtiEbbP" resname="Yes, full short description">
+        <source>Yes, full short description</source>
+        <target>Yes, full short description</target>
+      </trans-unit>
+      <trans-unit id="SgB3qA4" resname="Show product attributes:">
+        <source>Show product attributes:</source>
+        <target>Show product attributes:</target>
+      </trans-unit>
+      <trans-unit id="BJvL_H1" resname="In stock only">
+        <source>In stock only</source>
+        <target>In stock only</target>
+      </trans-unit>
+      <trans-unit id="nqZO9iq" resname="Hide discount info(Like -5%, -8$):">
+        <source>Hide discount info(Like -5%, -8$):</source>
+        <target>Hide discount info(Like -5%, -8$):</target>
+      </trans-unit>
+      <trans-unit id="AtuRFB1" resname="Show product colors out:">
+        <source>Show product colors out:</source>
+        <target>Show product colors out:</target>
+      </trans-unit>
+      <trans-unit id="2JF1N0R" resname="Show manufacturer/brand name:">
+        <source>Show manufacturer/brand name:</source>
+        <target>Show manufacturer/brand name:</target>
+      </trans-unit>
+      <trans-unit id="YQeK6wb" resname="Show default category name:">
+        <source>Show default category name:</source>
+        <target>Show default category name:</target>
+      </trans-unit>
+      <trans-unit id="ku03rtd" resname="Zoom product images on hover:">
+        <source>Zoom product images on hover:</source>
+        <target>Zoom product images on hover:</target>
+      </trans-unit>
+      <trans-unit id="Ph2oehb" resname="Shadows around product images:">
+        <source>Shadows around product images:</source>
+        <target>Shadows around product images:</target>
+      </trans-unit>
+      <trans-unit id="dE2dU1X" resname="Show shadows when mouseover">
+        <source>Show shadows when mouseover</source>
+        <target>Show shadows when mouseover</target>
+      </trans-unit>
+      <trans-unit id="t4G6NAv" resname="The blur distance of shadow:">
+        <source>The blur distance of shadow:</source>
+        <target>The blur distance of shadow:</target>
+      </trans-unit>
+      <trans-unit id="C2rx7WX" resname="Shadow color:">
+        <source>Shadow color:</source>
+        <target>Shadow color:</target>
+      </trans-unit>
+      <trans-unit id="nPUQwDs" resname="Default product listing:">
+        <source>Default product listing:</source>
+        <target>Default product listing:</target>
+      </trans-unit>
+      <trans-unit id="3v_Hax9" resname="Default product view for mobile devices:">
+        <source>Default product view for mobile devices:</source>
+        <target>Default product view for mobile devices:</target>
+      </trans-unit>
+      <trans-unit id="O8RvJse" resname="Display a swither so customers can decide using grid or list:">
+        <source>Display a swither so customers can decide using grid or list:</source>
+        <target>Display a swither so customers can decide using grid or list:</target>
+      </trans-unit>
+      <trans-unit id="I3lNkcU" resname="NO">
+        <source>NO</source>
+        <target>NO</target>
+      </trans-unit>
+      <trans-unit id="IzlUWBJ" resname="Pagination:">
+        <source>Pagination:</source>
+        <target>Pagination:</target>
+      </trans-unit>
+      <trans-unit id="ez9nS2J" resname="Pagination">
+        <source>Pagination</source>
+        <target>Pagination</target>
+      </trans-unit>
+      <trans-unit id="huXpeuw" resname="Infinite scroll">
+        <source>Infinite scroll</source>
+        <target>Infinite scroll</target>
+      </trans-unit>
+      <trans-unit id="t.s1twU" resname="Load more button">
+        <source>Load more button</source>
+        <target>Load more button</target>
+      </trans-unit>
+      <trans-unit id="ioZ1dNr" resname="Products per page:">
+        <source>Products per page:</source>
+        <target>Products per page:</target>
+      </trans-unit>
+      <trans-unit id="UqnARPE" resname="Number of products displayed per page.">
+        <source>Number of products displayed per page.</source>
+        <target>Number of products displayed per page.</target>
+      </trans-unit>
+      <trans-unit id="oCBzKZG" resname="This is the same setting as the &quot;Products per page&quot; on the &quot;Product settings&quot; page.">
+        <source>This is the same setting as the "Products per page" on the "Product settings" page.</source>
+        <target>This is the same setting as the "Products per page" on the "Product settings" page.</target>
+      </trans-unit>
+      <trans-unit id="IzxWBP4" resname="Lazy load images:">
+        <source>Lazy load images:</source>
+        <target>Lazy load images:</target>
+      </trans-unit>
+      <trans-unit id="ukjC9ax" resname="Dose not work for displaying images in sliders">
+        <source>Dose not work for displaying images in sliders</source>
+        <target>Dose not work for displaying images in sliders</target>
+      </trans-unit>
+      <trans-unit id="oTSipK6" resname="Sticky left or right column:">
+        <source>Sticky left or right column:</source>
+        <target>Sticky left or right column:</target>
+      </trans-unit>
+      <trans-unit id="yA8tzbn" resname="Sticky left column">
+        <source>Sticky left column</source>
+        <target>Sticky left column</target>
+      </trans-unit>
+      <trans-unit id="2xrOxDf" resname="Sticky right column">
+        <source>Sticky right column</source>
+        <target>Sticky right column</target>
+      </trans-unit>
+      <trans-unit id="3GlRKU." resname="How to display filters(Faceted search module):">
+        <source>How to display filters(Faceted search module):</source>
+        <target>How to display filters(Faceted search module):</target>
+      </trans-unit>
+      <trans-unit id="vcS8Xxj" resname="Left/right column">
+        <source>Left/right column</source>
+        <target>Left/right column</target>
+      </trans-unit>
+      <trans-unit id="Wpp5q0K" resname="List all filter out on main column.">
+        <source>List all filter out on main column.</source>
+        <target>List all filter out on main column.</target>
+      </trans-unit>
+      <trans-unit id="j9mKOEp" resname="Display filters as drop down lists on main column.">
+        <source>Display filters as drop down lists on main column.</source>
+        <target>Display filters as drop down lists on main column.</target>
+      </trans-unit>
+      <trans-unit id="N4d69C3" resname="Display filters as drop down lists on main column, sticky when page scrolls down.">
+        <source>Display filters as drop down lists on main column, sticky when page scrolls down.</source>
+        <target>Display filters as drop down lists on main column, sticky when page scrolls down.</target>
+      </trans-unit>
+      <trans-unit id="_dBUbdJ" resname="If you choose the first option, then the filters display on the left or right column depending on the Faceted search module is transplanted to the displayLeftColumn or displayRightColumn hook.">
+        <source>If you choose the first option, then the filters display on the left or right column depending on the Faceted search module is transplanted to the displayLeftColumn or displayRightColumn hook.</source>
+        <target>If you choose the first option, then the filters display on the left or right column depending on the Faceted search module is transplanted to the displayLeftColumn or displayRightColumn hook.</target>
+      </trans-unit>
+      <trans-unit id="UYSn8tP" resname="Make sure the Faceted search module is enabled.">
+        <source>Make sure the Faceted search module is enabled.</source>
+        <target>Make sure the Faceted search module is enabled.</target>
+      </trans-unit>
+      <trans-unit id="ugN8Ayv" resname="Sticky filters background:">
+        <source>Sticky filters background:</source>
+        <target>Sticky filters background:</target>
+      </trans-unit>
+      <trans-unit id="Ua9koJ3" resname="Sticky filters background opacity:">
+        <source>Sticky filters background opacity:</source>
+        <target>Sticky filters background opacity:</target>
+      </trans-unit>
+      <trans-unit id="YOQF5n9" resname="From 0.0 (fully transparent) to 1.0 (fully opaque).">
+        <source>From 0.0 (fully transparent) to 1.0 (fully opaque).</source>
+        <target>From 0.0 (fully transparent) to 1.0 (fully opaque).</target>
+      </trans-unit>
+      <trans-unit id="ouZsADd" resname="Show category title on the category page:">
+        <source>Show category title on the category page:</source>
+        <target>Show category title on the category page:</target>
+      </trans-unit>
+      <trans-unit id="WOuQMuO" resname="Left">
+        <source>Left</source>
+        <target>Left</target>
+      </trans-unit>
+      <trans-unit id="2UYGdCf" resname="Center">
+        <source>Center</source>
+        <target>Center</target>
+      </trans-unit>
+      <trans-unit id="iDNh1da" resname="Right">
+        <source>Right</source>
+        <target>Right</target>
+      </trans-unit>
+      <trans-unit id="CGSKa9L" resname="Show category description on the category page:">
+        <source>Show category description on the category page:</source>
+        <target>Show category description on the category page:</target>
+      </trans-unit>
+      <trans-unit id="gxLTy_O" resname="Show full category description on the category page:">
+        <source>Show full category description on the category page:</source>
+        <target>Show full category description on the category page:</target>
+      </trans-unit>
+      <trans-unit id="WICY6el" resname="Yes, at the bottom of product listing">
+        <source>Yes, at the bottom of product listing</source>
+        <target>Yes, at the bottom of product listing</target>
+      </trans-unit>
+      <trans-unit id="OivkKX2" resname="Show category image on the category page:">
+        <source>Show category image on the category page:</source>
+        <target>Show category image on the category page:</target>
+      </trans-unit>
+      <trans-unit id="k5pDF_P" resname="Show subcategories:">
+        <source>Show subcategories:</source>
+        <target>Show subcategories:</target>
+      </trans-unit>
+      <trans-unit id="5RlQHdf" resname="Grid view(Display full category name)">
+        <source>Grid view(Display full category name)</source>
+        <target>Grid view(Display full category name)</target>
+      </trans-unit>
+      <trans-unit id="pjLffVF" resname="Subcategories per row in grid view:">
+        <source>Subcategories per row in grid view:</source>
+        <target>Subcategories per row in grid view:</target>
+      </trans-unit>
+      <trans-unit id="6OvjK32" resname="Display &quot;Show all&quot; button:">
+        <source>Display "Show all" button:</source>
+        <target>Display "Show all" button:</target>
+      </trans-unit>
+      <trans-unit id="id7CCO9" resname="Show sort by:">
+        <source>Show sort by:</source>
+        <target>Show sort by:</target>
+      </trans-unit>
+      <trans-unit id="SkaeTw9" resname="Please select">
+        <source>Please select</source>
+        <target>Please select</target>
+      </trans-unit>
+      <trans-unit id="rJE_.sA" resname="The number of products per row on listing page">
+        <source>The number of products per row on listing page</source>
+        <target>The number of products per row on listing page</target>
+      </trans-unit>
+      <trans-unit id="ZJVWq6x" resname="Set a different image type for the categor page:">
+        <source>Set a different image type for the categor page:</source>
+        <target>Set a different image type for the categor page:</target>
+      </trans-unit>
+      <trans-unit id="UJG8Uw." resname="This option would be useful, if you want to show products on homepage and category pages in defferent sizes.">
+        <source>This option would be useful, if you want to show products on homepage and category pages in defferent sizes.</source>
+        <target>This option would be useful, if you want to show products on homepage and category pages in defferent sizes.</target>
+      </trans-unit>
+      <trans-unit id="ZdKBZ2v" resname="The number of columns for two columns products listing page">
+        <source>The number of columns for two columns products listing page</source>
+        <target>The number of columns for two columns products listing page</target>
+      </trans-unit>
+      <trans-unit id="DMiFpOH" resname="The number of columns for three columns products listing page">
+        <source>The number of columns for three columns products listing page</source>
+        <target>The number of columns for three columns products listing page</target>
+      </trans-unit>
+      <trans-unit id="UncHHe5" resname="Enable big next button:">
+        <source>Enable big next button:</source>
+        <target>Enable big next button:</target>
+      </trans-unit>
+      <trans-unit id="vlGMdPJ" resname="Big next button color:">
+        <source>Big next button color:</source>
+        <target>Big next button color:</target>
+      </trans-unit>
+      <trans-unit id="eqCwJIh" resname="Big next button hover color:">
+        <source>Big next button hover color:</source>
+        <target>Big next button hover color:</target>
+      </trans-unit>
+      <trans-unit id="FOk6_Db" resname="Big next button background:">
+        <source>Big next button background:</source>
+        <target>Big next button background:</target>
+      </trans-unit>
+      <trans-unit id="2pdPQEb" resname="Big next button background hover color:">
+        <source>Big next button background hover color:</source>
+        <target>Big next button background hover color:</target>
+      </trans-unit>
+      <trans-unit id="mPOdDrq" resname="Color general">
+        <source>Color general</source>
+        <target>Color general</target>
+      </trans-unit>
+      <trans-unit id="vOLEx7H" resname="Body font color:">
+        <source>Body font color:</source>
+        <target>Body font color:</target>
+      </trans-unit>
+      <trans-unit id="g0Y0YGX" resname="General links color:">
+        <source>General links color:</source>
+        <target>General links color:</target>
+      </trans-unit>
+      <trans-unit id="W41bA8g" resname="General link hover color:">
+        <source>General link hover color:</source>
+        <target>General link hover color:</target>
+      </trans-unit>
+      <trans-unit id="Sw5zgnP" resname="Price color:">
+        <source>Price color:</source>
+        <target>Price color:</target>
+      </trans-unit>
+      <trans-unit id="s64ulMY" resname="Old price color:">
+        <source>Old price color:</source>
+        <target>Old price color:</target>
+      </trans-unit>
+      <trans-unit id="cgZcqb8" resname="Discount color:">
+        <source>Discount color:</source>
+        <target>Discount color:</target>
+      </trans-unit>
+      <trans-unit id="s2Mc62o" resname="For discounts on compact view and product page. Use the Stickers module to manage the layout of discounts on products grid view and list view.">
+        <source>For discounts on compact view and product page. Use the Stickers module to manage the layout of discounts on products grid view and list view.</source>
+        <target>For discounts on compact view and product page. Use the Stickers module to manage the layout of discounts on products grid view and list view.</target>
+      </trans-unit>
+      <trans-unit id="N8Fwcm9" resname="Discount background:">
+        <source>Discount background:</source>
+        <target>Discount background:</target>
+      </trans-unit>
+      <trans-unit id="e7jAdTK" resname="Primary buttons text color:">
+        <source>Primary buttons text color:</source>
+        <target>Primary buttons text color:</target>
+      </trans-unit>
+      <trans-unit id="Ffi45ie" resname="Primary buttons text hover color:">
+        <source>Primary buttons text hover color:</source>
+        <target>Primary buttons text hover color:</target>
+      </trans-unit>
+      <trans-unit id="U_CdNI0" resname="Primary buttons background:">
+        <source>Primary buttons background:</source>
+        <target>Primary buttons background:</target>
+      </trans-unit>
+      <trans-unit id="8oOdOPy" resname="Primary buttons background hover:">
+        <source>Primary buttons background hover:</source>
+        <target>Primary buttons background hover:</target>
+      </trans-unit>
+      <trans-unit id="YMlzXpD" resname="General border color:">
+        <source>General border color:</source>
+        <target>General border color:</target>
+      </trans-unit>
+      <trans-unit id="RYasjoO" resname="General background color:">
+        <source>General background color:</source>
+        <target>General background color:</target>
+      </trans-unit>
+      <trans-unit id="HOmHW1H" resname="Product grid background:">
+        <source>Product grid background:</source>
+        <target>Product grid background:</target>
+      </trans-unit>
+      <trans-unit id="LvBkIUu" resname="Product grid hover background:">
+        <source>Product grid hover background:</source>
+        <target>Product grid hover background:</target>
+      </trans-unit>
+      <trans-unit id="zKy.UxA" resname="Starts color:">
+        <source>Starts color:</source>
+        <target>Starts color:</target>
+      </trans-unit>
+      <trans-unit id="tSrZDHV" resname="Right panel background:">
+        <source>Right panel background:</source>
+        <target>Right panel background:</target>
+      </trans-unit>
+      <trans-unit id="oWGJuA." resname="Right panel heading color:">
+        <source>Right panel heading color:</source>
+        <target>Right panel heading color:</target>
+      </trans-unit>
+      <trans-unit id=".VqKCwZ" resname="Right panel heading background:">
+        <source>Right panel heading background:</source>
+        <target>Right panel heading background:</target>
+      </trans-unit>
+      <trans-unit id="n3XSoAh" resname="Header cart icon">
+        <source>Header cart icon</source>
+        <target>Header cart icon</target>
+      </trans-unit>
+      <trans-unit id="tm.k71I" resname="Bag-like cart icon border color or  Cart icon color:">
+        <source>Bag-like cart icon border color or  Cart icon color:</source>
+        <target>Bag-like cart icon border color or  Cart icon color:</target>
+      </trans-unit>
+      <trans-unit id="qyC5eyb" resname="Cart icon background color:">
+        <source>Cart icon background color:</source>
+        <target>Cart icon background color:</target>
+      </trans-unit>
+      <trans-unit id="nRkSfTE" resname="Cart number text color:">
+        <source>Cart number text color:</source>
+        <target>Cart number text color:</target>
+      </trans-unit>
+      <trans-unit id="3N8yTNi" resname="Cart number background color:">
+        <source>Cart number background color:</source>
+        <target>Cart number background color:</target>
+      </trans-unit>
+      <trans-unit id="FfooYR7" resname="Cart number border color:">
+        <source>Cart number border color:</source>
+        <target>Cart number border color:</target>
+      </trans-unit>
+      <trans-unit id="ZJdiv_r" resname="Moblie header cart icon">
+        <source>Moblie header cart icon</source>
+        <target>Moblie header cart icon</target>
+      </trans-unit>
+      <trans-unit id="TtGsuoG" resname="Icon text color:">
+        <source>Icon text color:</source>
+        <target>Icon text color:</target>
+      </trans-unit>
+      <trans-unit id="RBd64GK" resname="Icon text hover color:">
+        <source>Icon text hover color:</source>
+        <target>Icon text hover color:</target>
+      </trans-unit>
+      <trans-unit id="AmklZ.Y" resname="Icon background:">
+        <source>Icon background:</source>
+        <target>Icon background:</target>
+      </trans-unit>
+      <trans-unit id="dn9kgmb" resname="Icon hover background:">
+        <source>Icon hover background:</source>
+        <target>Icon hover background:</target>
+      </trans-unit>
+      <trans-unit id="0d5EzEP" resname="Icon disabled text color:">
+        <source>Icon disabled text color:</source>
+        <target>Icon disabled text color:</target>
+      </trans-unit>
+      <trans-unit id="InKv4B0" resname="Circle number color:">
+        <source>Circle number color:</source>
+        <target>Circle number color:</target>
+      </trans-unit>
+      <trans-unit id="f0Y6Unm" resname="Circle number background:">
+        <source>Circle number background:</source>
+        <target>Circle number background:</target>
+      </trans-unit>
+      <trans-unit id="cKt8URf" resname="Right vertical panel border color:">
+        <source>Right vertical panel border color:</source>
+        <target>Right vertical panel border color:</target>
+      </trans-unit>
+      <trans-unit id="Z5TEo5E" resname="Button fill animation would not take effect if this option is filled.">
+        <source>Button fill animation would not take effect if this option is filled.</source>
+        <target>Button fill animation would not take effect if this option is filled.</target>
+      </trans-unit>
+      <trans-unit id="iDegrGv" resname="Button background &amp; border color when mouse hover:">
+        <source>Button background &amp; border color when mouse hover:</source>
+        <target><![CDATA[Button background & border color when mouse hover:]]></target>
+      </trans-unit>
+      <trans-unit id="vh__2w0" resname="Button font size:">
+        <source>Button font size:</source>
+        <target>Button font size:</target>
+      </trans-unit>
+      <trans-unit id="SOOUcos" resname="The &quot;Add to cart&quot; button text color:">
+        <source>The "Add to cart" button text color:</source>
+        <target>The "Add to cart" button text color:</target>
+      </trans-unit>
+      <trans-unit id="_xiMQQT" resname="The &quot;Add to cart&quot; button text hover color:">
+        <source>The "Add to cart" button text hover color:</source>
+        <target>The "Add to cart" button text hover color:</target>
+      </trans-unit>
+      <trans-unit id="EbnYqum" resname="The &quot;Add to cart&quot; button background:">
+        <source>The "Add to cart" button background:</source>
+        <target>The "Add to cart" button background:</target>
+      </trans-unit>
+      <trans-unit id="U6btyC3" resname="The &quot;Add to cart&quot; button border color:">
+        <source>The "Add to cart" button border color:</source>
+        <target>The "Add to cart" button border color:</target>
+      </trans-unit>
+      <trans-unit id="c5ZsB.9" resname="The &quot;Add to cart&quot; button background &amp; border color when mouse hover:">
+        <source>The "Add to cart" button background &amp; border color when mouse hover:</source>
+        <target><![CDATA[The "Add to cart" button background & border color when mouse hover:]]></target>
+      </trans-unit>
+      <trans-unit id="d8NPdfJ" resname="Button fill animation:">
+        <source>Button fill animation:</source>
+        <target>Button fill animation:</target>
+      </trans-unit>
+      <trans-unit id="nvtZfJF" resname="Fade">
+        <source>Fade</source>
+        <target>Fade</target>
+      </trans-unit>
+      <trans-unit id="50u2hiX" resname="Top to bottom">
+        <source>Top to bottom</source>
+        <target>Top to bottom</target>
+      </trans-unit>
+      <trans-unit id="vXBO2oK" resname="Bottom to top">
+        <source>Bottom to top</source>
+        <target>Bottom to top</target>
+      </trans-unit>
+      <trans-unit id="1sMyYw8" resname="Left to right">
+        <source>Left to right</source>
+        <target>Left to right</target>
+      </trans-unit>
+      <trans-unit id="kJ_4NmM" resname="Right to left">
+        <source>Right to left</source>
+        <target>Right to left</target>
+      </trans-unit>
+      <trans-unit id="iHFxEtA" resname="This option would not take effect if the above &quot;Button background&quot; field is filled.">
+        <source>This option would not take effect if the above "Button background" field is filled.</source>
+        <target>This option would not take effect if the above "Button background" field is filled.</target>
+      </trans-unit>
+      <trans-unit id="chbpYzm" resname="Button transform:">
+        <source>Button transform:</source>
+        <target>Button transform:</target>
+      </trans-unit>
+      <trans-unit id="ibfp7dV" resname="Flyout buttons color:">
+        <source>Flyout buttons color:</source>
+        <target>Flyout buttons color:</target>
+      </trans-unit>
+      <trans-unit id="fEppqIG" resname="Flyout buttons hover color:">
+        <source>Flyout buttons hover color:</source>
+        <target>Flyout buttons hover color:</target>
+      </trans-unit>
+      <trans-unit id="m.7CwBn" resname="Flyout buttons background:">
+        <source>Flyout buttons background:</source>
+        <target>Flyout buttons background:</target>
+      </trans-unit>
+      <trans-unit id="_VP8XyT" resname="Flyout buttons hover background:">
+        <source>Flyout buttons hover background:</source>
+        <target>Flyout buttons hover background:</target>
+      </trans-unit>
+      <trans-unit id="KCk9.3s" resname="Flyout separators color:">
+        <source>Flyout separators color:</source>
+        <target>Flyout separators color:</target>
+      </trans-unit>
+      <trans-unit id="CNQch0P" resname="Flyout font size:">
+        <source>Flyout font size:</source>
+        <target>Flyout font size:</target>
+      </trans-unit>
+      <trans-unit id="K9hz1sc" resname="Breadcrumb">
+        <source>Breadcrumb</source>
+        <target>Breadcrumb</target>
+      </trans-unit>
+      <trans-unit id="ubkdjyf" resname="Breadcrumb font color:">
+        <source>Breadcrumb font color:</source>
+        <target>Breadcrumb font color:</target>
+      </trans-unit>
+      <trans-unit id="yeuBZRj" resname="Breadcrumb link hover color:">
+        <source>Breadcrumb link hover color:</source>
+        <target>Breadcrumb link hover color:</target>
+      </trans-unit>
+      <trans-unit id="4qElNxg" resname="Breadcrumb width:">
+        <source>Breadcrumb width:</source>
+        <target>Breadcrumb width:</target>
+      </trans-unit>
+      <trans-unit id="RefiOR0" resname="Breadcrumb background:">
+        <source>Breadcrumb background:</source>
+        <target>Breadcrumb background:</target>
+      </trans-unit>
+      <trans-unit id="GT1wrIe" resname="Breadcrumb border color:">
+        <source>Breadcrumb border color:</source>
+        <target>Breadcrumb border color:</target>
+      </trans-unit>
+      <trans-unit id="Sqim1Nb" resname="Breadcrumb border height:">
+        <source>Breadcrumb border height:</source>
+        <target>Breadcrumb border height:</target>
+      </trans-unit>
+      <trans-unit id="jt2yYIB" resname="Leave it empty to use the default value.">
+        <source>Leave it empty to use the default value.</source>
+        <target>Leave it empty to use the default value.</target>
+      </trans-unit>
+      <trans-unit id="8CCMzkv" resname="Top right side prev/next buttons color:">
+        <source>Top right side prev/next buttons color:</source>
+        <target>Top right side prev/next buttons color:</target>
+      </trans-unit>
+      <trans-unit id="Nc1BXeU" resname="Top right side prev/next buttons hover color:">
+        <source>Top right side prev/next buttons hover color:</source>
+        <target>Top right side prev/next buttons hover color:</target>
+      </trans-unit>
+      <trans-unit id="_er3DL3" resname="Top right side prev/next buttons disabled color:">
+        <source>Top right side prev/next buttons disabled color:</source>
+        <target>Top right side prev/next buttons disabled color:</target>
+      </trans-unit>
+      <trans-unit id="wPNmPM3" resname="Top right side prev/next buttons background:">
+        <source>Top right side prev/next buttons background:</source>
+        <target>Top right side prev/next buttons background:</target>
+      </trans-unit>
+      <trans-unit id="VabfU.0" resname="Top right side prev/next buttons hover background:">
+        <source>Top right side prev/next buttons hover background:</source>
+        <target>Top right side prev/next buttons hover background:</target>
+      </trans-unit>
+      <trans-unit id="M_i6EAN" resname="Top right side prev/next buttons disabled background:">
+        <source>Top right side prev/next buttons disabled background:</source>
+        <target>Top right side prev/next buttons disabled background:</target>
+      </trans-unit>
+      <trans-unit id="unMFHaD" resname="Left right side prev/next buttons color:">
+        <source>Left right side prev/next buttons color:</source>
+        <target>Left right side prev/next buttons color:</target>
+      </trans-unit>
+      <trans-unit id="iRnpFHm" resname="Left right side prev/next buttons hover color:">
+        <source>Left right side prev/next buttons hover color:</source>
+        <target>Left right side prev/next buttons hover color:</target>
+      </trans-unit>
+      <trans-unit id="FPqH4ys" resname="Left right side prev/next buttons disabled color:">
+        <source>Left right side prev/next buttons disabled color:</source>
+        <target>Left right side prev/next buttons disabled color:</target>
+      </trans-unit>
+      <trans-unit id="god_rYi" resname="Left right side prev/next buttons background:">
+        <source>Left right side prev/next buttons background:</source>
+        <target>Left right side prev/next buttons background:</target>
+      </trans-unit>
+      <trans-unit id="lblzKvD" resname="Left right side prev/next buttons hover background:">
+        <source>Left right side prev/next buttons hover background:</source>
+        <target>Left right side prev/next buttons hover background:</target>
+      </trans-unit>
+      <trans-unit id="xRqfI.O" resname="Left right side prev/next buttons disabled background:">
+        <source>Left right side prev/next buttons disabled background:</source>
+        <target>Left right side prev/next buttons disabled background:</target>
+      </trans-unit>
+      <trans-unit id="ofgWwc_" resname="Pagination color:">
+        <source>Pagination color:</source>
+        <target>Pagination color:</target>
+      </trans-unit>
+      <trans-unit id="pSrQcMy" resname="Pagination hover color:">
+        <source>Pagination hover color:</source>
+        <target>Pagination hover color:</target>
+      </trans-unit>
+      <trans-unit id="rKOypQP" resname="Pagination disabled color:">
+        <source>Pagination disabled color:</source>
+        <target>Pagination disabled color:</target>
+      </trans-unit>
+      <trans-unit id="kFN_80S" resname="Pagination background:">
+        <source>Pagination background:</source>
+        <target>Pagination background:</target>
+      </trans-unit>
+      <trans-unit id="6BXuSZ9" resname="Pagination hover background:">
+        <source>Pagination hover background:</source>
+        <target>Pagination hover background:</target>
+      </trans-unit>
+      <trans-unit id="RwgHyUJ" resname="Pagination disabled background:">
+        <source>Pagination disabled background:</source>
+        <target>Pagination disabled background:</target>
+      </trans-unit>
+      <trans-unit id="p83Mc.K" resname="Boxed style">
+        <source>Boxed style</source>
+        <target>Boxed style</target>
+      </trans-unit>
+      <trans-unit id="vFsvLZG" resname="Show a shadow effect:">
+        <source>Show a shadow effect:</source>
+        <target>Show a shadow effect:</target>
+      </trans-unit>
+      <trans-unit id="IRAN9Wp" resname="Shadow blur distance:">
+        <source>Shadow blur distance:</source>
+        <target>Shadow blur distance:</target>
+      </trans-unit>
+      <trans-unit id="Fclj0F." resname="Latin extended support:">
+        <source>Latin extended support:</source>
+        <target>Latin extended support:</target>
+      </trans-unit>
+      <trans-unit id="BA9FTYs" resname="You have to check whether your selected fonts support Latin extended here">
+        <source>You have to check whether your selected fonts support Latin extended here</source>
+        <target>You have to check whether your selected fonts support Latin extended here</target>
+      </trans-unit>
+      <trans-unit id="qrNmXZl" resname="Cyrylic support:">
+        <source>Cyrylic support:</source>
+        <target>Cyrylic support:</target>
+      </trans-unit>
+      <trans-unit id="YEBliN1" resname="You have to check whether your selected fonts support Cyrylic here">
+        <source>You have to check whether your selected fonts support Cyrylic here</source>
+        <target>You have to check whether your selected fonts support Cyrylic here</target>
+      </trans-unit>
+      <trans-unit id="mAXjlTb" resname="Vietnamese support:">
+        <source>Vietnamese support:</source>
+        <target>Vietnamese support:</target>
+      </trans-unit>
+      <trans-unit id="0rNn5vW" resname="You have to check whether your selected fonts support Vietnamese here">
+        <source>You have to check whether your selected fonts support Vietnamese here</source>
+        <target>You have to check whether your selected fonts support Vietnamese here</target>
+      </trans-unit>
+      <trans-unit id="EvQYWBu" resname="Greek support:">
+        <source>Greek support:</source>
+        <target>Greek support:</target>
+      </trans-unit>
+      <trans-unit id="v13ytg1" resname="You have to check whether your selected fonts support Greek here">
+        <source>You have to check whether your selected fonts support Greek here</source>
+        <target>You have to check whether your selected fonts support Greek here</target>
+      </trans-unit>
+      <trans-unit id="zpHMlU2" resname="Arabic support:">
+        <source>Arabic support:</source>
+        <target>Arabic support:</target>
+      </trans-unit>
+      <trans-unit id="foc58Lf" resname="You have to check whether your selected fonts support Arabic here">
+        <source>You have to check whether your selected fonts support Arabic here</source>
+        <target>You have to check whether your selected fonts support Arabic here</target>
+      </trans-unit>
+      <trans-unit id="cN37fN0" resname="Body font:">
+        <source>Body font:</source>
+        <target>Body font:</target>
+      </trans-unit>
+      <trans-unit id="aQln4Oo" resname="Body font weight:">
+        <source>Body font weight:</source>
+        <target>Body font weight:</target>
+      </trans-unit>
+      <trans-unit id="81UJVQr" resname="Body font size:">
+        <source>Body font size:</source>
+        <target>Body font size:</target>
+      </trans-unit>
+      <trans-unit id="o_eCHPa" resname="Headings">
+        <source>Headings</source>
+        <target>Headings</target>
+      </trans-unit>
+      <trans-unit id="qnzD9lU" resname="Some settings in this section would be overrided by other modules.">
+        <source>Some settings in this section would be overrided by other modules.</source>
+        <target>Some settings in this section would be overrided by other modules.</target>
+      </trans-unit>
+      <trans-unit id="EBe7YNN" resname="Heading font weight:">
+        <source>Heading font weight:</source>
+        <target>Heading font weight:</target>
+      </trans-unit>
+      <trans-unit id="g99qNUn" resname="Heading font size:">
+        <source>Heading font size:</source>
+        <target>Heading font size:</target>
+      </trans-unit>
+      <trans-unit id="pgGZMET" resname="Footer heading font size:">
+        <source>Footer heading font size:</source>
+        <target>Footer heading font size:</target>
+      </trans-unit>
+      <trans-unit id="013m_18" resname="Heading transform:">
+        <source>Heading transform:</source>
+        <target>Heading transform:</target>
+      </trans-unit>
+      <trans-unit id="2oBOyC8" resname="Heading border height:">
+        <source>Heading border height:</source>
+        <target>Heading border height:</target>
+      </trans-unit>
+      <trans-unit id="aLo4C6J" resname="Heading border color:">
+        <source>Heading border color:</source>
+        <target>Heading border color:</target>
+      </trans-unit>
+      <trans-unit id="3TkCk1k" resname="Heading border highlight color:">
+        <source>Heading border highlight color:</source>
+        <target>Heading border highlight color:</target>
+      </trans-unit>
+      <trans-unit id="atmbER1" resname="Heading style:">
+        <source>Heading style:</source>
+        <target>Heading style:</target>
+      </trans-unit>
+      <trans-unit id="LXzYVKK" resname="Under line">
+        <source>Under line</source>
+        <target>Under line</target>
+      </trans-unit>
+      <trans-unit id="qMYUEzY" resname="One line. Can not have background image">
+        <source>One line. Can not have background image</source>
+        <target>One line. Can not have background image</target>
+      </trans-unit>
+      <trans-unit id="brsTMcl" resname="One dashed line. Can not have background image">
+        <source>One dashed line. Can not have background image</source>
+        <target>One dashed line. Can not have background image</target>
+      </trans-unit>
+      <trans-unit id="788_ryf" resname="Two lines">
+        <source>Two lines</source>
+        <target>Two lines</target>
+      </trans-unit>
+      <trans-unit id="oyXc1ju" resname="One short line. Can not have background image">
+        <source>One short line. Can not have background image</source>
+        <target>One short line. Can not have background image</target>
+      </trans-unit>
+      <trans-unit id="QWe7WdP" resname="Pay attention to the &quot;Heading border height&quot; setting above.">
+        <source>Pay attention to the "Heading border height" setting above.</source>
+        <target>Pay attention to the "Heading border height" setting above.</target>
+      </trans-unit>
+      <trans-unit id="9pc.2xG" resname="Heading background pattern:">
+        <source>Heading background pattern:</source>
+        <target>Heading background pattern:</target>
+      </trans-unit>
+      <trans-unit id="3JN7WYk" resname="None">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="NGtn3l3" resname="Heading background image:">
+        <source>Heading background image:</source>
+        <target>Heading background image:</target>
+      </trans-unit>
+      <trans-unit id="PdWFQVG" resname="Headings on the left/right column">
+        <source>Headings on the left/right column</source>
+        <target>Headings on the left/right column</target>
+      </trans-unit>
+      <trans-unit id="R97Ra9Q" resname="Heading bottom border height:">
+        <source>Heading bottom border height:</source>
+        <target>Heading bottom border height:</target>
+      </trans-unit>
+      <trans-unit id="sJhr0Wr" resname="Price font:">
+        <source>Price font:</source>
+        <target>Price font:</target>
+      </trans-unit>
+      <trans-unit id="YwXQOMy" resname="Price font weight:">
+        <source>Price font weight:</source>
+        <target>Price font weight:</target>
+      </trans-unit>
+      <trans-unit id="UUIs0jg" resname="Price font size:">
+        <source>Price font size:</source>
+        <target>Price font size:</target>
+      </trans-unit>
+      <trans-unit id="cID3aKh" resname="Price font size for the main price on the product page:">
+        <source>Price font size for the main price on the product page:</source>
+        <target>Price font size for the main price on the product page:</target>
+      </trans-unit>
+      <trans-unit id="JewNans" resname="Old price font size:">
+        <source>Old price font size:</source>
+        <target>Old price font size:</target>
+      </trans-unit>
+      <trans-unit id="Iqq.mUn" resname="Add to cart button font:">
+        <source>Add to cart button font:</source>
+        <target>Add to cart button font:</target>
+      </trans-unit>
+      <trans-unit id="p43z0gT" resname="Add to cart button font weight:">
+        <source>Add to cart button font weight:</source>
+        <target>Add to cart button font weight:</target>
+      </trans-unit>
+      <trans-unit id="lXR_QIA" resname="H1 size:">
+        <source>H1 size:</source>
+        <target>H1 size:</target>
+      </trans-unit>
+      <trans-unit id="pSMGsjV" resname="Force the size of h1 tags on cms page, blog pages and product descriptions.">
+        <source>Force the size of h1 tags on cms page, blog pages and product descriptions.</source>
+        <target>Force the size of h1 tags on cms page, blog pages and product descriptions.</target>
+      </trans-unit>
+      <trans-unit id="mPPu1i9" resname="H2 size:">
+        <source>H2 size:</source>
+        <target>H2 size:</target>
+      </trans-unit>
+      <trans-unit id="tG0E5Sl" resname="Force the size of h2 tags on cms page, blog pages and product descriptions.">
+        <source>Force the size of h2 tags on cms page, blog pages and product descriptions.</source>
+        <target>Force the size of h2 tags on cms page, blog pages and product descriptions.</target>
+      </trans-unit>
+      <trans-unit id="l6pDEP_" resname="H3 size:">
+        <source>H3 size:</source>
+        <target>H3 size:</target>
+      </trans-unit>
+      <trans-unit id="z2iuoLy" resname="Force the size of h3 tags on cms page, blog pages and product descriptions.">
+        <source>Force the size of h3 tags on cms page, blog pages and product descriptions.</source>
+        <target>Force the size of h3 tags on cms page, blog pages and product descriptions.</target>
+      </trans-unit>
+      <trans-unit id="5nPcO0q" resname="Full width header:">
+        <source>Full width header:</source>
+        <target>Full width header:</target>
+      </trans-unit>
+      <trans-unit id="meKteDZ" resname="Header left alignment:">
+        <source>Header left alignment:</source>
+        <target>Header left alignment:</target>
+      </trans-unit>
+      <trans-unit id="dG0Qsb6" resname="Header center alignment:">
+        <source>Header center alignment:</source>
+        <target>Header center alignment:</target>
+      </trans-unit>
+      <trans-unit id="Om7tQKB" resname="Header right alignment:">
+        <source>Header right alignment:</source>
+        <target>Header right alignment:</target>
+      </trans-unit>
+      <trans-unit id="_XPe2B1" resname="Header right bottom alignment:">
+        <source>Header right bottom alignment:</source>
+        <target>Header right bottom alignment:</target>
+      </trans-unit>
+      <trans-unit id="K4Y1tMk" resname="Mobile logo:">
+        <source>Mobile logo:</source>
+        <target>Mobile logo:</target>
+      </trans-unit>
+      <trans-unit id="gbdp4U8" resname="If you want to have a different logo for mobile, then uplaod a logo here.">
+        <source>If you want to have a different logo for mobile, then uplaod a logo here.</source>
+        <target>If you want to have a different logo for mobile, then uplaod a logo here.</target>
+      </trans-unit>
+      <trans-unit id="MkBiqrn" resname="Retina logo:">
+        <source>Retina logo:</source>
+        <target>Retina logo:</target>
+      </trans-unit>
+      <trans-unit id="AnQReF4" resname="The size of retina logo should be twice of your logo/mobile logo or at least keep the same ratio.">
+        <source>The size of retina logo should be twice of your logo/mobile logo or at least keep the same ratio.</source>
+        <target>The size of retina logo should be twice of your logo/mobile logo or at least keep the same ratio.</target>
+      </trans-unit>
+      <trans-unit id="4zqeI06" resname="Primary header height:">
+        <source>Primary header height:</source>
+        <target>Primary header height:</target>
+      </trans-unit>
+      <trans-unit id="Qcu3yhG" resname="Header includes topbar, primary header and menu. Primary header is the section where the logo is located.">
+        <source>Header includes topbar, primary header and menu. Primary header is the section where the logo is located.</source>
+        <target>Header includes topbar, primary header and menu. Primary header is the section where the logo is located.</target>
+      </trans-unit>
+      <trans-unit id="yrlnTkC" resname="If the value you set is smaller than the height of your logo, your logo would not be resized down automatically, you need to use the &quot;Logo width&quot; under the &quot;logo&quot; tab to reduce the size of your logo to make everything look fine.">
+        <source>If the value you set is smaller than the height of your logo, your logo would not be resized down automatically, you need to use the "Logo width" under the "logo" tab to reduce the size of your logo to make everything look fine.</source>
+        <target>If the value you set is smaller than the height of your logo, your logo would not be resized down automatically, you need to use the "Logo width" under the "logo" tab to reduce the size of your logo to make everything look fine.</target>
+      </trans-unit>
+      <trans-unit id="0Vg_HQP" resname="The height of your logo is">
+        <source>The height of your logo is</source>
+        <target>The height of your logo is</target>
+      </trans-unit>
+      <trans-unit id="AdkQbm6" resname="The default value is.">
+        <source>The default value is.</source>
+        <target>The default value is.</target>
+      </trans-unit>
+      <trans-unit id="NuhpcWk" resname="Header text color:">
+        <source>Header text color:</source>
+        <target>Header text color:</target>
+      </trans-unit>
+      <trans-unit id="r9ondIz" resname="Header text transform:">
+        <source>Header text transform:</source>
+        <target>Header text transform:</target>
+      </trans-unit>
+      <trans-unit id="faahi_u" resname="Dropdown text hover color:">
+        <source>Dropdown text hover color:</source>
+        <target>Dropdown text hover color:</target>
+      </trans-unit>
+      <trans-unit id="7iH5RWr" resname="Dropdown background hover:">
+        <source>Dropdown background hover:</source>
+        <target>Dropdown background hover:</target>
+      </trans-unit>
+      <trans-unit id="CSTeUHv" resname="Container background color:">
+        <source>Container background color:</source>
+        <target>Container background color:</target>
+      </trans-unit>
+      <trans-unit id="dYJC61_" resname="Top-bar">
+        <source>Top-bar</source>
+        <target>Top-bar</target>
+      </trans-unit>
+      <trans-unit id="D734CNl" resname="Full width top-bar:">
+        <source>Full width top-bar:</source>
+        <target>Full width top-bar:</target>
+      </trans-unit>
+      <trans-unit id="8yz_JTv" resname="Topbar text color:">
+        <source>Topbar text color:</source>
+        <target>Topbar text color:</target>
+      </trans-unit>
+      <trans-unit id="J38_k06" resname="Topbar link hover color:">
+        <source>Topbar link hover color:</source>
+        <target>Topbar link hover color:</target>
+      </trans-unit>
+      <trans-unit id="3aKfFv6" resname="Topbar link hover background:">
+        <source>Topbar link hover background:</source>
+        <target>Topbar link hover background:</target>
+      </trans-unit>
+      <trans-unit id="sdfdyG0" resname="Topbar height:">
+        <source>Topbar height:</source>
+        <target>Topbar height:</target>
+      </trans-unit>
+      <trans-unit id="1npAvlH" resname="Top bar background:">
+        <source>Top bar background:</source>
+        <target>Top bar background:</target>
+      </trans-unit>
+      <trans-unit id="WnN.9NB" resname="Bottom border height:">
+        <source>Bottom border height:</source>
+        <target>Bottom border height:</target>
+      </trans-unit>
+      <trans-unit id="vQPS.qe" resname="Bottom border color:">
+        <source>Bottom border color:</source>
+        <target>Bottom border color:</target>
+      </trans-unit>
+      <trans-unit id="BmLx.DY" resname="Top bar separators style:">
+        <source>Top bar separators style:</source>
+        <target>Top bar separators style:</target>
+      </trans-unit>
+      <trans-unit id="SKu4IKL" resname="Vertical full height">
+        <source>Vertical full height</source>
+        <target>Vertical full height</target>
+      </trans-unit>
+      <trans-unit id="rT58Hbr" resname="Top bar separators color:">
+        <source>Top bar separators color:</source>
+        <target>Top bar separators color:</target>
+      </trans-unit>
+      <trans-unit id="RciS3kl" resname="Main menu">
+        <source>Main menu</source>
+        <target>Main menu</target>
+      </trans-unit>
+      <trans-unit id="2DU_3lx" resname="Megamenu position:">
+        <source>Megamenu position:</source>
+        <target>Megamenu position:</target>
+      </trans-unit>
+      <trans-unit id="tSsOC2V" resname="Full width, all main menu items have even width">
+        <source>Full width, all main menu items have even width</source>
+        <target>Full width, all main menu items have even width</target>
+      </trans-unit>
+      <trans-unit id="QJF8WiM" resname="This seting would not take effect if your menu is in header.">
+        <source>This seting would not take effect if your menu is in header.</source>
+        <target>This seting would not take effect if your menu is in header.</target>
+      </trans-unit>
+      <trans-unit id="VGIdOry" resname="This seting also would not take effect if you put Cart block or Search box or any other content along with the menu.">
+        <source>This seting also would not take effect if you put Cart block or Search box or any other content along with the menu.</source>
+        <target>This seting also would not take effect if you put Cart block or Search box or any other content along with the menu.</target>
+      </trans-unit>
+      <trans-unit id="ghuPZix" resname="Automatically highlight current category in menu:">
+        <source>Automatically highlight current category in menu:</source>
+        <target>Automatically highlight current category in menu:</target>
+      </trans-unit>
+      <trans-unit id="fmsVxle" resname="Turning this setting on may slow your page load time.">
+        <source>Turning this setting on may slow your page load time.</source>
+        <target>Turning this setting on may slow your page load time.</target>
+      </trans-unit>
+      <trans-unit id="njwp_rm" resname="Megamenu width:">
+        <source>Megamenu width:</source>
+        <target>Megamenu width:</target>
+      </trans-unit>
+      <trans-unit id="Nq_XVBm" resname="Set this optoin to Full with, when menu is not on displayMainMenu hook.">
+        <source>Set this optoin to Full with, when menu is not on displayMainMenu hook.</source>
+        <target>Set this optoin to Full with, when menu is not on displayMainMenu hook.</target>
+      </trans-unit>
+      <trans-unit id="wB7vqXf" resname="Hide the &quot;title&quot; text of menu items when mouse over:">
+        <source>Hide the "title" text of menu items when mouse over:</source>
+        <target>Hide the "title" text of menu items when mouse over:</target>
+      </trans-unit>
+      <trans-unit id="iO5W7Rc" resname="How do submenus appear:">
+        <source>How do submenus appear:</source>
+        <target>How do submenus appear:</target>
+      </trans-unit>
+      <trans-unit id="BiJdR.A" resname="Slide in">
+        <source>Slide in</source>
+        <target>Slide in</target>
+      </trans-unit>
+      <trans-unit id="mpK.ga0" resname="Slide down">
+        <source>Slide down</source>
+        <target>Slide down</target>
+      </trans-unit>
+      <trans-unit id="kSzErBE" resname="Menu height:">
+        <source>Menu height:</source>
+        <target>Menu height:</target>
+      </trans-unit>
+      <trans-unit id="_CLoQKv" resname="The value of this field should be greater than 22">
+        <source>The value of this field should be greater than 22</source>
+        <target>The value of this field should be greater than 22</target>
+      </trans-unit>
+      <trans-unit id="ZDpSovy" resname="Menu bottom border color:">
+        <source>Menu bottom border color:</source>
+        <target>Menu bottom border color:</target>
+      </trans-unit>
+      <trans-unit id="bSwYtrY" resname="Menu bottom border color when mouse hovers over:">
+        <source>Menu bottom border color when mouse hovers over:</source>
+        <target>Menu bottom border color when mouse hovers over:</target>
+      </trans-unit>
+      <trans-unit id="0sTqYhO" resname="The height of menu bottom border:">
+        <source>The height of menu bottom border:</source>
+        <target>The height of menu bottom border:</target>
+      </trans-unit>
+      <trans-unit id="yM4soDQ" resname="The spacing between main menu items">
+        <source>The spacing between main menu items</source>
+        <target>The spacing between main menu items</target>
+      </trans-unit>
+      <trans-unit id="1TIoMh2" resname="Set it to 0 to use the default value.">
+        <source>Set it to 0 to use the default value.</source>
+        <target>Set it to 0 to use the default value.</target>
+      </trans-unit>
+      <trans-unit id="IgZp26." resname="Main menu item color:">
+        <source>Main menu item color:</source>
+        <target>Main menu item color:</target>
+      </trans-unit>
+      <trans-unit id="g7Pixf6" resname="Main menu item hover color:">
+        <source>Main menu item hover color:</source>
+        <target>Main menu item hover color:</target>
+      </trans-unit>
+      <trans-unit id="EcWsBXp" resname="Main menu container background:">
+        <source>Main menu container background:</source>
+        <target>Main menu container background:</target>
+      </trans-unit>
+      <trans-unit id="tTyqO.y" resname="Main menu item hover background:">
+        <source>Main menu item hover background:</source>
+        <target>Main menu item hover background:</target>
+      </trans-unit>
+      <trans-unit id="mRbXHQ0" resname="Main menu block background:">
+        <source>Main menu block background:</source>
+        <target>Main menu block background:</target>
+      </trans-unit>
+      <trans-unit id="M2FaD1." resname="Main menu font:">
+        <source>Main menu font:</source>
+        <target>Main menu font:</target>
+      </trans-unit>
+      <trans-unit id="MnBOm6m" resname="Main menu font weight:">
+        <source>Main menu font weight:</source>
+        <target>Main menu font weight:</target>
+      </trans-unit>
+      <trans-unit id="LHVpd2a" resname="Main menu font size:">
+        <source>Main menu font size:</source>
+        <target>Main menu font size:</target>
+      </trans-unit>
+      <trans-unit id="99sF3D7" resname="Main menu text transform:">
+        <source>Main menu text transform:</source>
+        <target>Main menu text transform:</target>
+      </trans-unit>
+      <trans-unit id="bwdEZtz" resname="2nd level color:">
+        <source>2nd level color:</source>
+        <target>2nd level color:</target>
+      </trans-unit>
+      <trans-unit id="sxcDEFK" resname="2nd level hover color:">
+        <source>2nd level hover color:</source>
+        <target>2nd level hover color:</target>
+      </trans-unit>
+      <trans-unit id="UlgY6L6" resname="2nd level font:">
+        <source>2nd level font:</source>
+        <target>2nd level font:</target>
+      </trans-unit>
+      <trans-unit id="kH2._vk" resname="2nd level font weight:">
+        <source>2nd level font weight:</source>
+        <target>2nd level font weight:</target>
+      </trans-unit>
+      <trans-unit id="4o4AQBh" resname="2nd level font size:">
+        <source>2nd level font size:</source>
+        <target>2nd level font size:</target>
+      </trans-unit>
+      <trans-unit id="JGWFSjN" resname="3rd level color:">
+        <source>3rd level color:</source>
+        <target>3rd level color:</target>
+      </trans-unit>
+      <trans-unit id="xE9lpQX" resname="3rd level hover color:">
+        <source>3rd level hover color:</source>
+        <target>3rd level hover color:</target>
+      </trans-unit>
+      <trans-unit id="z4.QYjk" resname="3rd level font:">
+        <source>3rd level font:</source>
+        <target>3rd level font:</target>
+      </trans-unit>
+      <trans-unit id="Ca5w4e5" resname="3rd level font weight:">
+        <source>3rd level font weight:</source>
+        <target>3rd level font weight:</target>
+      </trans-unit>
+      <trans-unit id="jz2_ztm" resname="3rd level font size:">
+        <source>3rd level font size:</source>
+        <target>3rd level font size:</target>
+      </trans-unit>
+      <trans-unit id="t65fWEe" resname="Mobile menu">
+        <source>Mobile menu</source>
+        <target>Mobile menu</target>
+      </trans-unit>
+      <trans-unit id="oThrYZR" resname="Links color on mobile version:">
+        <source>Links color on mobile version:</source>
+        <target>Links color on mobile version:</target>
+      </trans-unit>
+      <trans-unit id="u1G9QnA" resname="Background color on mobile version:">
+        <source>Background color on mobile version:</source>
+        <target>Background color on mobile version:</target>
+      </trans-unit>
+      <trans-unit id="woTYnLK" resname="2nd level color on mobile version:">
+        <source>2nd level color on mobile version:</source>
+        <target>2nd level color on mobile version:</target>
+      </trans-unit>
+      <trans-unit id="5.SduWg" resname="2nd level background color on mobile version:">
+        <source>2nd level background color on mobile version:</source>
+        <target>2nd level background color on mobile version:</target>
+      </trans-unit>
+      <trans-unit id="WUrq68a" resname="3rd level color on mobile version:">
+        <source>3rd level color on mobile version:</source>
+        <target>3rd level color on mobile version:</target>
+      </trans-unit>
+      <trans-unit id="VkJw_fp" resname="3rd level background color on mobile version:">
+        <source>3rd level background color on mobile version:</source>
+        <target>3rd level background color on mobile version:</target>
+      </trans-unit>
+      <trans-unit id="xmITCFn" resname="Multi level menu">
+        <source>Multi level menu</source>
+        <target>Multi level menu</target>
+      </trans-unit>
+      <trans-unit id="mfMJRld" resname="Sub menus background:">
+        <source>Sub menus background:</source>
+        <target>Sub menus background:</target>
+      </trans-unit>
+      <trans-unit id="WD2JjG8" resname="Sub menus hover background:">
+        <source>Sub menus hover background:</source>
+        <target>Sub menus hover background:</target>
+      </trans-unit>
+      <trans-unit id="Q_B3jPZ" resname="Dropdown vertical menu">
+        <source>Dropdown vertical menu</source>
+        <target>Dropdown vertical menu</target>
+      </trans-unit>
+      <trans-unit id="LQM_xGP" resname="Automatically open the menu on homepage:">
+        <source>Automatically open the menu on homepage:</source>
+        <target>Automatically open the menu on homepage:</target>
+      </trans-unit>
+      <trans-unit id="uP797Br" resname="How to show sub menus:">
+        <source>How to show sub menus:</source>
+        <target>How to show sub menus:</target>
+      </trans-unit>
+      <trans-unit id="hkBIXot" resname="Sub menus align to the top and have the same height as the vertical menu.">
+        <source>Sub menus align to the top and have the same height as the vertical menu.</source>
+        <target>Sub menus align to the top and have the same height as the vertical menu.</target>
+      </trans-unit>
+      <trans-unit id="EGzA1wf" resname="Width of the vertical menu title:">
+        <source>Width of the vertical menu title:</source>
+        <target>Width of the vertical menu title:</target>
+      </trans-unit>
+      <trans-unit id="Ss3PT1_" resname="Vertical menu title alignment:">
+        <source>Vertical menu title alignment:</source>
+        <target>Vertical menu title alignment:</target>
+      </trans-unit>
+      <trans-unit id="B0IwF09" resname="Vertical menu title color:">
+        <source>Vertical menu title color:</source>
+        <target>Vertical menu title color:</target>
+      </trans-unit>
+      <trans-unit id="9vlA4fe" resname="Vertical menu title hover color:">
+        <source>Vertical menu title hover color:</source>
+        <target>Vertical menu title hover color:</target>
+      </trans-unit>
+      <trans-unit id="vEMYued" resname="Vertical menu title background:">
+        <source>Vertical menu title background:</source>
+        <target>Vertical menu title background:</target>
+      </trans-unit>
+      <trans-unit id="CDBiTA1" resname="Vertical menu title hover background:">
+        <source>Vertical menu title hover background:</source>
+        <target>Vertical menu title hover background:</target>
+      </trans-unit>
+      <trans-unit id="cvvgQOk" resname="Vertical menu items font:">
+        <source>Vertical menu items font:</source>
+        <target>Vertical menu items font:</target>
+      </trans-unit>
+      <trans-unit id="PI7D1qV" resname="Vertical menu items font weight:">
+        <source>Vertical menu items font weight:</source>
+        <target>Vertical menu items font weight:</target>
+      </trans-unit>
+      <trans-unit id="7C_SvMX" resname="Vertical menu items font size:">
+        <source>Vertical menu items font size:</source>
+        <target>Vertical menu items font size:</target>
+      </trans-unit>
+      <trans-unit id="X9o6BP0" resname="Vertical menu items color:">
+        <source>Vertical menu items color:</source>
+        <target>Vertical menu items color:</target>
+      </trans-unit>
+      <trans-unit id="AwjXY8q" resname="Vertical menu items background:">
+        <source>Vertical menu items background:</source>
+        <target>Vertical menu items background:</target>
+      </trans-unit>
+      <trans-unit id="eMS3Lo7" resname="Vertical menu items hover color:">
+        <source>Vertical menu items hover color:</source>
+        <target>Vertical menu items hover color:</target>
+      </trans-unit>
+      <trans-unit id="SM7dCfd" resname="Vertical menu items hover background:">
+        <source>Vertical menu items hover background:</source>
+        <target>Vertical menu items hover background:</target>
+      </trans-unit>
+      <trans-unit id="31L.Hq4" resname="Left/right column menu">
+        <source>Left/right column menu</source>
+        <target>Left/right column menu</target>
+      </trans-unit>
+      <trans-unit id="bEdTqjU" resname="Menu color:">
+        <source>Menu color:</source>
+        <target>Menu color:</target>
+      </trans-unit>
+      <trans-unit id="V3tYeMG" resname="Menu hover color:">
+        <source>Menu hover color:</source>
+        <target>Menu hover color:</target>
+      </trans-unit>
+      <trans-unit id="vZGmSBl" resname="Menu hover background:">
+        <source>Menu hover background:</source>
+        <target>Menu hover background:</target>
+      </trans-unit>
+      <trans-unit id="4RPhBPL" resname="Menu background:">
+        <source>Menu background:</source>
+        <target>Menu background:</target>
+      </trans-unit>
+      <trans-unit id="tNNQ7Ba" resname="Menu border color:">
+        <source>Menu border color:</source>
+        <target>Menu border color:</target>
+      </trans-unit>
+      <trans-unit id="9XRgaIf" resname="Menu items font:">
+        <source>Menu items font:</source>
+        <target>Menu items font:</target>
+      </trans-unit>
+      <trans-unit id="Tpidtph" resname="Menu items font weight:">
+        <source>Menu items font weight:</source>
+        <target>Menu items font weight:</target>
+      </trans-unit>
+      <trans-unit id="RHe45uc" resname="Menu items font size:">
+        <source>Menu items font size:</source>
+        <target>Menu items font size:</target>
+      </trans-unit>
+      <trans-unit id="q6u51ju" resname="Menu left border color when mouse hovers over:">
+        <source>Menu left border color when mouse hovers over:</source>
+        <target>Menu left border color when mouse hovers over:</target>
+      </trans-unit>
+      <trans-unit id="VX5r1s7" resname="Fixed background:">
+        <source>Fixed background:</source>
+        <target>Fixed background:</target>
+      </trans-unit>
+      <trans-unit id="dV2WIif" resname="Scale the background image:">
+        <source>Scale the background image:</source>
+        <target>Scale the background image:</target>
+      </trans-unit>
+      <trans-unit id="EdNdr_r" resname="Scale the background image to be as large as possible so that the window is completely covered by the background image. Some parts of the background image may not be in view within the window.">
+        <source>Scale the background image to be as large as possible so that the window is completely covered by the background image. Some parts of the background image may not be in view within the window.</source>
+        <target>Scale the background image to be as large as possible so that the window is completely covered by the background image. Some parts of the background image may not be in view within the window.</target>
+      </trans-unit>
+      <trans-unit id="HNXmlJW" resname="Body background color:">
+        <source>Body background color:</source>
+        <target>Body background color:</target>
+      </trans-unit>
+      <trans-unit id="ZYbIgbM" resname="Content background color:">
+        <source>Content background color:</source>
+        <target>Content background color:</target>
+      </trans-unit>
+      <trans-unit id="JDFOJEG" resname="Actually only for boxed layout.">
+        <source>Actually only for boxed layout.</source>
+        <target>Actually only for boxed layout.</target>
+      </trans-unit>
+      <trans-unit id="Wl9T8yT" resname="Column container background color:">
+        <source>Column container background color:</source>
+        <target>Column container background color:</target>
+      </trans-unit>
+      <trans-unit id="DAHfqu8" resname="Stacked footer">
+        <source>Stacked footer</source>
+        <target>Stacked footer</target>
+      </trans-unit>
+      <trans-unit id="0IbDF86" resname="Set the width of stacked footers:">
+        <source>Set the width of stacked footers:</source>
+        <target>Set the width of stacked footers:</target>
+      </trans-unit>
+      <trans-unit id="Jsh7tR5" resname="Footer">
+        <source>Footer</source>
+        <target>Footer</target>
+      </trans-unit>
+      <trans-unit id="vD8L6gK" resname="Background Position:">
+        <source>Background Position:</source>
+        <target>Background Position:</target>
+      </trans-unit>
+      <trans-unit id="LA9O9p0" resname="Footer after">
+        <source>Footer after</source>
+        <target>Footer after</target>
+      </trans-unit>
+      <trans-unit id="jfx3q0C" resname="Copyright">
+        <source>Copyright</source>
+        <target>Copyright</target>
+      </trans-unit>
+      <trans-unit id="yvOjqtA" resname="Center layout:">
+        <source>Center layout:</source>
+        <target>Center layout:</target>
+      </trans-unit>
+      <trans-unit id="mqRyILp" resname="Cross selling">
+        <source>Cross selling</source>
+        <target>Cross selling</target>
+      </trans-unit>
+      <trans-unit id="BmYd9Rf" resname="Image type:">
+        <source>Image type:</source>
+        <target>Image type:</target>
+      </trans-unit>
+      <trans-unit id="YoXCKiV" resname="Custom CSS Code:">
+        <source>Custom CSS Code:</source>
+        <target>Custom CSS Code:</target>
+      </trans-unit>
+      <trans-unit id="b1Mc45u" resname="Override css with your custom code">
+        <source>Override css with your custom code</source>
+        <target>Override css with your custom code</target>
+      </trans-unit>
+      <trans-unit id="ONjDr86" resname="Custom JAVASCRIPT Code:">
+        <source>Custom JAVASCRIPT Code:</source>
+        <target>Custom JAVASCRIPT Code:</target>
+      </trans-unit>
+      <trans-unit id="V.vbmx5" resname="Remove all script tags">
+        <source>Remove all script tags</source>
+        <target>Remove all script tags</target>
+      </trans-unit>
+      <trans-unit id="txdhPl5" resname="Tracking code:">
+        <source>Tracking code:</source>
+        <target>Tracking code:</target>
+      </trans-unit>
+      <trans-unit id="f3uWSx3" resname="Code added here is injected before the closing body tag on every page in your site. Turn off the &quot;Use HTMLPurifier Library&quot; setting on the Preferences &gt; General page if you want to put html codes into this field.">
+        <source>Code added here is injected before the closing body tag on every page in your site. Turn off the "Use HTMLPurifier Library" setting on the Preferences &gt; General page if you want to put html codes into this field.</source>
+        <target><![CDATA[Code added here is injected before the closing body tag on every page in your site. Turn off the "Use HTMLPurifier Library" setting on the Preferences > General page if you want to put html codes into this field.]]></target>
+      </trans-unit>
+      <trans-unit id="TTCzzYi" resname="Head code:">
+        <source>Head code:</source>
+        <target>Head code:</target>
+      </trans-unit>
+      <trans-unit id="p07h8fm" resname="Code added here is injected into the head tag on every page in your site. Turn off the &quot;Use HTMLPurifier Library&quot; setting on the Preferences &gt; General page if you want to put html tags into this field.">
+        <source>Code added here is injected into the head tag on every page in your site. Turn off the "Use HTMLPurifier Library" setting on the Preferences &gt; General page if you want to put html tags into this field.</source>
+        <target><![CDATA[Code added here is injected into the head tag on every page in your site. Turn off the "Use HTMLPurifier Library" setting on the Preferences > General page if you want to put html tags into this field.]]></target>
+      </trans-unit>
+      <trans-unit id="dA1EwWZ" resname="Image column width">
+        <source>Image column width</source>
+        <target>Image column width</target>
+      </trans-unit>
+      <trans-unit id="wS9yC4_" resname="The default image type of the main product image is &quot;medium_default&quot; 420px in wide. When the image column width is larger that 4, &quot;large_default&quot; image type will be applied, it is 700px in wide. You may need to change the size of those image types to make images look sharpe.">
+        <source>The default image type of the main product image is "medium_default" 420px in wide. When the image column width is larger that 4, "large_default" image type will be applied, it is 700px in wide. You may need to change the size of those image types to make images look sharpe.</source>
+        <target>The default image type of the main product image is "medium_default" 420px in wide. When the image column width is larger that 4, "large_default" image type will be applied, it is 700px in wide. You may need to change the size of those image types to make images look sharpe.</target>
+      </trans-unit>
+      <trans-unit id="n4H9TZq" resname="Primary column width">
+        <source>Primary column width</source>
+        <target>Primary column width</target>
+      </trans-unit>
+      <trans-unit id="QVMvg2S" resname="Sum of the three columns has to be equal 12, for example: 4 + 5 + 3, or 6 + 6 + 0.">
+        <source>Sum of the three columns has to be equal 12, for example: 4 + 5 + 3, or 6 + 6 + 0.</source>
+        <target>Sum of the three columns has to be equal 12, for example: 4 + 5 + 3, or 6 + 6 + 0.</target>
+      </trans-unit>
+      <trans-unit id="fFve_tT" resname="Secondary column width">
+        <source>Secondary column width</source>
+        <target>Secondary column width</target>
+      </trans-unit>
+      <trans-unit id="bEnWPan" resname="You can set them to 0 to hide the secondary column.">
+        <source>You can set them to 0 to hide the secondary column.</source>
+        <target>You can set them to 0 to hide the secondary column.</target>
+      </trans-unit>
+      <trans-unit id="9Cp2m34" resname="Page layout on mobile version:">
+        <source>Page layout on mobile version:</source>
+        <target>Page layout on mobile version:</target>
+      </trans-unit>
+      <trans-unit id="ZNO7fc1" resname="Left layout, default">
+        <source>Left layout, default</source>
+        <target>Left layout, default</target>
+      </trans-unit>
+      <trans-unit id="OP6qYpI" resname="Center layout">
+        <source>Center layout</source>
+        <target>Center layout</target>
+      </trans-unit>
+      <trans-unit id="8YiXZ84" resname="Buy box:">
+        <source>Buy box:</source>
+        <target>Buy box:</target>
+      </trans-unit>
+      <trans-unit id="LQgTii2" resname="On product center column">
+        <source>On product center column</source>
+        <target>On product center column</target>
+      </trans-unit>
+      <trans-unit id="AymjWqU" resname="On product right column">
+        <source>On product right column</source>
+        <target>On product right column</target>
+      </trans-unit>
+      <trans-unit id="wHWCV6d" resname="Buy button and Buy Now button:">
+        <source>Buy button and Buy Now button:</source>
+        <target>Buy button and Buy Now button:</target>
+      </trans-unit>
+      <trans-unit id="me1ArL2" resname="Inline">
+        <source>Inline</source>
+        <target>Inline</target>
+      </trans-unit>
+      <trans-unit id="E_6bD5y" resname="Buy Now button:">
+        <source>Buy Now button:</source>
+        <target>Buy Now button:</target>
+      </trans-unit>
+      <trans-unit id="KywJoMK" resname="Main product name:">
+        <source>Main product name:</source>
+        <target>Main product name:</target>
+      </trans-unit>
+      <trans-unit id="bIaoUVv" resname="Main product name font weight:">
+        <source>Main product name font weight:</source>
+        <target>Main product name font weight:</target>
+      </trans-unit>
+      <trans-unit id="vVbc8H." resname="Main product name font size:">
+        <source>Main product name font size:</source>
+        <target>Main product name font size:</target>
+      </trans-unit>
+      <trans-unit id="xua8ILk" resname="Main product name transform:">
+        <source>Main product name transform:</source>
+        <target>Main product name transform:</target>
+      </trans-unit>
+      <trans-unit id="8rVpm_z" resname="Main product name color:">
+        <source>Main product name color:</source>
+        <target>Main product name color:</target>
+      </trans-unit>
+      <trans-unit id="TXodLqW" resname="How many images per row in the main product image gallery:">
+        <source>How many images per row in the main product image gallery:</source>
+        <target>How many images per row in the main product image gallery:</target>
+      </trans-unit>
+      <trans-unit id="cCd7.EC" resname="One.">
+        <source>One.</source>
+        <target>One.</target>
+      </trans-unit>
+      <trans-unit id="lKcsB0z" resname="Two">
+        <source>Two</source>
+        <target>Two</target>
+      </trans-unit>
+      <trans-unit id="2CAGX_W" resname="Product gallerys:">
+        <source>Product gallerys:</source>
+        <target>Product gallerys:</target>
+      </trans-unit>
+      <trans-unit id="kg4rhy0" resname="Display images of the current combination only.">
+        <source>Display images of the current combination only.</source>
+        <target>Display images of the current combination only.</target>
+      </trans-unit>
+      <trans-unit id="IllDFuL" resname="Display images of the current combination with a show all images button">
+        <source>Display images of the current combination with a show all images button</source>
+        <target>Display images of the current combination with a show all images button</target>
+      </trans-unit>
+      <trans-unit id="6r7psfz" resname="Show all images, highlight images of the current combination.">
+        <source>Show all images, highlight images of the current combination.</source>
+        <target>Show all images, highlight images of the current combination.</target>
+      </trans-unit>
+      <trans-unit id="iHnaKuq" resname="Product thumbnails on desktop devices:">
+        <source>Product thumbnails on desktop devices:</source>
+        <target>Product thumbnails on desktop devices:</target>
+      </trans-unit>
+      <trans-unit id="mBUaOVd" resname="Horizontal slider">
+        <source>Horizontal slider</source>
+        <target>Horizontal slider</target>
+      </trans-unit>
+      <trans-unit id="j7syVZA" resname="Horizontal slider, do not show out if a product only has one image">
+        <source>Horizontal slider, do not show out if a product only has one image</source>
+        <target>Horizontal slider, do not show out if a product only has one image</target>
+      </trans-unit>
+      <trans-unit id="37YZ5hO" resname="Left side vertical slider">
+        <source>Left side vertical slider</source>
+        <target>Left side vertical slider</target>
+      </trans-unit>
+      <trans-unit id="WDqHaNG" resname="Right side vertical slider">
+        <source>Right side vertical slider</source>
+        <target>Right side vertical slider</target>
+      </trans-unit>
+      <trans-unit id="IMV5w9q" resname="Bullets">
+        <source>Bullets</source>
+        <target>Bullets</target>
+      </trans-unit>
+      <trans-unit id="nO3QNH_" resname="Product thumbnails on mobile devices:">
+        <source>Product thumbnails on mobile devices:</source>
+        <target>Product thumbnails on mobile devices:</target>
+      </trans-unit>
+      <trans-unit id="AK.Amp3" resname="The same as they are on desktop devices.">
+        <source>The same as they are on desktop devices.</source>
+        <target>The same as they are on desktop devices.</target>
+      </trans-unit>
+      <trans-unit id="CeP0eNz" resname="The width of thumbnail images for grid view and horizontal thumbnails slider:">
+        <source>The width of thumbnail images for grid view and horizontal thumbnails slider:</source>
+        <target>The width of thumbnail images for grid view and horizontal thumbnails slider:</target>
+      </trans-unit>
+      <trans-unit id="xl2b7A3" resname="Set it to 0 to use the default 70px width.">
+        <source>Set it to 0 to use the default 70px width.</source>
+        <target>Set it to 0 to use the default 70px width.</target>
+      </trans-unit>
+      <trans-unit id="aXGO6hi" resname="Vertical thumbnails slider width:">
+        <source>Vertical thumbnails slider width:</source>
+        <target>Vertical thumbnails slider width:</target>
+      </trans-unit>
+      <trans-unit id="Pfc_bG3" resname="Vertical thumbnails slider height:">
+        <source>Vertical thumbnails slider height:</source>
+        <target>Vertical thumbnails slider height:</target>
+      </trans-unit>
+      <trans-unit id="U6QkvAf" resname="Set it to 0 to use the default 360px width.">
+        <source>Set it to 0 to use the default 360px width.</source>
+        <target>Set it to 0 to use the default 360px width.</target>
+      </trans-unit>
+      <trans-unit id="GXTi4xG" resname="Thumbnail image type:">
+        <source>Thumbnail image type:</source>
+        <target>Thumbnail image type:</target>
+      </trans-unit>
+      <trans-unit id="JOaSScY" resname="How many images per view on the product main gallery">
+        <source>How many images per view on the product main gallery</source>
+        <target>How many images per view on the product main gallery</target>
+      </trans-unit>
+      <trans-unit id="KqgP50k" resname="Gallery image type:">
+        <source>Gallery image type:</source>
+        <target>Gallery image type:</target>
+      </trans-unit>
+      <trans-unit id="AEAvok." resname="Do not lazy load gallery images:">
+        <source>Do not lazy load gallery images:</source>
+        <target>Do not lazy load gallery images:</target>
+      </trans-unit>
+      <trans-unit id="mI06q99" resname="For seo purposes, you can stop using lazy loading for gallery images">
+        <source>For seo purposes, you can stop using lazy loading for gallery images</source>
+        <target>For seo purposes, you can stop using lazy loading for gallery images</target>
+      </trans-unit>
+      <trans-unit id="oKBFwv8" resname="Show brand logo on product page:">
+        <source>Show brand logo on product page:</source>
+        <target>Show brand logo on product page:</target>
+      </trans-unit>
+      <trans-unit id="Lh1YNGs" resname="Display brand name.">
+        <source>Display brand name.</source>
+        <target>Display brand name.</target>
+      </trans-unit>
+      <trans-unit id="JBzIf.P" resname="Display brand logo.">
+        <source>Display brand logo.</source>
+        <target>Display brand logo.</target>
+      </trans-unit>
+      <trans-unit id="kyPMmHT" resname="Display brand name under the product name.">
+        <source>Display brand name under the product name.</source>
+        <target>Display brand name under the product name.</target>
+      </trans-unit>
+      <trans-unit id="B0JwaK0" resname="Display brand logo under the product name.">
+        <source>Display brand logo under the product name.</source>
+        <target>Display brand logo under the product name.</target>
+      </trans-unit>
+      <trans-unit id="hHmryio" resname="Display brand logo on the product secondary column.">
+        <source>Display brand logo on the product secondary column.</source>
+        <target>Display brand logo on the product secondary column.</target>
+      </trans-unit>
+      <trans-unit id="DKj_D_t" resname="Brand logo on product secondary column">
+        <source>Brand logo on product secondary column</source>
+        <target>Brand logo on product secondary column</target>
+      </trans-unit>
+      <trans-unit id="qNh8vPn" resname="Product tabs position:">
+        <source>Product tabs position:</source>
+        <target>Product tabs position:</target>
+      </trans-unit>
+      <trans-unit id="34S_BDk" resname="At the bottom of product information.">
+        <source>At the bottom of product information.</source>
+        <target>At the bottom of product information.</target>
+      </trans-unit>
+      <trans-unit id="aKmXt5l" resname="On the product center column.">
+        <source>On the product center column.</source>
+        <target>On the product center column.</target>
+      </trans-unit>
+      <trans-unit id="kJHKPGP" resname="Product tabs style:">
+        <source>Product tabs style:</source>
+        <target>Product tabs style:</target>
+      </trans-unit>
+      <trans-unit id=".aafPef" resname="Tab title left aligned.">
+        <source>Tab title left aligned.</source>
+        <target>Tab title left aligned.</target>
+      </trans-unit>
+      <trans-unit id="C0ya5sc" resname="Accordions with the first item open.">
+        <source>Accordions with the first item open.</source>
+        <target>Accordions with the first item open.</target>
+      </trans-unit>
+      <trans-unit id="Hxg18oV" resname="Accordions, all closed.">
+        <source>Accordions, all closed.</source>
+        <target>Accordions, all closed.</target>
+      </trans-unit>
+      <trans-unit id="xjHoVrj" resname="Tab title center aligned.">
+        <source>Tab title center aligned.</source>
+        <target>Tab title center aligned.</target>
+      </trans-unit>
+      <trans-unit id="Vdlkegk" resname="Vertical tab.">
+        <source>Vertical tab.</source>
+        <target>Vertical tab.</target>
+      </trans-unit>
+      <trans-unit id="k6uu2qQ" resname="Remove product detials tab:">
+        <source>Remove product detials tab:</source>
+        <target>Remove product detials tab:</target>
+      </trans-unit>
+      <trans-unit id="d25n2h8" resname="Display product condition:">
+        <source>Display product condition:</source>
+        <target>Display product condition:</target>
+      </trans-unit>
+      <trans-unit id="t5VpJqC" resname="New, used, refurbished">
+        <source>New, used, refurbished</source>
+        <target>New, used, refurbished</target>
+      </trans-unit>
+      <trans-unit id="ieOyP0O" resname="Display product reference code:">
+        <source>Display product reference code:</source>
+        <target>Display product reference code:</target>
+      </trans-unit>
+      <trans-unit id="RCflwfz" resname="Display product tags:">
+        <source>Display product tags:</source>
+        <target>Display product tags:</target>
+      </trans-unit>
+      <trans-unit id="iwn2nTt" resname="Tags tab">
+        <source>Tags tab</source>
+        <target>Tags tab</target>
+      </trans-unit>
+      <trans-unit id="pPVV3PU" resname="Display tags with product information.">
+        <source>Display tags with product information.</source>
+        <target>Display tags with product information.</target>
+      </trans-unit>
+      <trans-unit id="4tDFXvJ" resname="Zoom:">
+        <source>Zoom:</source>
+        <target>Zoom:</target>
+      </trans-unit>
+      <trans-unit id="eCHjqI4" resname="Disable zoom for touch devices.">
+        <source>Disable zoom for touch devices.</source>
+        <target>Disable zoom for touch devices.</target>
+      </trans-unit>
+      <trans-unit id="hYUmBmE" resname="Enable Thickbox:">
+        <source>Enable Thickbox:</source>
+        <target>Enable Thickbox:</target>
+      </trans-unit>
+      <trans-unit id="PIkhO8w" resname="Display tax label:">
+        <source>Display tax label:</source>
+        <target>Display tax label:</target>
+      </trans-unit>
+      <trans-unit id="ppPWzMe" resname="In order to display the tax incl label, you need to activate taxes (Localization -&gt; taxes -&gt; Enable tax), make sure your country displays the label (Localization -&gt; countries -&gt; select your country -&gt; display tax label) and to make sure the group of the customer is set to display price with taxes (BackOffice -&gt; customers -&gt; groups).">
+        <source>In order to display the tax incl label, you need to activate taxes (Localization -&gt; taxes -&gt; Enable tax), make sure your country displays the label (Localization -&gt; countries -&gt; select your country -&gt; display tax label) and to make sure the group of the customer is set to display price with taxes (BackOffice -&gt; customers -&gt; groups).</source>
+        <target><![CDATA[In order to display the tax incl label, you need to activate taxes (Localization -> taxes -> Enable tax), make sure your country displays the label (Localization -> countries -> select your country -> display tax label) and to make sure the group of the customer is set to display price with taxes (BackOffice -> customers -> groups).]]></target>
+      </trans-unit>
+      <trans-unit id="x9fJ0ig" resname="Google rich snippets for product:">
+        <source>Google rich snippets for product:</source>
+        <target>Google rich snippets for product:</target>
+      </trans-unit>
+      <trans-unit id=".zLV.m3" resname="Enable except for Review-aggregate">
+        <source>Enable except for Review-aggregate</source>
+        <target>Enable except for Review-aggregate</target>
+      </trans-unit>
+      <trans-unit id="rqP4Ps1" resname="Show a print button:">
+        <source>Show a print button:</source>
+        <target>Show a print button:</target>
+      </trans-unit>
+      <trans-unit id="2nI5Tor" resname="The number of columns for Pack items">
+        <source>The number of columns for Pack items</source>
+        <target>The number of columns for Pack items</target>
+      </trans-unit>
+      <trans-unit id="SD9Rf5u" resname="Product availability info color for available:">
+        <source>Product availability info color for available:</source>
+        <target>Product availability info color for available:</target>
+      </trans-unit>
+      <trans-unit id="ojw_Lsf" resname="Product availability info color for unavailable:">
+        <source>Product availability info color for unavailable:</source>
+        <target>Product availability info color for unavailable:</target>
+      </trans-unit>
+      <trans-unit id="KLuQ3Fw" resname="Product availability info color for last items:">
+        <source>Product availability info color for last items:</source>
+        <target>Product availability info color for last items:</target>
+      </trans-unit>
+      <trans-unit id="NWOL8t2" resname="Settings for one column product page">
+        <source>Settings for one column product page</source>
+        <target>Settings for one column product page</target>
+      </trans-unit>
+      <trans-unit id="czDGT_i" resname="Make the first section to be full screen:">
+        <source>Make the first section to be full screen:</source>
+        <target>Make the first section to be full screen:</target>
+      </trans-unit>
+      <trans-unit id="2ut5O1q" resname="Frist section is where the buy button, product thumbnails and product name located.">
+        <source>Frist section is where the buy button, product thumbnails and product name located.</source>
+        <target>Frist section is where the buy button, product thumbnails and product name located.</target>
+      </trans-unit>
+      <trans-unit id="Z1w2yQt" resname="First section background:">
+        <source>First section background:</source>
+        <target>First section background:</target>
+      </trans-unit>
+      <trans-unit id="aR8ST2V" resname="Second section background:">
+        <source>Second section background:</source>
+        <target>Second section background:</target>
+      </trans-unit>
+      <trans-unit id="abRLUu." resname="Second section is generally where the product tabs located.">
+        <source>Second section is generally where the product tabs located.</source>
+        <target>Second section is generally where the product tabs located.</target>
+      </trans-unit>
+      <trans-unit id="mrDt7DL" resname="Product info tabs or accordions">
+        <source>Product info tabs or accordions</source>
+        <target>Product info tabs or accordions</target>
+      </trans-unit>
+      <trans-unit id="7hkhaS." resname="Tab color:">
+        <source>Tab color:</source>
+        <target>Tab color:</target>
+      </trans-unit>
+      <trans-unit id="prykHHO" resname="Active tab text color:">
+        <source>Active tab text color:</source>
+        <target>Active tab text color:</target>
+      </trans-unit>
+      <trans-unit id="ywJwH3n" resname="Tab background:">
+        <source>Tab background:</source>
+        <target>Tab background:</target>
+      </trans-unit>
+      <trans-unit id="jbCLijD" resname="Tab border color:">
+        <source>Tab border color:</source>
+        <target>Tab border color:</target>
+      </trans-unit>
+      <trans-unit id="hOh9XfR" resname="Tab highlight border color:">
+        <source>Tab highlight border color:</source>
+        <target>Tab highlight border color:</target>
+      </trans-unit>
+      <trans-unit id="HdzV.yg" resname="Tab active background:">
+        <source>Tab active background:</source>
+        <target>Tab active background:</target>
+      </trans-unit>
+      <trans-unit id="5nPLroY" resname="Tab content background:">
+        <source>Tab content background:</source>
+        <target>Tab content background:</target>
+      </trans-unit>
+      <trans-unit id="bJq0c4M" resname="Product images slider">
+        <source>Product images slider</source>
+        <target>Product images slider</target>
+      </trans-unit>
+      <trans-unit id="rmPISfV" resname="&quot;Next&quot; and &quot;prev&quot; buttons for product thumbs:">
+        <source>"Next" and "prev" buttons for product thumbs:</source>
+        <target>"Next" and "prev" buttons for product thumbs:</target>
+      </trans-unit>
+      <trans-unit id="MEkQCHO" resname="The main image slider\'s transition style:">
+        <source>The main image slider\'s transition style:</source>
+        <target>The main image slider\'s transition style:</target>
+      </trans-unit>
+      <trans-unit id="a7TBF3a" resname="Slide">
+        <source>Slide</source>
+        <target>Slide</target>
+      </trans-unit>
+      <trans-unit id="GbI.l1u" resname="Sticky header/menu">
+        <source>Sticky header/menu</source>
+        <target>Sticky header/menu</target>
+      </trans-unit>
+      <trans-unit id="8wjCXvA" resname="Sticky:">
+        <source>Sticky:</source>
+        <target>Sticky:</target>
+      </trans-unit>
+      <trans-unit id="Or523Gs" resname="Sticky menu">
+        <source>Sticky menu</source>
+        <target>Sticky menu</target>
+      </trans-unit>
+      <trans-unit id="4L.8Cdn" resname="Sticky menu(with animation)">
+        <source>Sticky menu(with animation)</source>
+        <target>Sticky menu(with animation)</target>
+      </trans-unit>
+      <trans-unit id="kaX6_48" resname="Sticky header block">
+        <source>Sticky header block</source>
+        <target>Sticky header block</target>
+      </trans-unit>
+      <trans-unit id="hjuj6DC" resname="Sticky header block(with animation)">
+        <source>Sticky header block(with animation)</source>
+        <target>Sticky header block(with animation)</target>
+      </trans-unit>
+      <trans-unit id="rDCOSyG" resname="Header block include &quot;Topbar&quot;, &quot;Header&quot; and &quot;Menu&quot;.">
+        <source>Header block include "Topbar", "Header" and "Menu".</source>
+        <target>Header block include "Topbar", "Header" and "Menu".</target>
+      </trans-unit>
+      <trans-unit id="jSh.kHd" resname="Sticky menu option does not work for menu in header.">
+        <source>Sticky menu option does not work for menu in header.</source>
+        <target>Sticky menu option does not work for menu in header.</target>
+      </trans-unit>
+      <trans-unit id="lg9MCXB" resname="Display topbar on sticky header block:">
+        <source>Display topbar on sticky header block:</source>
+        <target>Display topbar on sticky header block:</target>
+      </trans-unit>
+      <trans-unit id="PVStqWd" resname="Display header on sticky header block:">
+        <source>Display header on sticky header block:</source>
+        <target>Display header on sticky header block:</target>
+      </trans-unit>
+      <trans-unit id="pjr1meM" resname="Primary header height in sticky header:">
+        <source>Primary header height in sticky header:</source>
+        <target>Primary header height in sticky header:</target>
+      </trans-unit>
+      <trans-unit id="AJyqcTb" resname="Sticky header/menu background:">
+        <source>Sticky header/menu background:</source>
+        <target>Sticky header/menu background:</target>
+      </trans-unit>
+      <trans-unit id="Li2Rysd" resname="Sticky header/menu background opacity:">
+        <source>Sticky header/menu background opacity:</source>
+        <target>Sticky header/menu background opacity:</target>
+      </trans-unit>
+      <trans-unit id="PosgLik" resname="Transparent header:">
+        <source>Transparent header:</source>
+        <target>Transparent header:</target>
+      </trans-unit>
+      <trans-unit id="PEw5ylc" resname="Transparent header background:">
+        <source>Transparent header background:</source>
+        <target>Transparent header background:</target>
+      </trans-unit>
+      <trans-unit id="gfAJEpa" resname="Transparent header background opacity:">
+        <source>Transparent header background opacity:</source>
+        <target>Transparent header background opacity:</target>
+      </trans-unit>
+      <trans-unit id="mG4nooA" resname="Mobile header">
+        <source>Mobile header</source>
+        <target>Mobile header</target>
+      </trans-unit>
+      <trans-unit id="wP2sEWU" resname="Mobile header:">
+        <source>Mobile header:</source>
+        <target>Mobile header:</target>
+      </trans-unit>
+      <trans-unit id="WaL8KSU" resname="Logo center">
+        <source>Logo center</source>
+        <target>Logo center</target>
+      </trans-unit>
+      <trans-unit id="hjnl8UT" resname="Logo left">
+        <source>Logo left</source>
+        <target>Logo left</target>
+      </trans-unit>
+      <trans-unit id="PoPzffw" resname="Sticky, logo center">
+        <source>Sticky, logo center</source>
+        <target>Sticky, logo center</target>
+      </trans-unit>
+      <trans-unit id="C9XPHcR" resname="Sticky, logo left">
+        <source>Sticky, logo left</source>
+        <target>Sticky, logo left</target>
+      </trans-unit>
+      <trans-unit id="cg13qWq" resname="If you choose the &quot;Logo left&quot; or &quot;Sticky, logo left">
+        <source>If you choose the "Logo left" or "Sticky, logo left</source>
+        <target>If you choose the "Logo left" or "Sticky, logo left</target>
+      </trans-unit>
+      <trans-unit id="U_v.S2n" resname="Use mobile header:">
+        <source>Use mobile header:</source>
+        <target>Use mobile header:</target>
+      </trans-unit>
+      <trans-unit id="rillC9E" resname="Small devices(Screen width &lt; 992px)">
+        <source>Small devices(Screen width &lt; 992px)</source>
+        <target><![CDATA[Small devices(Screen width < 992px)]]></target>
+      </trans-unit>
+      <trans-unit id="L.jZ.Sg" resname="All mobile devices(Android phone and tablet, iPhone, iPad)">
+        <source>All mobile devices(Android phone and tablet, iPhone, iPad)</source>
+        <target>All mobile devices(Android phone and tablet, iPhone, iPad)</target>
+      </trans-unit>
+      <trans-unit id="ZZfTs1n" resname="All devices, mobile and desktop devices">
+        <source>All devices, mobile and desktop devices</source>
+        <target>All devices, mobile and desktop devices</target>
+      </trans-unit>
+      <trans-unit id="3nxRRkZ" resname="Display a text &quot;menu&quot; along with the menu icon on mobile version:">
+        <source>Display a text "menu" along with the menu icon on mobile version:</source>
+        <target>Display a text "menu" along with the menu icon on mobile version:</target>
+      </trans-unit>
+      <trans-unit id="FeG5MU1" resname="Mobile header height:">
+        <source>Mobile header height:</source>
+        <target>Mobile header height:</target>
+      </trans-unit>
+      <trans-unit id="6KATqZG" resname="Text and icons color:">
+        <source>Text and icons color:</source>
+        <target>Text and icons color:</target>
+      </trans-unit>
+      <trans-unit id="J2PpZu0" resname="Text and icons background color:">
+        <source>Text and icons background color:</source>
+        <target>Text and icons background color:</target>
+      </trans-unit>
+      <trans-unit id="vtQWGqf" resname="Transparent mobile header:">
+        <source>Transparent mobile header:</source>
+        <target>Transparent mobile header:</target>
+      </trans-unit>
+      <trans-unit id="E_0Nh2o" resname="Transparent header text color:">
+        <source>Transparent header text color:</source>
+        <target>Transparent header text color:</target>
+      </trans-unit>
+      <trans-unit id="RzC_UOR" resname="Display logo on center or left of the header:">
+        <source>Display logo on center or left of the header:</source>
+        <target>Display logo on center or left of the header:</target>
+      </trans-unit>
+      <trans-unit id="9jTQwED" resname="Logo block width:">
+        <source>Logo block width:</source>
+        <target>Logo block width:</target>
+      </trans-unit>
+      <trans-unit id="TN8l._J" resname="The width of your logo is">
+        <source>The width of your logo is</source>
+        <target>The width of your logo is</target>
+      </trans-unit>
+      <trans-unit id="tBtkC2o" resname="You can use this setting to resizing your logo, your logo would keep the same radius.">
+        <source>You can use this setting to resizing your logo, your logo would keep the same radius.</source>
+        <target>You can use this setting to resizing your logo, your logo would keep the same radius.</target>
+      </trans-unit>
+      <trans-unit id="POmNUa_" resname="If your logo is larger than 220px in wide, it will be resized down to 220px">
+        <source>If your logo is larger than 220px in wide, it will be resized down to 220px</source>
+        <target>If your logo is larger than 220px in wide, it will be resized down to 220px</target>
+      </trans-unit>
+      <trans-unit id="FewpUtV" resname="This setting would not scale your logo up, it means if the vaule you filled in is large than the width of your logo, then your logo will displayed at its original size.">
+        <source>This setting would not scale your logo up, it means if the vaule you filled in is large than the width of your logo, then your logo will displayed at its original size.</source>
+        <target>This setting would not scale your logo up, it means if the vaule you filled in is large than the width of your logo, then your logo will displayed at its original size.</target>
+      </trans-unit>
+      <trans-unit id="7o7xA5E" resname="Logo block width on sticky header:">
+        <source>Logo block width on sticky header:</source>
+        <target>Logo block width on sticky header:</target>
+      </trans-unit>
+      <trans-unit id="BxLBFI8" resname="Your logo is 160px in wide in sticky header by default">
+        <source>Your logo is 160px in wide in sticky header by default</source>
+        <target>Your logo is 160px in wide in sticky header by default</target>
+      </trans-unit>
+      <trans-unit id="wW.9nyo" resname="Logo width on mobile header:">
+        <source>Logo width on mobile header:</source>
+        <target>Logo width on mobile header:</target>
+      </trans-unit>
+      <trans-unit id="2Mi17QA" resname="Your logo is 160px in wide in mobile header by default">
+        <source>Your logo is 160px in wide in mobile header by default</source>
+        <target>Your logo is 160px in wide in mobile header by default</target>
+      </trans-unit>
+      <trans-unit id="saVoEvM" resname="Logo width on sticky mobile header:">
+        <source>Logo width on sticky mobile header:</source>
+        <target>Logo width on sticky mobile header:</target>
+      </trans-unit>
+      <trans-unit id="GhqijfC" resname="Your logo is 160px in wide in sticky mobile header by default">
+        <source>Your logo is 160px in wide in sticky mobile header by default</source>
+        <target>Your logo is 160px in wide in sticky mobile header by default</target>
+      </trans-unit>
+      <trans-unit id="cdMSJP2" resname="Set it to 0 to use the defualt value.">
+        <source>Set it to 0 to use the defualt value.</source>
+        <target>Set it to 0 to use the defualt value.</target>
+      </trans-unit>
+      <trans-unit id="0hTX7ja" resname="Page layout:">
+        <source>Page layout:</source>
+        <target>Page layout:</target>
+      </trans-unit>
+      <trans-unit id="DnAhCAc" resname="One column, login form only">
+        <source>One column, login form only</source>
+        <target>One column, login form only</target>
+      </trans-unit>
+      <trans-unit id=".0oBNdd" resname="Two columns">
+        <source>Two columns</source>
+        <target>Two columns</target>
+      </trans-unit>
+      <trans-unit id="W0S2db." resname="Login block width:">
+        <source>Login block width:</source>
+        <target>Login block width:</target>
+      </trans-unit>
+      <trans-unit id="IqmZhX2" resname="Remove social title from registration:">
+        <source>Remove social title from registration:</source>
+        <target>Remove social title from registration:</target>
+      </trans-unit>
+      <trans-unit id="Po93K9S" resname="Top spacing:">
+        <source>Top spacing:</source>
+        <target>Top spacing:</target>
+      </trans-unit>
+      <trans-unit id="VclA9OO" resname="Bottom spacing:">
+        <source>Bottom spacing:</source>
+        <target>Bottom spacing:</target>
+      </trans-unit>
+      <trans-unit id="dRLykb3" resname="Heading:">
+        <source>Heading:</source>
+        <target>Heading:</target>
+      </trans-unit>
+      <trans-unit id="Ax3yPR6" resname="Heading color:">
+        <source>Heading color:</source>
+        <target>Heading color:</target>
+      </trans-unit>
+      <trans-unit id="wKPLC8p" resname="Heading background:">
+        <source>Heading background:</source>
+        <target>Heading background:</target>
+      </trans-unit>
+      <trans-unit id="ADUtF98" resname="Login from background color:">
+        <source>Login from background color:</source>
+        <target>Login from background color:</target>
+      </trans-unit>
+      <trans-unit id="eyfKjNx" resname="Background:">
+        <source>Background:</source>
+        <target>Background:</target>
+      </trans-unit>
+      <trans-unit id="oqYjXVF" resname="Button text color:">
+        <source>Button text color:</source>
+        <target>Button text color:</target>
+      </trans-unit>
+      <trans-unit id="poOfgXM" resname="Button text hover:">
+        <source>Button text hover:</source>
+        <target>Button text hover:</target>
+      </trans-unit>
+      <trans-unit id="._gNlRU" resname="Button background:">
+        <source>Button background:</source>
+        <target>Button background:</target>
+      </trans-unit>
+      <trans-unit id="gt.yw0b" resname="Button hover background:">
+        <source>Button hover background:</source>
+        <target>Button hover background:</target>
+      </trans-unit>
+      <trans-unit id="71gsMNM" resname="Use the same header as other pages:">
+        <source>Use the same header as other pages:</source>
+        <target>Use the same header as other pages:</target>
+      </trans-unit>
+      <trans-unit id="IDS2SEn" resname="Use the same footer as other pages:">
+        <source>Use the same footer as other pages:</source>
+        <target>Use the same footer as other pages:</target>
+      </trans-unit>
+      <trans-unit id="OasIYqq" resname="Background color:">
+        <source>Background color:</source>
+        <target>Background color:</target>
+      </trans-unit>
+      <trans-unit id="mzJCl4M" resname="Font size:">
+        <source>Font size:</source>
+        <target>Font size:</target>
+      </trans-unit>
+      <trans-unit id="PvdN3gz" resname="Hide cms page title:">
+        <source>Hide cms page title:</source>
+        <target>Hide cms page title:</target>
+      </trans-unit>
+      <trans-unit id="eWE8no7" resname="Iphone/iPad Favicons 57 (PNG):">
+        <source>Iphone/iPad Favicons 57 (PNG):</source>
+        <target>Iphone/iPad Favicons 57 (PNG):</target>
+      </trans-unit>
+      <trans-unit id="aECNKcv" resname="Iphone/iPad Favicons 72 (PNG):">
+        <source>Iphone/iPad Favicons 72 (PNG):</source>
+        <target>Iphone/iPad Favicons 72 (PNG):</target>
+      </trans-unit>
+      <trans-unit id="1W4KMSO" resname="Iphone/iPad Favicons 114 (PNG):">
+        <source>Iphone/iPad Favicons 114 (PNG):</source>
+        <target>Iphone/iPad Favicons 114 (PNG):</target>
+      </trans-unit>
+      <trans-unit id="8oW6tzL" resname="Iphone/iPad Favicons 144 (PNG):">
+        <source>Iphone/iPad Favicons 144 (PNG):</source>
+        <target>Iphone/iPad Favicons 144 (PNG):</target>
+      </trans-unit>
+      <trans-unit id="9H86VLo" resname="Welcome to Transformer theme">
+        <source>Welcome to Transformer theme</source>
+        <target>Welcome to Transformer theme</target>
+      </trans-unit>
+      <trans-unit id="OWC6ckk" resname="General information">
+        <source>General information</source>
+        <target>General information</target>
+      </trans-unit>
+      <trans-unit id="JTndaz1" resname="Guides &amp; Support">
+        <source>Guides &amp; Support</source>
+        <target><![CDATA[Guides & Support]]></target>
+      </trans-unit>
+      <trans-unit id="i4KmgDk" resname="Theme registration:">
+        <source>Theme registration:</source>
+        <target>Theme registration:</target>
+      </trans-unit>
+      <trans-unit id="hxXwNEq" resname="Theme version:">
+        <source>Theme version:</source>
+        <target>Theme version:</target>
+      </trans-unit>
+      <trans-unit id="p2GbYDb" resname="Check update">
+        <source>Check update</source>
+        <target>Check update</target>
+      </trans-unit>
+      <trans-unit id="O8OHYCH" resname="This module checks update every day automatically.">
+        <source>This module checks update every day automatically.</source>
+        <target>This module checks update every day automatically.</target>
+      </trans-unit>
+      <trans-unit id="OwR7SWo" resname="1-click upgrade the theme:">
+        <source>1-click upgrade the theme:</source>
+        <target>1-click upgrade the theme:</target>
+      </trans-unit>
+      <trans-unit id="xzd7T09" resname="Other items created by ST-themes:">
+        <source>Other items created by ST-themes:</source>
+        <target>Other items created by ST-themes:</target>
+      </trans-unit>
+      <trans-unit id="Pgrg4.a" resname="Your theme is NOT registered, and some features are restricted on backoffice. Please register this copy of theme.">
+        <source>Your theme is NOT registered, and some features are restricted on backoffice. Please register this copy of theme.</source>
+        <target>Your theme is NOT registered, and some features are restricted on backoffice. Please register this copy of theme.</target>
+      </trans-unit>
+      <trans-unit id="NRqEkEP" resname="If have purchased this theme, please take 2 minutes to get your theme registed. %1%Follow this FAQ to find your purchase code%2%. If you have not purchase this theme yet, %3%you can purchase it here%4%.">
+        <source>If have purchased this theme, please take 2 minutes to get your theme registed. %1%Follow this FAQ to find your purchase code%2%. If you have not purchase this theme yet, %3%you can purchase it here%4%.</source>
+        <target>If have purchased this theme, please take 2 minutes to get your theme registed. %1%Follow this FAQ to find your purchase code%2%. If you have not purchase this theme yet, %3%you can purchase it here%4%.</target>
+      </trans-unit>
+      <trans-unit id="8_p0oOH" resname="One purchase code can be used to register one productive site and one test site which is running on localhost.">
+        <source>One purchase code can be used to register one productive site and one test site which is running on localhost.</source>
+        <target>One purchase code can be used to register one productive site and one test site which is running on localhost.</target>
+      </trans-unit>
+      <trans-unit id="ziroiQH" resname="You can move a site from one domain to another, you will need to deregister the theme first.">
+        <source>You can move a site from one domain to another, you will need to deregister the theme first.</source>
+        <target>You can move a site from one domain to another, you will need to deregister the theme first.</target>
+      </trans-unit>
+      <trans-unit id="Ue7sWC6" resname="ST-themes collects your site url only.">
+        <source>ST-themes collects your site url only.</source>
+        <target>ST-themes collects your site url only.</target>
+      </trans-unit>
+      <trans-unit id="lK5DzaN" resname="Some features in the back office will stop working on unregister theme. We do that to stop people use this theme without purchasing to protect the right of all purchased customers.">
+        <source>Some features in the back office will stop working on unregister theme. We do that to stop people use this theme without purchasing to protect the right of all purchased customers.</source>
+        <target>Some features in the back office will stop working on unregister theme. We do that to stop people use this theme without purchasing to protect the right of all purchased customers.</target>
+      </trans-unit>
+      <trans-unit id="bgiIn_c" resname="Register theme">
+        <source>Register theme</source>
+        <target>Register theme</target>
+      </trans-unit>
+      <trans-unit id="khZ2TS4" resname="Theme is Registered! Your purchase code is">
+        <source>Theme is Registered! Your purchase code is</source>
+        <target>Theme is Registered! Your purchase code is</target>
+      </trans-unit>
+      <trans-unit id="cHHHAYd" resname="De-register theme">
+        <source>De-register theme</source>
+        <target>De-register theme</target>
+      </trans-unit>
+      <trans-unit id="k2A9oYS" resname="Your registration is invalid.">
+        <source>Your registration is invalid.</source>
+        <target>Your registration is invalid.</target>
+      </trans-unit>
+      <trans-unit id="sj2RUAQ" resname="The purchase code %1% does not match your current domain. You can try deregister, and then re-register.">
+        <source>The purchase code %1% does not match your current domain. You can try deregister, and then re-register.</source>
+        <target>The purchase code %1% does not match your current domain. You can try deregister, and then re-register.</target>
+      </trans-unit>
+      <trans-unit id="vjNqhaL" resname="Register your theme to use this feature.">
+        <source>Register your theme to use this feature.</source>
+        <target>Register your theme to use this feature.</target>
+      </trans-unit>
+      <trans-unit id="Z.qv4KA" resname="Make a full backup of your site include your site files and your database before upgrade.">
+        <source>Make a full backup of your site include your site files and your database before upgrade.</source>
+        <target>Make a full backup of your site include your site files and your database before upgrade.</target>
+      </trans-unit>
+      <trans-unit id="KZSCF2x" resname="If you have modified any theme files directly, you will lose your modifications, you need to re-do them after upgrade.">
+        <source>If you have modified any theme files directly, you will lose your modifications, you need to re-do them after upgrade.</source>
+        <target>If you have modified any theme files directly, you will lose your modifications, you need to re-do them after upgrade.</target>
+      </trans-unit>
+      <trans-unit id="3rrmrOq" resname="The upgrade can take several minutes! Please do not close this page once the upgrade process is running!">
+        <source>The upgrade can take several minutes! Please do not close this page once the upgrade process is running!</source>
+        <target>The upgrade can take several minutes! Please do not close this page once the upgrade process is running!</target>
+      </trans-unit>
+      <trans-unit id="Itf3W._" resname="Sometimes 1-click upgrade can not work, because of file permission problems or network contention problems, when that happens you can always perform a manual upgrade to upgrade your site.">
+        <source>Sometimes 1-click upgrade can not work, because of file permission problems or network contention problems, when that happens you can always perform a manual upgrade to upgrade your site.</source>
+        <target>Sometimes 1-click upgrade can not work, because of file permission problems or network contention problems, when that happens you can always perform a manual upgrade to upgrade your site.</target>
+      </trans-unit>
+      <trans-unit id="qsrhLDW" resname="Click to upgrade the theme">
+        <source>Click to upgrade the theme</source>
+        <target>Click to upgrade the theme</target>
+      </trans-unit>
+      <trans-unit id="UuCcrDZ" resname="Your theme version is update to date.">
+        <source>Your theme version is update to date.</source>
+        <target>Your theme version is update to date.</target>
+      </trans-unit>
+      <trans-unit id="i5TReO2" resname="Theme is in upgrading, please don\'t leave the page...">
+        <source>Theme is in upgrading, please don\'t leave the page...</source>
+        <target>Theme is in upgrading, please don\'t leave the page...</target>
+      </trans-unit>
+      <trans-unit id="g1VsJEX" resname="Online documentation">
+        <source>Online documentation</source>
+        <target>Online documentation</target>
+      </trans-unit>
+      <trans-unit id="pyPX_E_" resname="Transformer theme tutorials">
+        <source>Transformer theme tutorials</source>
+        <target>Transformer theme tutorials</target>
+      </trans-unit>
+      <trans-unit id="uGghQ3L" resname="Prestashop tutorials">
+        <source>Prestashop tutorials</source>
+        <target>Prestashop tutorials</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

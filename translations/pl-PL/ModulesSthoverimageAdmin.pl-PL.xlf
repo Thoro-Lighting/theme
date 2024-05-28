@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="OIXJ4o2" resname="Hover image">
+        <source>Hover image</source>
+        <target>Hover image</target>
+      </trans-unit>
+      <trans-unit id="tjo47zQ" resname="Products thumb image change on mouse hover">
+        <source>Products thumb image change on mouse hover</source>
+        <target>Products thumb image change on mouse hover</target>
+      </trans-unit>
+      <trans-unit id="nvtZfJF" resname="Fade">
+        <source>Fade</source>
+        <target>Fade</target>
+      </trans-unit>
+      <trans-unit id="HOXMNFp" resname="From Top">
+        <source>From Top</source>
+        <target>From Top</target>
+      </trans-unit>
+      <trans-unit id="fcgmHKZ" resname="From Bottom">
+        <source>From Bottom</source>
+        <target>From Bottom</target>
+      </trans-unit>
+      <trans-unit id="hhCvc_N" resname="From Left">
+        <source>From Left</source>
+        <target>From Left</target>
+      </trans-unit>
+      <trans-unit id="6LMhNe0" resname="From Right">
+        <source>From Right</source>
+        <target>From Right</target>
+      </trans-unit>
+      <trans-unit id="muBjCSW" resname="Hover effect:">
+        <source>Hover effect:</source>
+        <target>Hover effect:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

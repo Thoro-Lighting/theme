@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="0qtdRv7" resname="Delete selected">
+        <source>Delete selected</source>
+        <target>Delete selected</target>
+      </trans-unit>
+      <trans-unit id="qeQMzd_" resname="Delete selected items?">
+        <source>Delete selected items?</source>
+        <target>Delete selected items?</target>
+      </trans-unit>
+      <trans-unit id="OEOXHc." resname="ID">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="P6QFqDA" resname="cover">
+        <source>cover</source>
+        <target>cover</target>
+      </trans-unit>
+      <trans-unit id="fozSBW2" resname="Title">
+        <source>Title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="0Aqua3_" resname="Shop">
+        <source>Shop</source>
+        <target>Shop</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>Category</target>
+      </trans-unit>
+      <trans-unit id="yaSvX2g" resname="Displayed">
+        <source>Displayed</source>
+        <target>Displayed</target>
+      </trans-unit>
+      <trans-unit id="bQMa8Q2" resname="Position">
+        <source>Position</source>
+        <target>Position</target>
+      </trans-unit>
+      <trans-unit id="cZU1Ziu" resname="Blog categories">
+        <source>Blog categories</source>
+        <target>Blog categories</target>
+      </trans-unit>
+      <trans-unit id="PQ3encn" resname="Quick access:">
+        <source>Quick access:</source>
+        <target>Quick access:</target>
+      </trans-unit>
+      <trans-unit id="qbCi5jA" resname="Filter by category">
+        <source>Filter by category</source>
+        <target>Filter by category</target>
+      </trans-unit>
+      <trans-unit id="MksTT1f" resname="Preview">
+        <source>Preview</source>
+        <target>Preview</target>
+      </trans-unit>
+      <trans-unit id="tcVszA6" resname="Blog Content">
+        <source>Blog Content</source>
+        <target>Blog Content</target>
+      </trans-unit>
+      <trans-unit id="7NEf2fa" resname="Title:">
+        <source>Title:</source>
+        <target>Title:</target>
+      </trans-unit>
+      <trans-unit id="mlZJpCy" resname="Format:">
+        <source>Format:</source>
+        <target>Format:</target>
+      </trans-unit>
+      <trans-unit id="72aRVF0" resname="Standard">
+        <source>Standard</source>
+        <target>Standard</target>
+      </trans-unit>
+      <trans-unit id="NSz8dJ5" resname="Gallery">
+        <source>Gallery</source>
+        <target>Gallery</target>
+      </trans-unit>
+      <trans-unit id="1TS_gp4" resname="Video">
+        <source>Video</source>
+        <target>Video</target>
+      </trans-unit>
+      <trans-unit id="bL_GJCF" resname="Select category:">
+        <source>Select category:</source>
+        <target>Select category:</target>
+      </trans-unit>
+      <trans-unit id="8VBPepN" resname="Default category">
+        <source>Default category</source>
+        <target>Default category</target>
+      </trans-unit>
+      <trans-unit id="0azKJWZ" resname="Short content:">
+        <source>Short content:</source>
+        <target>Short content:</target>
+      </trans-unit>
+      <trans-unit id="QOgRraZ" resname="Content:">
+        <source>Content:</source>
+        <target>Content:</target>
+      </trans-unit>
+      <trans-unit id="ZnKanf7" resname="Cover image:">
+        <source>Cover image:</source>
+        <target>Cover image:</target>
+      </trans-unit>
+      <trans-unit id="l1eS26L" resname="Upload a blog cover from your computer(width&gt;870px, height&gt;450px).">
+        <source>Upload a blog cover from your computer(width&gt;870px, height&gt;450px).</source>
+        <target><![CDATA[Upload a blog cover from your computer(width>870px, height>450px).]]></target>
+      </trans-unit>
+      <trans-unit id="5rZCAl." resname="Video embed code:">
+        <source>Video embed code:</source>
+        <target>Video embed code:</target>
+      </trans-unit>
+      <trans-unit id="hlZY_Ij" resname="Tags:">
+        <source>Tags:</source>
+        <target>Tags:</target>
+      </trans-unit>
+      <trans-unit id="6648BC1" resname="Tags separated by commas (e.g. Fashion,Dresses,Shoes).">
+        <source>Tags separated by commas (e.g. Fashion,Dresses,Shoes).</source>
+        <target>Tags separated by commas (e.g. Fashion,Dresses,Shoes).</target>
+      </trans-unit>
+      <trans-unit id="efjeGrm" resname="Accept comment:">
+        <source>Accept comment:</source>
+        <target>Accept comment:</target>
+      </trans-unit>
+      <trans-unit id="haOas0X" resname="Yes">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="HqRCoTS" resname="No">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="YLyn.D0" resname="Whether or not accept comments.">
+        <source>Whether or not accept comments.</source>
+        <target>Whether or not accept comments.</target>
+      </trans-unit>
+      <trans-unit id="laP8ZYf" resname="Author:">
+        <source>Author:</source>
+        <target>Author:</target>
+      </trans-unit>
+      <trans-unit id="5G8ofhr" resname="Invalid characters:">
+        <source>Invalid characters:</source>
+        <target>Invalid characters:</target>
+      </trans-unit>
+      <trans-unit id="mEQ86qw" resname="Displayed:">
+        <source>Displayed:</source>
+        <target>Displayed:</target>
+      </trans-unit>
+      <trans-unit id="ksHN.fT" resname="Enabled">
+        <source>Enabled</source>
+        <target>Enabled</target>
+      </trans-unit>
+      <trans-unit id="dQgbWT0" resname="Disabled">
+        <source>Disabled</source>
+        <target>Disabled</target>
+      </trans-unit>
+      <trans-unit id="DtIbZqE" resname="Created on:">
+        <source>Created on:</source>
+        <target>Created on:</target>
+      </trans-unit>
+      <trans-unit id="a8Rxj7s" resname="SEO">
+        <source>SEO</source>
+        <target>SEO</target>
+      </trans-unit>
+      <trans-unit id="DZrHTPa" resname="Meta title:">
+        <source>Meta title:</source>
+        <target>Meta title:</target>
+      </trans-unit>
+      <trans-unit id="DFrNn2q" resname="Meta keywords:">
+        <source>Meta keywords:</source>
+        <target>Meta keywords:</target>
+      </trans-unit>
+      <trans-unit id="iQxC6vK" resname="Meta description:">
+        <source>Meta description:</source>
+        <target>Meta description:</target>
+      </trans-unit>
+      <trans-unit id="F3AkT_v" resname="Friendly URL:">
+        <source>Friendly URL:</source>
+        <target>Friendly URL:</target>
+      </trans-unit>
+      <trans-unit id="tQnVvFy" resname="Only letters and the minus (-) character are allowed.">
+        <source>Only letters and the minus (-) character are allowed.</source>
+        <target>Only letters and the minus (-) character are allowed.</target>
+      </trans-unit>
+      <trans-unit id="33AHLIP" resname="Related products">
+        <source>Related products</source>
+        <target>Related products</target>
+      </trans-unit>
+      <trans-unit id="45gzy0G" resname="Select store">
+        <source>Select store</source>
+        <target>Select store</target>
+      </trans-unit>
+      <trans-unit id="ojmEtff" resname="Shop association:">
+        <source>Shop association:</source>
+        <target>Shop association:</target>
+      </trans-unit>
+      <trans-unit id="fh5R1iu" resname="Gallery Image">
+        <source>Gallery Image</source>
+        <target>Gallery Image</target>
+      </trans-unit>
+      <trans-unit id="Xaj3_8K" resname="Back to list">
+        <source>Back to list</source>
+        <target>Back to list</target>
+      </trans-unit>
+      <trans-unit id="bGRCaNP" resname="Add new blog">
+        <source>Add new blog</source>
+        <target>Add new blog</target>
+      </trans-unit>
+      <trans-unit id="GXZu1sy" resname="Cancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="OEAbXsI" resname="The cover was Deleted successful.">
+        <source>The cover was Deleted successful.</source>
+        <target>The cover was Deleted successful.</target>
+      </trans-unit>
+      <trans-unit id="XPSPr1B" resname="An error occurred while attempting to delete the cover.">
+        <source>An error occurred while attempting to delete the cover.</source>
+        <target>An error occurred while attempting to delete the cover.</target>
+      </trans-unit>
+      <trans-unit id="mzXgfYR" resname="Delete selected items(all the subcategory will be deleted)?">
+        <source>Delete selected items(all the subcategory will be deleted)?</source>
+        <target>Delete selected items(all the subcategory will be deleted)?</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="Um4Ah8w" resname="Description">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="NRJCS70" resname="Add new category">
+        <source>Add new category</source>
+        <target>Add new category</target>
+      </trans-unit>
+      <trans-unit id="bnhqF2s" resname="Blog articles">
+        <source>Blog articles</source>
+        <target>Blog articles</target>
+      </trans-unit>
+      <trans-unit id="wdySxoD" resname="Add New">
+        <source>Add New</source>
+        <target>Add New</target>
+      </trans-unit>
+      <trans-unit id="IWEN1vH" resname="Edit category">
+        <source>Edit category</source>
+        <target>Edit category</target>
+      </trans-unit>
+      <trans-unit id="bDSRmAB" resname="Blog Category">
+        <source>Blog Category</source>
+        <target>Blog Category</target>
+      </trans-unit>
+      <trans-unit id="JoPK1Io" resname="Name:">
+        <source>Name:</source>
+        <target>Name:</target>
+      </trans-unit>
+      <trans-unit id="373_3ew" resname="Parent category:">
+        <source>Parent category:</source>
+        <target>Parent category:</target>
+      </trans-unit>
+      <trans-unit id="DPKBRgS" resname="Description:">
+        <source>Description:</source>
+        <target>Description:</target>
+      </trans-unit>
+      <trans-unit id="HBrDdwe" resname="Blog module">
+        <source>Blog module</source>
+        <target>Blog module</target>
+      </trans-unit>
+      <trans-unit id="Q4HQlW." resname="Blog module for Prestashop">
+        <source>Blog module for Prestashop</source>
+        <target>Blog module for Prestashop</target>
+      </trans-unit>
+      <trans-unit id="YCnb5x7" resname="Blog Module - Archives">
+        <source>Blog Module - Archives</source>
+        <target>Blog Module - Archives</target>
+      </trans-unit>
+      <trans-unit id="jZJ84LA" resname="The archives module allows you to display a tree list of the months and past months.">
+        <source>The archives module allows you to display a tree list of the months and past months.</source>
+        <target>The archives module allows you to display a tree list of the months and past months.</target>
+      </trans-unit>
+      <trans-unit id="I8ajxbZ" resname="Blog Module - Category block">
+        <source>Blog Module - Category block</source>
+        <target>Blog Module - Category block</target>
+      </trans-unit>
+      <trans-unit id="qql6.gO" resname="Adds a block featuring blog categories.">
+        <source>Adds a block featuring blog categories.</source>
+        <target>Adds a block featuring blog categories.</target>
+      </trans-unit>
+      <trans-unit id="vUoGr.N" resname="Please, install Blog module first.">
+        <source>Please, install Blog module first.</source>
+        <target>Please, install Blog module first.</target>
+      </trans-unit>
+      <trans-unit id="UHxp5Mp" resname="Please, enable Blog module first.">
+        <source>Please, enable Blog module first.</source>
+        <target>Please, enable Blog module first.</target>
+      </trans-unit>
+      <trans-unit id="XLi2B3v" resname="Settings updated">
+        <source>Settings updated</source>
+        <target>Settings updated</target>
+      </trans-unit>
+      <trans-unit id="7KWChNI" resname="Maximum depth:">
+        <source>Maximum depth:</source>
+        <target>Maximum depth:</target>
+      </trans-unit>
+      <trans-unit id="EH7_Vg9" resname="Set the maximum depth of sublevels displayed in this block (0 = infinite)">
+        <source>Set the maximum depth of sublevels displayed in this block (0 = infinite)</source>
+        <target>Set the maximum depth of sublevels displayed in this block (0 = infinite)</target>
+      </trans-unit>
+      <trans-unit id="FQn1YfJ" resname="Save">
+        <source>Save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="kZK8J0r" resname="Blog Module - Comments">
+        <source>Blog Module - Comments</source>
+        <target>Blog Module - Comments</target>
+      </trans-unit>
+      <trans-unit id="ap_v9Z." resname="Allows users to post comments.">
+        <source>Allows users to post comments.</source>
+        <target>Allows users to post comments.</target>
+      </trans-unit>
+      <trans-unit id="OE2ajvF" resname="Upload avatar failed.">
+        <source>Upload avatar failed.</source>
+        <target>Upload avatar failed.</target>
+      </trans-unit>
+      <trans-unit id="jGvAmVN" resname="Blog">
+        <source>Blog</source>
+        <target>Blog</target>
+      </trans-unit>
+      <trans-unit id="G.WoHMR" resname="Customer Name">
+        <source>Customer Name</source>
+        <target>Customer Name</target>
+      </trans-unit>
+      <trans-unit id="lTucQIB" resname="Customer Email">
+        <source>Customer Email</source>
+        <target>Customer Email</target>
+      </trans-unit>
+      <trans-unit id="R70pB1_" resname="Content">
+        <source>Content</source>
+        <target>Content</target>
+      </trans-unit>
+      <trans-unit id="wlP0Ub3" resname="Reply">
+        <source>Reply</source>
+        <target>Reply</target>
+      </trans-unit>
+      <trans-unit id="iXE7nJw" resname="Accept">
+        <source>Accept</source>
+        <target>Accept</target>
+      </trans-unit>
+      <trans-unit id="V.8CRIf" resname="Date Add">
+        <source>Date Add</source>
+        <target>Date Add</target>
+      </trans-unit>
+      <trans-unit id="oqqKROI" resname="All comments must be validated by an employee:">
+        <source>All comments must be validated by an employee:</source>
+        <target>All comments must be validated by an employee:</target>
+      </trans-unit>
+      <trans-unit id="9QDx43p" resname="Allow guest comments:">
+        <source>Allow guest comments:</source>
+        <target>Allow guest comments:</target>
+      </trans-unit>
+      <trans-unit id="9yrs8.h" resname="Seconds:">
+        <source>Seconds:</source>
+        <target>Seconds:</target>
+      </trans-unit>
+      <trans-unit id="WkFba4a" resname="Minimum time between 2 comments from the same user.">
+        <source>Minimum time between 2 comments from the same user.</source>
+        <target>Minimum time between 2 comments from the same user.</target>
+      </trans-unit>
+      <trans-unit id="_A8o17K" resname="Define the number of latest comments to be displayed:">
+        <source>Define the number of latest comments to be displayed:</source>
+        <target>Define the number of latest comments to be displayed:</target>
+      </trans-unit>
+      <trans-unit id="RXF7HGX" resname="Default avatar:">
+        <source>Default avatar:</source>
+        <target>Default avatar:</target>
+      </trans-unit>
+      <trans-unit id="BRdlNiM" resname="The image will be default avatar when no upload.">
+        <source>The image will be default avatar when no upload.</source>
+        <target>The image will be default avatar when no upload.</target>
+      </trans-unit>
+      <trans-unit id="w3P12tf" resname="Blog comments">
+        <source>Blog comments</source>
+        <target>Blog comments</target>
+      </trans-unit>
+      <trans-unit id="xxyC7id" resname="Customer Name:">
+        <source>Customer Name:</source>
+        <target>Customer Name:</target>
+      </trans-unit>
+      <trans-unit id="HpOewuZ" resname="Customer Email:">
+        <source>Customer Email:</source>
+        <target>Customer Email:</target>
+      </trans-unit>
+      <trans-unit id="bxVQ6FM" resname="Accept:">
+        <source>Accept:</source>
+        <target>Accept:</target>
+      </trans-unit>
+      <trans-unit id="ZqTZAKJ" resname="Blog editor">
+        <source>Blog editor</source>
+        <target>Blog editor</target>
+      </trans-unit>
+      <trans-unit id="zbvcDg." resname="Change blog settings.">
+        <source>Change blog settings.</source>
+        <target>Change blog settings.</target>
+      </trans-unit>
+      <trans-unit id="7RdcTvs" resname="is not writable">
+        <source>is not writable</source>
+        <target>is not writable</target>
+      </trans-unit>
+      <trans-unit id="Te3oqAP" resname="The following origin file not exists:'.&quot;\n">
+        <source>The following origin file not exists:'."\n</source>
+        <target>The following origin file not exists:'."\n</target>
+      </trans-unit>
+      <trans-unit id="lG6JbQY" resname="Pattern credits">
+        <source>Pattern credits</source>
+        <target>Pattern credits</target>
+      </trans-unit>
+      <trans-unit id="bnkK8nm" resname="Route name">
+        <source>Route name</source>
+        <target>Route name</target>
+      </trans-unit>
+      <trans-unit id="Vf7wA6o" resname="Default is &quot;blog&quot;,for example: www.domain.com/blog">
+        <source>Default is "blog",for example: www.domain.com/blog</source>
+        <target>Default is "blog",for example: www.domain.com/blog</target>
+      </trans-unit>
+      <trans-unit id="womafHM" resname="Show all articles on blog homepage using the same category page settings">
+        <source>Show all articles on blog homepage using the same category page settings</source>
+        <target>Show all articles on blog homepage using the same category page settings</target>
+      </trans-unit>
+      <trans-unit id="zC3TELz" resname="Meta title">
+        <source>Meta title</source>
+        <target>Meta title</target>
+      </trans-unit>
+      <trans-unit id="vUH4bCC" resname="Meta keywords">
+        <source>Meta keywords</source>
+        <target>Meta keywords</target>
+      </trans-unit>
+      <trans-unit id="nQmcSVq" resname="Meta desciption">
+        <source>Meta desciption</source>
+        <target>Meta desciption</target>
+      </trans-unit>
+      <trans-unit id="0ATV0z." resname="Header bottom spacing on the blog homepage:">
+        <source>Header bottom spacing on the blog homepage:</source>
+        <target>Header bottom spacing on the blog homepage:</target>
+      </trans-unit>
+      <trans-unit id="g99qNUn" resname="Heading font size:">
+        <source>Heading font size:</source>
+        <target>Heading font size:</target>
+      </trans-unit>
+      <trans-unit id="013m_18" resname="Heading transform:">
+        <source>Heading transform:</source>
+        <target>Heading transform:</target>
+      </trans-unit>
+      <trans-unit id="2oBOyC8" resname="Heading border height:">
+        <source>Heading border height:</source>
+        <target>Heading border height:</target>
+      </trans-unit>
+      <trans-unit id="Ax3yPR6" resname="Heading color:">
+        <source>Heading color:</source>
+        <target>Heading color:</target>
+      </trans-unit>
+      <trans-unit id="aLo4C6J" resname="Heading border color:">
+        <source>Heading border color:</source>
+        <target>Heading border color:</target>
+      </trans-unit>
+      <trans-unit id="3TkCk1k" resname="Heading border highlight color:">
+        <source>Heading border highlight color:</source>
+        <target>Heading border highlight color:</target>
+      </trans-unit>
+      <trans-unit id="atmbER1" resname="Heading style:">
+        <source>Heading style:</source>
+        <target>Heading style:</target>
+      </trans-unit>
+      <trans-unit id="0.ixIY2" resname="Default, under line">
+        <source>Default, under line</source>
+        <target>Default, under line</target>
+      </trans-unit>
+      <trans-unit id="qMYUEzY" resname="One line. Can not have background image">
+        <source>One line. Can not have background image</source>
+        <target>One line. Can not have background image</target>
+      </trans-unit>
+      <trans-unit id="brsTMcl" resname="One dashed line. Can not have background image">
+        <source>One dashed line. Can not have background image</source>
+        <target>One dashed line. Can not have background image</target>
+      </trans-unit>
+      <trans-unit id="788_ryf" resname="Two lines">
+        <source>Two lines</source>
+        <target>Two lines</target>
+      </trans-unit>
+      <trans-unit id="oyXc1ju" resname="One short line. Can not have background image">
+        <source>One short line. Can not have background image</source>
+        <target>One short line. Can not have background image</target>
+      </trans-unit>
+      <trans-unit id="9pc.2xG" resname="Heading background pattern:">
+        <source>Heading background pattern:</source>
+        <target>Heading background pattern:</target>
+      </trans-unit>
+      <trans-unit id="3JN7WYk" resname="None">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="NGtn3l3" resname="Heading background image:">
+        <source>Heading background image:</source>
+        <target>Heading background image:</target>
+      </trans-unit>
+      <trans-unit id="n65ERib" resname="Large width">
+        <source>Large width</source>
+        <target>Large width</target>
+      </trans-unit>
+      <trans-unit id="memX4Dj" resname="Images dimension of large width">
+        <source>Images dimension of large width</source>
+        <target>Images dimension of large width</target>
+      </trans-unit>
+      <trans-unit id="YYyfzDr" resname="Large height">
+        <source>Large height</source>
+        <target>Large height</target>
+      </trans-unit>
+      <trans-unit id="fUsT9ez" resname="Images dimension of large height">
+        <source>Images dimension of large height</source>
+        <target>Images dimension of large height</target>
+      </trans-unit>
+      <trans-unit id="Vha3iQR" resname="Big width">
+        <source>Big width</source>
+        <target>Big width</target>
+      </trans-unit>
+      <trans-unit id="d8ufus." resname="This is not used by default. If you have two different sizes of posts on the homepage, you can aplly this to one and Medium to another. Check the documenation for more info.">
+        <source>This is not used by default. If you have two different sizes of posts on the homepage, you can aplly this to one and Medium to another. Check the documenation for more info.</source>
+        <target>This is not used by default. If you have two different sizes of posts on the homepage, you can aplly this to one and Medium to another. Check the documenation for more info.</target>
+      </trans-unit>
+      <trans-unit id="XcUs_zx" resname="Big height">
+        <source>Big height</source>
+        <target>Big height</target>
+      </trans-unit>
+      <trans-unit id="DSAYKI7" resname="Medium width">
+        <source>Medium width</source>
+        <target>Medium width</target>
+      </trans-unit>
+      <trans-unit id="e4qyai1" resname="Images dimension of medium width">
+        <source>Images dimension of medium width</source>
+        <target>Images dimension of medium width</target>
+      </trans-unit>
+      <trans-unit id="q0TOjy." resname="Medium height">
+        <source>Medium height</source>
+        <target>Medium height</target>
+      </trans-unit>
+      <trans-unit id="RJMJ.VY" resname="Images dimension of medium height">
+        <source>Images dimension of medium height</source>
+        <target>Images dimension of medium height</target>
+      </trans-unit>
+      <trans-unit id="92JYXIA" resname="Small width">
+        <source>Small width</source>
+        <target>Small width</target>
+      </trans-unit>
+      <trans-unit id="SGwLjs6" resname="Images dimension of small width">
+        <source>Images dimension of small width</source>
+        <target>Images dimension of small width</target>
+      </trans-unit>
+      <trans-unit id="Zp.7Fi8" resname="Small height">
+        <source>Small height</source>
+        <target>Small height</target>
+      </trans-unit>
+      <trans-unit id="DEjiKk." resname="Images dimension of small height">
+        <source>Images dimension of small height</source>
+        <target>Images dimension of small height</target>
+      </trans-unit>
+      <trans-unit id="uOTgTuO" resname="Thumb width">
+        <source>Thumb width</source>
+        <target>Thumb width</target>
+      </trans-unit>
+      <trans-unit id=".ziCWEH" resname="Images dimension of thumb width">
+        <source>Images dimension of thumb width</source>
+        <target>Images dimension of thumb width</target>
+      </trans-unit>
+      <trans-unit id="88eiRmu" resname="Thumb height">
+        <source>Thumb height</source>
+        <target>Thumb height</target>
+      </trans-unit>
+      <trans-unit id="2FNzUPk" resname="Images dimension of thumb height">
+        <source>Images dimension of thumb height</source>
+        <target>Images dimension of thumb height</target>
+      </trans-unit>
+      <trans-unit id="ecxwjYs" resname="Regenerates thumbnails for all existing blog images">
+        <source>Regenerates thumbnails for all existing blog images</source>
+        <target>Regenerates thumbnails for all existing blog images</target>
+      </trans-unit>
+      <trans-unit id="5oP0dH8" resname="Please be patient. This can take several minutes.">
+        <source>Please be patient. This can take several minutes.</source>
+        <target>Please be patient. This can take several minutes.</target>
+      </trans-unit>
+      <trans-unit id="4NKpL23" resname="Be careful! Manually uploaded thumbnails will be erased and replaced by automatically generated thumbnails.">
+        <source>Be careful! Manually uploaded thumbnails will be erased and replaced by automatically generated thumbnails.</source>
+        <target>Be careful! Manually uploaded thumbnails will be erased and replaced by automatically generated thumbnails.</target>
+      </trans-unit>
+      <trans-unit id="Ki5vCS9" resname="Are you sure ?">
+        <source>Are you sure ?</source>
+        <target>Are you sure ?</target>
+      </trans-unit>
+      <trans-unit id="DwxhTQP" resname="In progress, Please do not leave this page...">
+        <source>In progress, Please do not leave this page...</source>
+        <target>In progress, Please do not leave this page...</target>
+      </trans-unit>
+      <trans-unit id="3zuh_GU" resname="Regenerate thumbails successfully.">
+        <source>Regenerate thumbails successfully.</source>
+        <target>Regenerate thumbails successfully.</target>
+      </trans-unit>
+      <trans-unit id="kdfzTVP" resname="Length of article names">
+        <source>Length of article names</source>
+        <target>Length of article names</target>
+      </trans-unit>
+      <trans-unit id="VJHlfN8" resname="Normal(one line)">
+        <source>Normal(one line)</source>
+        <target>Normal(one line)</target>
+      </trans-unit>
+      <trans-unit id="nPZLStH" resname="Long(70 characters)">
+        <source>Long(70 characters)</source>
+        <target>Long(70 characters)</target>
+      </trans-unit>
+      <trans-unit id="8Tpkui." resname="Full name">
+        <source>Full name</source>
+        <target>Full name</target>
+      </trans-unit>
+      <trans-unit id="vv6s8pE" resname="Two lines, focus all blog names having the same height">
+        <source>Two lines, focus all blog names having the same height</source>
+        <target>Two lines, focus all blog names having the same height</target>
+      </trans-unit>
+      <trans-unit id="MpKvMr0" resname="Name transform:">
+        <source>Name transform:</source>
+        <target>Name transform:</target>
+      </trans-unit>
+      <trans-unit id="0rhzlY_" resname="Name color:">
+        <source>Name color:</source>
+        <target>Name color:</target>
+      </trans-unit>
+      <trans-unit id="A53jbc2" resname="Display viewcount on each post">
+        <source>Display viewcount on each post</source>
+        <target>Display viewcount on each post</target>
+      </trans-unit>
+      <trans-unit id="yrlNiNi" resname="Display the total number of comments">
+        <source>Display the total number of comments</source>
+        <target>Display the total number of comments</target>
+      </trans-unit>
+      <trans-unit id="8xZBcYd" resname="Display author name">
+        <source>Display author name</source>
+        <target>Display author name</target>
+      </trans-unit>
+      <trans-unit id="Kh6bvOM" resname="Display the date">
+        <source>Display the date</source>
+        <target>Display the date</target>
+      </trans-unit>
+      <trans-unit id="pG.Lofz" resname="Display a read more button">
+        <source>Display a read more button</source>
+        <target>Display a read more button</target>
+      </trans-unit>
+      <trans-unit id="bK_6pGV" resname="Blog info alignment:">
+        <source>Blog info alignment:</source>
+        <target>Blog info alignment:</target>
+      </trans-unit>
+      <trans-unit id="vlyxbtD" resname="Blog grid background:">
+        <source>Blog grid background:</source>
+        <target>Blog grid background:</target>
+      </trans-unit>
+      <trans-unit id="6xr2Jkc" resname="Blog grid hover background:">
+        <source>Blog grid hover background:</source>
+        <target>Blog grid hover background:</target>
+      </trans-unit>
+      <trans-unit id="2oq7Zmq" resname="Category layout">
+        <source>Category layout</source>
+        <target>Category layout</target>
+      </trans-unit>
+      <trans-unit id="byAvVKe" resname="List">
+        <source>List</source>
+        <target>List</target>
+      </trans-unit>
+      <trans-unit id="uea8I8r" resname="Medium image">
+        <source>Medium image</source>
+        <target>Medium image</target>
+      </trans-unit>
+      <trans-unit id="DX0SrGJ" resname="Grid">
+        <source>Grid</source>
+        <target>Grid</target>
+      </trans-unit>
+      <trans-unit id="K9GxrHx" resname="Blogs per page">
+        <source>Blogs per page</source>
+        <target>Blogs per page</target>
+      </trans-unit>
+      <trans-unit id="zZ6btD1" resname="Number of blogs displayed per page. Default is 10.">
+        <source>Number of blogs displayed per page. Default is 10.</source>
+        <target>Number of blogs displayed per page. Default is 10.</target>
+      </trans-unit>
+      <trans-unit id="IVK0qJA" resname="Default sort by">
+        <source>Default sort by</source>
+        <target>Default sort by</target>
+      </trans-unit>
+      <trans-unit id=".lhvmb7" resname="Display short content at the top of content">
+        <source>Display short content at the top of content</source>
+        <target>Display short content at the top of content</target>
+      </trans-unit>
+      <trans-unit id="Xfddb.W" resname="Blog Module - Article Slider">
+        <source>Blog Module - Article Slider</source>
+        <target>Blog Module - Article Slider</target>
+      </trans-unit>
+      <trans-unit id="jDqTYGn" resname="Display articles from different categories.">
+        <source>Display articles from different categories.</source>
+        <target>Display articles from different categories.</target>
+      </trans-unit>
+      <trans-unit id="YjFZPZc" resname="The field &quot;Category&quot; is required">
+        <source>The field "Category" is required</source>
+        <target>The field "Category" is required</target>
+      </trans-unit>
+      <trans-unit id="z0t3kFe" resname="An error occurred during">
+        <source>An error occurred during</source>
+        <target>An error occurred during</target>
+      </trans-unit>
+      <trans-unit id="FBpS_YH" resname="Blog article sldier">
+        <source>Blog article sldier</source>
+        <target>Blog article sldier</target>
+      </trans-unit>
+      <trans-unit id="bZWa6ZI" resname="Blog category:">
+        <source>Blog category:</source>
+        <target>Blog category:</target>
+      </trans-unit>
+      <trans-unit id="KU2mjLW" resname="This module cannot be transplanted to">
+        <source>This module cannot be transplanted to</source>
+        <target>This module cannot be transplanted to</target>
+      </trans-unit>
+      <trans-unit id="reIlglt" resname="Choose a article slider">
+        <source>Choose a article slider</source>
+        <target>Choose a article slider</target>
+      </trans-unit>
+      <trans-unit id="zqriuwM" resname="Blog Module - Next and previous links">
+        <source>Blog Module - Next and previous links</source>
+        <target>Blog Module - Next and previous links</target>
+      </trans-unit>
+      <trans-unit id="Rek_28f" resname="This module adds Next and Previous links on the blog page.">
+        <source>This module adds Next and Previous links on the blog page.</source>
+        <target>This module adds Next and Previous links on the blog page.</target>
+      </trans-unit>
+      <trans-unit id="ht62PmH" resname="Blog Module - Recent articles">
+        <source>Blog Module - Recent articles</source>
+        <target>Blog Module - Recent articles</target>
+      </trans-unit>
+      <trans-unit id="kysNQaR" resname="Display rencent articles on your store.">
+        <source>Display rencent articles on your store.</source>
+        <target>Display rencent articles on your store.</target>
+      </trans-unit>
+      <trans-unit id="QaKQL_H" resname="Blog Module - Related articles">
+        <source>Blog Module - Related articles</source>
+        <target>Blog Module - Related articles</target>
+      </trans-unit>
+      <trans-unit id="T.7AEFm" resname="Add related articles on blog artice pages.">
+        <source>Add related articles on blog artice pages.</source>
+        <target>Add related articles on blog artice pages.</target>
+      </trans-unit>
+      <trans-unit id="E270CxS" resname="Related articles:">
+        <source>Related articles:</source>
+        <target>Related articles:</target>
+      </trans-unit>
+      <trans-unit id="pbO36vt" resname="Begin typing the first letters of the artilce name, then select the article from the drop-down list.">
+        <source>Begin typing the first letters of the artilce name, then select the article from the drop-down list.</source>
+        <target>Begin typing the first letters of the artilce name, then select the article from the drop-down list.</target>
+      </trans-unit>
+      <trans-unit id="5SODe6i" resname="Current articles">
+        <source>Current articles</source>
+        <target>Current articles</target>
+      </trans-unit>
+      <trans-unit id="WppgnB8" resname="Blog Module - Search">
+        <source>Blog Module - Search</source>
+        <target>Blog Module - Search</target>
+      </trans-unit>
+      <trans-unit id="dCkv_oC" resname="Blog search.">
+        <source>Blog search.</source>
+        <target>Blog search.</target>
+      </trans-unit>
+      <trans-unit id="FQORaiq" resname="Tag">
+        <source>Tag</source>
+        <target>Tag</target>
+      </trans-unit>
+      <trans-unit id="c93ZN8m" resname="Category name">
+        <source>Category name</source>
+        <target>Category name</target>
+      </trans-unit>
+      <trans-unit id="nG5XLtl" resname="Short content">
+        <source>Short content</source>
+        <target>Short content</target>
+      </trans-unit>
+      <trans-unit id="2VCCou5" resname="Author">
+        <source>Author</source>
+        <target>Author</target>
+      </trans-unit>
+      <trans-unit id="5qcwDSe" resname="Minimum word length (in characters):">
+        <source>Minimum word length (in characters):</source>
+        <target>Minimum word length (in characters):</target>
+      </trans-unit>
+      <trans-unit id="rX7z_a6" resname="Only words this size or larger will be searched. (default: 3).">
+        <source>Only words this size or larger will be searched. (default: 3).</source>
+        <target>Only words this size or larger will be searched. (default: 3).</target>
+      </trans-unit>
+      <trans-unit id="d1M_AYZ" resname="Content to search">
+        <source>Content to search</source>
+        <target>Content to search</target>
+      </trans-unit>
+      <trans-unit id="J6sAYu9" resname="Sort by:">
+        <source>Sort by:</source>
+        <target>Sort by:</target>
+      </trans-unit>
+      <trans-unit id="Tl5MVvx" resname="Blog Module - Tags block">
+        <source>Blog Module - Tags block</source>
+        <target>Blog Module - Tags block</target>
+      </trans-unit>
+      <trans-unit id="PR3eeoR" resname="Adds a block containing blog tags.">
+        <source>Adds a block containing blog tags.</source>
+        <target>Adds a block containing blog tags.</target>
+      </trans-unit>
+      <trans-unit id="61hN_V7" resname="Tags displayed:">
+        <source>Tags displayed:</source>
+        <target>Tags displayed:</target>
+      </trans-unit>
+      <trans-unit id="svMJGBX" resname="Define the number of tags you would like displayed in this block.">
+        <source>Define the number of tags you would like displayed in this block.</source>
+        <target>Define the number of tags you would like displayed in this block.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

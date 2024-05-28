@@ -1,0 +1,28 @@
+
+[{shop_url}]
+
+Witaj {firstname} {lastname},
+
+Dziękujemy za zakupy na stronie {shop_name}!
+
+Twoje zamówienie {order_name} zostało przyjęte do realizacji i
+JEGO WYSYŁKA NASTĄPI PO OTRZYMANIU TWOJEJ PŁATNOŚCI.
+
+Wybrałeś płatność przez eCard.
+
+Oto dane bankowe dla płatności:
+
+KWOTA: {total_paid}
+
+Możesz obejrzeć swoje zamówienie i pobrać fakturę na stronie
+"Historia zamówień" [{history_url}] logując
+się na swoje konto klienta za pomocą strony "Moje konto"
+[{my_account_url}] w naszym sklepie.
+
+Jeśli posiadasz konto gościa, możesz śledzić swoje
+zamówienie w sekcji "Śledzenie zamówienia"
+[{guest_tracking_url}].
+
+{shop_name} [{shop_url}] wspierany przez
+PrestaShop(tm) [http://www.prestashop.com/]
+

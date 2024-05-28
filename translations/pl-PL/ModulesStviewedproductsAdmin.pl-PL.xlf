@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="XKuSu9k" resname="Viewed products block">
+        <source>Viewed products block</source>
+        <target>Viewed products block</target>
+      </trans-unit>
+      <trans-unit id="mZt1lhI" resname="Adds a block displaying recently viewed products.">
+        <source>Adds a block displaying recently viewed products.</source>
+        <target>Adds a block displaying recently viewed products.</target>
+      </trans-unit>
+      <trans-unit id="0oFCFu4" resname="How many recently viewed products to remember:">
+        <source>How many recently viewed products to remember:</source>
+        <target>How many recently viewed products to remember:</target>
+      </trans-unit>
+      <trans-unit id="fmt1RRR" resname="Leave it empty to use the default vaule 10">
+        <source>Leave it empty to use the default vaule 10</source>
+        <target>Leave it empty to use the default vaule 10</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

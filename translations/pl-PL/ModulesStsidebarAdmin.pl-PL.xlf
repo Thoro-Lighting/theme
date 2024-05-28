@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="FK_YUFf" resname="Sidebar and mobile header bar">
+        <source>Sidebar and mobile header bar</source>
+        <target>Sidebar and mobile header bar</target>
+      </trans-unit>
+      <trans-unit id="sXLYB_H" resname="Manage items in the sidebar.">
+        <source>Manage items in the sidebar.</source>
+        <target>Manage items in the sidebar.</target>
+      </trans-unit>
+      <trans-unit id="f.Nvr5I" resname="Custom item">
+        <source>Custom item</source>
+        <target>Custom item</target>
+      </trans-unit>
+      <trans-unit id="ZMwTv45" resname="Shopping cart mod">
+        <source>Shopping cart mod</source>
+        <target>Shopping cart mod</target>
+      </trans-unit>
+      <trans-unit id="Ye0BCSQ" resname="Compare feature">
+        <source>Compare feature</source>
+        <target>Compare feature</target>
+      </trans-unit>
+      <trans-unit id="qvER_RG" resname="Viewed products module">
+        <source>Viewed products module</source>
+        <target>Viewed products module</target>
+      </trans-unit>
+      <trans-unit id="FmyE6WJ" resname="QR code module">
+        <source>QR code module</source>
+        <target>QR code module</target>
+      </trans-unit>
+      <trans-unit id="sEUCncE" resname="Back to top button">
+        <source>Back to top button</source>
+        <target>Back to top button</target>
+      </trans-unit>
+      <trans-unit id="xXb901K" resname="Megamenu module">
+        <source>Megamenu module</source>
+        <target>Megamenu module</target>
+      </trans-unit>
+      <trans-unit id="3nf.wwk" resname="Mobile nav - User center(My account infomation, language switcher and search box)">
+        <source>Mobile nav - User center(My account infomation, language switcher and search box)</source>
+        <target>Mobile nav - User center(My account infomation, language switcher and search box)</target>
+      </trans-unit>
+      <trans-unit id="7UBRdbO" resname="Search bar mod">
+        <source>Search bar mod</source>
+        <target>Search bar mod</target>
+      </trans-unit>
+      <trans-unit id="4w54S7b" resname="Social share">
+        <source>Social share</source>
+        <target>Social share</target>
+      </trans-unit>
+      <trans-unit id="W5eH.KO" resname="Loved products">
+        <source>Loved products</source>
+        <target>Loved products</target>
+      </trans-unit>
+      <trans-unit id="eD8mMHu" resname="Left column(Used to change colors of the opening left colum button on the mobile version)">
+        <source>Left column(Used to change colors of the opening left colum button on the mobile version)</source>
+        <target>Left column(Used to change colors of the opening left colum button on the mobile version)</target>
+      </trans-unit>
+      <trans-unit id="ag1y5ZX" resname="Right column(Used to change colors of the opening right colum button on the mobile version)">
+        <source>Right column(Used to change colors of the opening right colum button on the mobile version)</source>
+        <target>Right column(Used to change colors of the opening right colum button on the mobile version)</target>
+      </trans-unit>
+      <trans-unit id="9__nvB." resname="Sidebar">
+        <source>Sidebar</source>
+        <target>Sidebar</target>
+      </trans-unit>
+      <trans-unit id="jGU1WN." resname="an error occurred during sidebar">
+        <source>an error occurred during sidebar</source>
+        <target>an error occurred during sidebar</target>
+      </trans-unit>
+      <trans-unit id="xhH7SU3" resname="Add a sidebar item">
+        <source>Add a sidebar item</source>
+        <target>Add a sidebar item</target>
+      </trans-unit>
+      <trans-unit id="F6pZPpB" resname="You can create as many custom items as you want.">
+        <source>You can create as many custom items as you want.</source>
+        <target>You can create as many custom items as you want.</target>
+      </trans-unit>
+      <trans-unit id="PcyAKY8" resname="For the reset native modules, let me use Shopping cart mod as an exmaple, if you create two shopping cart mod items, only one of them would be shown out.">
+        <source>For the reset native modules, let me use Shopping cart mod as an exmaple, if you create two shopping cart mod items, only one of them would be shown out.</source>
+        <target>For the reset native modules, let me use Shopping cart mod as an exmaple, if you create two shopping cart mod items, only one of them would be shown out.</target>
+      </trans-unit>
+      <trans-unit id="5Eo7GYr" resname="If you added a native moudle, but it was not shown up, then please check if the module is installed or enabled.">
+        <source>If you added a native moudle, but it was not shown up, then please check if the module is installed or enabled.</source>
+        <target>If you added a native moudle, but it was not shown up, then please check if the module is installed or enabled.</target>
+      </trans-unit>
+      <trans-unit id="P8qtkZR" resname="If you fill in this field, this sidebar would not open when customers click on it, customers will be redirected to the url you field.">
+        <source>If you fill in this field, this sidebar would not open when customers click on it, customers will be redirected to the url you field.</source>
+        <target>If you fill in this field, this sidebar would not open when customers click on it, customers will be redirected to the url you field.</target>
+      </trans-unit>
+      <trans-unit id="ic.GjzJ" resname="For custom sidebar only">
+        <source>For custom sidebar only</source>
+        <target>For custom sidebar only</target>
+      </trans-unit>
+      <trans-unit id="t87HSYh" resname="This does not work for left column and right column, they can only be on the bottom">
+        <source>This does not work for left column and right column, they can only be on the bottom</source>
+        <target>This does not work for left column and right column, they can only be on the bottom</target>
+      </trans-unit>
+      <trans-unit id="XY0tbSu" resname="This does not work for left column and right column">
+        <source>This does not work for left column and right column</source>
+        <target>This does not work for left column and right column</target>
+      </trans-unit>
+      <trans-unit id="3_SRG2C" resname="Sidebar transition:">
+        <source>Sidebar transition:</source>
+        <target>Sidebar transition:</target>
+      </trans-unit>
+      <trans-unit id="slDu8mn" resname="Reveal, default">
+        <source>Reveal, default</source>
+        <target>Reveal, default</target>
+      </trans-unit>
+      <trans-unit id="MX0fJ3P" resname="Slide in on top">
+        <source>Slide in on top</source>
+        <target>Slide in on top</target>
+      </trans-unit>
+      <trans-unit id="1xoEWw0" resname="Enable sidebar">
+        <source>Enable sidebar</source>
+        <target>Enable sidebar</target>
+      </trans-unit>
+      <trans-unit id="rOGwUDd" resname="Display sidebar on desktop">
+        <source>Display sidebar on desktop</source>
+        <target>Display sidebar on desktop</target>
+      </trans-unit>
+      <trans-unit id="QuxULb." resname="Set the position of right side bar on the screen:">
+        <source>Set the position of right side bar on the screen:</source>
+        <target>Set the position of right side bar on the screen:</target>
+      </trans-unit>
+      <trans-unit id="R9aVvGf" resname="Set the position of left side bar on the screen:">
+        <source>Set the position of left side bar on the screen:</source>
+        <target>Set the position of left side bar on the screen:</target>
+      </trans-unit>
+      <trans-unit id="agzbPIY" resname="Sidebar width:">
+        <source>Sidebar width:</source>
+        <target>Sidebar width:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

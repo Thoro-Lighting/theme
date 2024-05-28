@@ -1,0 +1,4 @@
+.nav-header {display: none;}
+.nav-header.active {display: block;}
+html {padding-top: 1px;}
+body {margin-top: -1px;}

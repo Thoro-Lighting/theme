@@ -1,0 +1,41 @@
+#acc_heading_login .btn_arrow::after, #acc_heading_register .btn_arrow::after {background-image: url(../img/svg/right-arrow-black.svg) !important;
+right: 20px !important; background-size: 26px; height: 25px; width: 27px; background-position: center; top: 50%; margin-top: -14px; z-index: 1;}
+.step-2 .cart-name-top {display: none}
+.personal_information-box .steco_cart.steco_block {padding-top: 0px; padding-bottom: 0px;}
+.steco_delivery.steco_block {padding-top: 14px !important; padding-bottom: 0px;}
+.free-delivery_info.free-right {padding: 0px 0px 14px 0px; margin-top: 0px; border-bottom: 1px solid #ddd;}
+.free-delivery_info.free-right .free-info-icon {padding: 0px 0px 6px 45px; border: 0px; text-align: left; margin-bottom: 0px;}
+.free-delivery_info.free-right .free-info-icon:before {left: 0px; margin-left: 0px;}
+.free-delivery_info.free-right .free-info-clock {display: none}
+.free-delivery_info.free-right .free-info-text span.delivery-sucess {padding-left: 0px;}
+.free-delivery_info.free-right .free-info-text {text-align: left}
+.step-2 .free-delivery_info.free-right {display: none}
+#summary_sticky .steco_summary.steco_block {position: relative;}
+
+
+#footer.footer_checkout .title_block {margin-bottom: 0px;padding-bottom: 0px;margin-top: 20px;}
+#footer.footer_checkout .title_block .title_block_inner {padding: 0px 20px 14px 0; color: #333; text-transform: none; font-weight: 700;}
+#footer-checkout {max-width: 1440px !important;}
+#footer.footer_checkout p, #footer.footer_checkout a {color: #333; padding: 0px 0px 3px;}
+#footer.footer_checkout #footer-bottom #footer_bottom_left {float: none;}
+#footer.footer_checkout #footer-bottom #footer_bottom_left .easy_brother_block {text-align: center}
+#footer.footer_checkout #footer-bottom {margin-top: 0px; background: #fff}
+
+#footer.footer_checkout #footer-checkout .easy_brother_block a {color: #0090ff; text-decoration: underline}
+#footer.footer_checkout #footer-checkout .easy_brother_block a:hover {text-decoration: none}
+.mobile_device #footer.footer_checkout #footer-checkout {margin-top: 10px;}
+
+.mobile_device.step-1 #body_wrapper {padding-bottom: 100px;}
+#summary_sticky .estimated-delivery br {display: inline-block;}
+.adres_padding .form-group.st_form_item_id_country {position: absolute;text-indent: -9000px;left: -9000px;}
+
+@media ( min-width :1440px) {
+
+#module-steasycheckout-default #wrapper .container {width: 1440px}
+
+}
+@media ( max-width :767px) {
+
+.step-1 #body_wrapper {padding-bottom: 110px;}
+
+}

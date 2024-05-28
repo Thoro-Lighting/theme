@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="LYh_6VH" resname="Facebook page plugin">
+        <source>Facebook page plugin</source>
+        <target>Facebook page plugin</target>
+      </trans-unit>
+      <trans-unit id="SnCGJPd" resname="Adds a Facebook social plugin Like Box">
+        <source>Adds a Facebook social plugin Like Box</source>
+        <target>Adds a Facebook social plugin Like Box</target>
+      </trans-unit>
+      <trans-unit id="OUCvOKG" resname="Facebook Page URL:">
+        <source>Facebook Page URL:</source>
+        <target>Facebook Page URL:</target>
+      </trans-unit>
+      <trans-unit id="xR65kVs" resname="The height of the plugin in pixels.">
+        <source>The height of the plugin in pixels.</source>
+        <target>The height of the plugin in pixels.</target>
+      </trans-unit>
+      <trans-unit id="N95LhRc" resname="Show Friend\'s Faces:">
+        <source>Show Friend\'s Faces:</source>
+        <target>Show Friend\'s Faces:</target>
+      </trans-unit>
+      <trans-unit id="IkaW_9O" resname="Show profile photos when friends like this.">
+        <source>Show profile photos when friends like this.</source>
+        <target>Show profile photos when friends like this.</target>
+      </trans-unit>
+      <trans-unit id="LRQBDna" resname="Show Page Posts:">
+        <source>Show Page Posts:</source>
+        <target>Show Page Posts:</target>
+      </trans-unit>
+      <trans-unit id="STngJg3" resname="Show posts from the Page\'s timeline.">
+        <source>Show posts from the Page\'s timeline.</source>
+        <target>Show posts from the Page\'s timeline.</target>
+      </trans-unit>
+      <trans-unit id="TBli62x" resname="Hide Cover Photo:">
+        <source>Hide Cover Photo:</source>
+        <target>Hide Cover Photo:</target>
+      </trans-unit>
+      <trans-unit id="1OOA4z0" resname="Hide cover photo in the header">
+        <source>Hide cover photo in the header</source>
+        <target>Hide cover photo in the header</target>
+      </trans-unit>
+      <trans-unit id="WLMRuvU" resname="Use the small header instead:">
+        <source>Use the small header instead:</source>
+        <target>Use the small header instead:</target>
+      </trans-unit>
+      <trans-unit id="_p1SlWn" resname="Use the small header instead">
+        <source>Use the small header instead</source>
+        <target>Use the small header instead</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

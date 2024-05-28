@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="oOAurUN" resname="Currency selector block mod">
+        <source>Currency selector block mod</source>
+        <target>Currency selector block mod</target>
+      </trans-unit>
+      <trans-unit id="9u9RCf4" resname="Adds a block allowing customers to choose their preferred shopping currency.">
+        <source>Adds a block allowing customers to choose their preferred shopping currency.</source>
+        <target>Adds a block allowing customers to choose their preferred shopping currency.</target>
+      </trans-unit>
+      <trans-unit id="y_BoxOr" resname="Currencies label:">
+        <source>Currencies label:</source>
+        <target>Currencies label:</target>
+      </trans-unit>
+      <trans-unit id="_hqpQ46" resname="Sign + code">
+        <source>Sign + code</source>
+        <target>Sign + code</target>
+      </trans-unit>
+      <trans-unit id="NA9GMDP" resname="Code">
+        <source>Code</source>
+        <target>Code</target>
+      </trans-unit>
+      <trans-unit id="DJYY6YS" resname="Sign">
+        <source>Sign</source>
+        <target>Sign</target>
+      </trans-unit>
+      <trans-unit id="0PoHkNb" resname="A drop-down list">
+        <source>A drop-down list</source>
+        <target>A drop-down list</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

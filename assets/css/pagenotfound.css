@@ -1,0 +1,2 @@
+.empty-cart-prod .title_block {position: relative; border-bottom: 1px solid #c7c7c7; padding-bottom: 25px;  margin-bottom: 55px;}
+.empty-cart-prod .title_block:before {content: ''; width: 80px; height: 4px; position: absolute; left: 50%; margin-left: -40px; bottom: -1px;  background: #82cede;}

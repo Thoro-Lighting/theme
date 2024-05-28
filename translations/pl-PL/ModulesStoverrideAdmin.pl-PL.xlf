@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="Bg5o.2q" resname="Overriding default behaviors">
+        <source>Overriding default behaviors</source>
+        <target>Overriding default behaviors</target>
+      </trans-unit>
+      <trans-unit id="fX6vw.C" resname="Overriding PrestaShops classes and controllers">
+        <source>Overriding PrestaShops classes and controllers</source>
+        <target>Overriding PrestaShops classes and controllers</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

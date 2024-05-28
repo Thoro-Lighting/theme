@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="wnrNIEq" resname="Countdown module">
+        <source>Countdown module</source>
+        <target>Countdown module</target>
+      </trans-unit>
+      <trans-unit id="NC6qpp7" resname="Display countdown special products.">
+        <source>Display countdown special products.</source>
+        <target>Display countdown special products.</target>
+      </trans-unit>
+      <trans-unit id="2GqKTUz" resname="Product ID error">
+        <source>Product ID error</source>
+        <target>Product ID error</target>
+      </trans-unit>
+      <trans-unit id="c7q.a5e" resname="Countdwon settings">
+        <source>Countdwon settings</source>
+        <target>Countdwon settings</target>
+      </trans-unit>
+      <trans-unit id="ruHUW06" resname="This module does not have a slider to display products on the front office.">
+        <source>This module does not have a slider to display products on the front office.</source>
+        <target>This module does not have a slider to display products on the front office.</target>
+      </trans-unit>
+      <trans-unit id="2VY8QMA" resname="If you set a product with countdown timer, but the product does not show up on the homepage, then you can use the &quot;Special products slider&quot; module to force it to show up.">
+        <source>If you set a product with countdown timer, but the product does not show up on the homepage, then you can use the "Special products slider" module to force it to show up.</source>
+        <target>If you set a product with countdown timer, but the product does not show up on the homepage, then you can use the "Special products slider" module to force it to show up.</target>
+      </trans-unit>
+      <trans-unit id="a0ZzGN1" resname="Each products slider module has an option to do not show the countdown timer.">
+        <source>Each products slider module has an option to do not show the countdown timer.</source>
+        <target>Each products slider module has an option to do not show the countdown timer.</target>
+      </trans-unit>
+      <trans-unit id="m4TKwGF" resname="Display countdown:">
+        <source>Display countdown:</source>
+        <target>Display countdown:</target>
+      </trans-unit>
+      <trans-unit id="7UHGfZa" resname="Display on all special products:">
+        <source>Display on all special products:</source>
+        <target>Display on all special products:</target>
+      </trans-unit>
+      <trans-unit id="NHwGK12" resname="If you turn this option on, each special product will has a countdown timer.">
+        <source>If you turn this option on, each special product will has a countdown timer.</source>
+        <target>If you turn this option on, each special product will has a countdown timer.</target>
+      </trans-unit>
+      <trans-unit id="M.I.y22" resname="Specific products to have a countdown timer:">
+        <source>Specific products to have a countdown timer:</source>
+        <target>Specific products to have a countdown timer:</target>
+      </trans-unit>
+      <trans-unit id="TDiW4nV" resname="Style:">
+        <source>Style:</source>
+        <target>Style:</target>
+      </trans-unit>
+      <trans-unit id="dRRvIQ7" resname="00 days 00 hours 00 minutes 00 seconds">
+        <source>00 days 00 hours 00 minutes 00 seconds</source>
+        <target>00 days 00 hours 00 minutes 00 seconds</target>
+      </trans-unit>
+      <trans-unit id="ks5HzgC" resname="00 days 00:00:00">
+        <source>00 days 00:00:00</source>
+        <target>00 days 00:00:00</target>
+      </trans-unit>
+      <trans-unit id="91gtCbV" resname="Display &quot;Limited special offer&quot; when a speical offer has NO end date:">
+        <source>Display "Limited special offer" when a speical offer has NO end date:</source>
+        <target>Display "Limited special offer" when a speical offer has NO end date:</target>
+      </trans-unit>
+      <trans-unit id="WqBiq_6" resname="Advanced Settings - Grid">
+        <source>Advanced Settings - Grid</source>
+        <target>Advanced Settings - Grid</target>
+      </trans-unit>
+      <trans-unit id="ItzDVBe" resname="Top &amp; Bottom padding:">
+        <source>Top &amp; Bottom padding:</source>
+        <target><![CDATA[Top & Bottom padding:]]></target>
+      </trans-unit>
+      <trans-unit id="dWkZgUs" resname="Increasing the vaule of this field can make the number and text get colser. The vaule of this field can not larger than half of the height.">
+        <source>Increasing the vaule of this field can make the number and text get colser. The vaule of this field can not larger than half of the height.</source>
+        <target>Increasing the vaule of this field can make the number and text get colser. The vaule of this field can not larger than half of the height.</target>
+      </trans-unit>
+      <trans-unit id="G31uJyO" resname="Numbers font:">
+        <source>Numbers font:</source>
+        <target>Numbers font:</target>
+      </trans-unit>
+      <trans-unit id="swmf3D1" resname="Numbers font weight:">
+        <source>Numbers font weight:</source>
+        <target>Numbers font weight:</target>
+      </trans-unit>
+      <trans-unit id="aES.e.j" resname="Numbers font size:">
+        <source>Numbers font size:</source>
+        <target>Numbers font size:</target>
+      </trans-unit>
+      <trans-unit id="wHSzVoT" resname="Days hrs min sec.">
+        <source>Days hrs min sec.</source>
+        <target>Days hrs min sec.</target>
+      </trans-unit>
+      <trans-unit id="22CqpoQ" resname="Text transform:">
+        <source>Text transform:</source>
+        <target>Text transform:</target>
+      </trans-unit>
+      <trans-unit id="kJa7IEx" resname="Display dividers:">
+        <source>Display dividers:</source>
+        <target>Display dividers:</target>
+      </trans-unit>
+      <trans-unit id="JAMbQcG" resname="At the bottom of the product image">
+        <source>At the bottom of the product image</source>
+        <target>At the bottom of the product image</target>
+      </trans-unit>
+      <trans-unit id="eSCWPPN" resname="At the middle of the product image">
+        <source>At the middle of the product image</source>
+        <target>At the middle of the product image</target>
+      </trans-unit>
+      <trans-unit id="tzS.Ai9" resname="Under the price">
+        <source>Under the price</source>
+        <target>Under the price</target>
+      </trans-unit>
+      <trans-unit id="KNfgHNf" resname="Advanced Settings - Product page">
+        <source>Advanced Settings - Product page</source>
+        <target>Advanced Settings - Product page</target>
+      </trans-unit>
+      <trans-unit id="BJtyI9c" resname="Display countdown timers on the native modules">
+        <source>Display countdown timers on the native modules</source>
+        <target>Display countdown timers on the native modules</target>
+      </trans-unit>
+      <trans-unit id="XAlimPP" resname="Display on the &quot;New products block&quot; module:">
+        <source>Display on the "New products block" module:</source>
+        <target>Display on the "New products block" module:</target>
+      </trans-unit>
+      <trans-unit id="Tlf0Wmz" resname="Display on the &quot;Specials block&quot; module:">
+        <source>Display on the "Specials block" module:</source>
+        <target>Display on the "Specials block" module:</target>
+      </trans-unit>
+      <trans-unit id=".ybQEQF" resname="Display on the &quot;Top-sellers block&quot; module:">
+        <source>Display on the "Top-sellers block" module:</source>
+        <target>Display on the "Top-sellers block" module:</target>
+      </trans-unit>
+      <trans-unit id="o0grGUM" resname="Display on the &quot;Featured products on the homepage&quot; module:">
+        <source>Display on the "Featured products on the homepage" module:</source>
+        <target>Display on the "Featured products on the homepage" module:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

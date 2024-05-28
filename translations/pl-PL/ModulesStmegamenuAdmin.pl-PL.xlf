@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="3gK0tda" resname="Megamenu">
+        <source>Megamenu</source>
+        <target>Megamenu</target>
+      </trans-unit>
+      <trans-unit id="nT0cBGu" resname="Add a menu on top of your shop.">
+        <source>Add a menu on top of your shop.</source>
+        <target>Add a menu on top of your shop.</target>
+      </trans-unit>
+      <trans-unit id="XpHplS0" resname="Main horizontal menu">
+        <source>Main horizontal menu</source>
+        <target>Main horizontal menu</target>
+      </trans-unit>
+      <trans-unit id="31L.Hq4" resname="Left/right column menu">
+        <source>Left/right column menu</source>
+        <target>Left/right column menu</target>
+      </trans-unit>
+      <trans-unit id="Q_B3jPZ" resname="Dropdown vertical menu">
+        <source>Dropdown vertical menu</source>
+        <target>Dropdown vertical menu</target>
+      </trans-unit>
+      <trans-unit id="okriZqe" resname="An error occurred while copy menu.">
+        <source>An error occurred while copy menu.</source>
+        <target>An error occurred while copy menu.</target>
+      </trans-unit>
+      <trans-unit id="Fa88.1D" resname="&quot;Menu item&quot; error">
+        <source>"Menu item" error</source>
+        <target>"Menu item" error</target>
+      </trans-unit>
+      <trans-unit id="U9bxXgC" resname="Please select an option from &quot;Main menu&quot; drop down list or fill out &quot;Menu name&quot; field.">
+        <source>Please select an option from "Main menu" drop down list or fill out "Menu name" field.</source>
+        <target>Please select an option from "Main menu" drop down list or fill out "Menu name" field.</target>
+      </trans-unit>
+      <trans-unit id="YJIMu7K" resname="Invalid value for field(s).">
+        <source>Invalid value for field(s).</source>
+        <target>Invalid value for field(s).</target>
+      </trans-unit>
+      <trans-unit id="lg.a5M7" resname="Please select an option from &quot;Menu&quot; drop down list or fill out &quot;Menu name&quot; field.">
+        <source>Please select an option from "Menu" drop down list or fill out "Menu name" field.</source>
+        <target>Please select an option from "Menu" drop down list or fill out "Menu name" field.</target>
+      </trans-unit>
+      <trans-unit id="q_TyxSr" resname="The field &quot;Custom content&quot; is required at least in">
+        <source>The field "Custom content" is required at least in</source>
+        <target>The field "Custom content" is required at least in</target>
+      </trans-unit>
+      <trans-unit id="W_B9Ns0" resname="Please select an option from &quot;Category&quot; drop down list.">
+        <source>Please select an option from "Category" drop down list.</source>
+        <target>Please select an option from "Category" drop down list.</target>
+      </trans-unit>
+      <trans-unit id="dReSVD1" resname="The field &quot;Product name&quot; is required.">
+        <source>The field "Product name" is required.</source>
+        <target>The field "Product name" is required.</target>
+      </trans-unit>
+      <trans-unit id="kghziMD" resname="Main menu:">
+        <source>Main menu:</source>
+        <target>Main menu:</target>
+      </trans-unit>
+      <trans-unit id="RW8mkB5" resname="Select an option or fill out Menu name field">
+        <source>Select an option or fill out Menu name field</source>
+        <target>Select an option or fill out Menu name field</target>
+      </trans-unit>
+      <trans-unit id="XQf0d9Q" resname="Menu name / Overwrite name:">
+        <source>Menu name / Overwrite name:</source>
+        <target>Menu name / Overwrite name:</target>
+      </trans-unit>
+      <trans-unit id="QX2_wP9" resname="Submenu type:">
+        <source>Submenu type:</source>
+        <target>Submenu type:</target>
+      </trans-unit>
+      <trans-unit id="WfR7A5e" resname="Mega">
+        <source>Mega</source>
+        <target>Mega</target>
+      </trans-unit>
+      <trans-unit id="DVqlQhB" resname="Multi level">
+        <source>Multi level</source>
+        <target>Multi level</target>
+      </trans-unit>
+      <trans-unit id="zmP7v.S" resname="Submenu width:">
+        <source>Submenu width:</source>
+        <target>Submenu width:</target>
+      </trans-unit>
+      <trans-unit id="xCOstgx" resname="Submenu alignment:">
+        <source>Submenu alignment:</source>
+        <target>Submenu alignment:</target>
+      </trans-unit>
+      <trans-unit id="LTU9QCc" resname="Actually only for Mega menu.">
+        <source>Actually only for Mega menu.</source>
+        <target>Actually only for Mega menu.</target>
+      </trans-unit>
+      <trans-unit id="3ffKzA9" resname="No follow:">
+        <source>No follow:</source>
+        <target>No follow:</target>
+      </trans-unit>
+      <trans-unit id="YceP0xf" resname="The &quot;nofollow&quot; option controls whether a nofollow attribute is placed on links, which affects the way search engines interact with those links.">
+        <source>The "nofollow" option controls whether a nofollow attribute is placed on links, which affects the way search engines interact with those links.</source>
+        <target>The "nofollow" option controls whether a nofollow attribute is placed on links, which affects the way search engines interact with those links.</target>
+      </trans-unit>
+      <trans-unit id="DP5sDBz" resname="E.g. &quot;Hot&quot;, &quot;New&quot;">
+        <source>E.g. "Hot", "New"</source>
+        <target>E.g. "Hot", "New"</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="3GJCKMS" resname="Overwrite name:">
+        <source>Overwrite name:</source>
+        <target>Overwrite name:</target>
+      </trans-unit>
+      <trans-unit id="SL7uelt" resname="Show category image:">
+        <source>Show category image:</source>
+        <target>Show category image:</target>
+      </trans-unit>
+      <trans-unit id="w6yyrXT" resname="Menu item:">
+        <source>Menu item:</source>
+        <target>Menu item:</target>
+      </trans-unit>
+      <trans-unit id="EZqaC24" resname="Sub-categories">
+        <source>Sub-categories</source>
+        <target>Sub-categories</target>
+      </trans-unit>
+      <trans-unit id="aah296f" resname="Self + Sub-categories">
+        <source>Self + Sub-categories</source>
+        <target>Self + Sub-categories</target>
+      </trans-unit>
+      <trans-unit id="4wUPFdZ" resname="Self only">
+        <source>Self only</source>
+        <target>Self only</target>
+      </trans-unit>
+      <trans-unit id="0zujYqO" resname="Items per row:">
+        <source>Items per row:</source>
+        <target>Items per row:</target>
+      </trans-unit>
+      <trans-unit id="6Jl1Y7L" resname="Levels:">
+        <source>Levels:</source>
+        <target>Levels:</target>
+      </trans-unit>
+      <trans-unit id="VQwtsP0" resname="0 for no limits.">
+        <source>0 for no limits.</source>
+        <target>0 for no limits.</target>
+      </trans-unit>
+      <trans-unit id="w5zc4p0" resname="Item limit:">
+        <source>Item limit:</source>
+        <target>Item limit:</target>
+      </trans-unit>
+      <trans-unit id="sbNfXcP" resname="0 for no limits. You have to fill this field if you have set &quot;Menu item&quot; to &quot;Products&quot;.">
+        <source>0 for no limits. You have to fill this field if you have set "Menu item" to "Products".</source>
+        <target>0 for no limits. You have to fill this field if you have set "Menu item" to "Products".</target>
+      </trans-unit>
+      <trans-unit id="wZ0BXxi" resname="Sub-item limit:">
+        <source>Sub-item limit:</source>
+        <target>Sub-item limit:</target>
+      </trans-unit>
+      <trans-unit id="aBGeHyE" resname="How to display 4th level + menu items:">
+        <source>How to display 4th level + menu items:</source>
+        <target>How to display 4th level + menu items:</target>
+      </trans-unit>
+      <trans-unit id="ruZjIbl" resname="Display them under their parent menu items">
+        <source>Display them under their parent menu items</source>
+        <target>Display them under their parent menu items</target>
+      </trans-unit>
+      <trans-unit id="28FB50v" resname="Display them when mouse over their parent menu items.">
+        <source>Display them when mouse over their parent menu items.</source>
+        <target>Display them when mouse over their parent menu items.</target>
+      </trans-unit>
+      <trans-unit id="ssUYj.6" resname="Only for Mega menu.">
+        <source>Only for Mega menu.</source>
+        <target>Only for Mega menu.</target>
+      </trans-unit>
+      <trans-unit id="0N6q9x2" resname="Open in a new window:">
+        <source>Open in a new window:</source>
+        <target>Open in a new window:</target>
+      </trans-unit>
+      <trans-unit id="P.bAVyO" resname="ref">
+        <source>ref</source>
+        <target>ref</target>
+      </trans-unit>
+      <trans-unit id="GCkLyYb" resname="Show all Brands:">
+        <source>Show all Brands:</source>
+        <target>Show all Brands:</target>
+      </trans-unit>
+      <trans-unit id="Te39Myg" resname="Specific Brands:">
+        <source>Specific Brands:</source>
+        <target>Specific Brands:</target>
+      </trans-unit>
+      <trans-unit id="B7o8y5W" resname="Actually only for &quot;Show all Brands&quot; is set to &quot;No&quot;.">
+        <source>Actually only for "Show all Brands" is set to "No".</source>
+        <target>Actually only for "Show all Brands" is set to "No".</target>
+      </trans-unit>
+      <trans-unit id="c4CBiaj" resname="Current manufacturers">
+        <source>Current manufacturers</source>
+        <target>Current manufacturers</target>
+      </trans-unit>
+      <trans-unit id="69.Ww_w" resname="Menu name:">
+        <source>Menu name:</source>
+        <target>Menu name:</target>
+      </trans-unit>
+      <trans-unit id="W_NmmZg" resname="How to display it\'s sub menu items:">
+        <source>How to display it\'s sub menu items:</source>
+        <target>How to display it\'s sub menu items:</target>
+      </trans-unit>
+      <trans-unit id="eiKzhVi" resname="Display it\'s sub menu items under it">
+        <source>Display it\'s sub menu items under it</source>
+        <target>Display it\'s sub menu items under it</target>
+      </trans-unit>
+      <trans-unit id="VgpYZ4q" resname="Display it\'s sub menu items when mouse over it.">
+        <source>Display it\'s sub menu items when mouse over it.</source>
+        <target>Display it\'s sub menu items when mouse over it.</target>
+      </trans-unit>
+      <trans-unit id="AU8kCcC" resname="Only for Mega menu and level 4+ menu items.">
+        <source>Only for Mega menu and level 4+ menu items.</source>
+        <target>Only for Mega menu and level 4+ menu items.</target>
+      </trans-unit>
+      <trans-unit id="1XoF6qW" resname="Add main menu">
+        <source>Add main menu</source>
+        <target>Add main menu</target>
+      </trans-unit>
+      <trans-unit id="mL55xuv" resname="Add column">
+        <source>Add column</source>
+        <target>Add column</target>
+      </trans-unit>
+      <trans-unit id="dpAPG.0" resname="Back">
+        <source>Back</source>
+        <target>Back</target>
+      </trans-unit>
+      <trans-unit id="U6red81" resname="Columns">
+        <source>Columns</source>
+        <target>Columns</target>
+      </trans-unit>
+      <trans-unit id="enDjUJz" resname="This title would not show on the front office, only as a reminde.">
+        <source>This title would not show on the front office, only as a reminde.</source>
+        <target>This title would not show on the front office, only as a reminde.</target>
+      </trans-unit>
+      <trans-unit id="HiEUQsp" resname="Add category block">
+        <source>Add category block</source>
+        <target>Add category block</target>
+      </trans-unit>
+      <trans-unit id="HIgcWMy" resname="Add product block">
+        <source>Add product block</source>
+        <target>Add product block</target>
+      </trans-unit>
+      <trans-unit id="d4pybaX" resname="Add brand block">
+        <source>Add brand block</source>
+        <target>Add brand block</target>
+      </trans-unit>
+      <trans-unit id="pT_yzj_" resname="Add custom link">
+        <source>Add custom link</source>
+        <target>Add custom link</target>
+      </trans-unit>
+      <trans-unit id="fW6dTGx" resname="Add custom content">
+        <source>Add custom content</source>
+        <target>Add custom content</target>
+      </trans-unit>
+      <trans-unit id="P9yaWHa" resname="Column">
+        <source>Column</source>
+        <target>Column</target>
+      </trans-unit>
+      <trans-unit id="HNWmaHu" resname="Blocks">
+        <source>Blocks</source>
+        <target>Blocks</target>
+      </trans-unit>
+      <trans-unit id="q3mCyYD" resname="Id menu column error:">
+        <source>Id menu column error:</source>
+        <target>Id menu column error:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="9xtBKTt" resname="Special Products Slider">
+        <source>Special Products Slider</source>
+        <target>Special Products Slider</target>
+      </trans-unit>
+      <trans-unit id="Wa9WhDx" resname="Display special products slider on hompage.">
+        <source>Display special products slider on hompage.</source>
+        <target>Display special products slider on hompage.</target>
+      </trans-unit>
+      <trans-unit id="2GqKTUz" resname="Product ID error">
+        <source>Product ID error</source>
+        <target>Product ID error</target>
+      </trans-unit>
+      <trans-unit id="7kLzm1T" resname="Specific special products:">
+        <source>Specific special products:</source>
+        <target>Specific special products:</target>
+      </trans-unit>
+      <trans-unit id="Y8pXeP0" resname="Display this product in the Special products slider if it has specific prices.">
+        <source>Display this product in the Special products slider if it has specific prices.</source>
+        <target>Display this product in the Special products slider if it has specific prices.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

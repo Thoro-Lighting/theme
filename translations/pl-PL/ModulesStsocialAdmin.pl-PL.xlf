@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="bqmuEbO" resname="Social share buttons">
+        <source>Social share buttons</source>
+        <target>Social share buttons</target>
+      </trans-unit>
+      <trans-unit id="jkrSVr0" resname="Dispaly Social sharing buttons on your store.">
+        <source>Dispaly Social sharing buttons on your store.</source>
+        <target>Dispaly Social sharing buttons on your store.</target>
+      </trans-unit>
+      <trans-unit id="1B9bSXf" resname="Facebook">
+        <source>Facebook</source>
+        <target>Facebook</target>
+      </trans-unit>
+      <trans-unit id="JwZe7Lz" resname="Share on Facebook">
+        <source>Share on Facebook</source>
+        <target>Share on Facebook</target>
+      </trans-unit>
+      <trans-unit id="vNGOrV_" resname="Twitter">
+        <source>Twitter</source>
+        <target>Twitter</target>
+      </trans-unit>
+      <trans-unit id="23BK_RT" resname="Share on Twitter">
+        <source>Share on Twitter</source>
+        <target>Share on Twitter</target>
+      </trans-unit>
+      <trans-unit id="nbxSSlT" resname="Google+">
+        <source>Google+</source>
+        <target>Google+</target>
+      </trans-unit>
+      <trans-unit id="Bu4g0D7" resname="Share on Google+">
+        <source>Share on Google+</source>
+        <target>Share on Google+</target>
+      </trans-unit>
+      <trans-unit id="eN.U15v" resname="Pinterest">
+        <source>Pinterest</source>
+        <target>Pinterest</target>
+      </trans-unit>
+      <trans-unit id="E3BfZiv" resname="Share on Pinterest">
+        <source>Share on Pinterest</source>
+        <target>Share on Pinterest</target>
+      </trans-unit>
+      <trans-unit id="j6OJnps" resname="Linkedin">
+        <source>Linkedin</source>
+        <target>Linkedin</target>
+      </trans-unit>
+      <trans-unit id="9NGFYH1" resname="Share on Linkedin">
+        <source>Share on Linkedin</source>
+        <target>Share on Linkedin</target>
+      </trans-unit>
+      <trans-unit id="POi3x17" resname="Tumblr">
+        <source>Tumblr</source>
+        <target>Tumblr</target>
+      </trans-unit>
+      <trans-unit id="H28jl3e" resname="Share on Tumblr">
+        <source>Share on Tumblr</source>
+        <target>Share on Tumblr</target>
+      </trans-unit>
+      <trans-unit id="cW.agDj" resname="Blogger">
+        <source>Blogger</source>
+        <target>Blogger</target>
+      </trans-unit>
+      <trans-unit id="ad30KDP" resname="Share on Blogger">
+        <source>Share on Blogger</source>
+        <target>Share on Blogger</target>
+      </trans-unit>
+      <trans-unit id="1DEBZgy" resname="Skype">
+        <source>Skype</source>
+        <target>Skype</target>
+      </trans-unit>
+      <trans-unit id="k8EO6Bn" resname="Share on Skype">
+        <source>Share on Skype</source>
+        <target>Share on Skype</target>
+      </trans-unit>
+      <trans-unit id="mhbRYTM" resname="Digg">
+        <source>Digg</source>
+        <target>Digg</target>
+      </trans-unit>
+      <trans-unit id="eDNCbvV" resname="Share on Digg">
+        <source>Share on Digg</source>
+        <target>Share on Digg</target>
+      </trans-unit>
+      <trans-unit id="rN0ec0E" resname="Telegram">
+        <source>Telegram</source>
+        <target>Telegram</target>
+      </trans-unit>
+      <trans-unit id="E1ZLyHs" resname="Share on Telegram">
+        <source>Share on Telegram</source>
+        <target>Share on Telegram</target>
+      </trans-unit>
+      <trans-unit id="akDt8fy" resname="WhatsApp">
+        <source>WhatsApp</source>
+        <target>WhatsApp</target>
+      </trans-unit>
+      <trans-unit id="oNAcFln" resname="Share on WhatsApp">
+        <source>Share on WhatsApp</source>
+        <target>Share on WhatsApp</target>
+      </trans-unit>
+      <trans-unit id="6wBQ9yM" resname="Reddit">
+        <source>Reddit</source>
+        <target>Reddit</target>
+      </trans-unit>
+      <trans-unit id="zdmgvtQ" resname="Share on Reddit">
+        <source>Share on Reddit</source>
+        <target>Share on Reddit</target>
+      </trans-unit>
+      <trans-unit id="rdtCa0B" resname="Vk">
+        <source>Vk</source>
+        <target>Vk</target>
+      </trans-unit>
+      <trans-unit id="Pei2G4r" resname="Share on Vk">
+        <source>Share on Vk</source>
+        <target>Share on Vk</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="1U7sQc." resname="an error occurred during social button">
+        <source>an error occurred during social button</source>
+        <target>an error occurred during social button</target>
+      </trans-unit>
+      <trans-unit id="jtHdD8c" resname="Predefined share links:">
+        <source>Predefined share links:</source>
+        <target>Predefined share links:</target>
+      </trans-unit>
+      <trans-unit id="tlnkKzR" resname="You can select a predefined share link or add your own ones.">
+        <source>You can select a predefined share link or add your own ones.</source>
+        <target>You can select a predefined share link or add your own ones.</target>
+      </trans-unit>
+      <trans-unit id="c6rOSMY" resname="Let me use pinterest a share link as an example to explain how to add new share links.">
+        <source>Let me use pinterest a share link as an example to explain how to add new share links.</source>
+        <target>Let me use pinterest a share link as an example to explain how to add new share links.</target>
+      </trans-unit>
+      <trans-unit id="dyW9TRk" resname="All you have to do is to find out at least the first two parts(marked in blue and green) on the api page of the socail media which you want to add.">
+        <source>All you have to do is to find out at least the first two parts(marked in blue and green) on the api page of the socail media which you want to add.</source>
+        <target>All you have to do is to find out at least the first two parts(marked in blue and green) on the api page of the socail media which you want to add.</target>
+      </trans-unit>
+      <trans-unit id="qNNYX8E" resname="This will show out when mouse over.">
+        <source>This will show out when mouse over.</source>
+        <target>This will show out when mouse over.</target>
+      </trans-unit>
+      <trans-unit id="LSiH6aW" resname="Icon(Rquired):">
+        <source>Icon(Rquired):</source>
+        <target>Icon(Rquired):</target>
+      </trans-unit>
+      <trans-unit id="XG7KqPi" resname="Sharing link(Rquired):">
+        <source>Sharing link(Rquired):</source>
+        <target>Sharing link(Rquired):</target>
+      </trans-unit>
+      <trans-unit id="ibC._B3" resname="This is the blue part of that sample link.">
+        <source>This is the blue part of that sample link.</source>
+        <target>This is the blue part of that sample link.</target>
+      </trans-unit>
+      <trans-unit id="ZxFK2a0" resname="Url parameter(Rquired):">
+        <source>Url parameter(Rquired):</source>
+        <target>Url parameter(Rquired):</target>
+      </trans-unit>
+      <trans-unit id="3v0HyNs" resname="This is the green part.">
+        <source>This is the green part.</source>
+        <target>This is the green part.</target>
+      </trans-unit>
+      <trans-unit id="CDj2JjI" resname="Description parameter:">
+        <source>Description parameter:</source>
+        <target>Description parameter:</target>
+      </trans-unit>
+      <trans-unit id="9Hys7Pe" resname="This is the yellow part. Generally we use product name as description.">
+        <source>This is the yellow part. Generally we use product name as description.</source>
+        <target>This is the yellow part. Generally we use product name as description.</target>
+      </trans-unit>
+      <trans-unit id="s.DpCMH" resname="Image parameter:">
+        <source>Image parameter:</source>
+        <target>Image parameter:</target>
+      </trans-unit>
+      <trans-unit id="pnN1y4C" resname="This is the red part.">
+        <source>This is the red part.</source>
+        <target>This is the red part.</target>
+      </trans-unit>
+      <trans-unit id="Mtd4jyh" resname="Display this link on the sidebar:">
+        <source>Display this link on the sidebar:</source>
+        <target>Display this link on the sidebar:</target>
+      </trans-unit>
+      <trans-unit id="qk3KpHF" resname="Make sure this module has added to the sidebar in the &quot;Sidebar&quot; module, otherwise links would not show out.">
+        <source>Make sure this module has added to the sidebar in the "Sidebar" module, otherwise links would not show out.</source>
+        <target>Make sure this module has added to the sidebar in the "Sidebar" module, otherwise links would not show out.</target>
+      </trans-unit>
+      <trans-unit id="ncWDdyL" resname="Add new button">
+        <source>Add new button</source>
+        <target>Add new button</target>
+      </trans-unit>
+      <trans-unit id="KdhWH5Q" resname="Open Graph Image:">
+        <source>Open Graph Image:</source>
+        <target>Open Graph Image:</target>
+      </trans-unit>
+      <trans-unit id="PNWoz._" resname="The minimum size is 200px x 200px. This image will be shown when someone shares your homepage and some other pages like new products page, searching page.">
+        <source>The minimum size is 200px x 200px. This image will be shown when someone shares your homepage and some other pages like new products page, searching page.</source>
+        <target>The minimum size is 200px x 200px. This image will be shown when someone shares your homepage and some other pages like new products page, searching page.</target>
+      </trans-unit>
+      <trans-unit id="aDhCUiK" resname="Display share links in a drop down menu:">
+        <source>Display share links in a drop down menu:</source>
+        <target>Display share links in a drop down menu:</target>
+      </trans-unit>
+      <trans-unit id="OzrVzsy" resname="Does not work for links in hover fly buttons and sidebar.">
+        <source>Does not work for links in hover fly buttons and sidebar.</source>
+        <target>Does not work for links in hover fly buttons and sidebar.</target>
+      </trans-unit>
+      <trans-unit id="xAliYYH" resname="Drop down menu title:">
+        <source>Drop down menu title:</source>
+        <target>Drop down menu title:</target>
+      </trans-unit>
+      <trans-unit id="Vp0ZD1g" resname="Share icon + Text">
+        <source>Share icon + Text</source>
+        <target>Share icon + Text</target>
+      </trans-unit>
+      <trans-unit id="SqdIJLw" resname="Share icon">
+        <source>Share icon</source>
+        <target>Share icon</target>
+      </trans-unit>
+      <trans-unit id="wLA1IQC" resname="Facebook app ID (optional)">
+        <source>Facebook app ID (optional)</source>
+        <target>Facebook app ID (optional)</target>
+      </trans-unit>
+      <trans-unit id="tz__583" resname="How to get Facebook app ID: %1%.">
+        <source>How to get Facebook app ID: %1%.</source>
+        <target>How to get Facebook app ID: %1%.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

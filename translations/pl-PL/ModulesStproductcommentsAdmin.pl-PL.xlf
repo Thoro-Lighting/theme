@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="P64ormE" resname="Product Comments">
+        <source>Product Comments</source>
+        <target>Product Comments</target>
+      </trans-unit>
+      <trans-unit id="PVPIrmJ" resname="Allows users to post comments for products after placed orders.">
+        <source>Allows users to post comments for products after placed orders.</source>
+        <target>Allows users to post comments for products after placed orders.</target>
+      </trans-unit>
+      <trans-unit id=".mDYURx" resname="Popularity">
+        <source>Popularity</source>
+        <target>Popularity</target>
+      </trans-unit>
+      <trans-unit id="ZORLTQD" resname="Most helpful">
+        <source>Most helpful</source>
+        <target>Most helpful</target>
+      </trans-unit>
+      <trans-unit id="0V76F4z" resname="Newest">
+        <source>Newest</source>
+        <target>Newest</target>
+      </trans-unit>
+      <trans-unit id="UF3EUHU" resname="Oldest">
+        <source>Oldest</source>
+        <target>Oldest</target>
+      </trans-unit>
+      <trans-unit id="5ouiWrA" resname="Most commented">
+        <source>Most commented</source>
+        <target>Most commented</target>
+      </trans-unit>
+      <trans-unit id="3KTnaQW" resname="Review criteria">
+        <source>Review criteria</source>
+        <target>Review criteria</target>
+      </trans-unit>
+      <trans-unit id="AGSZ4uQ" resname="Home slider">
+        <source>Home slider</source>
+        <target>Home slider</target>
+      </trans-unit>
+      <trans-unit id="P9yaWHa" resname="Column">
+        <source>Column</source>
+        <target>Column</target>
+      </trans-unit>
+      <trans-unit id="Jsh7tR5" resname="Footer">
+        <source>Footer</source>
+        <target>Footer</target>
+      </trans-unit>
+      <trans-unit id="Zpv4Rai" resname="Comment setting">
+        <source>Comment setting</source>
+        <target>Comment setting</target>
+      </trans-unit>
+      <trans-unit id="IrOVm8p" resname="Reviews waiting for approval">
+        <source>Reviews waiting for approval</source>
+        <target>Reviews waiting for approval</target>
+      </trans-unit>
+      <trans-unit id="LA08vu4" resname="Reported Reviews">
+        <source>Reported Reviews</source>
+        <target>Reported Reviews</target>
+      </trans-unit>
+      <trans-unit id="YzX_WpZ" resname="Add New Criterion">
+        <source>Add New Criterion</source>
+        <target>Add New Criterion</target>
+      </trans-unit>
+      <trans-unit id="REQbirz" resname="Review Criteria">
+        <source>Review Criteria</source>
+        <target>Review Criteria</target>
+      </trans-unit>
+      <trans-unit id="Mey14A_" resname="Replies">
+        <source>Replies</source>
+        <target>Replies</target>
+      </trans-unit>
+      <trans-unit id="73moCFF" resname="Approved Reviews">
+        <source>Approved Reviews</source>
+        <target>Approved Reviews</target>
+      </trans-unit>
+      <trans-unit id="0oMqjBW" resname="Add a reply">
+        <source>Add a reply</source>
+        <target>Add a reply</target>
+      </trans-unit>
+      <trans-unit id="pGaCpL1" resname="Add new comment">
+        <source>Add new comment</source>
+        <target>Add new comment</target>
+      </trans-unit>
+      <trans-unit id="V.8CRIf" resname="Date Add">
+        <source>Date Add</source>
+        <target>Date Add</target>
+      </trans-unit>
+      <trans-unit id="uaWs2yG" resname="Unapproved replies">
+        <source>Unapproved replies</source>
+        <target>Unapproved replies</target>
+      </trans-unit>
+      <trans-unit id="WcvLynB" resname="Rating:">
+        <source>Rating:</source>
+        <target>Rating:</target>
+      </trans-unit>
+      <trans-unit id="FNiJ30y" resname="Customer name:">
+        <source>Customer name:</source>
+        <target>Customer name:</target>
+      </trans-unit>
+      <trans-unit id="JcXwirg" resname="Not abusive">
+        <source>Not abusive</source>
+        <target>Not abusive</target>
+      </trans-unit>
+      <trans-unit id="wlP0Ub3" resname="Reply">
+        <source>Reply</source>
+        <target>Reply</target>
+      </trans-unit>
+      <trans-unit id="s_h0F5p" resname="Product comments">
+        <source>Product comments</source>
+        <target>Product comments</target>
+      </trans-unit>
+      <trans-unit id="xxyC7id" resname="Customer Name:">
+        <source>Customer Name:</source>
+        <target>Customer Name:</target>
+      </trans-unit>
+      <trans-unit id="6msVXCK" resname="Prodcut ID:">
+        <source>Prodcut ID:</source>
+        <target>Prodcut ID:</target>
+      </trans-unit>
+      <trans-unit id="WyGC6mJ" resname="Stars:">
+        <source>Stars:</source>
+        <target>Stars:</target>
+      </trans-unit>
+      <trans-unit id="tlNLhIB" resname="Featured:">
+        <source>Featured:</source>
+        <target>Featured:</target>
+      </trans-unit>
+      <trans-unit id="hlB3NHs" resname="Featured comments can be show on comments list firstly..">
+        <source>Featured comments can be show on comments list firstly..</source>
+        <target>Featured comments can be show on comments list firstly..</target>
+      </trans-unit>
+      <trans-unit id="A56If6U" resname="Home featured:">
+        <source>Home featured:</source>
+        <target>Home featured:</target>
+      </trans-unit>
+      <trans-unit id="QtOZu7k" resname="Home featured comments will show on homepage, left / right columns and page footer.">
+        <source>Home featured comments will show on homepage, left / right columns and page footer.</source>
+        <target>Home featured comments will show on homepage, left / right columns and page footer.</target>
+      </trans-unit>
+      <trans-unit id="WNavvmf" resname="Add new criterion">
+        <source>Add new criterion</source>
+        <target>Add new criterion</target>
+      </trans-unit>
+      <trans-unit id="YqAuKlA" resname="Criterion name">
+        <source>Criterion name</source>
+        <target>Criterion name</target>
+      </trans-unit>
+      <trans-unit id="UPbDp3h" resname="All reviews must be validated by an employee:">
+        <source>All reviews must be validated by an employee:</source>
+        <target>All reviews must be validated by an employee:</target>
+      </trans-unit>
+      <trans-unit id="lc.6jiv" resname="Allow guest posting reviews:">
+        <source>Allow guest posting reviews:</source>
+        <target>Allow guest posting reviews:</target>
+      </trans-unit>
+      <trans-unit id="lJ53OXD" resname="Allow upload images:">
+        <source>Allow upload images:</source>
+        <target>Allow upload images:</target>
+      </trans-unit>
+      <trans-unit id="SsmsEc." resname="How many images customers can upload:">
+        <source>How many images customers can upload:</source>
+        <target>How many images customers can upload:</target>
+      </trans-unit>
+      <trans-unit id="WkFba4a" resname="Minimum time between 2 comments from the same user.">
+        <source>Minimum time between 2 comments from the same user.</source>
+        <target>Minimum time between 2 comments from the same user.</target>
+      </trans-unit>
+      <trans-unit id="P0_t8NK" resname="Maximum length of comment content, default is 500 characters.">
+        <source>Maximum length of comment content, default is 500 characters.</source>
+        <target>Maximum length of comment content, default is 500 characters.</target>
+      </trans-unit>
+      <trans-unit id="2O0myAc" resname="Enable Google rich snippets:">
+        <source>Enable Google rich snippets:</source>
+        <target>Enable Google rich snippets:</target>
+      </trans-unit>
+      <trans-unit id="YExXaJm" resname="This would not work if the Google rich snippets option in the Theme editor is off.">
+        <source>This would not work if the Google rich snippets option in the Theme editor is off.</source>
+        <target>This would not work if the Google rich snippets option in the Theme editor is off.</target>
+      </trans-unit>
+      <trans-unit id="Nv7zPQO" resname="How to display HELPFUL buttons">
+        <source>How to display HELPFUL buttons</source>
+        <target>How to display HELPFUL buttons</target>
+      </trans-unit>
+      <trans-unit id="lHZebCa" resname="Do not display them">
+        <source>Do not display them</source>
+        <target>Do not display them</target>
+      </trans-unit>
+      <trans-unit id=".jyrGum" resname="YES buttons only">
+        <source>YES buttons only</source>
+        <target>YES buttons only</target>
+      </trans-unit>
+      <trans-unit id="e820Ib9" resname="YES and NO buttons">
+        <source>YES and NO buttons</source>
+        <target>YES and NO buttons</target>
+      </trans-unit>
+      <trans-unit id="D.n5EJv" resname="Show ratings:">
+        <source>Show ratings:</source>
+        <target>Show ratings:</target>
+      </trans-unit>
+      <trans-unit id="KyLKoPf" resname="Yes and show the number of ratings">
+        <source>Yes and show the number of ratings</source>
+        <target>Yes and show the number of ratings</target>
+      </trans-unit>
+      <trans-unit id="hZw5UK." resname="Show star even if no rating">
+        <source>Show star even if no rating</source>
+        <target>Show star even if no rating</target>
+      </trans-unit>
+      <trans-unit id="imGgUS5" resname="Show star even if no rating and show the number of ratings">
+        <source>Show star even if no rating and show the number of ratings</source>
+        <target>Show star even if no rating and show the number of ratings</target>
+      </trans-unit>
+      <trans-unit id="a.kGl55" resname="Display ratings as links:">
+        <source>Display ratings as links:</source>
+        <target>Display ratings as links:</target>
+      </trans-unit>
+      <trans-unit id="0ENfVUP" resname="Postion">
+        <source>Postion</source>
+        <target>Postion</target>
+      </trans-unit>
+      <trans-unit id="37I3cFR" resname="How to display date">
+        <source>How to display date</source>
+        <target>How to display date</target>
+      </trans-unit>
+      <trans-unit id="jFx.Dst" resname="Star icon:">
+        <source>Star icon:</source>
+        <target>Star icon:</target>
+      </trans-unit>
+      <trans-unit id="jtpt3RW" resname="Star size:">
+        <source>Star size:</source>
+        <target>Star size:</target>
+      </trans-unit>
+      <trans-unit id="oHWOYFe" resname="Highlight star color:">
+        <source>Highlight star color:</source>
+        <target>Highlight star color:</target>
+      </trans-unit>
+      <trans-unit id="7Qv6XwI" resname="Star color:">
+        <source>Star color:</source>
+        <target>Star color:</target>
+      </trans-unit>
+      <trans-unit id="JaQmJme" resname="How to display reviews">
+        <source>How to display reviews</source>
+        <target>How to display reviews</target>
+      </trans-unit>
+      <trans-unit id="l81yGkm" resname="Display featured reviews only">
+        <source>Display featured reviews only</source>
+        <target>Display featured reviews only</target>
+      </trans-unit>
+      <trans-unit id="gTMM_07" resname="Display all reviews">
+        <source>Display all reviews</source>
+        <target>Display all reviews</target>
+      </trans-unit>
+      <trans-unit id="RG1EHW2" resname="Display featured reviews at the beginning:">
+        <source>Display featured reviews at the beginning:</source>
+        <target>Display featured reviews at the beginning:</target>
+      </trans-unit>
+      <trans-unit id="Qv5TeIH" resname="Review links">
+        <source>Review links</source>
+        <target>Review links</target>
+      </trans-unit>
+      <trans-unit id="yK3aGBB" resname="Review link">
+        <source>Review link</source>
+        <target>Review link</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

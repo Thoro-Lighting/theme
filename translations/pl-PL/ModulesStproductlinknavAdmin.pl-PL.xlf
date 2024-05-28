@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="7L2z4Vh" resname="Next and previous products">
+        <source>Next and previous products</source>
+        <target>Next and previous products</target>
+      </trans-unit>
+      <trans-unit id="cosPYef" resname="This module adds next and previous links on the product page.">
+        <source>This module adds next and previous links on the product page.</source>
+        <target>This module adds next and previous links on the product page.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1702 @@
+.steco_container{
+
+}
+.steco_container a:focus, .steco_container a:hover{
+  outline: none;
+  text-decoration: none;
+}
+.steco_layer{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  margin: 0;
+  transition: all 0.4s;
+  background: rgba(255,255,255,0.3);
+}
+.steco_personal_information,
+.steco_addresses,
+.steco_delivery,
+.steco_payment,
+.steco_cart{
+  position: relative;
+} 
+
+.steco_container.busy_0 .steco_personal_information .steco_layer,
+.steco_container.busy_0 .steco_addresses .steco_layer,
+.steco_container.busy_0 .steco_delivery .steco_layer,
+.steco_container.busy_0 .steco_payment .steco_layer,
+.steco_container.busy_0 .steco_cart .steco_layer, 
+.steco_container.busy_0 .steco_summary .steco_layer, 
+
+.steco_container.busy_1 .steco_personal_information .steco_layer,
+
+.steco_container.busy_2 .steco_addresses .steco_layer,
+
+.steco_container.busy_4 .steco_delivery .steco_layer,
+
+.steco_container.busy_8 .steco_payment .steco_layer,
+
+.steco_container.busy_16 .steco_cart .steco_layer,
+
+.steco_container.busy_12 .steco_delivery .steco_layer,
+.steco_container.busy_12 .steco_payment .steco_layer,
+
+.steco_container.busy_14 .steco_addresses .steco_layer,
+.steco_container.busy_14 .steco_delivery .steco_layer,
+.steco_container.busy_14 .steco_payment .steco_layer,
+
+.steco_container.busy_24 .steco_payment .steco_layer,
+.steco_container.busy_24 .steco_cart .steco_layer,
+
+.steco_container.busy_28 .steco_delivery .steco_layer,
+.steco_container.busy_28 .steco_payment .steco_layer,
+.steco_container.busy_28 .steco_cart .steco_layer,
+
+.steco_container.busy_29 .steco_summary .steco_layer,
+
+.steco_container.busy_30 .steco_addresses .steco_layer,
+.steco_container.busy_30 .steco_delivery .steco_layer,
+.steco_container.busy_30 .steco_payment .steco_layer,
+.steco_container.busy_30 .steco_cart .steco_layer{ 
+  display: block;
+}
+
+
+
+#footer.footer_checkout .custom_links_list li a { padding:2px 0px; }
+#footer #footer-bottom {
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+#steco_pi_forms > .card > .card-header{
+  border-bottom: none;
+  background: transparent;
+  padding: 0;
+}
+#steco_pi_forms > .card > .card-header div{
+  background: #5CD2EC;
+  color: #fff;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 0;
+  border-color: #d9d9d9;
+}
+#steco_pi_forms > .card > .card-header div.collapsed{
+  background: #444;
+}
+#steco_pi_forms > .card{
+  border: none;
+  background: transparent;
+  margin-bottom: 4px;
+  -webkit-box-shadow:none;
+  box-shadow:none
+}
+.steco_pi_form{
+  padding: 16px 0;
+}
+
+
+
+@font-face {
+  font-family: 'eco';
+  src: url('../font/fontello.eot?6596633');
+  src: url('../font/fontello.eot?6596633#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?6596633') format('woff2'),
+       url('../font/fontello.woff?6596633') format('woff'),
+       url('../font/fontello.ttf?6596633') format('truetype'),
+       url('../font/fontello.svg?6596633#eco') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="eco-"]:before, [class*=" eco-"]:before {
+  font-family: "eco";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+/* makes sure icons active on rollover in links */
+/* a [class^="eco-"], a [class*=" eco-"] {
+  display: inline-block;
+} */
+.steco-btn-spin.active i:before{
+  content: "\e838"!important;
+}
+.steco-btn-spin .eco-spin5{
+  display: none;
+}
+.steco-btn-spin.active i, .steco-animate-spin {
+  -moz-animation: eco_spin 2s infinite linear;
+  -o-animation: eco_spin 2s infinite linear;
+  -webkit-animation: eco_spin 2s infinite linear;
+  animation: eco_spin 2s infinite linear;
+  display: inline-block;
+}
+@-moz-keyframes eco_spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes eco_spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes eco_spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-ms-keyframes eco_spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes eco_spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.payment-options.steco-payment-option .payment-option {order: 3}
+.payment-options.steco-payment-option .payment-option#payment-option-9-container {order: 1}
+.payment-options.steco-payment-option .payment-option#payment-option-1-container {order: 0}
+.step-2 .steco_personal_information { padding-top:14px; }
+.steco_flex_container,.steco_cart_summay_box .cart-summary-line, .steco-custom-input-box.steco-tick .steco-custom-input-item{display: -webkit-box; display: -moz-box; display: box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; -js-display: flex; display: flex; -webkit-box-align: center; -moz-box-align: center; box-align: center; -webkit-align-items: center; -moz-align-items: center; -ms-align-items: center; -o-align-items: center; align-items: center; -ms-flex-align: center; width: 100%; -ms-flex-pack:justify;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-flow:row nowrap;flex-flow:row nowrap} /*,.steco_cart .cart-summary-line*/
+.steco_flex_left{-webkit-box-pack:start;box-pack:start;-moz-justify-content:flex-start;-ms-justify-content:flex-start;-o-justify-content:flex-start;justify-content:flex-start;-ms-flex-pack:start}
+.steco_flex_right{-webkit-box-pack:end;box-pack:end;-moz-justify-content:flex-end;-ms-justify-content:flex-end;-o-justify-content:flex-end;justify-content:flex-end;-ms-flex-pack:end}/*,.steco_cart .cart-summary-line*/
+.steco_flex_child,.steco_cart_summay_big .cart-summary-line .label, .steco_cart_summay_small .cart-summary-line .value{-webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; -webkit-flex: 1; -moz-flex: 1; -ms-flex: 1; flex: 1; }
+.steco_flex_child_2{-webkit-box-flex: 2; -moz-box-flex: 2; box-flex: 2; -webkit-flex: 2; -moz-flex: 2; -ms-flex: 2; flex: 2; }
+.steco_flex_child_3{-webkit-box-flex: 3; -moz-box-flex: 3; box-flex: 3; -webkit-flex: 3; -moz-flex: 3; -ms-flex: 3; flex: 3; }
+.steco_flex_child_4{-webkit-box-flex: 4; -moz-box-flex: 4; box-flex: 4; -webkit-flex: 4; -moz-flex: 4; -ms-flex: 4; flex: 4; }
+.steco_flex_start{-webkit-box-align:start;box-align:start;-moz-align-items:flex-start;-ms-align-items:flex-start;-o-align-items:flex-start;align-items:flex-start;-ms-flex-align:start}
+.steco_flex_center, .steco-custom-input-box.steco-tick .steco-custom-input-item{-webkit-box-pack:center;box-pack:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center}
+.steco_flex_end{-webkit-box-align:end;box-align:end;-moz-align-items:flex-end;-ms-align-items:flex-end;-o-align-items:flex-end;align-items:flex-end;-ms-flex-align:end}
+.steco_flex_order_2{-webkit-box-ordinal-group:3;order:2;-ms-flex-order:2}
+.steco_flex_column{-webkit-flex-flow: column nowrap;;-moz-flex-flow: column nowrap;flex-flow:column nowrap;}
+.steco_step_number{background: #444;color:#fff;text-align:center;border-radius: 50%;width:30px;height:30px;line-height:30px;border-style: solid;border-width: 0;border-color: #d9d9d9;}
+.steco_heading { font-size:16px;}
+.steco_fouth_column{margin-top: 0px;}
+#module-steasycheckout-default #wrapper{  background: #fff; }
+.safety-box h2 {display: none}
+.box-safety {margin-top: 25px;}
+.safety-box {margin-bottom: 0px !important;}
+.safety-box .ajax_add_to_cart_button {text-indent: -9000px;position: absolute;height: 0px;width: 0px;padding: 0px;left: -9000px;}
+.box-safety p {margin: 0px;position: relative;padding-left: 0px;font-size: 13px;line-height: 19px;color: #666;}
+.box-safety .ajax_block_product {padding: 0px;}
+.safety-box .pro_simple_box {padding-left: 45px;}
+.box-safety .steco-custom-input-box {top: 1px;}
+.steco_social_login, .glossy.blue.facebook{
+height: 36px;
+line-height: 36px;
+text-align: center;
+color: #fff;
+background: #444;
+display: inline-block;
+padding: 0px 14px;
+}
+.steco_social_login i, .glossy.blue.facebook i{
+  display: inline-block;
+  width: 26px;
+}
+.steco_social_login span, .glossy.blue.facebook span{
+  margin-right: 6px;
+}
+.steco_social_login:hover, .glossy.blue.facebook:hover{
+  color: #fff;
+  opacity: 0.9;
+}
+.glossy.blue.facebook {background: #4267B2; width: 48%; margin-right: 1%}
+.steco_social_google{background: #DD4D42; width: 48%; margin-left: 1%}
+.social-zone {padding: 0px 25px; text-align: left}
+#module-steasycheckout-default #create_account_block .form_content, #module-steasycheckout-default #login_form_block .form_content {
+  min-height: auto;
+}
+
+.steco_social_button_0 .steco_social_login span{display:none;}
+.steco_social_button_1, .steco_social_button_0 {text-align: center;}
+
+.steco_mb_0{margin-bottom: 0;}
+.steco_mb_6{margin-bottom: 6px;}
+.steco_mb_10{margin-bottom: 10px;}
+.steco_mt_10{margin-top: 10px;}
+.steco_mb_16{margin-bottom: 16px;}
+.steco_mb_20{margin-bottom: 20px;}
+.steco_mr_r6{margin-right: 6px;}
+.steco_mr_r4{margin-right: 4px;}
+
+.cart-summary-line.free-delivery-text {display: none !important}
+#pdopineoopiniepro .steco-custom-input-box {position: absolute; left: 0px}
+#pdopineoopiniepro {display: inline-block; position: relative;padding-left: 35px; margin-top: 7px;}
+.steco-delivery-option {position: relative;border-radius: 3px;margin-bottom: 12px;border: 1px solid #dcdcdc;padding: 10px 15px;background: #fff;}
+.off-zaufane {text-indent: -9000px;position: absolute;left: -9000px;}
+.steco_addresses_form .st_form_item_phone .help-block {display: none !important}
+.share-cart {text-align: center;
+margin-bottom: 5px;
+cursor: pointer;
+position: absolute;
+right: 0px;
+margin-top: -51px;}
+.cart-share-box p input {position: absolute;text-indent: -9000px;left: -9000px;}
+.share-cart .cart-share {width: auto;line-height: 17px; display: inline-block;cursor: pointer;color: #333;padding: 8px 0px;}
+.share-cart .cart-share:hover {text-decoration: underline;}
+.cart-share-box span.ok {display: none}
+.cart-share-box.copied span.ok {display: block;width: 100%;text-align: center;margin-top: 8px;font-size: 12px;color: #999;}
+.cart-share-box p {text-align: center}
+.box-share {padding-bottom: 20px;}
+.create_zone {order: 1}
+.login_zone {order: 0}
+.addres-head {padding-left: 0px;margin-bottom: 20px;font-weight: 700;color: #333;font-size: 17px;}
+.addres-head.mini {margin-bottom: 5px;}
+.steco_personal_information.steco_block .steco_placeholder {display: none}
+.payment-option label {border: 0px !important; padding: 0px; position: relative; border-radius: 0px;}
+.steco-delivery-option.steco_selected {border: 1px solid #67becf; box-shadow: 0px 0px 0px 1px rgb(103, 190, 207);}
+.checkout-summary-block .estimated-delivery {margin: 25px 0px;padding-top: 0px;font-size: 14px;text-align: center; font-weight: 600; width: auto; position: relative; padding-left: 46px}
+.checkout-summary-block .estimated-delivery span {margin-left: 5px;}
+.checkout-summary-block .estimated-delivery:before {content:''; width: 40px; height: 40px; background-image: url(../img/svg/package.svg); background-size: 30px; background-repeat: no-repeat; background-position: center; position: absolute; left: 0px; margin-top: -8px;}
+.checkout-summary-block .last-info {text-align: center}
+.steco-delivery-option i.fto-info-circled:before,
+.payment-option i.fto-info-circled:before {content: ''; width: 20px; height: 18px; position: relative; top: 3px; background-image: url(../img/svg/info.svg); background-size: 14px; background-repeat: no-repeat; background-position: center;}
+.payment-options.steco-payment-option .payment-option {}
+.edit-summary {width: 19px;height: 14px;background-image: url(../img/svg/pencil.svg);background-size: 14px;background-repeat: no-repeat;background-position: center;display: inline-block; margin-left: 2px}
+.steco-delivery-option > .steco-custom-input-box{position: absolute;left: 12px;top: 12px;}
+.steco-delivery-option > label > img{margin-bottom: 6px;}
+.delivery-options .steco-delivery-option > label{text-align: left; padding-bottom: 0px;width: 100%; margin-bottom: 2px;}
+.delivery-options.row, .steco_addresses.row{margin-right: -5px;margin-left: -5px;}
+.delivery-options.row > div, .steco_addresses.row > div{padding-right: 5px;padding-left: 5px;}
+#module-steasycheckout-default .form-control.cart_quantity {border-color: #dbdbdb}
+.show_incomplete_message .delivery-option.steco_selected + .sensbitdpd:after,
+.show_incomplete_message .delivery-option.steco_selected + .sensbitpocztapolskamap:after,
+.show_incomplete_message .delivery-option.steco_selected + .sensbitinpost:after {
+  content: 'Wybierz punkt odbioru !';
+  width: calc(100% + 30px);
+  display: inline-block;
+  background: #fff;
+  margin-left: -15px;
+  padding: 15px;
+  margin-top: 20px;
+  color: red;
+  margin-bottom: -15px;
+  font-weight: 600;
+  text-align: center}
+
+.show_incomplete_message .delivery-option.steco_selected + .sensbitdpd::before, .show_incomplete_message .delivery-option.steco_selected + .sensbitpocztapolskamap::before, .show_incomplete_message .delivery-option.steco_selected + .sensbitinpost::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border: 6px solid red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+#st-checkout-payment-step .alert, #st-checkout-delivery-step .alert {
+    text-align: left;
+    padding-left: 60px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.big_cart_body .steco_summary.steco_block { padding-bottom: 15px!important; }
+
+.big_cart_body .steco_cart_summay_box.steco_mb_6 {
+    margin: 0px 0;
+}
+
+.steco-payment-option .payment-option form{
+  display: none;
+}
+.steco-payment-option .payment-option{
+  position: relative;
+  position: relative;
+padding: 0px;
+margin-bottom: 14px;
+}
+.steco-payment-option.row {margin: 0px}
+.payment-img.col-12 {text-align: center; margin-top: 20px;}
+.payment-option label[for|="payment-option"] img[src*="przelewy24"][src*="svg"],
+.payment-option .img-fluid {}
+.summary_bt.bt_first_step, .btn.btn-default.summary_bt {width: 100%; font-size: 17px;}
+.create_zone, .login_zone {border: 0px;}
+.zone-checkbox-top {background: #f6f6f6;width: calc(100% + 56px);height: 30px;margin: 35px -28px;}
+.zone-checkbox-bottom {background: #f6f6f6;width: calc(100% + 30px);height: 30px;margin: 0px -15px 20px;}
+#acc_heading_register {padding: 0px !important}
+#acc_heading_login .btn.btn-border, #acc_heading_register .btn.btn-border {border: 0px;text-align: left;font-size: 16px;font-weight: 400;text-transform: none;padding: 26px 27px 26px;height: auto;background: #fff; color: #333;}
+#acc_heading_login .btn.btn-border span, #acc_heading_register .btn.btn-border span {font-weight: 700; vertical-align: top;}
+#acc_heading_login .btn.btn-border, #acc_heading_register .btn.btn-border  {font-weight: 700}
+.steco-payment-option .payment-option .steco-custom-input-box{margin-top: 0px; position: absolute; width: 100%; height: 100%;}
+.payment-option .steco-custom-input-box.steco-tick .steco-custom-input-item {border: 1px solid #dcdcdc !important; width: 100%; height: 100%; border-radius: 3px;}
+#acc_heading_register {border: 0px}
+.all-form_step2 {width: 100%; margin: 0px}
+#steco_pi_forms {padding: 0px;}
+.payment-option  .steco-custom-input-box input[type="radio"]:checked + .steco-custom-input-item  {border: 1px solid #67becf !important; box-shadow: 0px 0px 0px 1px rgb(103, 190, 207);}
+
+.payment-option .steco-custom-input-box .steco-custom-input-item i {line-height: 29px;}
+.steco-custom-input-box input[type="radio"]:checked + .steco-custom-input-item .payment-check {border: 1px solid #67becf !important;
+box-shadow: 0px 0px 0px 1px rgb(103, 190, 207);}
+.steco-payment-option .payment-option label img{
+  margin-right: 0px;
+}
+.steco-payment-option .payment-option label.steco_flex_column{
+text-align: center;
+}
+.steco-payment-option .payment-option label.steco_flex_column img{
+margin-bottom: 6px;
+margin-right: 0;
+}
+.steco-payment-option .payment-option label.steco_flex_column .steco-custom-input-box{
+  position: absolute;left: 12px;top: 12px;
+}
+
+.safety-price .steco-custom-input-box {position: absolute; left: 0px}
+.delivery-options-list #js-delivery, .payment-options.steco-payment-option {background: #fff; padding: 30px 80px; box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.01);}
+#js-delivery .cart-name-top, .payment-options.steco-payment-option .cart-name-top {padding-left: 0px}
+.steco_display_none, .steco_cart_summay_box .cart-summary-line.steco_display_none{display: none;}
+#acc_heading_register .btn.btn-border, #acc_heading_login .btn.btn-border {display: none}
+#acc_heading_register .btn.btn-border.collapsed , #acc_heading_login .btn.btn-border.collapsed {display: block; line-height: 25px;}
+#acc_heading_register .btn.btn-border.collapsed {border-top: 20px solid #f6f6f6; border-radius: 0px;}
+#acc_heading_login .btn.btn-border.collapsed {border-bottom: 20px solid #f6f6f6; border-radius: 0px;}
+.steco-delivery-option .carrier-name span  {font-size: 13px; width: 100%; float: left; margin-top: 0px; color: #222;}
+.payment-options .payment-check {width: 30px; height: 30px; border: 1px solid #333333; left: 32px; position: absolute;}
+.payment-options .payment-check i {color: #67becf !important;}
+.steco-custom-input-box{margin-right:12px;position:relative;cursor:pointer;display:inline-block; vertical-align: middle; top: 0px;}
+.create_zone .steco-custom-input-box {margin-right:12px;}
+.steco-custom-input-box:hover .steco-custom-input-item.steco-custom-input-checkbox,.steco-custom-input-box:hover .steco-custom-input-item.steco-custom-input-radio{background:#e9e9e9}
+.steco-custom-input-box .steco-custom-input{opacity:0;position:absolute;cursor: pointer;width:24px;height:24px;bottom:0;left:0;right: 0;}
+.steco-custom-input-box .steco-custom-input-item{display:inline-block;width:24px;height:24px;line-height:23px;vertical-align:middle;text-align:center;border:1px solid #333 !important;background:#fff; padding-left: 2px; margin-top: -4px;}
+.steco-custom-input-box.steco-tick .steco-custom-input-item{width:30px; height: 30px}
+.steco-custom-input-box .steco-custom-input-item.steco-custom-input-radio {border-color: #333 !important}
+
+.delivery-option .estimated-delivery, .payment-option .estimated-delivery  {letter-spacing: 0px; line-height: 20px; text-align: left; margin: 0px; font-weight: 400; border-top: 0px; padding-top: 0px; font-size: 13px;}
+.delivery-option .estimated-delivery br {display: none !important}
+.steco-delivery-option .carrier-name  .estimated-delivery span {float: none; padding-left: 4px; font-weight: 700; letter-spacing: 0px;}
+.steco-custom-input-box.steco-tick .steco-custom-input-item {background: transparent;}
+.delivery-option.steco_selected .steco-custom-input-box.steco-tick .steco-custom-input-item {border: 1px solid #67becf !important; box-shadow: 0px 0px 0px 1px rgb(103, 190, 207);}
+.delivery-option.steco_selected .steco-custom-input-box.steco-tick .steco-custom-input-item i {color: #67becf !important}
+.steco-custom-input-box.steco-tick:hover .steco-custom-input-item.steco-custom-input-radio{background:transparent;}
+
+
+.steco-custom-input-box .steco-custom-input-item i {display: none; margin-left: -1px;line-height: 20px;font-size: 17px;}
+.steco-input-loading .steco-custom-input-box .steco-custom-input-item .steco-animate-spin{display:block}
+.steco-input-loading .steco-custom-input-box .steco-custom-input-item .checkbox-checked{display:none}
+.steco-custom-input-box input[type=checkbox]:checked+.steco-custom-input-item .checkbox-checked{display:block}
+.steco-custom-input-box input#use_same_address[type=checkbox]:checked+.steco-custom-input-item .checkbox-checked{display:none !important}
+.invv_adress .steco-custom-input-box i {display:block !important}
+.steco-input-loading .steco-custom-input-box input[type=checkbox]:checked+.steco-custom-input-item .checkbox-checked{display:none}
+.steco-custom-input-box input[type=radio]:checked+.steco-custom-input-item .checkbox-checked{display:block}
+.steco-input-loading .steco-custom-input-box input[type=radio]:checked+.steco-custom-input-item .checkbox-checked{display:none}
+.privacy-text {padding-left: 10px;display: block;line-height: 18px;margin-top: 6px;}
+.tick_selected_only .steco-custom-input-box.steco-tick{display: none;}
+.tick_selected_only #steco_pi_forms > .card > .card-header .steco-custom-input-box.steco-tick,.tick_selected_only .steco_selected .steco-custom-input-box.steco-tick{display: inline-block;}
+
+.updating_voucher .cart-voucher, .updating_voucher .cart-summary-totals{opacity: 0;}
+
+.steco_pi_form .form-footer{text-align: center;}
+.login_zone .from_blcok .form-footer {padding: 6px 24px 0px;}
+#steco_login_form, .steco_social_login_box  {max-width: 480px}
+.steco_placeholder{
+  -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    background: #f6f7f9;
+    background-image: linear-gradient(to right, #f6f7f9 0%, #e9ebee 20%, #f6f7f9 40%, #f6f7f9 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 200px;
+    margin-bottom: 20px;
+}
+.steco_ph_line{
+  background: #fff;
+  height: 12px; 
+}
+.steco_placeholder > .steco_ph_line{
+}
+.steco_ph_heading{
+  margin-bottom: 14px;
+}
+.steco_placeholder .steco_ph_number{
+  height: 38px; 
+  width: 38px; 
+}
+.steco_placeholder .steco_ph_space{
+  height: 38px; 
+  width: 10px; 
+}
+.steco_ph_a{
+  margin-left: 86%;
+}
+.steco_ph_line.steco_ph_b{
+  background: transparent;
+}
+.steco_ph_c{
+  margin-left: 66%;
+}
+@keyframes placeHolderShimmer{
+  
+0% {
+    background-position: -468px 0;
+}
+100% {
+    background-position: 468px 0;
+}
+}
+@-webkit-keyframes placeHolderShimmer{
+  
+0% {
+    background-position: -468px 0;
+}
+100% {
+    background-position: 468px 0;
+}
+}
+
+.steco_tab .nav-tabs .nav-link{font-size:.875rem;border-radius:0;padding:.5rem .75rem;color:#444;text-align:center}
+.steco_tab .nav-tabs .nav-link.active,.steco_tab .nav-tabs .nav-link:focus,.steco_tab .nav-tabs .nav-link:hover{border-color:#f2f2f2;color:#444}
+.steco_tab .nav-tabs .nav-link i{margin-right:4px}
+.steco_tab .nav-tabs .nav-item{margin-bottom:0}
+.steco_tab .nav-tabs .nav-item+.nav-item{margin-left:0}
+.steco_tab .nav-tabs.tab_lg .nav-link{padding:1rem 1.25rem}
+.steco_tab .tab-pane-body{padding:.9375rem 0}
+
+.steco_tab .nav-tabs{border-bottom:1px solid #f2f2f2}
+.steco_tab .nav-tabs .nav-link{border-bottom:1px solid transparent}
+.steco_tab .nav-tabs .nav-item{margin-right:.375rem;margin-bottom:-1px}
+.steco_tab .nav-tabs .nav-link{background:#f6f6f6}
+.steco_tab .nav-tabs .nav-link.active,.steco_tab .nav-tabs .nav-link:focus,.steco_tab .nav-tabs .nav-link:hover{background:#fff;border-bottom-color:#fff}
+.steco_tab .tab-pane-body{border:1px solid #f2f2f2;border-top:none;padding-left:10px;padding-right:10px;background: #fff;}
+.steco_tab .adveditor_middle .nav-tabs{border-bottom:none}
+.steco_tab .adveditor_middle .nav-tabs .nav-link{color:#fff;background:transparent;margin-bottom:0;border:none}
+.steco_tab .adveditor_middle .nav-tabs .nav-link.active,.steco_tab .adveditor_middle .nav-tabs .nav-link:focus,.sttab_2_1 .adveditor_middle .nav-tabs .nav-link:hover{background:#65c39e}
+
+.steco_btn_more_padding, .cancel-address .black_arrow  {
+    padding-left: 50px;
+    padding-right: 60px;
+  }
+  
+  
+.big_cart_body.step-1 .steco_cart_summay_box.steco_mb_20  .steco_cart_summay_big .cart-summary-line { display:block; }
+.big_cart_body .cart_weight_summary label, .big_cart_body.step-1 #cart-subtotal-products_discounts span.label {  width: 59% !important;  display: inline-block; text-align: right; }	
+.big_cart_body .cart_weight_summary span.value.price, .big_cart_body.step-1 #cart-subtotal-products_discounts span.value.price { width: 40% !important; margin: 0px;display: inline-block; text-align: right; }  
+  
+
+@media only screen and (min-width:1200px){
+  .steco_grid_view .steco_first-item-of-desktop-line{clear:both}
+
+  
+  
+  
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+  .steco_grid_view .steco_first-item-of-line{clear:both}
+  .small_cart_body #head_steps .name_auth h3 { position: absolute; }
+ 
+.delivery-options-list #js-delivery, .payment-options.steco-payment-option {padding: 20px}
+	#create_account_block .classpl_choose_company {-webkit-box-flex: 0; -ms-flex: 0 0 100% !important; flex: 0 0 100% !important; max-width: 100% !important;}
+ .steco-payment-option .payment-price-plus {padding-top: 15px;}
+	.steco-payment-option .payment-img {padding-top: 12px}
+	 .steco-payment-option .payment-price-plus {padding-top: 14px !important;}
+     .steco-payment-option .payment-img {padding-top: 8px !important;}
+.delivery-option .steco-custom-input-box, .payment-options .steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 28px !important;}
+.checkout-summary-block .small_cart_product_list {padding: 0px 20px !important}	
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+  .steco_grid_view .steco_first-item-of-tablet-line{clear:both}
+  .small_cart_body #head_steps .col-md-3.name_auth { padding-left: 10px; }
+#head_steps .name_auth h3 { position: absolute; width: 480px; }
+#create_account_block .classpl_choose_company {-webkit-box-flex: 0; -ms-flex: 0 0 100% !important; flex: 0 0 100% !important; max-width: 100% !important;}
+#create_account_block.from_blcok {padding-bottom: 20px;}
+.payment-option .payment-img {padding-top: 13px;}
+.payment-option .payment-img {padding-top: 0px !important;}
+.delivery-option .steco-custom-input-box, .payment-options .steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 11px !important;}
+.steco-delivery-option  .carrier-img  {text-align: center; padding-top: 2px !important;}
+.steco-delivery-option .carrier-price, .steco-payment-option .payment-price-plus {padding-top: 12px !important;}
+	
+}
+@media only screen and (min-width:480px) and (max-width:767px){
+  .steco_grid_view .steco_first-item-of-mobile-line{clear:both}
+.small_cart_body #head_steps .col-md-3.name_auth { padding: 0px;  }
+.delivery-option .steco-custom-input-box, .payment-options .steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 10px !important;}
+.delivery-option .carrier-img {padding-right: 0px; padding-top: 13px;}
+.steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 21px;}
+.steco-delivery-option .carrier-price {padding-top: 22px;}
+.delivery-option .estimated-delivery {line-height: 20px;}
+.small_cart_body .cart_weight_summary label, .small_cart_body.step-1 #cart-subtotal-products_discounts span.label {  width: 65% !important; text-align: left !important; }
+.small_cart_body .cart_weight_summary span.value.price, .small_cart_body.step-1 #cart-subtotal-products_discounts span.value.price { width: 33% !important; }	
+ .payment-option .payment-img {padding-top: 0px !important;}
+.steco-payment-option .payment-price-plus {padding-top: 8px;}
+.big_cart_body .cart_weight_summary span.value.price, .big_cart_body.step-1 #cart-subtotal-products_discounts span.value.price  { width: 33% !important; }
+.big_cart_body .cart_weight_summary label, .big_cart_body.step-1 #cart-subtotal-products_discounts span.label {  width: 65% !important; text-align: left; }
+.big_cart_body .cart_weight_summary p { margin-bottom:0px; }
+.big_cart_body .cart_weight_summary {  margin: 10px 0 0px; }
+.steco-delivery-option .carrier-price {padding-top: 0px !important;}
+#create_account_block .classpl_choose_company {-webkit-box-flex: 0; -ms-flex: 0 0 100% !important; flex: 0 0 100% !important; max-width: 100% !important;}
+.delivery-option .steco-custom-input-box, .payment-options .steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 21px;}	
+.zone_authetication .login_zone .from_blcok .form_content_inner, .zone_authetication .login_zone .from_blcok .form-footer { padding-left:23px; padding-right: 23px; }	
+
+	
+	
+}
+@media only screen and (max-width:480px){
+  .steco_grid_view .steco_first-item-of-portrait-line{clear:both}
+}
+.steco-payment-option .payment-price-plus {padding-top: 17px !important;}
+.steco_sub_heading {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px 0px 0px;
+    text-transform: uppercase;
+}
+.payment-option .payment-img {padding-top: 6px !important;}
+.delivery-option .carrier-img, .payment-option .payment-img  {padding-right: 0px; padding-top: 13px;}
+.steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 21px;}
+.steco-delivery-option .carrier-price {padding-top: 22px;}
+.steco_sub_heading_mini {margin-bottom: 20px}
+.invv_adress {margin: 30px 0px}
+.steco-address-item, .identity .steco_addresses_form section.form-fields {
+    padding: 30px 20px 30px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f1f1f1;
+    margin-bottom: 8px;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px 0 rgba(26, 26, 26, 0.05);
+    min-height: 285px;
+    background: #fafafa;
+}
+.steco_address_actions {
+    position: absolute;
+    right: 18px;
+    top: 28px;
+}
+.steco_address_actions .steco_address_btn span{display: none;}
+.steco_address_label{display: block;cursor: pointer;}
+.steco_address_label .address {
+    margin-top: 15px;
+    margin-left: 0px;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.steco_address_label .address-alias {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+.steco_text_center{text-align: center;}
+.small_cart_body #payment-confirmation {margin-top:10px;}
+
+.checkout_header_right.flex_container.flex_right 
+	{
+	-webkit-box-pack: end;
+	box-pack: end;
+	-moz-justify-content: flex-end;
+	-ms-justify-content: flex-end;
+	-o-justify-content: flex-end;
+	justify-content: flex-end;
+	-ms-flex-pack: end
+}
+
+.steco_divider{position: relative;}
+.steco_divider>[class*='col-']:nth-child(n+2):before {
+    content: "";
+    border-left-width: 0;
+    border-left-style: solid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0 ;
+}
+
+
+
+.steco_top_column{margin-bottom: 20px;}
+#use_same_address 
+.steco_payment_option_subtitle{display: block;}
+.d-none,.steco_incomplete_message{display:none;}
+.show_incomplete_message .steco_incomplete_message {text-align: right}
+.adres_padding {padding: 0px;max-width: 450px;display: block;float: left;}
+.checkbox_zone .classpl_password.adres_padding_chekbox {max-width: 430px !important;}
+.form-fields .form_content_inner {padding: 0px 15px !important}
+.zone_authetication .form-control-select {height: 48px;}
+.zone_authetication .create_zone .form-group {margin-bottom: 10px}
+.form-control-comment {display: none}
+.zone_authetication .create_zone .checkbox_zone .form-group label {font-size: 13px; line-height: 22px;}
+.steco_cart_summay_box .cart-summary-line{margin-bottom: 4px;}
+.steco_cart_summay_box .cart-summary-line .value{float: none; font-weight: 600; color: #222}
+.steco_cart_summay_box .cart-summary-line#cart-subtotal-products .value {color: #222}
+.steco_cart_summay_small .cart-summary-line .value,
+.steco_cart_summay_big .cart-summary-line .label,
+.steco_cart_summay_big .cart-summary-line .value{text-align: right;}
+.steco_cart_summay_big .cart-summary-line .value{min-width:140px; margin-left: 10px}
+.steco-cart-voucher{margin-top:0px;}
+.footer_checkout .privat_easy_1 a {color: #0090ff; font-wieght: 700; text-decoration: underline}
+.footer_checkout .privat_easy_1 a:hover {text-decoration: none}
+.steco-cart-voucher .promo-code{width:100%; margin: 25px 0px; position: relative; padding-left: 36px;}
+.steco-cart-voucher .promo-code.open{padding-left: 0px;}
+.steco-cart-voucher .promo-code .steco_promo_title:before {content: '';  padding-left: 5px; width: 25px; height: 25px; border: 1px solid #bfbfbf; position: absolute; left: 0px; margin-top: -2px;}
+.steco-cart-voucher .promo-code .steco_promo_title:hover:before {content: "\E807"; font-family: fontello; -webkit-transition: all .4s ease-in-out; transition: all .4s ease-in-out; } 
+.steco_cart_summay_big .steco-cart-voucher .promo-code{max-width: 390px;}
+.btn-default.steco_btn:hover{-webkit-box-shadow: none; box-shadow: none;}
+/*override default*/
+.steco_container label{text-align: left;cursor: pointer;}
+textarea#delivery_message,textarea#gift_message{width: 100%; border: 1px solid #ddd; padding: 10px 20px;}
+textarea#delivery_message {height: 55px}
+.step-1-text-info {font-size: 12px; padding: 14px 0px; display: inline-block; line-height: 18px; font-weight: 500; width: 100%;}
+.step-1-text-info p:last-child {margin-bottom: 0px}
+.step-1-text-info p img {max-width: 240px; padding-top: 10px}
+.step-1-text-info-top {background: #fff; padding: 20px 30px 0px;}
+.step-2 .step-1-text-info-top, .step-1 .edit-cart, .step-2 .voucher-box .fto-trash {display: none}
+.steco-payment-option .definition-list dl dd, .steco-payment-option .definition-list dl dt{color: #777;}
+.steco_base_list_line .line_item{border-bottom:1px solid #dbdbdb;padding-bottom:17px; padding-top: 17px}
+.steco_base_list_line .line_item:last-child{border-bottom: 0px}
+#steco_customer_form_register{ padding-bottom: 0; padding-top: 0px;}
+.steco_cart.steco_block #js-checkout-summary {}
+.step-1 .small_cart_product_list.step-2, .step-2 .steco-cart-voucher {display: none}
+
+.psgdpr_consent_message>p{margin-bottom: 0;}
+.steco-checkout-summary{margin-bottom: 22px;}
+#steco_progress{top: 16px !important;  position: relative; bottom: auto !important; margin-bottom: 10px; left: 50%;height: 16px;z-index: 11;width:220px;margin-left: -110px;border-radius: 16px;background: #e8e8e8;}
+#steco_progress_bar{position: absolute;bottom: 0;left: 0; right: 0;top:0;height: 16px;background: #ff0000;width: 0;border-radius: 16px;background: #e60000;}
+
+.label_optional{display: none;}
+.label_required{color:#e60000;}
+
+
+.small_cart_body .steco_cart_summay_box .steco_cart_summay_item {padding: 0px;}
+.small_cart_body #js-checkout-summary .steco_cart_summay_box .steco_cart_summay_item.steco_cart_summay_small {padding: 20px; background: #fff}
+.small_cart_body .btn.summary_bt, .small_cart_body .btn_full_width.step_down { margin-left: 0px; line-height: 30px; opacity: 1;}
+.small_cart_body.step-2 #head_steps h3 span.adress_step {   padding-left: 0; }
+
+
+/*ePresta CSS*/
+
+.choose_invoice, .password_message  {font-size: 14px !important}
+#deliveryCountdownBlock {margin: 30px 0px -10px; border-bottom: 1px solid #ddd; padding-bottom: 15px; display: block; float: left; width: 100%;}
+.ShippingInfoBox {padding: 0px 15px}
+.btn.btn-default.bt_last_step.summary_bt {white-space: normal; border-radius: 0px; height: auto;line-height: 24px;padding: 14px 30px 14px 20px; background: #222; border-color: #222}
+.btn.btn-default.bt_last_step.summary_bt:hover {background: #000; border-color: #000}
+.btn.btn-default.bt_last_step.summary_bt:after {right: 18px;}
+.btn.btn-default.bt_last_step.summary_bt:hover:after {right: 13px;}
+.estimated-delivery {text-align: center; margin: 10px 0px 0px; font-weight: 400; display: inline-block; width: 100%; padding-top: 5px; font-size: 13px;}
+#summary_sticky .estimated-delivery span {font-weight: 400; margin-left: 4px}
+#summary_sticky .estimated-delivery {font-weight: 600}
+.estimated-delivery span {font-weight: 400}
+.estimated-delivery br {display: none}
+#create_account_block h3.login_form_heading, #login_form_block h3.login_form_heading {font-weight: 700; font-size: 16px !important; padding: 1rem 25px;}
+.checkbox_zone .classpl_invoice.adres_padding_chekbox, .classpl_invoice.adres_padding_chekbox {display: none !important}
+.checkbox_zone .adres_padding_chekbox, .steco_flex_container.steco_flex_start.invv_adress {display: block !important}
+.paczkomaty-info {width: 100%; text-align: left; padding: 0px; margin: 7px 0px;}
+.paczkomaty-info span {font-size: 14px; padding-left: 5px; vertical-align: top;} 
+.paczkomaty-info .btn.small_cart_btn.btn-default {padding: 0px !important; width: 100%}
+.paczkomaty-wrapper {padding: 0px}
+.paczkomaty-close.btn {margin-top: 10px; width: 100%}
+.steco_paczkomaty_message, .paczkomaty-wrapper {display: none;}
+.step-1 .summary_step_edit {display: none}
+.label_optional{display: none;}
+.label_required{color:#e60000;}
+.info-required {margin-left: 42px; font-size: 12px;}
+.steco_addresses_form .info-required {margin-left: 0px;}
+#create_account_block .info-required.reguired-adres {display: none;}
+.delivery-options #select-widget {padding-left: 18px; padding-right: 18px}
+.delivery-options #select-widget  #popup-btn {margin-top: 8px; background: #f7c501; border: 0px; padding: 11px; cursor: pointer; width: 100%}
+.delivery-options #select-widget .col-50 {width: 100%}
+.productbuttonplus #deliveryCountdownBlock {margin: 30px 0px -10px;border-bottom: 1px solid #ddd;padding-bottom: 15px;display: block;float: left;width: 100%;}
+.steco_column .productbuttonplus {padding: 0px 15px} 
+.continue_shopping a.continue_shop {
+    background: #fff;
+    padding: 6px 35px 6px 60px;
+    height: auto;
+    min-height: auto;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: 0.5px !important;
+    font-weight: 600 !important;
+}
+
+.big_cart_on.steco_col_2 .summary-box {padding: 15px 30px 20px; background: #fff; box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.01)}
+.step-1 .edit-summary {display: none}
+.big_cart_on.steco_col_2 .summary-box p.summary-head {font-weight: 700;font-size: 19px;color: #222;}
+.summary_bt.bt_first_step {background: #222; border-color: #222; line-height: 38px !important; height: 60px; border-radius: 0px;}
+.summary_bt.bt_first_step:hover {background: #000; border-color: #000;}
+#cta-terms-and-conditions-0:hover { text-decoration: underline}
+.regular-price {font-weight: normal !important}
+.type_input_1 #steco_customer_form_register {margin-top: 20px}
+.type_input_2 #steco_customer_form_register {margin-top: 10px}
+.zone_authetication.animation_placeholder .steco_addresses {margin-top: 15px}
+.steco_addresses.steco_block {margin-top: 10px}
+.animation_placeholder .steco_addresses .form-group.animation_placeholder,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.st-has-error.placeholder_error_3,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.has-error.placeholder_error_3,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.st-has-error.placeholder_error_2,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.has-error.placeholder_error_2 {margin-bottom: 1.6rem !important}
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.st-has-error,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.has-error {margin-bottom: 0rem !important}
+.continue_shopping a.continue_shop span { position:relative; }
+.steco_new_address_form.animation_form {padding-top: 0px !important}
+.steco_addresses_form .form-footer {padding: 0px}
+.old_regular_price {text-decoration: line-through; font-weight: bold;} 
+.discount-cart {font-weight: 500; font-size: 13px !important; color: #c50000 !important;}
+.cart_promo_stickers {color: #fff; background: #e60000; padding: 4px 10px; font-size: 10px !important; border-radius: 50px; text-tranform: }
+.steco_flex_child.promo {margin-bottom: 10px;}
+.cart_weight_summary {font-size: 14px; margin-left: 15px;}
+.small_cart_on .cart_weight_summary {  margin-left: 0px; text-align: right ; }
+.small_cart_on.right #delivery_message_box.cart_cart {max-width: 100%}
+.steco_col_2.small_cart_on #delivery_message_box {padding: 0px 13px;}
+
+.checkbox_zone a {color: #67becf; text-decoration: underline}
+.steco_new_address_form.col-md-6 {padding: 0px}
+#collapse_login #login_form_block.from_blcok .page_heading {padding: 30px 26px 6px !important; font-weight: 700}
+#authentication #login_form_block.from_blcok .page_heading, #authentication #create_account_block h3.login_form_heading {
+    font-size: 20px;
+text-transform: none;
+font-weight: 700;
+padding-left: 15px;
+}
+
+#module-steasycheckout-default #footer {padding-top: 0px}
+
+#footer.footer_checkout .title_block {padding: 0px 20px 10px 0;}
+.identity .steco_addresses_form .steco_sub_heading.steco_mb_6 {margin: 0px}
+.invoice-addresses-container {margin-top: 10px}
+.from_blcok .form_content_inner, .identity .form_content_inner {padding: 0 1rem;}
+#st-checkout-personal-information-step .from_blcok .form_content_inner {padding: 0 24px;}
+.full-width.steco_column_section {width: 100%}
+#st-checkout-personal-information-step .identity {background: #fff; border: 0px;}
+#st-checkout-personal-information-step .identity  .form_content_inner {padding: 0px 24px;}
+.step-2 .steco_addresses.steco_block {padding: 0px 9px;}
+.hello_info {
+    padding: 20px 10px 20px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+.steco_column .identity .hello_info { font-size:16px; }
+
+.hello_info i.fto-logout-1 { display:none; }
+
+.steco_address_actions .fs_md {
+    font-size: 19px;
+}
+
+.payment-name span.tooltip_ep_reg, .carrier-name span.tooltip_ep_reg {width: auto; float: none; margin-left: 5px}
+.payment-name span.tooltip_ep_reg i, .carrier-name span.tooltip_ep_reg i {color: #333}
+#create_account_block .row.steco_grid_view {margin-left: 0px; margin-right: 0px; width: 100%}
+#create_account_block.from_blcok { }
+.from_blcok .page_heading {padding: 1rem 25px;}
+.zone_authetication .card {border: 0px; background: none}
+label.radio-inline {width: 50%; float: left; margin: 0px 0px 15px}
+.identity .classpl_invoice.adres_padding_chekbox {padding-left: 9px !important; margin-top: 20px;}
+.step-1 .personal_information-box .steco_personal_information, .steco_heading.personal_information-box {display: none}
+
+.new_adress {margin: 20px 0px}
+.col-lg-12.alias {-webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+.steco_column_section {width: 100%}
+.checkbox_zone .adres_padding_chekbox {-webkit-box-flex: 0 !important;
+-ms-flex: 0 0 100% !important;
+flex: 0 0 100% !important;
+max-width: 100% !important; padding: 0px !important; margin-bottom: 0px; f}
+#create_account_block .steco_new_address_form.col-md-6 {-webkit-box-flex: 0 ;
+-ms-flex: 0 0 100% ;
+flex: 0 0 100% ;
+max-width: 100% ;}
+#create_account_block .steco_sub_heading {font-weight: bold; font-size: 18px; margin: 20px 17px 20px;}
+.show_passwords {margin: 28px 0px 30px}
+.checkbox_zone .classpl_password .password_message i {font-size: 18px; color: #333; margin-left: 5px;}
+.classpl_choose_company.adres_padding_chekbox {margin-bottom: 0px}
+label.choose_invoice {margin-bottom: 0px}
+.card-header.off_all_device {display: none}
+.zone_authetication .card-header div {display: none}
+.zone_authetication .card-header div.collapsed {display: block}
+.zone_authetication .card-header .btn {
+    margin-bottom: 25px;
+    border-width: 2px;
+    margin-top: 25px;
+}
+
+.zone_authetication .card-header .normal-text {cursor: pointer}
+.zone_authetication .card-header .normal-text span {color: #ef4d36;}
+.checkbox_zone {padding: 0px 0px 0px; width: 100%; margin-top: 10px;}
+.add-address.steco_text_center, .cancel-address.steco_text_center {text-align: left}
+.zone_authetication .card-header {border: 0px; padding: 0px 15px; background: #fff;}
+.zone_authetication .card-header .normal-text {margin-bottom: 20px}
+.close_summary {float: right; cursor: pointer; font-weight: 400; font-size: 15px;}
+.close_summary .show, .close_summary.open .hide {display: none}
+.close_summary.open .show {display: inline-block}
+.summary_info_payment {padding: 20px; text-align: center; font-weight: 300; font-size: 13px}
+#delivery_message_box.message_cart {margin-top: 15px;}
+#delivery_message_box.cart_cart {max-width: 86%; float: right; margin-top: 0px}
+.adress-summary li {font-size: 14px; line-height: 26px;}
+.adress-summary li.last {margin-top: 15px}
+.adress-summary li.last a {}
+.adress-summary li.last a:hover {text-decoration: none}
+.steco_summary_address h3 {font-size: 15px; text-transform: uppercase; margin: 0px 0px 10px;}
+.adress-summary li.last a i {margin-right: 6px}
+.btn_register {padding: 0px 23px;position: absolute;text-indent: -9000px;left: -90000px;}
+#module-steasycheckout-default #wrapper {padding-top: 8px; padding-bottom: 25px}
+.step_summary {font-size: 15px; color: #222; padding-bottom: 15px;}
+.step_summary .value.price {color: #222; font-weight: 700}
+.step_summary .cart-summary-totals {margin-top: 10px;}
+.step_summary .cart-summary-totals .cart-total span.label {font-weight: 700; width: 50%; font-size: 16px;}
+.step_summary .cart-summary-totals .cart-total span.value.price { color: #e60000; font-size: 15px !important;}
+.cart-summary-line.free-shipping-info .label {}
+.steco_cart_summay_item div span.label {font-size: 14px;font-weight: 500; color: #222;}
+.cart-summary-line.free-shipping-info .value  {color: #333}
+.st_form_item_id_choose_company label.radio-inline {margin-bottom: 0px}
+.cart_step {font-size: 16px}
+.steco_pro_attr_box {line-height: 20px;}
+.steco_pro_attr_box .small_cart_attr_k.ref {font-size: 12px !important; margin-bottom: 9px; display: block; color: #999;}
+.addres-head 
+
+
+.summary_bt, .btn_full_width.step_down {
+    width: 100%;
+    padding: 10px 20px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+#head_steps .steps_border {
+    background: #fff;
+    padding: 0px;
+    text-align: center;
+    background: transparent;
+    width: 52px;
+    height: 26px;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-weight: 700;
+}
+#head_steps .steps_border span {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid;
+    line-height: 28px;
+}
+#head_steps .steps .step_link, #head_steps .steps_border  {color: #333; font-size: 14px; margin: 0px auto 0px; font-weight: 400;}
+#head_steps .steps .step_link.next .steps_border, #head_steps .steps a:hover .steps_border{color: #8a8a8a; background: #ff0000;}
+#head_steps .steps .step_link:hover p {color: #000;}
+#head_steps .steps .step_link.next .steps_border,
+#head_steps .steps .step_link:hover .steps_border,
+#head_steps .steps .step_link:hover p {
+-moz-transition: all 0.6s ease-in;
+-o-transition: all 0.6s ease-in;
+-webkit-transition: all 0.6s ease-in;
+transition: all 0.6s ease-in; }
+#head_steps .steps .step_link.next, #head_steps .steps .step_link:hover {color: #333;}
+#head_steps .steps.flex_container div {
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+}
+
+.step_link i {display: none}
+.step-2 .line_1 .step_link i {display: inline-block;width: 24px;height: 24px;border-radius: 50%;background: #67becf;color: #fff;
+position: relative;top: -2px;margin-left: 4px;line-height: 23px;}
+
+#head_steps .line_1::after, #head_steps .line_2::after, #head_steps .line_3::after {
+    content: '';
+    width: 98%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    z-index: -1;
+    margin-left: 2.5%;
+}
+#head_steps .line_1:after, #head_steps .line_2:after, #head_steps .line_3:after  {background: #d0d0d0;}
+body.step-2 #head_steps .line_1:after  {background: #67becf;}
+body.step-1 #head_steps .line_1:after,
+body.step-2 #head_steps .line_2:after { 
+	-webkit-animation-duration: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    background: #67becf;
+    background-image: linear-gradient(to right, #67becf 0%, #d0d0d0 20%, #d0d0d0 40%, #d0d0d0 100%);
+    background-repeat: no-repeat;
+    }
+    
+body.step-1 #head_steps .steps .line_1 .step_link .steps_border,    
+body.step-2 #head_steps .steps .line_2 .step_link .steps_border { 
+	    animation-name: step-bg;
+        animation-duration:1.5s;
+        animation-timing-function: ease-out;
+        animation-iteration-count:1;
+        background-color:#fff;
+        color: #333;
+    }  
+
+body.step-1 #head_steps .steps .line_1 .step_link p,
+body.step-2 #head_steps .steps .line_2 .step_link p { 
+	    animation-name: step-bg-p;
+        animation-duration:1.5s;
+        animation-timing-function: ease-out;
+        animation-iteration-count:1;
+        color: #333;
+	    font-weight: 500;
+    }     
+    
+@keyframes step-bg
+      {
+        0%   { background-color:#fff; color: #8a8a8a}
+        10%  { background-color:#fff; color: #8a8a8a}
+        20%  { background-color:#fff; color: #8a8a8a}
+        30%  { background-color:#fff; color: #8a8a8a}
+        40%  { background-color:#fff; color: #8a8a8a}
+        50%  { background-color:#fff; color: #8a8a8a}
+        60%  { background-color:#fff; color: #8a8a8a}
+        100% { background-color: #fff; color: #333; }
+      }
+      
+@keyframes step-bg-p
+      {
+        0%   { color: #333}
+        10%  { color: #333}
+        20%  { color: #333}
+        30%  { color: #333}
+        40%  { color: #333}
+        50%  { color: #333}
+        60%  { color: #333}
+        100% { color: #333}
+      }
+
+
+
+
+.steco_column_section  .steco_reassurance { padding:0px; }
+#head_steps h3 span.adress_step,
+#head_steps h3 span.summary_step  {display: none}
+body.step-2 #head_steps h3 span.cart_step,
+body.step-2 #head_steps h3 span.summary_step {display: none}
+body.step-2 #head_steps h3 span.adress_step {display: block}
+
+
+
+.big_cart_body #wrapper .line_item div.price {text-align: center;}
+.big_cart_body .steco_personal_information { padding-top: 0px; }
+
+.checkout-summary-block { background: #fff; padding: 0px; }
+.free-info {background: #ddd; width: 90px; height: 5px; position: relative; display: inline-block;}
+.free-info div {position: absolute; height: 100%; background: #67becf; left: 0px; top: 0px;}
+.free-delivery_info {background: #fff; padding: 20px 30px; margin-bottom: 20px; box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.01); margin-top: 15px;}
+.free-delivery_info .free-info-icon {padding: 0px 10px 0px 40px; margin-right: 20px; min-width: 200px; border-right: 1px solid #ddd; font-weight: 600; font-size: 14px; position: relative}
+.free-delivery_info .free-info-icon:before {content:''; width: 30px; height: 24px; left: 50%; margin-left: -100px; background-image: url(../img/svg/van.svg); background-size: 27px; margin-top: -2px; background-repeat: no-repeat; background-position: center; position: absolute;}
+.free-delivery_info .free-info-clock {padding: 0px 10px 0px 0px; width: 280px;}
+.free-delivery_info .free-info-clock span {display: inline-block; margin: 0px 5px; font-size: 13px; color: #333}
+.free-info-text {font-weight: 400; font-size: 14px;}
+.free-info-text span {font-weight: 600}
+.free-info-text span.delivery-sucess {font-weight: 400; position: relative; padding-left: 40px; display: inline-block;}
+.free-info-text span.delivery-sucess:before {content:''; width: 30px; height: 28px; background-image: url(../img/svg/smile.svg); background-size: 27px; margin-top: -14px; top: 50%; background-repeat: no-repeat; background-position: center; position: absolute; left: 0px}
+.name_price_left {margin-left: 3px; text-transform: lowercase;}
+.line_item .steco_step_number {background: transparent !important}
+.col-lg-1.prod_img {padding-left: 0px; padding-right: 0px;}
+.cart_align_center {text-align: center; font-weight: 500; padding: 0px}
+#wrapper .line_item a, #wrapper .line_item span, #wrapper .line_item div {font-size: 14px}
+#wrapper .line_item a.remove-from-cart {font-size: 16px}
+#wrapper .line_item a.remove-from-cart span {font-size: 12px;}
+#wrapper .line_item div.price {text-align:right;}
+#wrapper #summary_sticky .line_item div.price {text-align: left; font-size: 13px;}
+#summary_sticky .steco_base_list_line .line_item {border-bottom: 1px solid #ddd; padding: 12px 0px;}
+#summary_sticky .steco_base_list_line .line_item:first-child {border-top: 1px solid #ddd;}
+#summary_sticky .line_left.quantity {font-size: 12px;color: #999;margin: 0px;}
+#wrapper #summary_sticky  .line_item div.product-name {font-size: 13px;line-height: 18px;color: #000;letter-spacing: 0px;}
+.cart-name-top {padding: 0px 20px 10px; font-weight: 600; font-size: 16px; margin-bottom: 1rem;}
+.cart-name-top span{font-weight: 400}
+#wrapper .line_item a.product-name {font-weight: 400; font-size: 14px; margin: 2px 0px 0px; display: block; padding-right: 10px; line-height: 16px;}
+.checkout-summary-block .small_cart_product_list {margin-bottom: 0px; box-shadow: 0px 0px 7px 5px rgba(0,0,0,0.01); padding: 8px 70px 0px; margin-top: 15px;}
+
+#wrapper .line_item a.product-name:hover {text-decoration: underline}
+#wrapper .line_item .small_cart_attr_attr span {font-size: 14px}
+.price.steco_mr_r4 {white-space: normal;}
+.steco_card_number {padding: 0px}
+.steco_heading.big_cart_on, .line_item.big_cart_on {padding-right: 20px}
+.allign_right {text-align: right}
+.steco-delivery-option .carrier-name.col-sm-5, .carrier-price-logo,
+.payment-option .payment-name.col-sm-9.col-9  {padding-left: 0px; font-weight: 600;}
+.steco-delivery-option .full-width, .payment-option  .full-width {width: 100%}
+.steco-delivery-option .carrier-price, .steco-payment-option .payment-price-plus {font-weight: 700}
+.steco-payment-option .payment-price  {font-weight: 600}
+.steco-payment-option .payment-price {text-align: center; font-size: 13px; margin-top: -8px;}
+.delivery-option label, .payment-options label, .label-plus {font-size: 15px}
+.delivery-option .steco-custom-input-box, .payment-options .steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 4px;}
+.delivery-option.shipping-two-rows .steco-custom-input-box {margin-top: 14px;}
+.steco-delivery-option .carrier-name {margin-top: 0px; font-weight: 700; font-size: 16px;}
+.steco-payment-option .payment-name {font-weight: 700; font-size: 16px;}
+.cart-summary-subtotals.product-bottom span {font-size: 15px; font-weight: 700;}
+
+
+.voucher_box {display: none}
+.voucher_box.open {display: block}
+.steco_promo_title i {display: none}
+.voucher_slide .steco_promo_title {cursor: pointer}
+.voucher_slide .steco_promo_title i {display: inline-block}
+.steco-cart-voucher .steco_promo_title {font-size: 14px; font-weight: 500;}
+.steco-cart-voucher .voucher_slide .steco_promo_title span {
+    position: relative;
+}
+.steco-cart-voucher .voucher_slide .steco_promo_title span:hover, 
+.steco-cart-voucher .voucher_slide .steco_promo_title.open span { }
+.steco_cart_summay_box .steco_cart_summay_big {
+    padding: 0px 30px 10px;
+}
+
+.steco_summary .steco_cart_summay_box .steco_cart_summay_big {
+    padding: 0px 0px 10px;
+}
+
+
+
+.voucher_open.open, .steco-cart-voucher .promo-code.open:before {display: none}
+.block_all_code  {padding: 15px; background: #F2f2f2;}
+.block_all_code p {font-weight: 700; font-size: 15px;}
+.block_all_code .promo-discounts {margin-bottom: 0px}
+.block_all_code li {font-size: 14px}
+
+
+#promo-code .promo-input.form-control {border: 1px solid #dddddd; border-right: 0px; height: 35px; border-radius: 0px;}
+#promo-code .steco_btn.voucher {line-height: 29px; height: 35px; font-size: 12px; padding: 0px 38px 0px 30px; border-radius: 0px;}
+#promo-code .form-control {color: #555; letter-spacing: 0px; padding-left: 15px}
+span.code span {text-indent: -9000px; position: absolute;}
+span.code i {font-size: 11px;}
+span.code, span.code i {cursor: pointer}
+.line_item.voucher {padding: 0px; font-weight: 500;}
+.voucher-box {margin: 20px 0px 15px;}
+.voucher-name_add {color: #67becf;}
+.steco_cart_summay_small .line_item.voucher a {margin-top: -1px; margin-left: 0px;}
+
+/*steps 1 ePresta CSS*/
+
+.name_summary {display: none}
+#steco-conditions-to-approve {display: none}
+.name_summary.quantity_cart {display: block}
+body.step-1 .bt_last_step {display: none}
+.summary_bt.bt_first_step {margin-top: 10px;}
+body.step-1 .summary_info_payment {display: none}
+
+
+/*steps 2 ePresta CSS*/
+body.step-2 .continue_shopping, body.step-2 .payment-box, body.step-2 .delivery-box, body.step-2  .personal_information-box .steco_cart   {display: none}
+
+
+
+      
+/*visible steps ePresta CSS*/
+      
+body.step-2 .bt_first_step.summary_bt {display: none}
+body.step-2 .step_two
+{display: block}
+
+
+
+/*ePresta CSS responsive*/
+
+
+.step-1 .small_cart_on.right .steco_heading {
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 25px 0 10px;
+}
+
+.small_cart_body .cart_weight_summary label, .small_cart_body .cart_weight_summary span.value, .step-1 #cart-subtotal-products_discounts span.label, .step-1 #cart-subtotal-products_discounts span.value.price {
+    display: inline-block;
+    width: 48.2%;
+    text-align: right;
+}
+
+
+.big_cart_body .cart_weight_summary span.value.price { display: inline-block; text-align: right; }
+
+
+.step-1 .mini_price {
+    margin-top: 4px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.small_cart_on .line_item.voucher {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.small_cart_on .steco_cart {
+    border-top: 0px solid #e5e5e5;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+
+.small_cart_body.step-1 .small_cart_on.right .steco_summary.steco_block {padding-left: 15px !important; padding-right: 15px !important;}
+.small_cart_body .steco_cart_summay_box.steco_mb_6 {margin:0px;}
+.steco_cart_summay_box  .cart-summary-totals {border-top: 1px solid #ddd; padding-top: 15px; margin-top: 15px; margin-bottom: 30px;}
+.steco_cart_summay_box  .cart-summary-totals span {font-weight: 700!important; font-size: 16px; color: #222 !important}
+.steco_cart_summay_box  .cart-summary-totals .label {font-size: 20px;}
+.steco_cart_summay_box.steco_mb_6 {margin: 20px 0;}
+
+.step-1 .small_cart_on.right .summary_bt.bt_first_step {max-width: 100%; border-radius: 0px;}
+.step-1 .small_cart_on.right .step_summary .cart-summary-totals span.value.price  {font-size: 15px;}
+.step-2 .cart_step_all { display:none; }
+
+
+
+@media ( min-width :1441px) {
+
+#head_steps .col-md-3.name_auth {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 28%;
+flex: 0 0 28%;
+max-width: 28%;
+
+}
+#head_steps .col-md-6.steps {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 70%;
+flex: 0 0 70%;
+max-width: 70%;
+margin-left: 15%;
+
+}	
+
+
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1440px) {
+	
+#head_steps .col-md-3.name_auth {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 26%;
+flex: 0 0 26%;
+max-width: 26%;}
+#head_steps .col-md-6.steps {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 70%;
+flex: 0 0 70%;
+max-width: 70%;
+margin-left: 15%;
+}
+.big_cart_body #head_steps .col-md-3.name_auth {
+    padding-left: 0px;
+}	
+
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	
+#head_steps .col-md-3.name_auth {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 26%;
+flex: 0 0 26%;
+max-width: 26%;}
+#head_steps .col-md-6.steps {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 76%;
+flex: 0 0 76%;
+max-width: 76%;
+margin-left: 12%;
+}
+
+
+.free-delivery_info .free-info-clock span {display: block; margin: 0px;}	
+#head_steps .name_auth h3 {
+    position: absolute;
+    width: 480px;
+}
+.big_cart_body #head_steps .col-md-3.name_auth {
+    padding-left: 0px;
+}
+	
+.steco_cart_summay_box .steco_cart_summay_item  {padding: 0px;}
+.step_summary .steco_cart_summay_box {font-size: 14px;}
+.card.login_zone {padding-left: 20px;}
+.card.create_zone {padding-right: 20px;}
+	
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+	
+#head_steps .col-md-3.name_auth {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 26%;
+flex: 0 0 26%;
+max-width: 26%;}
+#head_steps .col-md-6.steps {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 100%;
+flex: 0 0 100%;
+max-width: 100%;
+}
+
+#head_steps h3 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+#head_steps .steps.flex_container div {
+width: 100%;
+}
+
+.big_cart_body .cart_weight_summary label, .big_cart_body.step-1 #cart-subtotal-products_discounts span.label { width: 55% !important; }	
+	
+#head_steps {
+    margin: 5px 0px 10px;
+}
+		
+#head_steps .name_auth {
+	 top: 80px;
+}
+	
+
+.steco_card_number {-webkit-box-flex: 0;-ms-flex: 0 0 8.33333%;flex: 0 0 8.33333%;max-width: 8.33333%;}
+.card.create_zone {padding-right: 15px;}
+#login_form_block, #create_account_block { }
+.zone_authetication .from_blcok .page_heading {margin-bottom: 0px; font-size: 18px; text-transform: none; padding-top: 25px !important;}
+.small_cart_on.left {padding-left: 15px; padding-right: 15px}	
+
+}
+
+@media only screen and (min-width:481px) and (max-width:767px) {
+
+.line_item.big_cart_on .prod_img {width: 90px}
+.line_item.big_cart_on .line_left {width: calc(100% - 100px); }
+.line_item.big_cart_on .cart_align_center.quantity {width: 100px; margin-left: 102px;}
+.line_item.big_cart_on .cart_align_center.big_price {width: auto; margin-left: 20px;}
+.card.login_zone, .card.create_zone {padding: 0px;}
+.cart_weight_summary {margin-left: -6px; margin-top: 10px;}
+.small_cart_on.left {padding-left: 15px; padding-right: 15px}
+.small_cart_body .small_cart_info .right_zone_mobile {width: 85%;}
+.small_cart_body .small_cart_info .prod_img {padding-left: 0px; width: 15%;}
+}
+
+@media only screen and (max-width:767px) {
+.steco-payment-option .payment-price-plus {padding-top: 2px !important; position: absolute; right: 0px; margin-top: -2px;}
+.payment-option .payment-img {display: none}
+.share-cart {margin-top: -43px;}
+.step-1 .cart-summary-totals {border: 1px solid #f1f1f1; position: fixed; bottom: 22px; left: 0px; width: 100%; background: #fff; z-index: 5; padding: 15px 12px 10px; box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.06);}
+.bt_first_step.summary_bt {position: fixed; bottom: 0px; left: 0px; z-index: 5; border-top: 6px solid #fff; border-bottom: 6px solid #fff; border-left: 12px solid #fff !important; border-right: 12px solid #fff !important; line-height: 26px !important; height: 56px !important; border-radius: 0px;}
+#acc_heading_login .btn.btn-border span, #acc_heading_register .btn.btn-border span {display: block;}
+.checkout-summary-block .last-info {text-align: center}
+#head_steps .steps .step_link, #head_steps .steps_border {font-size: 12px;height: 25px;line-height: 14px;}
+.cart-name-top {padding: 0px;}
+.steco-checkout-summary {margin-bottom: 0px;}
+.steco-delivery-option {padding: 14px 20px 10px 20px;}
+.delivery-option .estimated-delivery, .payment-option .estimated-delivery {line-height: 18px; padding-top: 4px;}
+ .steco-payment-option .align-items-start.full-width {padding: 10px 20px 20px 20px;}
+.payment-options .payment-check {left: 21px; top: 15px;}
+.payment-options .align-items-start.full-width {margin-left: 30px;}
+.payment-options.steco-payment-option .payment-option {-ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%;}
+.steco-payment-option .payment-name {min-height: auto}
+.payment-img.col-sm-12 {-webkit-box-flex: 0; -ms-flex: 0 0 20%; flex: 0 0 20%; max-width: 20%;}
+.steco-payment-option .payment-option .steco-custom-input-box {min-height: auto;}
+.steco-payment-option .payment-option {min-height: auto;}
+#st-checkout-payment-step .align-items-start .row {margin: 0px}
+.payment-img.col-12 {margin-top: 16px; margin-bottom: 16px;}
+.payment-name .payment-span {text-align: left}
+.carrier-img.col-sm-2.col-3 {display: none}
+.steco-delivery-option .carrier-name, .steco-payment-option .payment-name {-webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%; padding-left: 20px; padding-right: 45px;}
+.steco-payment-option .payment-name {padding-right: 0px !important}
+.steco-delivery-option.shipping-two-rows .carrier-price {position: absolute; right: 0px;}
+.label-plus .payment-name-plus {max-width: 80%; display: inline-block}
+	
+.free-info {height: 10px;}
+.free-delivery_info .free-info-clock span {font-size: 13px;}
+.free-delivery_info {display: block; padding: 20px}
+.free-delivery_info .free-info-clock {padding: 0px 10px 10px 0px; width: 100%; text-align: center;}
+.free-info-text {text-align: center; font-size: 15px}
+.free-info-text span.delivery-sucess {padding-left: 0px}
+.free-info-text span.delivery-sucess:before {display: none}
+.free-delivery_info .free-info-icon::before {margin-left: -90px;}
+.free-delivery_info .free-info-icon {
+    padding: 0px 0px 15px 25px;
+    margin-right: 0px;
+    min-width: 100%;
+    border-right: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+#create_account_block.from_blcok, #login_form_block.from_blcok {
+    padding: 5px 0px 30px;
+    margin-bottom: 0px;
+    border: none;
+    background:  #fff;
+    width:100%;
+}
+.card.login_zone, .card.create_zone {
+    width: 100%;
+}
+.row.all-form_step2 { width:100%; margin:0px; }
+#st-checkout-personal-information-step .all_form.container { padding: 0px; }
+	
+.zone_authetication .from_blcok .page_heading {padding: 1.5rem 25px 10px!important; margin-bottom: 5px!important;}
+	
+	
+#head_steps .col-md-3.name_auth {
+order: 2 }
+#head_steps .col-md-6.steps {
+order: 1;
+margin: 0 auto;
+}
+
+#head_steps {  margin: 0px 0 20px; }
+#head_steps h3 {  font-size: 22px;  margin-bottom: 12px; }	
+
+.small_cart_body .cart_weight_summary p { margin-bottom: 0px; width: 100%; margin-left: -2px; }
+.small_cart_body .small_cart_info  .steco_flex_start {position: relative}
+.small_cart_body .small_cart_info .flex_container {display: inline-block}
+.small_cart_body .small_cart_info .prod_img {padding-left: 0px; float: left;}
+.small_cart_body .small_cart_info .line_left.remove {width: auto; position: absolute; top: 0px; right: 0px; text-align: right;}
+.small_cart_body .small_cart_info .line_left.quantity {text-align: left; margin-top: 10px}
+.small_cart_body .small_cart_info .right_zone_mobile {float: left}
+.small_cart_body .small_cart_info .prod_name {padding: 0px}
+.steco_heading  .cart_align_center {display: none}	
+.steco_sub_heading {  margin-top: 35px; }
+.big_cart_body #wrapper .line_item div.price {text-align: left;}
+.big_cart_body #wrapper .line_item div.price .discount-cart { display: block; }
+.big_cart_body #wrapper .line_item div.price .steco_flex_child br, .big_cart_body #wrapper .line_item.big_cart_on .line_left.big_price br { display:none; }
+.big_cart_body #wrapper .line_item.big_cart_on .line_left.big_price { 	display: inline-block;	width: 100%;	margin-left: 102px;	margin-top: 15px; }
+.big_cart_body .small_cart_info .remove  { top: 8px; }
+	
+
+
+.step-2 .add-address .steco_address_btn { width: 100%; } 	
+.create_zone {order: 2}
+.login_zone {order: 1}
+.steco_heading.big_cart_on, .line_item.big_cart_on {padding-right: 0px;}
+.line_item.big_cart_on .steco_flex_child.flex_container {display: inline-block}
+.line_item.big_cart_on .prod_img {float: left; padding: 0px; text-align: center;}
+.line_item.big_cart_on  .small_cart_product_image {padding: 0px; margin: 0px}
+.line_item.big_cart_on .line_left {padding: 0px; float: right}
+.line_item.big_cart_on .cart_align_center {text-align: left}
+.line_item.big_cart_on .line_left.price {margin: 15px 0px}
+.line_item.big_cart_on .cart_align_center.quantity {float: left;}
+.line_item.big_cart_on .cart_align_center.remove {float: right; width: 35px; text-align: center;}
+.line_item.big_cart_on .cart_align_center.big_price {float: left;}
+.line_item.big_cart_on .cart_align_center.remove a {font-size: 18px}
+.big_padding .cart_align_center.big_price {padding-top: 0px;}
+.big_padding .cart_align_center.remove {padding-top: 4px}
+.steco_cart_summay_big .steco-cart-voucher .promo-code{max-width: 100%;}
+.steco-cart-voucher {order: 2;}
+.cart-summary-line.product-bottom {order: 1;}
+.steco_cart_summay_box .steco_cart_summay_big {padding: 0px 10px}
+.steco-cart-voucher .steco_promo_title {margin-top: 10px;}
+.promo-code.voucher_slide.open {margin-top: 10px}
+.steco_summary_address.steco_block {padding-left: 15px; padding-right: 15px}
+.adress-summary li {font-size: 14px; line-height: 23px;}
+.steco_summary_address h3 {font-size: 14px;}
+.adress-summary li.last {margin-top: 3px; margin-bottom: 15px;}
+.summary_mb {margin-bottom: 20px}
+.adress-summary.small {max-height: 142px; overflow: hidden; position: relative;}
+.adress-summary.small.open {max-height: 100%;}
+.summary_down_line {
+    text-align: left;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.fade-out-content:before {content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100px;
+background: linear-gradient(180deg,hsla(0,0%,100%,0) 0,#fff);}
+.adress-summary.small.open .fade-out-content:before {display: none}
+.close_summary_down .show.off {display: none}
+.cancel-address {padding-bottom: 15px}
+.add-address.steco_mt_10.steco_text_center {text-align: center}
+.small_cart_on #delivery_message_box.message_cart {max-width: 100%;}
+.small_cart_body #wrapper .line_item .big_price .price {text-align: left; margin-top: 10px;}
+
+
+	
+}
+
+@media only screen and (max-width:480px) {
+	
+.delivery-option .estimated-delivery br {display: inline !important;}
+.steco-delivery-option .carrier-name .estimated-delivery span {padding-left: 0px}
+.delivery-option .estimated-delivery {line-height: 18px !important; padding-top: 3px !important;}
+.safety-price strong {display: block; margin-bottom: 8px;} 
+.steco-delivery-option.shipping-two-rows .carrier-price {padding-top: 0px;}
+#head_steps .steps .line_3 .step_link {position: relative;}
+.delivery-option .steco-custom-input-box {margin-top: 8px !important;}
+.delivery-option .carrier-img {padding-top: 20px;}
+.steco-delivery-option .carrier-price {padding-top: 30px;}
+.line_item.big_cart_on .prod_img {width: 60px; }
+.line_item.big_cart_on .line_left {width: calc(100% - 70px);}
+#collapse_register, #collapse_login, .identity  {}
+#create_account_block.from_blcok, #st-checkout-personal-information-step .identity {border: 0px !important;}
+#st-checkout-personal-information-step .identity {padding: 0px 15px}
+.zone_authetication .from_blcok .page_heading {padding-left:15px!important; padding-right: 15px!important; margin-bottom: 5px;font-size: 18px;}
+.login_zone .from_blcok {border: 0px; border-top: 2px solid #e8e8e8}
+.qty_wrap {width: 80px;}
+.line_item.big_cart_on .cart_align_center.quantity {width: 80px; margin-left: 72px;}
+.line_item.big_cart_on .cart_align_center.big_price {width: auto; margin-left: 20px;}
+#head_steps .steps a {font-size: 12px;}
+#head_steps .col-md-6.steps {padding: 0px;}
+.btn_arrow.btn_blus.voucher {padding: 0 2rem 0px 1.2rem;}
+#promo-code .form-control {font-size: 12px;}
+.zone_authetication .card-header .normal-text, body.step-2 #head_steps h3 span.adress_step  {padding-left: 0px;}
+.steco_cart_summay_big .cart-summary-line .value {min-width: 50%; text-align: center;}
+.steco-delivery-option .allign_right, .steco-payment-option .allign_right {text-align: right;}
+.steco-cart-voucher .steco_promo_title {text-align: left;  margin-top: 10px;}
+.promo-code.voucher_slide.open {margin-top: 10px}
+.steco_cart_summay_box .steco_cart_summay_item {padding: 0px 10px}
+.steco_cart_summay_box .steco_cart_summay_item .label {text-align: left}
+.steco_cart_summay_box .steco_cart_summay_item .value {text-align: right}
+.step_summary {font-size: 14px;}
+.step_summary .cart-summary-totals {}
+.small_cart_body .small_cart_info .right_zone_mobile {width: 65%;}
+.small_cart_body .small_cart_info .prod_img {padding-left: 0px; width: 35%;}
+.small_cart_body #head_steps .col-md-3.name_auth { padding-left: 0px; }
+.step_summary .cart-summary-totals span.value.price {font-size: 17px;}
+.btn.summary_bt, .btn_full_width.step_down { }
+.zone_authetication .create_zone .form-group label {font-size: 12px;}
+.card.login_zone, .card.create_zone {padding: 0px;}
+.cart_weight_summary {margin-top: 10px; text-align: center; margin-left: 0px}
+.big_cart_body .cart_weight_summary span.value.price, .big_cart_body.step-1 #cart-subtotal-products_discounts span.value.price {  width: 51% !important; }
+.big_cart_body .cart_weight_summary label, .big_cart_body.step-1 #cart-subtotal-products_discounts span.label { width: 47% !important;text-align: left;}
+.big_cart_body .cart_weight_summary p { margin-bottom:0px; }
+.big_cart_body .cart_weight_summary { margin: 10px 0 0px; }
+.big_cart_body #wrapper .line_item.big_cart_on .line_left.big_price { margin-left: 72px; }
+label.radio-inline:last-child, .identity .classpl_choose_company .form-control-valign label.radio-inline {padding-left: 8px;}
+.small_cart_body .cart_weight_summary span.value.price, .small_cart_body #cart-subtotal-products_discounts span.value.price {  width: 51% !important; }
+.small_cart_body .cart_weight_summary label, .small_cart_body #cart-subtotal-products_discounts span.label { width: 46% !important;text-align: left;}
+
+.adres_padding {
+    padding: 0px 0px!important;
+    -webkit-box-flex: 0;
+-ms-flex: 0 0 100%;
+flex: 0 0 100%;
+max-width: 100%;
+}
+
+.zone_authetication .login_zone .from_blcok .form_content_inner, .zone_authetication .login_zone .from_blcok .form-footer {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+	
+.animation_placeholder .steco_addresses .form-group.animation_placeholder,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.st-has-error.placeholder_error_3,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.has-error.placeholder_error_3,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.st-has-error.placeholder_error_2,
+.animation_placeholder .steco_addresses .form-group.animation_placeholder.has-error.placeholder_error_2 {margin-bottom: 1.4rem !important}	
+
+	
+	
+}
+
+
+@media only screen and (min-width:768px) {
+#module-steasycheckout-default #footer {margin-top: 0px}
+.close_summary {display: none}
+.steco_summary_address { }
+.steco_summary_address .adress_left {padding-left: 50px}
+.steco_summary_address.collapse {display: block}
+.close_summary_down {display: none}
+.create_zone, .login_zone {padding: 0px}
+.card-header.off_desktop {display: none}
+.collapse.show_desktop {display: block;}
+
+.steco-delivery-option {padding: 17px 20px 14px 30px;}
+.steco-payment-option .align-items-start.full-width {padding: 12px 20px 11px 30px;}
+.steco-delivery-option .carrier-price, .steco-payment-option .payment-price-plus {padding-top: 12px;}
+.steco-delivery-option .carrier-name .estimated-delivery span {padding-left: 4px;}
+.payment-option .payment-img   {text-align: center;}
+.big_cart_body .cart_weight_summary p, .small_cart_body .cart_weight_summary p {margin-bottom: 0px; width: 50%;  float: right;}
+.steco-payment-option .payment-option .steco-custom-input-box {height: 73px; min-height: 73px;}
+.payment-options .row {padding-left: 42px;}
+.big_cart_body .cart_weight_summary p { padding: 0 15px; }	
+#st-checkout-personal-information-step .from_blcok { border:0px; border-radius: 0px; background: #fff }
+	
+}
+
+@media only screen and (min-width:992px) {
+.delivery-option .steco-custom-input-box, .payment-options .steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 18px !important;}
+.steco-delivery-option .carrier-img {padding-top: 9px !important;}
+.steco-payment-option .payment-img {padding-top: 0px !important;}
+.steco-payment-option .payment-price-plus {padding-top: 10px !important;}
+.col-lg-8.big_cart_on {-webkit-box-flex: 0;-ms-flex: 0 0 64;flex: 0 0 64%;max-width: 64%; padding-right: 30px}
+.col-lg-4.big_cart_on {-webkit-box-flex: 0;-ms-flex: 0 0 36%;flex: 0 0 36%;max-width: 36%}
+#summary_sticky:not(.has-sticky) {margin-top: 14px !important}
+.step-1 #summary_sticky:not(.has-sticky) {margin-top: 16px !important}
+.big_cart_on.steco_col_2 {padding-right: 25px;}
+.big_cart_on.steco_col_3 {padding: 0px 20px}
+.big_cart_on.steco_col_4 {padding-left: 25px}
+.summary_bt.bt_first_step {max-width: 100%; float: right;}
+.big_message textarea#delivery_message {width: 140%;}
+.big_message#delivery_message_box {margin-top: 55px}
+.btn_full_width.step_down {max-width: 600px}
+.small_cart_on.left {padding-right: 30px}
+.small_cart_product_list.medium_list.step-2 {max-height: 260px; overflow-x: hidden;}
+.estimated-delivery {font-size: 14px;}
+#module-steasycheckout-default.small_cart_body #head_steps {margin: 5px auto 5px !important;}
+.steco-delivery-option  .carrier-img  {text-align: center; padding-top: 2px !important;}
+.delivery-option .steco-custom-input-box, .payment-options .steco-custom-input-, .gift-option .steco-custom-input-box {margin-top: 10px !important;}
+	
+
+#head_steps .name_auth { top: 100px; }
+/* demo koniec etapy koszyka */		
+
+}
+
+@media only screen and (max-width:991px) {
+	
+#footer.footer_checkout .title_block .opener {display: none}
+#footer.footer_checkout .title_block {margin-bottom: 0px; padding-bottom: 0px;}
+.checkout-summary-block .small_cart_product_list {padding: 0px 20px}	
+.delivery-options-list #js-delivery, .payment-options.steco-payment-option {padding: 20px}
+.step-1-text-info-top {padding: 20px 20px 0px; margin: 0px;}
+.step-1 .small_cart_on.right .steco_delivery.steco_block,
+.step-1 .small_cart_on.right .steco_payment.steco_block  {padding: 0px 20px 2px}
+#delivery_message_box.mini-column {padding: 0px; margin-top: 15px; padding-bottom: 15px}
+.step-1 .small_cart_on.right .steco_delivery.steco_block .form-fields {border-bottom: 1px solid #ddd; padding: 10px 0px;}
+.step-1 .small_cart_on.right .steco_payment.steco_block .steco-payment-option {margin-bottom: 20px}
+.step-1 .small_cart_on.right .steco_divider .steco_column {background: #fff;}
+#delivery_message_box {margin-top: 20px}
+.continue_shopping {text-align: center}
+.continue_shopping a.continue_shop {background: none}
+#delivery_message_box.cart_cart {max-width: 100%; float: right}
+.cart_step_all {display: none}
+.small_cart_on.left,  .small_cart_on.right {  -webkit-box-flex: 0 !important;
+-ms-flex: 0 0 100% !important;
+flex: 0 0 100% !important;
+max-width: 100% !important;}
+
+.step-1 .small_cart_on.right .steco_heading {
+    border-top: 0px;
+    text-transform: uppercase;
+    background:transparent; }
+.small_cart_body .step_summary.small_cart_on {padding-top: 22px;}
+.small_cart_body .step_summary.small_cart_on .steco_column_section  {background: #fff}
+.small_cart_body .step_summary.small_cart_on .steco_heading { border-top:none; background: #fff}	
+
+.big_cart_body #head_steps .col-md-3.name_auth {  padding-left: 0px; }
+.big_cart_body #head_steps h3 {  margin-bottom: 25px;   }	
+.big_cart_body .steco_heading { font-size: 14px; line-height: 18px; }
+	
+
+#st-checkout-personal-information-step .identity {
+    padding: 15px 10px 40px;
+}
+
+}
+
+@media only screen and (max-width:390px) {
+	
+.payment-option .payment-img {padding-top: 19px !important;}
+.steco-payment-option .payment-price-plus {padding-top: 2px !important;}
+.safe-top {font-size: 10px; line-height: 16px;}
+.safe-top:before {display: none}
+#head_steps .steps .step_link, #head_steps .steps_border {font-size: 11px; height: 25px; line-height: 14px;}
+#summary_sticky .estimated-delivery span {display: block;}
+.label-plus .payment-name-plus {max-width: 72%; display: inline-block;}
+
+	
+}
+
+
+

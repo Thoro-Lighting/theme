@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="nt5krMS" resname="Newsletter popup">
+        <source>Newsletter popup</source>
+        <target>Newsletter popup</target>
+      </trans-unit>
+      <trans-unit id="fg6QjOT" resname="Adds a block for newsletter subscription.">
+        <source>Adds a block for newsletter subscription.</source>
+        <target>Adds a block for newsletter subscription.</target>
+      </trans-unit>
+      <trans-unit id="C8fLjxn" resname="The field &quot;Show on&quot; is required">
+        <source>The field "Show on" is required</source>
+        <target>The field "Show on" is required</target>
+      </trans-unit>
+      <trans-unit id="wtI6Oe_" resname="An error occurred during newsletter">
+        <source>An error occurred during newsletter</source>
+        <target>An error occurred during newsletter</target>
+      </trans-unit>
+      <trans-unit id="sr0GuZn" resname="All countries">
+        <source>All countries</source>
+        <target>All countries</target>
+      </trans-unit>
+      <trans-unit id="qfMxEUI" resname="Export customers\' addresses">
+        <source>Export customers\' addresses</source>
+        <target>Export customers\' addresses</target>
+      </trans-unit>
+      <trans-unit id="8V4Rh7t" resname="Customers\' country">
+        <source>Customers\' country</source>
+        <target>Customers\' country</target>
+      </trans-unit>
+      <trans-unit id="ZaT5Qej" resname="Filter customers by country.">
+        <source>Filter customers by country.</source>
+        <target>Filter customers by country.</target>
+      </trans-unit>
+      <trans-unit id="E7E8Hon" resname="Newsletter subscribers">
+        <source>Newsletter subscribers</source>
+        <target>Newsletter subscribers</target>
+      </trans-unit>
+      <trans-unit id="T7LlNbr" resname="Filter customers who have subscribed to the newsletter or not, and who have an account or not.">
+        <source>Filter customers who have subscribed to the newsletter or not, and who have an account or not.</source>
+        <target>Filter customers who have subscribed to the newsletter or not, and who have an account or not.</target>
+      </trans-unit>
+      <trans-unit id="_0qwYto" resname="Customers can subscribe to your newsletter when registering, or by entering their email in the newsletter popup.">
+        <source>Customers can subscribe to your newsletter when registering, or by entering their email in the newsletter popup.</source>
+        <target>Customers can subscribe to your newsletter when registering, or by entering their email in the newsletter popup.</target>
+      </trans-unit>
+      <trans-unit id="ORlPm6B" resname="All subscribers">
+        <source>All subscribers</source>
+        <target>All subscribers</target>
+      </trans-unit>
+      <trans-unit id="V2GObjU" resname="Subscribers with account">
+        <source>Subscribers with account</source>
+        <target>Subscribers with account</target>
+      </trans-unit>
+      <trans-unit id="b3ofktf" resname="Subscribers without account">
+        <source>Subscribers without account</source>
+        <target>Subscribers without account</target>
+      </trans-unit>
+      <trans-unit id="YIHl1Rx" resname="Non-subscribers">
+        <source>Non-subscribers</source>
+        <target>Non-subscribers</target>
+      </trans-unit>
+      <trans-unit id="WdNrOpG" resname="Opt-in subscribers">
+        <source>Opt-in subscribers</source>
+        <target>Opt-in subscribers</target>
+      </trans-unit>
+      <trans-unit id="1.OwCLQ" resname="Filter customers who have agreed to receive your partners\' offers or not.">
+        <source>Filter customers who have agreed to receive your partners\' offers or not.</source>
+        <target>Filter customers who have agreed to receive your partners\' offers or not.</target>
+      </trans-unit>
+      <trans-unit id="8Bvj8pE" resname="Opt-in subscribers have agreed to receive your partners\' offers.">
+        <source>Opt-in subscribers have agreed to receive your partners\' offers.</source>
+        <target>Opt-in subscribers have agreed to receive your partners\' offers.</target>
+      </trans-unit>
+      <trans-unit id="f0BINV8" resname="All customers">
+        <source>All customers</source>
+        <target>All customers</target>
+      </trans-unit>
+      <trans-unit id="bzgwa3n" resname="Opt-in non-subscribers">
+        <source>Opt-in non-subscribers</source>
+        <target>Opt-in non-subscribers</target>
+      </trans-unit>
+      <trans-unit id="8nBL6cg" resname="Export .CSV file">
+        <source>Export .CSV file</source>
+        <target>Export .CSV file</target>
+      </trans-unit>
+      <trans-unit id="z0FquNq" resname="Add a block">
+        <source>Add a block</source>
+        <target>Add a block</target>
+      </trans-unit>
+      <trans-unit id="SPwD5RG" resname="View subscribers">
+        <source>View subscribers</source>
+        <target>View subscribers</target>
+      </trans-unit>
+      <trans-unit id="dOuFD.i" resname="Show social title:">
+        <source>Show social title:</source>
+        <target>Show social title:</target>
+      </trans-unit>
+      <trans-unit id="Jngws4m" resname="Male or female.">
+        <source>Male or female.</source>
+        <target>Male or female.</target>
+      </trans-unit>
+      <trans-unit id="hRRK7aM" resname="Format your entry with some basic HTML. Click on FLASH button above to use predefined templates.">
+        <source>Format your entry with some basic HTML. Click on FLASH button above to use predefined templates.</source>
+        <target>Format your entry with some basic HTML. Click on FLASH button above to use predefined templates.</target>
+      </trans-unit>
+      <trans-unit id="9AkbpaJ" resname="Content alignment:">
+        <source>Content alignment:</source>
+        <target>Content alignment:</target>
+      </trans-unit>
+      <trans-unit id="qgGv.At" resname="Input width:">
+        <source>Input width:</source>
+        <target>Input width:</target>
+      </trans-unit>
+      <trans-unit id="A.ncoSs" resname="Input height:">
+        <source>Input height:</source>
+        <target>Input height:</target>
+      </trans-unit>
+      <trans-unit id="tHSeG0k" resname="Input text color:">
+        <source>Input text color:</source>
+        <target>Input text color:</target>
+      </trans-unit>
+      <trans-unit id=".s7.G5T" resname="Input background color:">
+        <source>Input background color:</source>
+        <target>Input background color:</target>
+      </trans-unit>
+      <trans-unit id="TBQokrO" resname="Popup">
+        <source>Popup</source>
+        <target>Popup</target>
+      </trans-unit>
+      <trans-unit id="fNAbR5W" resname="This option is for Popup windows.">
+        <source>This option is for Popup windows.</source>
+        <target>This option is for Popup windows.</target>
+      </trans-unit>
+      <trans-unit id="SwYE34W" resname="Display newsletter form:">
+        <source>Display newsletter form:</source>
+        <target>Display newsletter form:</target>
+      </trans-unit>
+      <trans-unit id="kkeeZRX" resname="How to show this popup:">
+        <source>How to show this popup:</source>
+        <target>How to show this popup:</target>
+      </trans-unit>
+      <trans-unit id="DzTCaR8" resname="At all time with a do not show option">
+        <source>At all time with a do not show option</source>
+        <target>At all time with a do not show option</target>
+      </trans-unit>
+      <trans-unit id="OvFwQf3" resname="At all time">
+        <source>At all time</source>
+        <target>At all time</target>
+      </trans-unit>
+      <trans-unit id="Bp9d__s" resname="First time only">
+        <source>First time only</source>
+        <target>First time only</target>
+      </trans-unit>
+      <trans-unit id="qp9DjBD" resname="Do not show again time period:">
+        <source>Do not show again time period:</source>
+        <target>Do not show again time period:</target>
+      </trans-unit>
+      <trans-unit id="E63k4Z9" resname="Delay:">
+        <source>Delay:</source>
+        <target>Delay:</target>
+      </trans-unit>
+      <trans-unit id="XfXX6wB" resname="Do not show this popup if already subscribed:">
+        <source>Do not show this popup if already subscribed:</source>
+        <target>Do not show this popup if already subscribed:</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="srZI8g0" resname="Would you like to send a verification email after subscription?">
+        <source>Would you like to send a verification email after subscription?</source>
+        <target>Would you like to send a verification email after subscription?</target>
+      </trans-unit>
+      <trans-unit id="7fcnHX4" resname="Would you like to send a confirmation email after subscription?">
+        <source>Would you like to send a confirmation email after subscription?</source>
+        <target>Would you like to send a confirmation email after subscription?</target>
+      </trans-unit>
+      <trans-unit id="H5hsG5N" resname="Welcome voucher code">
+        <source>Welcome voucher code</source>
+        <target>Welcome voucher code</target>
+      </trans-unit>
+      <trans-unit id="Jj6MCMi" resname="Newsletter conditions">
+        <source>Newsletter conditions</source>
+        <target>Newsletter conditions</target>
+      </trans-unit>
+      <trans-unit id="Msk1w9d" resname="Leave blank to disable by default.">
+        <source>Leave blank to disable by default.</source>
+        <target>Leave blank to disable by default.</target>
+      </trans-unit>
+      <trans-unit id="KX.tGwK" resname="This module cannot be transplanted to %hook%.">
+        <source>This module cannot be transplanted to %hook%.</source>
+        <target>This module cannot be transplanted to %hook%.</target>
+      </trans-unit>
+      <trans-unit id="xmNbgjL" resname="No customers found with these filters!">
+        <source>No customers found with these filters!</source>
+        <target>No customers found with these filters!</target>
+      </trans-unit>
+      <trans-unit id="SkFZgI8" resname="The .CSV file has been successfully exported: %d customers found.">
+        <source>The .CSV file has been successfully exported: %d customers found.</source>
+        <target>The .CSV file has been successfully exported: %d customers found.</target>
+      </trans-unit>
+      <trans-unit id="gAf5NdP" resname="Download the file">
+        <source>Download the file</source>
+        <target>Download the file</target>
+      </trans-unit>
+      <trans-unit id="S.3ZwJl" resname="WARNING: When opening this .csv file with Excel, choose UTF-8 encoding to avoid strange characters.">
+        <source>WARNING: When opening this .csv file with Excel, choose UTF-8 encoding to avoid strange characters.</source>
+        <target>WARNING: When opening this .csv file with Excel, choose UTF-8 encoding to avoid strange characters.</target>
+      </trans-unit>
+      <trans-unit id="DkIAAjU" resname="Error: Write access limited">
+        <source>Error: Write access limited</source>
+        <target>Error: Write access limited</target>
+      </trans-unit>
+      <trans-unit id="irhDPXD" resname="No result found!">
+        <source>No result found!</source>
+        <target>No result found!</target>
+      </trans-unit>
+      <trans-unit id="_Eyi53F" resname="Newsletter">
+        <source>Newsletter</source>
+        <target>Newsletter</target>
+      </trans-unit>
+      <trans-unit id="7BNXF1b" resname="This customer will receive your newsletter via email.">
+        <source>This customer will receive your newsletter via email.</source>
+        <target>This customer will receive your newsletter via email.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

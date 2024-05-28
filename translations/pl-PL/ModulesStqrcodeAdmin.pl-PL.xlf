@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="LCTTWhF" resname="QR code">
+        <source>QR code</source>
+        <target>QR code</target>
+      </trans-unit>
+      <trans-unit id="t9KeSz_" resname="Add QR code to your site.">
+        <source>Add QR code to your site.</source>
+        <target>Add QR code to your site.</target>
+      </trans-unit>
+      <trans-unit id="EcvDyD." resname="QR image size:">
+        <source>QR image size:</source>
+        <target>QR image size:</target>
+      </trans-unit>
+      <trans-unit id="1Ywy3x8" resname="The size of QR image, default is 150.">
+        <source>The size of QR image, default is 150.</source>
+        <target>The size of QR image, default is 150.</target>
+      </trans-unit>
+      <trans-unit id="2yBuk1d" resname="The width of the white border around the data portion of the code, the range is 0-40 ,default is 2.">
+        <source>The width of the white border around the data portion of the code, the range is 0-40 ,default is 2.</source>
+        <target>The width of the white border around the data portion of the code, the range is 0-40 ,default is 2.</target>
+      </trans-unit>
+      <trans-unit id="55_DRC4" resname="Dynamically load QR code:">
+        <source>Dynamically load QR code:</source>
+        <target>Dynamically load QR code:</target>
+      </trans-unit>
+      <trans-unit id="k9oDZC1" resname="How to display:">
+        <source>How to display:</source>
+        <target>How to display:</target>
+      </trans-unit>
+      <trans-unit id="KIKoEqg" resname="QR code icon + Text">
+        <source>QR code icon + Text</source>
+        <target>QR code icon + Text</target>
+      </trans-unit>
+      <trans-unit id="DT.H_fo" resname="QR code icon">
+        <source>QR code icon</source>
+        <target>QR code icon</target>
+      </trans-unit>
+      <trans-unit id="a8VqRI6" resname="Show QR code out directly when on the product page:">
+        <source>Show QR code out directly when on the product page:</source>
+        <target>Show QR code out directly when on the product page:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

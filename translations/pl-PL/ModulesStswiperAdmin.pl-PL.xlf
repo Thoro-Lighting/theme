@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="gsrJM52" resname="Swiper slider">
+        <source>Swiper slider</source>
+        <target>Swiper slider</target>
+      </trans-unit>
+      <trans-unit id="22.tp74" resname="Most modern mobile touch slider.">
+        <source>Most modern mobile touch slider.</source>
+        <target>Most modern mobile touch slider.</target>
+      </trans-unit>
+      <trans-unit id="yqXgdxp" resname="Fading Entrances">
+        <source>Fading Entrances</source>
+        <target>Fading Entrances</target>
+      </trans-unit>
+      <trans-unit id="_PGZGvh" resname="Flippers">
+        <source>Flippers</source>
+        <target>Flippers</target>
+      </trans-unit>
+      <trans-unit id="BHcJlb7" resname="Zoom Entrances">
+        <source>Zoom Entrances</source>
+        <target>Zoom Entrances</target>
+      </trans-unit>
+      <trans-unit id="FXLrLbg" resname="Sliding">
+        <source>Sliding</source>
+        <target>Sliding</target>
+      </trans-unit>
+      <trans-unit id="JPo_MsV" resname="Bouncing Entrances">
+        <source>Bouncing Entrances</source>
+        <target>Bouncing Entrances</target>
+      </trans-unit>
+      <trans-unit id="dqxrYzw" resname="Rotating Entrances">
+        <source>Rotating Entrances</source>
+        <target>Rotating Entrances</target>
+      </trans-unit>
+      <trans-unit id="iGYdo63" resname="Lightspeed">
+        <source>Lightspeed</source>
+        <target>Lightspeed</target>
+      </trans-unit>
+      <trans-unit id="kKktfvh" resname="Specials">
+        <source>Specials</source>
+        <target>Specials</target>
+      </trans-unit>
+      <trans-unit id="ApLS37z" resname="Attention seekers">
+        <source>Attention seekers</source>
+        <target>Attention seekers</target>
+      </trans-unit>
+      <trans-unit id="qZuMzs3" resname="The field &quot;group name&quot; is required">
+        <source>The field "group name" is required</source>
+        <target>The field "group name" is required</target>
+      </trans-unit>
+      <trans-unit id="HTasJOr" resname="The field &quot;slideshow&quot; is required">
+        <source>The field "slideshow" is required</source>
+        <target>The field "slideshow" is required</target>
+      </trans-unit>
+      <trans-unit id="93kTWR8" resname="Group configuration">
+        <source>Group configuration</source>
+        <target>Group configuration</target>
+      </trans-unit>
+      <trans-unit id="7tOtR8W" resname="Show on subcategories:">
+        <source>Show on subcategories:</source>
+        <target>Show on subcategories:</target>
+      </trans-unit>
+      <trans-unit id="teeAY5O" resname="This option works for categories only.">
+        <source>This option works for categories only.</source>
+        <target>This option works for categories only.</target>
+      </trans-unit>
+      <trans-unit id="BnIdP_v" resname="This setting is only for hooks starting with &quot;Full width *&quot; in the above &quot;Show on&quot; dropdown list.">
+        <source>This setting is only for hooks starting with "Full width *" in the above "Show on" dropdown list.</source>
+        <target>This setting is only for hooks starting with "Full width *" in the above "Show on" dropdown list.</target>
+      </trans-unit>
+      <trans-unit id="gsn9uHL" resname="Height or min height(optional):">
+        <source>Height or min height(optional):</source>
+        <target>Height or min height(optional):</target>
+      </trans-unit>
+      <trans-unit id="82ahr5U" resname="You can just leave this option empty if you do not know what it means.">
+        <source>You can just leave this option empty if you do not know what it means.</source>
+        <target>You can just leave this option empty if you do not know what it means.</target>
+      </trans-unit>
+      <trans-unit id="CfHUAlm" resname="Setting a value would make these changes:">
+        <source>Setting a value would make these changes:</source>
+        <target>Setting a value would make these changes:</target>
+      </trans-unit>
+      <trans-unit id="2Pw67yE" resname="1. Images you uploaded would be used as background images.">
+        <source>1. Images you uploaded would be used as background images.</source>
+        <target>1. Images you uploaded would be used as background images.</target>
+      </trans-unit>
+      <trans-unit id="Rz.sOyR" resname="2. The height of this slider would not decrease on samll screen devices. Images will be kind like cropped on small screen devices, some parts of your images may not be visible.">
+        <source>2. The height of this slider would not decrease on samll screen devices. Images will be kind like cropped on small screen devices, some parts of your images may not be visible.</source>
+        <target>2. The height of this slider would not decrease on samll screen devices. Images will be kind like cropped on small screen devices, some parts of your images may not be visible.</target>
+      </trans-unit>
+      <trans-unit id="jOTvt0V" resname="3. Images will be kind like cropped on small screen devices, some parts of your images may not be visible.">
+        <source>3. Images will be kind like cropped on small screen devices, some parts of your images may not be visible.</source>
+        <target>3. Images will be kind like cropped on small screen devices, some parts of your images may not be visible.</target>
+      </trans-unit>
+      <trans-unit id="QvSV4Tn" resname="4. This module would work exactly like the &quot;Iosslider&quot; module which has been removed.">
+        <source>4. This module would work exactly like the "Iosslider" module which has been removed.</source>
+        <target>4. This module would work exactly like the "Iosslider" module which has been removed.</target>
+      </trans-unit>
+      <trans-unit id="NoZp5R_" resname="5. &quot;Transition style&quot; setting below would not take work for this slider.">
+        <source>5. "Transition style" setting below would not take work for this slider.</source>
+        <target>5. "Transition style" setting below would not take work for this slider.</target>
+      </trans-unit>
+      <trans-unit id=".MNcGt." resname="Bright sides are:">
+        <source>Bright sides are:</source>
+        <target>Bright sides are:</target>
+      </trans-unit>
+      <trans-unit id="xaabfif" resname="1. This slider will work in a different way comparing with other slider modules, there must be someone like the way.">
+        <source>1. This slider will work in a different way comparing with other slider modules, there must be someone like the way.</source>
+        <target>1. This slider will work in a different way comparing with other slider modules, there must be someone like the way.</target>
+      </trans-unit>
+      <trans-unit id="R42rXuj" resname="2. You do not have to pay much attention to the dimensions of images.">
+        <source>2. You do not have to pay much attention to the dimensions of images.</source>
+        <target>2. You do not have to pay much attention to the dimensions of images.</target>
+      </trans-unit>
+      <trans-unit id="27Dmqoi" resname="Settings for tempalte 2">
+        <source>Settings for tempalte 2</source>
+        <target>Settings for tempalte 2</target>
+      </trans-unit>
+      <trans-unit id="MtbunC7" resname="Spacing between sliders and banners:">
+        <source>Spacing between sliders and banners:</source>
+        <target>Spacing between sliders and banners:</target>
+      </trans-unit>
+      <trans-unit id="UgBk_Dg" resname="The width of slider column:">
+        <source>The width of slider column:</source>
+        <target>The width of slider column:</target>
+      </trans-unit>
+      <trans-unit id="geoa_sN" resname="The banner column would take the rest.">
+        <source>The banner column would take the rest.</source>
+        <target>The banner column would take the rest.</target>
+      </trans-unit>
+      <trans-unit id="tamxqeu" resname="Settings for tempalte 3">
+        <source>Settings for tempalte 3</source>
+        <target>Settings for tempalte 3</target>
+      </trans-unit>
+      <trans-unit id="YmvdPqT" resname="How many sliders per view">
+        <source>How many sliders per view</source>
+        <target>How many sliders per view</target>
+      </trans-unit>
+      <trans-unit id="0F2JwQh" resname="How many sliders per view:">
+        <source>How many sliders per view:</source>
+        <target>How many sliders per view:</target>
+      </trans-unit>
+      <trans-unit id="AoYkl2L" resname="Auto">
+        <source>Auto</source>
+        <target>Auto</target>
+      </trans-unit>
+      <trans-unit id="5hTTLkZ" resname="Use setings above">
+        <source>Use setings above</source>
+        <target>Use setings above</target>
+      </trans-unit>
+      <trans-unit id="VeCj3jA" resname="Auto option allows you to upload images in different wide. An example is on demo .">
+        <source>Auto option allows you to upload images in different wide. An example is on demo .</source>
+        <target>Auto option allows you to upload images in different wide. An example is on demo .</target>
+      </trans-unit>
+      <trans-unit id="jNqvlId" resname="Centered slides:">
+        <source>Centered slides:</source>
+        <target>Centered slides:</target>
+      </trans-unit>
+      <trans-unit id="VURDv4l" resname="If true, then active slide will be centered, not always on the left side.">
+        <source>If true, then active slide will be centered, not always on the left side.</source>
+        <target>If true, then active slide will be centered, not always on the left side.</target>
+      </trans-unit>
+      <trans-unit id="dLJexzR" resname="Distance between slides.">
+        <source>Distance between slides.</source>
+        <target>Distance between slides.</target>
+      </trans-unit>
+      <trans-unit id="ZSvMOke" resname="Item">
+        <source>Item</source>
+        <target>Item</target>
+      </trans-unit>
+      <trans-unit id="vrfZjKZ" resname="If this field is filled in, whole image will become clickable. But if there are any links or buttons in the Caption field, this setting will be ignored.">
+        <source>If this field is filled in, whole image will become clickable. But if there are any links or buttons in the Caption field, this setting will be ignored.</source>
+        <target>If this field is filled in, whole image will become clickable. But if there are any links or buttons in the Caption field, this setting will be ignored.</target>
+      </trans-unit>
+      <trans-unit id="Wn4kprX" resname="In most case, content from the advanced editor are in white color, so you can not see them. Clicking on the Source Code btton to see them.">
+        <source>In most case, content from the advanced editor are in white color, so you can not see them. Clicking on the Source Code btton to see them.</source>
+        <target>In most case, content from the advanced editor are in white color, so you can not see them. Clicking on the Source Code btton to see them.</target>
+      </trans-unit>
+      <trans-unit id="viyx6XK" resname="Caption animation:">
+        <source>Caption animation:</source>
+        <target>Caption animation:</target>
+      </trans-unit>
+      <trans-unit id="0Mmizne" resname="This does not work for template 3.">
+        <source>This does not work for template 3.</source>
+        <target>This does not work for template 3.</target>
+      </trans-unit>
+      <trans-unit id="gblrIiI" resname="once a font has been added, you can use it everywhere without adding it again.">
+        <source>once a font has been added, you can use it everywhere without adding it again.</source>
+        <target>once a font has been added, you can use it everywhere without adding it again.</target>
+      </trans-unit>
+      <trans-unit id="Ooq8V6T" resname="Does not work for content from Advanced editor.">
+        <source>Does not work for content from Advanced editor.</source>
+        <target>Does not work for content from Advanced editor.</target>
+      </trans-unit>
+      <trans-unit id="QXYg4aX" resname="This option would be useful for full screen blocks.">
+        <source>This option would be useful for full screen blocks.</source>
+        <target>This option would be useful for full screen blocks.</target>
+      </trans-unit>
+      <trans-unit id="C._7EwM" resname="This setting does not work for content from Advanced editor:">
+        <source>This setting does not work for content from Advanced editor:</source>
+        <target>This setting does not work for content from Advanced editor:</target>
+      </trans-unit>
+      <trans-unit id="1ToRmsx" resname="This module would not change image names for seo purpose, so ensure the image you are going to upload has an unique name.">
+        <source>This module would not change image names for seo purpose, so ensure the image you are going to upload has an unique name.</source>
+        <target>This module would not change image names for seo purpose, so ensure the image you are going to upload has an unique name.</target>
+      </trans-unit>
+      <trans-unit id="CVNFTKL" resname="Add a slideshow">
+        <source>Add a slideshow</source>
+        <target>Add a slideshow</target>
+      </trans-unit>
+      <trans-unit id="2UQgNhB" resname="Add an item">
+        <source>Add an item</source>
+        <target>Add an item</target>
+      </trans-unit>
+      <trans-unit id="8k94x36" resname="Edit group">
+        <source>Edit group</source>
+        <target>Edit group</target>
+      </trans-unit>
+      <trans-unit id="Ut91.Wd" resname="Add a banner">
+        <source>Add a banner</source>
+        <target>Add a banner</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="MbxHpSr" resname="Translation files generator">
+        <source>Translation files generator</source>
+        <target>Translation files generator</target>
+      </trans-unit>
+      <trans-unit id="rke95sP" resname="Generate xlif files in order to translate the theme.">
+        <source>Generate xlif files in order to translate the theme.</source>
+        <target>Generate xlif files in order to translate the theme.</target>
+      </trans-unit>
+      <trans-unit id="hJ.BmsX" resname="Translation file generator">
+        <source>Translation file generator</source>
+        <target>Translation file generator</target>
+      </trans-unit>
+      <trans-unit id="_ZQKWkU" resname="Select language:">
+        <source>Select language:</source>
+        <target>Select language:</target>
+      </trans-unit>
+      <trans-unit id="h7jJi8O" resname="1. To translate the theme, you need to generate translation files first.">
+        <source>1. To translate the theme, you need to generate translation files first.</source>
+        <target>1. To translate the theme, you need to generate translation files first.</target>
+      </trans-unit>
+      <trans-unit id="Hahvbwh" resname="2. After generating translation files, please go to BO &gt; &quot;International&quot; &gt; &quot;Translations&quot; page &gt; &quot;Modify translations&quot; section to translate the theme.">
+        <source>2. After generating translation files, please go to BO &gt; "International" &gt; "Translations" page &gt; "Modify translations" section to translate the theme.</source>
+        <target><![CDATA[2. After generating translation files, please go to BO > "International" > "Translations" page > "Modify translations" section to translate the theme.]]></target>
+      </trans-unit>
+      <trans-unit id="fHT0jnz" resname="3. To translate the front office, locate to &quot;Shop&quot; &gt; &quot;Theme&quot; &gt; &quot;%theme%&quot;.">
+        <source>3. To translate the front office, locate to "Shop" &gt; "Theme" &gt; "%theme%".</source>
+        <target><![CDATA[3. To translate the front office, locate to "Shop" > "Theme" > "%theme%".]]></target>
+      </trans-unit>
+      <trans-unit id="OvhdzbV" resname="4. To translate the back office, locate to &quot;Admin&quot; &gt; &quot;Theme&quot; &gt; &quot;%theme%&quot; and &quot;Modules&quot; &gt; &quot;St&quot;.">
+        <source>4. To translate the back office, locate to "Admin" &gt; "Theme" &gt; "%theme%" and "Modules" &gt; "St".</source>
+        <target><![CDATA[4. To translate the back office, locate to "Admin" > "Theme" > "%theme%" and "Modules" > "St".]]></target>
+      </trans-unit>
+      <trans-unit id="DRvjy7Z" resname="5. Please don\'t modify translation files manually, your modifications will be overridden when regenerating them.">
+        <source>5. Please don\'t modify translation files manually, your modifications will be overridden when regenerating them.</source>
+        <target>5. Please don\'t modify translation files manually, your modifications will be overridden when regenerating them.</target>
+      </trans-unit>
+      <trans-unit id="wZpmb_r" resname="6. Refer to the Documentation &gt; &quot;Translation&quot; for more info.">
+        <source>6. Refer to the Documentation &gt; "Translation" for more info.</source>
+        <target><![CDATA[6. Refer to the Documentation > "Translation" for more info.]]></target>
+      </trans-unit>
+      <trans-unit id="23K1Vvb" resname="Type of translation:">
+        <source>Type of translation:</source>
+        <target>Type of translation:</target>
+      </trans-unit>
+      <trans-unit id="ORPkn0o" resname="Front office only">
+        <source>Front office only</source>
+        <target>Front office only</target>
+      </trans-unit>
+      <trans-unit id="KHiMtyy" resname="Front office + backoffice">
+        <source>Front office + backoffice</source>
+        <target>Front office + backoffice</target>
+      </trans-unit>
+      <trans-unit id="EPREGNQ" resname="It is recommended to generate translation files for the front office only, because generally we do not need to translate the back office, anthor reason is that the back office has 2000+ phrases, way better more than the front office\'s 300+ phrases, those 2000+ phrases would slow the translation page down">
+        <source>It is recommended to generate translation files for the front office only, because generally we do not need to translate the back office, anthor reason is that the back office has 2000+ phrases, way better more than the front office\'s 300+ phrases, those 2000+ phrases would slow the translation page down</source>
+        <target>It is recommended to generate translation files for the front office only, because generally we do not need to translate the back office, anthor reason is that the back office has 2000+ phrases, way better more than the front office\'s 300+ phrases, those 2000+ phrases would slow the translation page down</target>
+      </trans-unit>
+      <trans-unit id="SeSbtEA" resname="Generate">
+        <source>Generate</source>
+        <target>Generate</target>
+      </trans-unit>
+      <trans-unit id="q1u8o0K" resname="Xliff generator">
+        <source>Xliff generator</source>
+        <target>Xliff generator</target>
+      </trans-unit>
+      <trans-unit id="zVdWvB8" resname="Select theme:">
+        <source>Select theme:</source>
+        <target>Select theme:</target>
+      </trans-unit>
+      <trans-unit id="t.YDvlA" resname="Theme module:">
+        <source>Theme module:</source>
+        <target>Theme module:</target>
+      </trans-unit>
+      <trans-unit id="haOas0X" resname="Yes">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="HqRCoTS" resname="No">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="K6UgunU" resname="Whether export the translations in /themes/theme_name/modules folder, generally, it no need.">
+        <source>Whether export the translations in /themes/theme_name/modules folder, generally, it no need.</source>
+        <target>Whether export the translations in /themes/theme_name/modules folder, generally, it no need.</target>
+      </trans-unit>
+      <trans-unit id="FTmW4jg" resname="Check missing:">
+        <source>Check missing:</source>
+        <target>Check missing:</target>
+      </trans-unit>
+      <trans-unit id="cYQjrXE" resname="Just to check whether there are any translations missed.">
+        <source>Just to check whether there are any translations missed.</source>
+        <target>Just to check whether there are any translations missed.</target>
+      </trans-unit>
+      <trans-unit id="Uubbhr8" resname="Target language:">
+        <source>Target language:</source>
+        <target>Target language:</target>
+      </trans-unit>
+      <trans-unit id="RhFE.RF" resname="Source langue is &quot;en-US&quot;.">
+        <source>Source langue is "en-US".</source>
+        <target>Source langue is "en-US".</target>
+      </trans-unit>
+      <trans-unit id="dshsTDJ" resname="Modules">
+        <source>Modules</source>
+        <target>Modules</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

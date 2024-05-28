@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="TR3S4qj" resname="Customer &quot;Sign in&quot; link mod">
+        <source>Customer "Sign in" link mod</source>
+        <target>Customer "Sign in" link mod</target>
+      </trans-unit>
+      <trans-unit id=".5UjuOL" resname="Adds a block that displays information about the customer.">
+        <source>Adds a block that displays information about the customer.</source>
+        <target>Adds a block that displays information about the customer.</target>
+      </trans-unit>
+      <trans-unit id="b2e.PXF" resname="Display links in a drop down menu after login:">
+        <source>Display links in a drop down menu after login:</source>
+        <target>Display links in a drop down menu after login:</target>
+      </trans-unit>
+      <trans-unit id="eZGIztU" resname="show welcome Message on mobile:">
+        <source>show welcome Message on mobile:</source>
+        <target>show welcome Message on mobile:</target>
+      </trans-unit>
+      <trans-unit id="wjfUVZD" resname="Quick login:">
+        <source>Quick login:</source>
+        <target>Quick login:</target>
+      </trans-unit>
+      <trans-unit id="UMesPm." resname="It is recommended to enable SSL when you enable this option.">
+        <source>It is recommended to enable SSL when you enable this option.</source>
+        <target>It is recommended to enable SSL when you enable this option.</target>
+      </trans-unit>
+      <trans-unit id="LH5G2Qk" resname="Redirect after logging in:">
+        <source>Redirect after logging in:</source>
+        <target>Redirect after logging in:</target>
+      </trans-unit>
+      <trans-unit id="3iV05Tz" resname="Current page">
+        <source>Current page</source>
+        <target>Current page</target>
+      </trans-unit>
+      <trans-unit id="k9oDZC1" resname="How to display:">
+        <source>How to display:</source>
+        <target>How to display:</target>
+      </trans-unit>
+      <trans-unit id="Rmky8wz" resname="Go the the theme editor module to set icon.">
+        <source>Go the the theme editor module to set icon.</source>
+        <target>Go the the theme editor module to set icon.</target>
+      </trans-unit>
+      <trans-unit id="scjWbV5" resname="Display &quot;Wishlist&quot; link in the drop down menu:">
+        <source>Display "Wishlist" link in the drop down menu:</source>
+        <target>Display "Wishlist" link in the drop down menu:</target>
+      </trans-unit>
+      <trans-unit id="l26qDrs" resname="Display &quot;Loved item&quot; link in the drop down menu:">
+        <source>Display "Loved item" link in the drop down menu:</source>
+        <target>Display "Loved item" link in the drop down menu:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

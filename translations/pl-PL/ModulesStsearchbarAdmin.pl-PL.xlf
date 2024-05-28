@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="7UBRdbO" resname="Search bar mod">
+        <source>Search bar mod</source>
+        <target>Search bar mod</target>
+      </trans-unit>
+      <trans-unit id="mrJXvhV" resname="Adds a quick search field to your website.">
+        <source>Adds a quick search field to your website.</source>
+        <target>Adds a quick search field to your website.</target>
+      </trans-unit>
+      <trans-unit id="HZUYsu9" resname="Product image">
+        <source>Product image</source>
+        <target>Product image</target>
+      </trans-unit>
+      <trans-unit id="v6k_tNT" resname="Product name">
+        <source>Product name</source>
+        <target>Product name</target>
+      </trans-unit>
+      <trans-unit id="..Nn66v" resname="Product price">
+        <source>Product price</source>
+        <target>Product price</target>
+      </trans-unit>
+      <trans-unit id="y5.mV7p" resname="The vaule must have units,  Sample vaules: 200px, 350px.">
+        <source>The vaule must have units,  Sample vaules: 200px, 350px.</source>
+        <target>The vaule must have units,  Sample vaules: 200px, 350px.</target>
+      </trans-unit>
+      <trans-unit id="n6_yhk9" resname="If search box is beside the logo and in Style 1 then you can use values like these: 50%, 90%">
+        <source>If search box is beside the logo and in Style 1 then you can use values like these: 50%, 90%</source>
+        <target>If search box is beside the logo and in Style 1 then you can use values like these: 50%, 90%</target>
+      </trans-unit>
+      <trans-unit id="UHlfv_n" resname="Choose content displayed on ajax search results">
+        <source>Choose content displayed on ajax search results</source>
+        <target>Choose content displayed on ajax search results</target>
+      </trans-unit>
+      <trans-unit id="0tTRBV1" resname="A search icon">
+        <source>A search icon</source>
+        <target>A search icon</target>
+      </trans-unit>
+      <trans-unit id="SByVgy9" resname="An input file. This is easy for customers to search">
+        <source>An input file. This is easy for customers to search</source>
+        <target>An input file. This is easy for customers to search</target>
+      </trans-unit>
+      <trans-unit id="_k0bowm" resname="Settings for search input field on the header">
+        <source>Settings for search input field on the header</source>
+        <target>Settings for search input field on the header</target>
+      </trans-unit>
+      <trans-unit id="9tOCe0Y" resname="Search button color:">
+        <source>Search button color:</source>
+        <target>Search button color:</target>
+      </trans-unit>
+      <trans-unit id="YKxiFfG" resname="This is for the search button which is inside the search input field.">
+        <source>This is for the search button which is inside the search input field.</source>
+        <target>This is for the search button which is inside the search input field.</target>
+      </trans-unit>
+      <trans-unit id="URv67Ju" resname="Search button hover color:">
+        <source>Search button hover color:</source>
+        <target>Search button hover color:</target>
+      </trans-unit>
+      <trans-unit id="OFnn8df" resname="Search button background:">
+        <source>Search button background:</source>
+        <target>Search button background:</target>
+      </trans-unit>
+      <trans-unit id="qx2Eep6" resname="Search button hover background:">
+        <source>Search button hover background:</source>
+        <target>Search button hover background:</target>
+      </trans-unit>
+      <trans-unit id="bomgrOH" resname="This module was transplanted to these hooks at the same time. You should not have done that. This module can only be transplante to one of them, otherwise the front page might be messed up.">
+        <source>This module was transplanted to these hooks at the same time. You should not have done that. This module can only be transplante to one of them, otherwise the front page might be messed up.</source>
+        <target>This module was transplanted to these hooks at the same time. You should not have done that. This module can only be transplante to one of them, otherwise the front page might be messed up.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="0avBhyv" resname="Brands Slider">
+        <source>Brands Slider</source>
+        <target>Brands Slider</target>
+      </trans-unit>
+      <trans-unit id="ZuN6Jb9" resname="Brands slider on your home page.">
+        <source>Brands slider on your home page.</source>
+        <target>Brands slider on your home page.</target>
+      </trans-unit>
+      <trans-unit id="GCkLyYb" resname="Show all Brands:">
+        <source>Show all Brands:</source>
+        <target>Show all Brands:</target>
+      </trans-unit>
+      <trans-unit id="Te39Myg" resname="Specific Brands:">
+        <source>Specific Brands:</source>
+        <target>Specific Brands:</target>
+      </trans-unit>
+      <trans-unit id="zSavse4" resname="Display brand name:">
+        <source>Display brand name:</source>
+        <target>Display brand name:</target>
+      </trans-unit>
+      <trans-unit id="C8ndVX0" resname="Display brand short description:">
+        <source>Display brand short description:</source>
+        <target>Display brand short description:</target>
+      </trans-unit>
+      <trans-unit id="wTHw9UX" resname="Normal(100 characters)">
+        <source>Normal(100 characters)</source>
+        <target>Normal(100 characters)</target>
+      </trans-unit>
+      <trans-unit id="N6sMT.." resname="Full description">
+        <source>Full description</source>
+        <target>Full description</target>
+      </trans-unit>
+      <trans-unit id="c4CBiaj" resname="Current manufacturers">
+        <source>Current manufacturers</source>
+        <target>Current manufacturers</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

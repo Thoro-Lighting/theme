@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="F0C0SXI" resname="Advanced banner">
+        <source>Advanced banner</source>
+        <target>Advanced banner</target>
+      </trans-unit>
+      <trans-unit id="eFfxRBD" resname="This module is used to add banners in your shop.">
+        <source>This module is used to add banners in your shop.</source>
+        <target>This module is used to add banners in your shop.</target>
+      </trans-unit>
+      <trans-unit id="b3.57Sb" resname="An error occurred while copy banner.">
+        <source>An error occurred while copy banner.</source>
+        <target>An error occurred while copy banner.</target>
+      </trans-unit>
+      <trans-unit id="qZuMzs3" resname="The field &quot;group name&quot; is required">
+        <source>The field "group name" is required</source>
+        <target>The field "group name" is required</target>
+      </trans-unit>
+      <trans-unit id=".ykN.fa" resname="Banner group">
+        <source>Banner group</source>
+        <target>Banner group</target>
+      </trans-unit>
+      <trans-unit id="THk_yFa" resname="An error occurred during banner group">
+        <source>An error occurred during banner group</source>
+        <target>An error occurred during banner group</target>
+      </trans-unit>
+      <trans-unit id="TfLLcHB" resname="the field &quot;Banner group name&quot; is required">
+        <source>the field "Banner group name" is required</source>
+        <target>the field "Banner group name" is required</target>
+      </trans-unit>
+      <trans-unit id="H9DyVdm" resname="The field &quot;Parent&quot; is required">
+        <source>The field "Parent" is required</source>
+        <target>The field "Parent" is required</target>
+      </trans-unit>
+      <trans-unit id="lexUNla" resname="An error occurred during column">
+        <source>An error occurred during column</source>
+        <target>An error occurred during column</target>
+      </trans-unit>
+      <trans-unit id="j6X12Ve" resname="updating">
+        <source>updating</source>
+        <target>updating</target>
+      </trans-unit>
+      <trans-unit id="llq7JUs" resname="creation">
+        <source>creation</source>
+        <target>creation</target>
+      </trans-unit>
+      <trans-unit id="AhuveIR" resname="the field &quot;banner group&quot; is required">
+        <source>the field "banner group" is required</source>
+        <target>the field "banner group" is required</target>
+      </trans-unit>
+      <trans-unit id="t.TZj5j" resname="Banner">
+        <source>Banner</source>
+        <target>Banner</target>
+      </trans-unit>
+      <trans-unit id="XCBUyKL" resname="An error occurred during banner">
+        <source>An error occurred during banner</source>
+        <target>An error occurred during banner</target>
+      </trans-unit>
+      <trans-unit id="9zFboT5" resname="Create a new column">
+        <source>Create a new column</source>
+        <target>Create a new column</target>
+      </trans-unit>
+      <trans-unit id="b9VQja9" resname="Each column just has one banner only.">
+        <source>Each column just has one banner only.</source>
+        <target>Each column just has one banner only.</target>
+      </trans-unit>
+      <trans-unit id="jGTGMxb" resname="An error occurred during the image upload.">
+        <source>An error occurred during the image upload.</source>
+        <target>An error occurred during the image upload.</target>
+      </trans-unit>
+      <trans-unit id="93kTWR8" resname="Group configuration">
+        <source>Group configuration</source>
+        <target>Group configuration</target>
+      </trans-unit>
+      <trans-unit id="yypFJLn" resname="Would not show out on the front office, just as a reminder:">
+        <source>Would not show out on the front office, just as a reminder:</source>
+        <target>Would not show out on the front office, just as a reminder:</target>
+      </trans-unit>
+      <trans-unit id="xrAXHiU" resname="Simple. Banners might be uneven on Mobile devices. All &quot;Height&quot; settiNgs will be ignored. the dimensions of images are important, refer to the Documenation to learn how to get the correct dimensions.">
+        <source>Simple. Banners might be uneven on Mobile devices. All "Height" settiNgs will be ignored. the dimensions of images are important, refer to the Documenation to learn how to get the correct dimensions.</source>
+        <target>Simple. Banners might be uneven on Mobile devices. All "Height" settiNgs will be ignored. the dimensions of images are important, refer to the Documenation to learn how to get the correct dimensions.</target>
+      </trans-unit>
+      <trans-unit id="pmUkn8Z" resname="Advanced. Images will be scaled to cover banner areas, which means some parts of image may not be visiable, the bright side is that you do not have to pay much attention to the dimensions of images.">
+        <source>Advanced. Images will be scaled to cover banner areas, which means some parts of image may not be visiable, the bright side is that you do not have to pay much attention to the dimensions of images.</source>
+        <target>Advanced. Images will be scaled to cover banner areas, which means some parts of image may not be visiable, the bright side is that you do not have to pay much attention to the dimensions of images.</target>
+      </trans-unit>
+      <trans-unit id="7tOtR8W" resname="Show on subcategories:">
+        <source>Show on subcategories:</source>
+        <target>Show on subcategories:</target>
+      </trans-unit>
+      <trans-unit id="tqOyCDK" resname="actually just apply to categories.">
+        <source>actually just apply to categories.</source>
+        <target>actually just apply to categories.</target>
+      </trans-unit>
+      <trans-unit id="IUKHgoN" resname="This field is required for advanced banners.">
+        <source>This field is required for advanced banners.</source>
+        <target>This field is required for advanced banners.</target>
+      </trans-unit>
+      <trans-unit id="FJzfja1" resname="The value of this field is used to equal the height of banners.">
+        <source>The value of this field is used to equal the height of banners.</source>
+        <target>The value of this field is used to equal the height of banners.</target>
+      </trans-unit>
+      <trans-unit id="muBjCSW" resname="Hover effect:">
+        <source>Hover effect:</source>
+        <target>Hover effect:</target>
+      </trans-unit>
+      <trans-unit id="3JN7WYk" resname="None">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="W7I7D7x" resname="Fade &amp; scale">
+        <source>Fade &amp; scale</source>
+        <target><![CDATA[Fade & scale]]></target>
+      </trans-unit>
+      <trans-unit id="YFOErp4" resname="White line">
+        <source>White line</source>
+        <target>White line</target>
+      </trans-unit>
+      <trans-unit id="kHmLgkk" resname="White block">
+        <source>White block</source>
+        <target>White block</target>
+      </trans-unit>
+      <trans-unit id="nvtZfJF" resname="Fade">
+        <source>Fade</source>
+        <target>Fade</target>
+      </trans-unit>
+      <trans-unit id="LJoVUO4" resname="Parallax background image">
+        <source>Parallax background image</source>
+        <target>Parallax background image</target>
+      </trans-unit>
+      <trans-unit id="pzjjGyK" resname="Parallax background image feature can not work fine on mobile devices, so it will be disalbed on mobile devices, the background image you uploaded below will be displayed as a static, centered background image, no parallax effect.">
+        <source>Parallax background image feature can not work fine on mobile devices, so it will be disalbed on mobile devices, the background image you uploaded below will be displayed as a static, centered background image, no parallax effect.</source>
+        <target>Parallax background image feature can not work fine on mobile devices, so it will be disalbed on mobile devices, the background image you uploaded below will be displayed as a static, centered background image, no parallax effect.</target>
+      </trans-unit>
+      <trans-unit id="28O4cyC" resname="Background image:">
+        <source>Background image:</source>
+        <target>Background image:</target>
+      </trans-unit>
+      <trans-unit id="L.pBkgh" resname="Generally a background image should be higher that the height of this block.">
+        <source>Generally a background image should be higher that the height of this block.</source>
+        <target>Generally a background image should be higher that the height of this block.</target>
+      </trans-unit>
+      <trans-unit id="5Y559P_" resname="Parallax speed factor:">
+        <source>Parallax speed factor:</source>
+        <target>Parallax speed factor:</target>
+      </trans-unit>
+      <trans-unit id="1DjXPUp" resname="Speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling.">
+        <source>Speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling.</source>
+        <target>Speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling.</target>
+      </trans-unit>
+      <trans-unit id="4zf8X8." resname="Background image vertical offset:">
+        <source>Background image vertical offset:</source>
+        <target>Background image vertical offset:</target>
+      </trans-unit>
+      <trans-unit id="xC6ov7O" resname="Unsigned int, like 0, 110, 300.">
+        <source>Unsigned int, like 0, 110, 300.</source>
+        <target>Unsigned int, like 0, 110, 300.</target>
+      </trans-unit>
+      <trans-unit id="ZvRQ77j" resname="This field is used to move the backgroumd image up.">
+        <source>This field is used to move the backgroumd image up.</source>
+        <target>This field is used to move the backgroumd image up.</target>
+      </trans-unit>
+      <trans-unit id="AG0C.KQ" resname="Column configuration">
+        <source>Column configuration</source>
+        <target>Column configuration</target>
+      </trans-unit>
+      <trans-unit id="aqp1wEJ" resname="Column name:">
+        <source>Column name:</source>
+        <target>Column name:</target>
+      </trans-unit>
+      <trans-unit id="pI5UPaj" resname="Only as a reminder:">
+        <source>Only as a reminder:</source>
+        <target>Only as a reminder:</target>
+      </trans-unit>
+      <trans-unit id="kEulxZL" resname="Banner item">
+        <source>Banner item</source>
+        <target>Banner item</target>
+      </trans-unit>
+      <trans-unit id="oPKEXyK" resname="Title(Image alt):">
+        <source>Title(Image alt):</source>
+        <target>Title(Image alt):</target>
+      </trans-unit>
+      <trans-unit id="vrfZjKZ" resname="If this field is filled in, whole image will become clickable. But if there are any links or buttons in the Caption field, this setting will be ignored.">
+        <source>If this field is filled in, whole image will become clickable. But if there are any links or buttons in the Caption field, this setting will be ignored.</source>
+        <target>If this field is filled in, whole image will become clickable. But if there are any links or buttons in the Caption field, this setting will be ignored.</target>
+      </trans-unit>
+      <trans-unit id="WGb7Fon" resname="Add caption">
+        <source>Add caption</source>
+        <target>Add caption</target>
+      </trans-unit>
+      <trans-unit id="Wn4kprX" resname="In most case, content from the advanced editor are in white color, so you can not see them. Clicking on the Source Code btton to see them.">
+        <source>In most case, content from the advanced editor are in white color, so you can not see them. Clicking on the Source Code btton to see them.</source>
+        <target>In most case, content from the advanced editor are in white color, so you can not see them. Clicking on the Source Code btton to see them.</target>
+      </trans-unit>
+      <trans-unit id="gblrIiI" resname="once a font has been added, you can use it everywhere without adding it again.">
+        <source>once a font has been added, you can use it everywhere without adding it again.</source>
+        <target>once a font has been added, you can use it everywhere without adding it again.</target>
+      </trans-unit>
+      <trans-unit id="C._7EwM" resname="This setting does not work for content from Advanced editor:">
+        <source>This setting does not work for content from Advanced editor:</source>
+        <target>This setting does not work for content from Advanced editor:</target>
+      </trans-unit>
+      <trans-unit id="3X9s_bC" resname="please ensure the image name is unique, or it will override the same name files.">
+        <source>please ensure the image name is unique, or it will override the same name files.</source>
+        <target>please ensure the image name is unique, or it will override the same name files.</target>
+      </trans-unit>
+      <trans-unit id="JGbbMpx" resname="Add a group">
+        <source>Add a group</source>
+        <target>Add a group</target>
+      </trans-unit>
+      <trans-unit id="tRSO1Kp" resname="Do you want to delete selected rows and their children ?">
+        <source>Do you want to delete selected rows and their children ?</source>
+        <target>Do you want to delete selected rows and their children ?</target>
+      </trans-unit>
+      <trans-unit id="_dtbiZv" resname="Column name">
+        <source>Column name</source>
+        <target>Column name</target>
+      </trans-unit>
+      <trans-unit id="5DifVQU" resname="Add a column">
+        <source>Add a column</source>
+        <target>Add a column</target>
+      </trans-unit>
+      <trans-unit id="U6red81" resname="Columns">
+        <source>Columns</source>
+        <target>Columns</target>
+      </trans-unit>
+      <trans-unit id="Ut91.Wd" resname="Add a banner">
+        <source>Add a banner</source>
+        <target>Add a banner</target>
+      </trans-unit>
+      <trans-unit id="KU2mjLW" resname="This module cannot be transplanted to">
+        <source>This module cannot be transplanted to</source>
+        <target>This module cannot be transplanted to</target>
+      </trans-unit>
+      <trans-unit id="0oMqjBW" resname="Add a reply">
+        <source>Add a reply</source>
+        <target>Add a reply</target>
+      </trans-unit>
+      <trans-unit id="lby0aa5" resname="Scale up">
+        <source>Scale up</source>
+        <target>Scale up</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

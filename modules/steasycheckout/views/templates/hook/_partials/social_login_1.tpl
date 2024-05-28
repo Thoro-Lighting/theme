@@ -1,0 +1,2 @@
+{if $facebook_login}<a href="{url entity='module' name='steasycheckout' controller='default' params=['steco_facebook' => 1]}" class="steco_social_login steco_social_facebook"  target="_blank"><i class="eco-facebook"></i><span>{l s='Facebook' d='Shop.Theme.Transformer'}</span></a>{/if}
+{if $google_login}<a href="{url entity='module' name='steasycheckout' controller='default' params=['steco_google' => 1]}" class="steco_social_login steco_social_google"  target="_blank"><i class="eco-gplus"></i><span>{l s='Google' d='Shop.Theme.Transformer'}</span></a>{/if}

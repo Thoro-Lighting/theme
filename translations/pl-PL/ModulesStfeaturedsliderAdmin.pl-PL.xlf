@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="Cv6M1Fy" resname="Featured products slider">
+        <source>Featured products slider</source>
+        <target>Featured products slider</target>
+      </trans-unit>
+      <trans-unit id="3m3ZAN8" resname="Displays featured products on homepage.">
+        <source>Displays featured products on homepage.</source>
+        <target>Displays featured products on homepage.</target>
+      </trans-unit>
+      <trans-unit id="_G0Szbq" resname="Category from which to pick products to be displayed">
+        <source>Category from which to pick products to be displayed</source>
+        <target>Category from which to pick products to be displayed</target>
+      </trans-unit>
+      <trans-unit id="aTIZ2Vj" resname="Choose the category ID of the products that you would like to display on homepage (default: 2 for &quot;Home&quot;).">
+        <source>Choose the category ID of the products that you would like to display on homepage (default: 2 for "Home").</source>
+        <target>Choose the category ID of the products that you would like to display on homepage (default: 2 for "Home").</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

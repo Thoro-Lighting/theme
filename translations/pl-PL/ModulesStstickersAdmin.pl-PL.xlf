@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="bDOY690" resname="Stickers block">
+        <source>Stickers block</source>
+        <target>Stickers block</target>
+      </trans-unit>
+      <trans-unit id="NIZdjh8" resname="Show sticker icon or label on product images.">
+        <source>Show sticker icon or label on product images.</source>
+        <target>Show sticker icon or label on product images.</target>
+      </trans-unit>
+      <trans-unit id="SUynj3N" resname="Custom">
+        <source>Custom</source>
+        <target>Custom</target>
+      </trans-unit>
+      <trans-unit id="1hhqASm" resname="New(Native)">
+        <source>New(Native)</source>
+        <target>New(Native)</target>
+      </trans-unit>
+      <trans-unit id="dBURRuJ" resname="On sale(Native)">
+        <source>On sale(Native)</source>
+        <target>On sale(Native)</target>
+      </trans-unit>
+      <trans-unit id="icWojEZ" resname="Reduced price(Native)">
+        <source>Reduced price(Native)</source>
+        <target>Reduced price(Native)</target>
+      </trans-unit>
+      <trans-unit id="0fSvxPo" resname="Sold out(Native)">
+        <source>Sold out(Native)</source>
+        <target>Sold out(Native)</target>
+      </trans-unit>
+      <trans-unit id="sXYu5DU" resname="In stock, Product available with different options and allowed backorders(Native)">
+        <source>In stock, Product available with different options and allowed backorders(Native)</source>
+        <target>In stock, Product available with different options and allowed backorders(Native)</target>
+      </trans-unit>
+      <trans-unit id="92yB6ug" resname="Online only(Native)">
+        <source>Online only(Native)</source>
+        <target>Online only(Native)</target>
+      </trans-unit>
+      <trans-unit id="xoGfozS" resname="Pack(Native)">
+        <source>Pack(Native)</source>
+        <target>Pack(Native)</target>
+      </trans-unit>
+      <trans-unit id="cYYi30H" resname="All products">
+        <source>All products</source>
+        <target>All products</target>
+      </trans-unit>
+      <trans-unit id="req6r6s" resname="Specify some products">
+        <source>Specify some products</source>
+        <target>Specify some products</target>
+      </trans-unit>
+      <trans-unit id="OahYGlx" resname="By category">
+        <source>By category</source>
+        <target>By category</target>
+      </trans-unit>
+      <trans-unit id="X8kSUrl" resname="By manufacturer">
+        <source>By manufacturer</source>
+        <target>By manufacturer</target>
+      </trans-unit>
+      <trans-unit id="_cKSs1k" resname="Under product image">
+        <source>Under product image</source>
+        <target>Under product image</target>
+      </trans-unit>
+      <trans-unit id="XRiCUSA" resname="At the very bottom of product block">
+        <source>At the very bottom of product block</source>
+        <target>At the very bottom of product block</target>
+      </trans-unit>
+      <trans-unit id="10ia3H4" resname="Along with price">
+        <source>Along with price</source>
+        <target>Along with price</target>
+      </trans-unit>
+      <trans-unit id=".MYXlxP" resname="Top left corner of product image">
+        <source>Top left corner of product image</source>
+        <target>Top left corner of product image</target>
+      </trans-unit>
+      <trans-unit id="CE26LHT" resname="Top center of product image">
+        <source>Top center of product image</source>
+        <target>Top center of product image</target>
+      </trans-unit>
+      <trans-unit id=".dvdeHy" resname="Top right corner of product image">
+        <source>Top right corner of product image</source>
+        <target>Top right corner of product image</target>
+      </trans-unit>
+      <trans-unit id="OxzpVSY" resname="Center left of product image">
+        <source>Center left of product image</source>
+        <target>Center left of product image</target>
+      </trans-unit>
+      <trans-unit id="L4t29Or" resname="Center center of product image">
+        <source>Center center of product image</source>
+        <target>Center center of product image</target>
+      </trans-unit>
+      <trans-unit id="zcE7Twy" resname="Center center of product image(100% width)">
+        <source>Center center of product image(100% width)</source>
+        <target>Center center of product image(100% width)</target>
+      </trans-unit>
+      <trans-unit id="WzcNTji" resname="Center right of product image">
+        <source>Center right of product image</source>
+        <target>Center right of product image</target>
+      </trans-unit>
+      <trans-unit id="GZjYMN." resname="Bottom left corner of product image">
+        <source>Bottom left corner of product image</source>
+        <target>Bottom left corner of product image</target>
+      </trans-unit>
+      <trans-unit id="T8PUijm" resname="Bottom center of product image">
+        <source>Bottom center of product image</source>
+        <target>Bottom center of product image</target>
+      </trans-unit>
+      <trans-unit id=".VXZZG8" resname="Bottom right corner of product image">
+        <source>Bottom right corner of product image</source>
+        <target>Bottom right corner of product image</target>
+      </trans-unit>
+      <trans-unit id="8NTYJnO" resname="Did you save all changes you just made? Unsaved changes will lose.">
+        <source>Did you save all changes you just made? Unsaved changes will lose.</source>
+        <target>Did you save all changes you just made? Unsaved changes will lose.</target>
+      </trans-unit>
+      <trans-unit id="XcYAOgS" resname="An error occurred during sticker">
+        <source>An error occurred during sticker</source>
+        <target>An error occurred during sticker</target>
+      </trans-unit>
+      <trans-unit id="W9D7TSN" resname="&quot;Sticker&quot; is required.">
+        <source>"Sticker" is required.</source>
+        <target>"Sticker" is required.</target>
+      </trans-unit>
+      <trans-unit id="EtB_JvU" resname="Settings for">
+        <source>Settings for</source>
+        <target>Settings for</target>
+      </trans-unit>
+      <trans-unit id="rEOFhPk" resname="Name(Reminder):">
+        <source>Name(Reminder):</source>
+        <target>Name(Reminder):</target>
+      </trans-unit>
+      <trans-unit id="THpsjb_" resname="This is used as a reminder, it would not show on the front offce.">
+        <source>This is used as a reminder, it would not show on the front offce.</source>
+        <target>This is used as a reminder, it would not show on the front offce.</target>
+      </trans-unit>
+      <trans-unit id="ye8Wwtg" resname="Sticker:">
+        <source>Sticker:</source>
+        <target>Sticker:</target>
+      </trans-unit>
+      <trans-unit id="L_B_4ej" resname="&quot;In stock&quot; and &quot;Sold out&quot; stickers would not show out on the product page, it would be reductant to show availability messages twice.">
+        <source>"In stock" and "Sold out" stickers would not show out on the product page, it would be reductant to show availability messages twice.</source>
+        <target>"In stock" and "Sold out" stickers would not show out on the product page, it would be reductant to show availability messages twice.</target>
+      </trans-unit>
+      <trans-unit id="74d54GT" resname="&quot;In stock&quot; and &quot;Sold out&quot; stickers do not use this setting. They use texts defined on the product detail page or the product settings page.">
+        <source>"In stock" and "Sold out" stickers do not use this setting. They use texts defined on the product detail page or the product settings page.</source>
+        <target>"In stock" and "Sold out" stickers do not use this setting. They use texts defined on the product detail page or the product settings page.</target>
+      </trans-unit>
+      <trans-unit id="I.WU3BW" resname="Set a large value for this field to make it be round.">
+        <source>Set a large value for this field to make it be round.</source>
+        <target>Set a large value for this field to make it be round.</target>
+      </trans-unit>
+      <trans-unit id="H.991OI" resname="Setting a width to stickers can center them.">
+        <source>Setting a width to stickers can center them.</source>
+        <target>Setting a width to stickers can center them.</target>
+      </trans-unit>
+      <trans-unit id="x_ZdH9z" resname="Is this a flag shaped sticker:">
+        <source>Is this a flag shaped sticker:</source>
+        <target>Is this a flag shaped sticker:</target>
+      </trans-unit>
+      <trans-unit id="po0afgD" resname="Flag tail on the right side">
+        <source>Flag tail on the right side</source>
+        <target>Flag tail on the right side</target>
+      </trans-unit>
+      <trans-unit id="r3lZDCG" resname="Flag tail on the left side">
+        <source>Flag tail on the left side</source>
+        <target>Flag tail on the left side</target>
+      </trans-unit>
+      <trans-unit id="hwq8Prn" resname="Text would not show out, if you upload an image here. This module would not change image names for seo purpose, so ensure the image you are going to upload has an unique name. It is not recommended to upload an image for &quot;In stock&quot; stick, case it has 3 different status.">
+        <source>Text would not show out, if you upload an image here. This module would not change image names for seo purpose, so ensure the image you are going to upload has an unique name. It is not recommended to upload an image for "In stock" stick, case it has 3 different status.</source>
+        <target>Text would not show out, if you upload an image here. This module would not change image names for seo purpose, so ensure the image you are going to upload has an unique name. It is not recommended to upload an image for "In stock" stick, case it has 3 different status.</target>
+      </trans-unit>
+      <trans-unit id="ME2SZs8" resname="Select a sticker">
+        <source>Select a sticker</source>
+        <target>Select a sticker</target>
+      </trans-unit>
+      <trans-unit id="sR9Kgrm" resname="Select a category">
+        <source>Select a category</source>
+        <target>Select a category</target>
+      </trans-unit>
+      <trans-unit id="1OgUB_8" resname="Select a manufacturer">
+        <source>Select a manufacturer</source>
+        <target>Select a manufacturer</target>
+      </trans-unit>
+      <trans-unit id="jPSvA2L" resname="Specific products:">
+        <source>Specific products:</source>
+        <target>Specific products:</target>
+      </trans-unit>
+      <trans-unit id="ANOilrm" resname="Type product name to add prodcuts:">
+        <source>Type product name to add prodcuts:</source>
+        <target>Type product name to add prodcuts:</target>
+      </trans-unit>
+      <trans-unit id="ZGKOqJ6" resname="Sticker type / position">
+        <source>Sticker type / position</source>
+        <target>Sticker type / position</target>
+      </trans-unit>
+      <trans-unit id="Ru8Kyvm" resname="Sticker icon / text">
+        <source>Sticker icon / text</source>
+        <target>Sticker icon / text</target>
+      </trans-unit>
+      <trans-unit id="ymkgc7L" resname="Add sticker">
+        <source>Add sticker</source>
+        <target>Add sticker</target>
+      </trans-unit>
+      <trans-unit id="2.nLvg0" resname="Stickers">
+        <source>Stickers</source>
+        <target>Stickers</target>
+      </trans-unit>
+      <trans-unit id="NKlneho" resname="Sticker name">
+        <source>Sticker name</source>
+        <target>Sticker name</target>
+      </trans-unit>
+      <trans-unit id="pmYEKR8" resname="Association list">
+        <source>Association list</source>
+        <target>Association list</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1 @@
+{if $page.page_name != 'index' && $page.page_name != 'product'}<a class="btn-prod-more" href="{$product.url}" title="{l s='View more' d='Shop.Theme.Transformer'}" rel="nofollow">{l s='View more' d='Shop.Theme.Transformer'} <i class="fto-right-open-big"></i></a>{/if}

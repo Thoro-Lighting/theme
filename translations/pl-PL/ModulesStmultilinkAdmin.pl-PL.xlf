@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="J1AvKjo" resname="Custom Links">
+        <source>Custom Links</source>
+        <target>Custom Links</target>
+      </trans-unit>
+      <trans-unit id="2acH94K" resname="This module is used to manage and display collections of links to your shop.">
+        <source>This module is used to manage and display collections of links to your shop.</source>
+        <target>This module is used to manage and display collections of links to your shop.</target>
+      </trans-unit>
+      <trans-unit id="VUzaR42" resname="Link group">
+        <source>Link group</source>
+        <target>Link group</target>
+      </trans-unit>
+      <trans-unit id="J_teUVB" resname="updated">
+        <source>updated</source>
+        <target>updated</target>
+      </trans-unit>
+      <trans-unit id="J5uKYPR" resname="added">
+        <source>added</source>
+        <target>added</target>
+      </trans-unit>
+      <trans-unit id="44HulwP" resname="an error occurred during link group">
+        <source>an error occurred during link group</source>
+        <target>an error occurred during link group</target>
+      </trans-unit>
+      <trans-unit id="j6X12Ve" resname="updating">
+        <source>updating</source>
+        <target>updating</target>
+      </trans-unit>
+      <trans-unit id="llq7JUs" resname="creation">
+        <source>creation</source>
+        <target>creation</target>
+      </trans-unit>
+      <trans-unit id="lBqrVV1" resname="The field &quot;link group&quot; is required">
+        <source>The field "link group" is required</source>
+        <target>The field "link group" is required</target>
+      </trans-unit>
+      <trans-unit id="qZDtCNU" resname="an error occurred during link">
+        <source>an error occurred during link</source>
+        <target>an error occurred during link</target>
+      </trans-unit>
+      <trans-unit id="hKQB8Z." resname="Add new group">
+        <source>Add new group</source>
+        <target>Add new group</target>
+      </trans-unit>
+      <trans-unit id=".fM5c0t" resname="Link Group">
+        <source>Link Group</source>
+        <target>Link Group</target>
+      </trans-unit>
+      <trans-unit id="yngF_Ms" resname="Link group name:">
+        <source>Link group name:</source>
+        <target>Link group name:</target>
+      </trans-unit>
+      <trans-unit id="PSzkzQb" resname="Text and HTML are accept.">
+        <source>Text and HTML are accept.</source>
+        <target>Text and HTML are accept.</target>
+      </trans-unit>
+      <trans-unit id="RmR7sO2" resname="Sub-links alignment:">
+        <source>Sub-links alignment:</source>
+        <target>Sub-links alignment:</target>
+      </trans-unit>
+      <trans-unit id="3ffKzA9" resname="No follow:">
+        <source>No follow:</source>
+        <target>No follow:</target>
+      </trans-unit>
+      <trans-unit id="xZafIj5" resname="Icon class name">
+        <source>Icon class name</source>
+        <target>Icon class name</target>
+      </trans-unit>
+      <trans-unit id="SVSGOI8" resname="Add new link">
+        <source>Add new link</source>
+        <target>Add new link</target>
+      </trans-unit>
+      <trans-unit id="8k94x36" resname="Edit group">
+        <source>Edit group</source>
+        <target>Edit group</target>
+      </trans-unit>
+      <trans-unit id="jGvAmVN" resname="Blog">
+        <source>Blog</source>
+        <target>Blog</target>
+      </trans-unit>
+      <trans-unit id="G3ypCzT" resname="RSS feeds for posts">
+        <source>RSS feeds for posts</source>
+        <target>RSS feeds for posts</target>
+      </trans-unit>
+      <trans-unit id="hxYE_d1" resname="Testimonial">
+        <source>Testimonial</source>
+        <target>Testimonial</target>
+      </trans-unit>
+      <trans-unit id="NDbb16g" resname="Link item">
+        <source>Link item</source>
+        <target>Link item</target>
+      </trans-unit>
+      <trans-unit id="607Lxb7" resname="Link group:">
+        <source>Link group:</source>
+        <target>Link group:</target>
+      </trans-unit>
+      <trans-unit id="SkaeTw9" resname="Please select">
+        <source>Please select</source>
+        <target>Please select</target>
+      </trans-unit>
+      <trans-unit id="RBpkaek" resname="Select an option here or fill in the name field">
+        <source>Select an option here or fill in the name field</source>
+        <target>Select an option here or fill in the name field</target>
+      </trans-unit>
+      <trans-unit id="pyJsTGU" resname="Label / Overwrite name:">
+        <source>Label / Overwrite name:</source>
+        <target>Label / Overwrite name:</target>
+      </trans-unit>
+      <trans-unit id="gNg6GX5" resname="This filed is required if you don not choose a link from the above &quot;Links&quot; drop down list.">
+        <source>This filed is required if you don not choose a link from the above "Links" drop down list.</source>
+        <target>This filed is required if you don not choose a link from the above "Links" drop down list.</target>
+      </trans-unit>
+      <trans-unit id="fkFrirn" resname="If you have chosen a link above, you can also fill in this field to overwrite the link\'s name.">
+        <source>If you have chosen a link above, you can also fill in this field to overwrite the link\'s name.</source>
+        <target>If you have chosen a link above, you can also fill in this field to overwrite the link\'s name.</target>
+      </trans-unit>
+      <trans-unit id="haOas0X" resname="Yes">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

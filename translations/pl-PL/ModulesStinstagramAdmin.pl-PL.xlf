@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="mFNaKBU" resname="Advanced instagram feed">
+        <source>Advanced instagram feed</source>
+        <target>Advanced instagram feed</target>
+      </trans-unit>
+      <trans-unit id="DGgyHoc" resname="Display your instagram media to your web page.">
+        <source>Display your instagram media to your web page.</source>
+        <target>Display your instagram media to your web page.</target>
+      </trans-unit>
+      <trans-unit id="tF4kIxw" resname="Full width top">
+        <source>Full width top</source>
+        <target>Full width top</target>
+      </trans-unit>
+      <trans-unit id="cq2frYP" resname="Full width top 2">
+        <source>Full width top 2</source>
+        <target>Full width top 2</target>
+      </trans-unit>
+      <trans-unit id="dMMFpLl" resname="Homepage top">
+        <source>Homepage top</source>
+        <target>Homepage top</target>
+      </trans-unit>
+      <trans-unit id="njOR6b8" resname="Homepage">
+        <source>Homepage</source>
+        <target>Homepage</target>
+      </trans-unit>
+      <trans-unit id="cE29F2L" resname="Homepage bottom">
+        <source>Homepage bottom</source>
+        <target>Homepage bottom</target>
+      </trans-unit>
+      <trans-unit id="G7g45Gu" resname="Homepage Left">
+        <source>Homepage Left</source>
+        <target>Homepage Left</target>
+      </trans-unit>
+      <trans-unit id="6Wk0dWr" resname="Homepage Right">
+        <source>Homepage Right</source>
+        <target>Homepage Right</target>
+      </trans-unit>
+      <trans-unit id="urMCmSw" resname="Homepage first  quarter">
+        <source>Homepage first  quarter</source>
+        <target>Homepage first  quarter</target>
+      </trans-unit>
+      <trans-unit id="nLIKkeE" resname="Homepage second quarter">
+        <source>Homepage second quarter</source>
+        <target>Homepage second quarter</target>
+      </trans-unit>
+      <trans-unit id="GU7QP35" resname="Homepage third quarter">
+        <source>Homepage third quarter</source>
+        <target>Homepage third quarter</target>
+      </trans-unit>
+      <trans-unit id="i8y1yS0" resname="Homepage fourth quarter">
+        <source>Homepage fourth quarter</source>
+        <target>Homepage fourth quarter</target>
+      </trans-unit>
+      <trans-unit id="rrpRT93" resname="Homepage Bottom">
+        <source>Homepage Bottom</source>
+        <target>Homepage Bottom</target>
+      </trans-unit>
+      <trans-unit id="pZIT74t" resname="Full width Bottom">
+        <source>Full width Bottom</source>
+        <target>Full width Bottom</target>
+      </trans-unit>
+      <trans-unit id="zIWHRaW" resname="Left column except the produt page">
+        <source>Left column except the produt page</source>
+        <target>Left column except the produt page</target>
+      </trans-unit>
+      <trans-unit id="LBEPxOC" resname="Right column except the produt page">
+        <source>Right column except the produt page</source>
+        <target>Right column except the produt page</target>
+      </trans-unit>
+      <trans-unit id="UsIXppd" resname="Left column on the product page only">
+        <source>Left column on the product page only</source>
+        <target>Left column on the product page only</target>
+      </trans-unit>
+      <trans-unit id="gCS_OTf" resname="Right column on the product page only">
+        <source>Right column on the product page only</source>
+        <target>Right column on the product page only</target>
+      </trans-unit>
+      <trans-unit id="L4WAvhw" resname="Product right column">
+        <source>Product right column</source>
+        <target>Product right column</target>
+      </trans-unit>
+      <trans-unit id="wJcZ_rD" resname="Stacked footer1">
+        <source>Stacked footer1</source>
+        <target>Stacked footer1</target>
+      </trans-unit>
+      <trans-unit id="MTKCrqy" resname="Stacked footer2">
+        <source>Stacked footer2</source>
+        <target>Stacked footer2</target>
+      </trans-unit>
+      <trans-unit id="99kDygM" resname="Stacked footer3">
+        <source>Stacked footer3</source>
+        <target>Stacked footer3</target>
+      </trans-unit>
+      <trans-unit id="7MgZ7Ty" resname="Stacked footer4">
+        <source>Stacked footer4</source>
+        <target>Stacked footer4</target>
+      </trans-unit>
+      <trans-unit id="E.7c8nx" resname="Stacked footer5">
+        <source>Stacked footer5</source>
+        <target>Stacked footer5</target>
+      </trans-unit>
+      <trans-unit id="Oi1rgI9" resname="Stacked footer6">
+        <source>Stacked footer6</source>
+        <target>Stacked footer6</target>
+      </trans-unit>
+      <trans-unit id="Jsh7tR5" resname="Footer">
+        <source>Footer</source>
+        <target>Footer</target>
+      </trans-unit>
+      <trans-unit id="LA9O9p0" resname="Footer after">
+        <source>Footer after</source>
+        <target>Footer after</target>
+      </trans-unit>
+      <trans-unit id="aKHwJeE" resname="Product Footer">
+        <source>Product Footer</source>
+        <target>Product Footer</target>
+      </trans-unit>
+      <trans-unit id="YsMrrqj" resname="displayAfterBodyOpeningTag full screen">
+        <source>displayAfterBodyOpeningTag full screen</source>
+        <target>displayAfterBodyOpeningTag full screen</target>
+      </trans-unit>
+      <trans-unit id="bAQLOdZ" resname="displayBeforeBodyClosingTag full screen">
+        <source>displayBeforeBodyClosingTag full screen</source>
+        <target>displayBeforeBodyClosingTag full screen</target>
+      </trans-unit>
+      <trans-unit id="WbJdFv1" resname="displayFooterBefore">
+        <source>displayFooterBefore</source>
+        <target>displayFooterBefore</target>
+      </trans-unit>
+      <trans-unit id="hkTd.t6" resname="displayReassurance">
+        <source>displayReassurance</source>
+        <target>displayReassurance</target>
+      </trans-unit>
+      <trans-unit id="TV0a3vT" resname="Blog full width top">
+        <source>Blog full width top</source>
+        <target>Blog full width top</target>
+      </trans-unit>
+      <trans-unit id="HV0fNEc" resname="Blog homepage top">
+        <source>Blog homepage top</source>
+        <target>Blog homepage top</target>
+      </trans-unit>
+      <trans-unit id="y9koULQ" resname="Blog homepage">
+        <source>Blog homepage</source>
+        <target>Blog homepage</target>
+      </trans-unit>
+      <trans-unit id="qWuOyKl" resname="Blog full width bottom">
+        <source>Blog full width bottom</source>
+        <target>Blog full width bottom</target>
+      </trans-unit>
+      <trans-unit id="Hw_3E8i" resname="Blog left column">
+        <source>Blog left column</source>
+        <target>Blog left column</target>
+      </trans-unit>
+      <trans-unit id="8_gL23t" resname="Blog right column">
+        <source>Blog right column</source>
+        <target>Blog right column</target>
+      </trans-unit>
+      <trans-unit id="NoWbBCD" resname="How to display media information">
+        <source>How to display media information</source>
+        <target>How to display media information</target>
+      </trans-unit>
+      <trans-unit id="Tbbyua9" resname="Settings for displaying media in a slider">
+        <source>Settings for displaying media in a slider</source>
+        <target>Settings for displaying media in a slider</target>
+      </trans-unit>
+      <trans-unit id="dsJhrc5" resname="Settings for displaying media on left or right column and footer">
+        <source>Settings for displaying media on left or right column and footer</source>
+        <target>Settings for displaying media on left or right column and footer</target>
+      </trans-unit>
+      <trans-unit id="4KyYl7N" resname="Success, everything went fine, we have got the user info from Instagram. Do not forget to save the change.">
+        <source>Success, everything went fine, we have got the user info from Instagram. Do not forget to save the change.</source>
+        <target>Success, everything went fine, we have got the user info from Instagram. Do not forget to save the change.</target>
+      </trans-unit>
+      <trans-unit id="bHqZtAB" resname="It seems that this user does not exist, please double check if you filled in the correct username.">
+        <source>It seems that this user does not exist, please double check if you filled in the correct username.</source>
+        <target>It seems that this user does not exist, please double check if you filled in the correct username.</target>
+      </trans-unit>
+      <trans-unit id=".1bjm7t" resname="An error occurred while updating the status.">
+        <source>An error occurred while updating the status.</source>
+        <target>An error occurred while updating the status.</target>
+      </trans-unit>
+      <trans-unit id="tYAlVT1" resname="No access token, please click the red link on the first page of this module to get an access token form Instagram.">
+        <source>No access token, please click the red link on the first page of this module to get an access token form Instagram.</source>
+        <target>No access token, please click the red link on the first page of this module to get an access token form Instagram.</target>
+      </trans-unit>
+      <trans-unit id="yvhbCIj" resname="Sources">
+        <source>Sources</source>
+        <target>Sources</target>
+      </trans-unit>
+      <trans-unit id="bpNgLq3" resname="Tag:">
+        <source>Tag:</source>
+        <target>Tag:</target>
+      </trans-unit>
+      <trans-unit id="D7iJkz9" resname="Fill in one tag, without &quot;#&quot;">
+        <source>Fill in one tag, without "#"</source>
+        <target>Fill in one tag, without "#"</target>
+      </trans-unit>
+      <trans-unit id="2GUcpEd" resname="If you fill in this field, media from Instagram have this hashtag will be displayed, not only media from your account.">
+        <source>If you fill in this field, media from Instagram have this hashtag will be displayed, not only media from your account.</source>
+        <target>If you fill in this field, media from Instagram have this hashtag will be displayed, not only media from your account.</target>
+      </trans-unit>
+      <trans-unit id="uvKOtNt" resname="Layout settings">
+        <source>Layout settings</source>
+        <target>Layout settings</target>
+      </trans-unit>
+      <trans-unit id="YVw_1MT" resname="How to display media:">
+        <source>How to display media:</source>
+        <target>How to display media:</target>
+      </trans-unit>
+      <trans-unit id="IKT_y8M" resname="Display a load more button when in grid view:">
+        <source>Display a load more button when in grid view:</source>
+        <target>Display a load more button when in grid view:</target>
+      </trans-unit>
+      <trans-unit id="4o5Y6Ah" resname="How many media do you want to show:">
+        <source>How many media do you want to show:</source>
+        <target>How many media do you want to show:</target>
+      </trans-unit>
+      <trans-unit id="5vyia_Q" resname="Image size:">
+        <source>Image size:</source>
+        <target>Image size:</target>
+      </trans-unit>
+      <trans-unit id="oP4iP0O" resname="Standard resolution 612px in wide">
+        <source>Standard resolution 612px in wide</source>
+        <target>Standard resolution 612px in wide</target>
+      </trans-unit>
+      <trans-unit id="auPBuxu" resname="Low resolution 306px in wide">
+        <source>Low resolution 306px in wide</source>
+        <target>Low resolution 306px in wide</target>
+      </trans-unit>
+      <trans-unit id=".1zxPu6" resname="Thumbnail 150px x 150px">
+        <source>Thumbnail 150px x 150px</source>
+        <target>Thumbnail 150px x 150px</target>
+      </trans-unit>
+      <trans-unit id="VZC2SJ." resname="Force non-square images to be square:">
+        <source>Force non-square images to be square:</source>
+        <target>Force non-square images to be square:</target>
+      </trans-unit>
+      <trans-unit id="4boF9B4" resname="Caption alignment:">
+        <source>Caption alignment:</source>
+        <target>Caption alignment:</target>
+      </trans-unit>
+      <trans-unit id="WOuQMuO" resname="Left">
+        <source>Left</source>
+        <target>Left</target>
+      </trans-unit>
+      <trans-unit id="2UYGdCf" resname="Center">
+        <source>Center</source>
+        <target>Center</target>
+      </trans-unit>
+      <trans-unit id="iDNh1da" resname="Right">
+        <source>Right</source>
+        <target>Right</target>
+      </trans-unit>
+      <trans-unit id="QRJGgDI" resname="Show block title:">
+        <source>Show block title:</source>
+        <target>Show block title:</target>
+      </trans-unit>
+      <trans-unit id="T8xZa9V" resname="Block title:">
+        <source>Block title:</source>
+        <target>Block title:</target>
+      </trans-unit>
+      <trans-unit id="I1nedOI" resname="Custom content:">
+        <source>Custom content:</source>
+        <target>Custom content:</target>
+      </trans-unit>
+      <trans-unit id="F4Ay.1l" resname="Content here will be placed to right under the title of this module, you can use html code.">
+        <source>Content here will be placed to right under the title of this module, you can use html code.</source>
+        <target>Content here will be placed to right under the title of this module, you can use html code.</target>
+      </trans-unit>
+      <trans-unit id="wBsrIIz" resname="Media information">
+        <source>Media information</source>
+        <target>Media information</target>
+      </trans-unit>
+      <trans-unit id="ovmnzuN" resname="Show likes counter:">
+        <source>Show likes counter:</source>
+        <target>Show likes counter:</target>
+      </trans-unit>
+      <trans-unit id="rtQR3CI" resname="Yes, show this on image when mouse hover.">
+        <source>Yes, show this on image when mouse hover.</source>
+        <target>Yes, show this on image when mouse hover.</target>
+      </trans-unit>
+      <trans-unit id="T3OYWBV" resname="Yes, show this on image.">
+        <source>Yes, show this on image.</source>
+        <target>Yes, show this on image.</target>
+      </trans-unit>
+      <trans-unit id="GPkEFZs" resname="Yes, show this below image.">
+        <source>Yes, show this below image.</source>
+        <target>Yes, show this below image.</target>
+      </trans-unit>
+      <trans-unit id="_.d44RG" resname="Show comments counter:">
+        <source>Show comments counter:</source>
+        <target>Show comments counter:</target>
+      </trans-unit>
+      <trans-unit id="FzO20k_" resname="Show time:">
+        <source>Show time:</source>
+        <target>Show time:</target>
+      </trans-unit>
+      <trans-unit id="WFF6MDb" resname="Time format:">
+        <source>Time format:</source>
+        <target>Time format:</target>
+      </trans-unit>
+      <trans-unit id="cVBNNv7" resname="Public dates">
+        <source>Public dates</source>
+        <target>Public dates</target>
+      </trans-unit>
+      <trans-unit id="6mk2ESi" resname="Time Since Posted, like 2 days ago, 1 month ago">
+        <source>Time Since Posted, like 2 days ago, 1 month ago</source>
+        <target>Time Since Posted, like 2 days ago, 1 month ago</target>
+      </trans-unit>
+      <trans-unit id="5Kt8pAh" resname="Show name:">
+        <source>Show name:</source>
+        <target>Show name:</target>
+      </trans-unit>
+      <trans-unit id="0JGo5nZ" resname="Show description:">
+        <source>Show description:</source>
+        <target>Show description:</target>
+      </trans-unit>
+      <trans-unit id="gErvk.a" resname="Yes, show this on image when mouse hover, hide when screen width &lt; 992px..">
+        <source>Yes, show this on image when mouse hover, hide when screen width &lt; 992px..</source>
+        <target><![CDATA[Yes, show this on image when mouse hover, hide when screen width < 992px..]]></target>
+      </trans-unit>
+      <trans-unit id="fBcsOyB" resname="Yes, show this on image, hide when screen width &lt; 992px.">
+        <source>Yes, show this on image, hide when screen width &lt; 992px.</source>
+        <target><![CDATA[Yes, show this on image, hide when screen width < 992px.]]></target>
+      </trans-unit>
+      <trans-unit id="t5hAuYM" resname="The lenght of description:">
+        <source>The lenght of description:</source>
+        <target>The lenght of description:</target>
+      </trans-unit>
+      <trans-unit id="LKqHaOL" resname="Full caption">
+        <source>Full caption</source>
+        <target>Full caption</target>
+      </trans-unit>
+      <trans-unit id="eI5mgt3" resname="Truncated (200 characters)">
+        <source>Truncated (200 characters)</source>
+        <target>Truncated (200 characters)</target>
+      </trans-unit>
+      <trans-unit id="FTC9zI0" resname="Display an icon to show media type:">
+        <source>Display an icon to show media type:</source>
+        <target>Display an icon to show media type:</target>
+      </trans-unit>
+      <trans-unit id="zRHrIP_" resname="Only show an video icon for vidoes.">
+        <source>Only show an video icon for vidoes.</source>
+        <target>Only show an video icon for vidoes.</target>
+      </trans-unit>
+      <trans-unit id="KkMmwnL" resname="When click on a image:">
+        <source>When click on a image:</source>
+        <target>When click on a image:</target>
+      </trans-unit>
+      <trans-unit id="WyW.CVc" resname="View the image on Instagram.">
+        <source>View the image on Instagram.</source>
+        <target>View the image on Instagram.</target>
+      </trans-unit>
+      <trans-unit id="GiD6imX" resname="Show the image on a lightbox.">
+        <source>Show the image on a lightbox.</source>
+        <target>Show the image on a lightbox.</target>
+      </trans-unit>
+      <trans-unit id="muBjCSW" resname="Hover effect:">
+        <source>Hover effect:</source>
+        <target>Hover effect:</target>
+      </trans-unit>
+      <trans-unit id="3JN7WYk" resname="None">
+        <source>None</source>
+        <target>None</target>
+      </trans-unit>
+      <trans-unit id="lby0aa5" resname="Scale up">
+        <source>Scale up</source>
+        <target>Scale up</target>
+      </trans-unit>
+      <trans-unit id="AFHEgtx" resname="Scale down">
+        <source>Scale down</source>
+        <target>Scale down</target>
+      </trans-unit>
+      <trans-unit id="azPCPfr" resname="Profile section">
+        <source>Profile section</source>
+        <target>Profile section</target>
+      </trans-unit>
+      <trans-unit id="UHxDCI2" resname="Show profile:">
+        <source>Show profile:</source>
+        <target>Show profile:</target>
+      </trans-unit>
+      <trans-unit id="0N6QAGv" resname="Show account stats. Post counts, follower counts and following counts:">
+        <source>Show account stats. Post counts, follower counts and following counts:</source>
+        <target>Show account stats. Post counts, follower counts and following counts:</target>
+      </trans-unit>
+      <trans-unit id="jARGTcZ" resname="Show avatar:">
+        <source>Show avatar:</source>
+        <target>Show avatar:</target>
+      </trans-unit>
+      <trans-unit id="LlmXxAA" resname="Yes, a round avatar">
+        <source>Yes, a round avatar</source>
+        <target>Yes, a round avatar</target>
+      </trans-unit>
+      <trans-unit id="773ukcc" resname="Show bio:">
+        <source>Show bio:</source>
+        <target>Show bio:</target>
+      </trans-unit>
+      <trans-unit id="2j7wbNU" resname="Show website link:">
+        <source>Show website link:</source>
+        <target>Show website link:</target>
+      </trans-unit>
+      <trans-unit id="s4sSRP6" resname="Show a Follow button:">
+        <source>Show a Follow button:</source>
+        <target>Show a Follow button:</target>
+      </trans-unit>
+      <trans-unit id="jmkt8Id" resname="Overlay opacity:">
+        <source>Overlay opacity:</source>
+        <target>Overlay opacity:</target>
+      </trans-unit>
+      <trans-unit id="YOQF5n9" resname="From 0.0 (fully transparent) to 1.0 (fully opaque).">
+        <source>From 0.0 (fully transparent) to 1.0 (fully opaque).</source>
+        <target>From 0.0 (fully transparent) to 1.0 (fully opaque).</target>
+      </trans-unit>
+      <trans-unit id="PYLzCsk" resname="Overlay opacity when mouseover:">
+        <source>Overlay opacity when mouseover:</source>
+        <target>Overlay opacity when mouseover:</target>
+      </trans-unit>
+      <trans-unit id="m56Fy7x" resname="Set a large value for this field to have round images.">
+        <source>Set a large value for this field to have round images.</source>
+        <target>Set a large value for this field to have round images.</target>
+      </trans-unit>
+      <trans-unit id="e7dG89a" resname="Media info text size:">
+        <source>Media info text size:</source>
+        <target>Media info text size:</target>
+      </trans-unit>
+      <trans-unit id="Tk4LgUE" resname="Media info color when they are on image:">
+        <source>Media info color when they are on image:</source>
+        <target>Media info color when they are on image:</target>
+      </trans-unit>
+      <trans-unit id="qjjF63_" resname="Media info color when they are blow image:">
+        <source>Media info color when they are blow image:</source>
+        <target>Media info color when they are blow image:</target>
+      </trans-unit>
+      <trans-unit id=".8IACLs" resname="Media info link color when they are blow image:">
+        <source>Media info link color when they are blow image:</source>
+        <target>Media info link color when they are blow image:</target>
+      </trans-unit>
+      <trans-unit id="BTQiYQx" resname="Media info link hover color when they are blow image:">
+        <source>Media info link hover color when they are blow image:</source>
+        <target>Media info link hover color when they are blow image:</target>
+      </trans-unit>
+      <trans-unit id="wUOY62S" resname="Media info background color they are blow image:">
+        <source>Media info background color they are blow image:</source>
+        <target>Media info background color they are blow image:</target>
+      </trans-unit>
+      <trans-unit id="JaelBtj" resname="Block title font size:">
+        <source>Block title font size:</source>
+        <target>Block title font size:</target>
+      </trans-unit>
+      <trans-unit id="JXmvdw0" resname="Block title color:">
+        <source>Block title color:</source>
+        <target>Block title color:</target>
+      </trans-unit>
+      <trans-unit id="QL5m_lD" resname="Block title background color:">
+        <source>Block title background color:</source>
+        <target>Block title background color:</target>
+      </trans-unit>
+      <trans-unit id="j5C.Jne" resname="Block title broder height:">
+        <source>Block title broder height:</source>
+        <target>Block title broder height:</target>
+      </trans-unit>
+      <trans-unit id="zxdja43" resname="Block title broder color:">
+        <source>Block title broder color:</source>
+        <target>Block title broder color:</target>
+      </trans-unit>
+      <trans-unit id="jlwBKiY" resname="Block title broder highlight color:">
+        <source>Block title broder highlight color:</source>
+        <target>Block title broder highlight color:</target>
+      </trans-unit>
+      <trans-unit id="lL5p7gD" resname="Load more button color:">
+        <source>Load more button color:</source>
+        <target>Load more button color:</target>
+      </trans-unit>
+      <trans-unit id="4IDa1bW" resname="Load more button background:">
+        <source>Load more button background:</source>
+        <target>Load more button background:</target>
+      </trans-unit>
+      <trans-unit id="Dc.dqbm" resname="Load more button hover background:">
+        <source>Load more button hover background:</source>
+        <target>Load more button hover background:</target>
+      </trans-unit>
+      <trans-unit id="mSf6xQr" resname="Shadows around images:">
+        <source>Shadows around images:</source>
+        <target>Shadows around images:</target>
+      </trans-unit>
+      <trans-unit id="dE2dU1X" resname="Show shadows when mouseover">
+        <source>Show shadows when mouseover</source>
+        <target>Show shadows when mouseover</target>
+      </trans-unit>
+      <trans-unit id="XHis2KC" resname="The position of the horizontal shadow. Negative values are allowed.">
+        <source>The position of the horizontal shadow. Negative values are allowed.</source>
+        <target>The position of the horizontal shadow. Negative values are allowed.</target>
+      </trans-unit>
+      <trans-unit id="JuoDDzY" resname="The position of the vertical shadow. Negative values are allowed.">
+        <source>The position of the vertical shadow. Negative values are allowed.</source>
+        <target>The position of the vertical shadow. Negative values are allowed.</target>
+      </trans-unit>
+      <trans-unit id="t4G6NAv" resname="The blur distance of shadow:">
+        <source>The blur distance of shadow:</source>
+        <target>The blur distance of shadow:</target>
+      </trans-unit>
+      <trans-unit id="C2rx7WX" resname="Shadow color:">
+        <source>Shadow color:</source>
+        <target>Shadow color:</target>
+      </trans-unit>
+      <trans-unit id="02PSKfn" resname="Shadow opacity:">
+        <source>Shadow opacity:</source>
+        <target>Shadow opacity:</target>
+      </trans-unit>
+      <trans-unit id="NXtr8GI" resname="Account stats color:">
+        <source>Account stats color:</source>
+        <target>Account stats color:</target>
+      </trans-unit>
+      <trans-unit id="jU.HfWc" resname="Account stats background:">
+        <source>Account stats background:</source>
+        <target>Account stats background:</target>
+      </trans-unit>
+      <trans-unit id="ARPsnkt" resname="Follow button color:">
+        <source>Follow button color:</source>
+        <target>Follow button color:</target>
+      </trans-unit>
+      <trans-unit id="7xkbxDG" resname="Follow button background:">
+        <source>Follow button background:</source>
+        <target>Follow button background:</target>
+      </trans-unit>
+      <trans-unit id="kqQB8jO" resname="Lightbox">
+        <source>Lightbox</source>
+        <target>Lightbox</target>
+      </trans-unit>
+      <trans-unit id="EIyu5iD" resname="Custom content block">
+        <source>Custom content block</source>
+        <target>Custom content block</target>
+      </trans-unit>
+      <trans-unit id="iiuTAvN" resname="Settings for displaying images in a slider">
+        <source>Settings for displaying images in a slider</source>
+        <target>Settings for displaying images in a slider</target>
+      </trans-unit>
+      <trans-unit id="YEXTahT" resname="Settings for displaying images on left or right column and footer">
+        <source>Settings for displaying images on left or right column and footer</source>
+        <target>Settings for displaying images on left or right column and footer</target>
+      </trans-unit>
+      <trans-unit id="Sci.N0Y" resname="Default 80">
+        <source>Default 80</source>
+        <target>Default 80</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="vp64O5D" resname="Add instagram">
+        <source>Add instagram</source>
+        <target>Add instagram</target>
+      </trans-unit>
+      <trans-unit id="dKiDoDe" resname="Settings">
+        <source>Settings</source>
+        <target>Settings</target>
+      </trans-unit>
+      <trans-unit id="PN7XCR6" resname="Custom hooks:">
+        <source>Custom hooks:</source>
+        <target>Custom hooks:</target>
+      </trans-unit>
+      <trans-unit id="dduW8Og" resname="Separate custom hooks by commas, like displayHomeTop,displayHomeBottom,displayCategoryHeader.">
+        <source>Separate custom hooks by commas, like displayHomeTop,displayHomeBottom,displayCategoryHeader.</source>
+        <target>Separate custom hooks by commas, like displayHomeTop,displayHomeBottom,displayCategoryHeader.</target>
+      </trans-unit>
+      <trans-unit id="c1btHvL" resname="Compatibility mode:">
+        <source>Compatibility mode:</source>
+        <target>Compatibility mode:</target>
+      </trans-unit>
+      <trans-unit id="haOas0X" resname="Yes">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="HqRCoTS" resname="No">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="ASndR.I" resname="If you have already installed some other modules from sunnytoo.com, then you can turn on this option to avoid loading common files for several times.">
+        <source>If you have already installed some other modules from sunnytoo.com, then you can turn on this option to avoid loading common files for several times.</source>
+        <target>If you have already installed some other modules from sunnytoo.com, then you can turn on this option to avoid loading common files for several times.</target>
+      </trans-unit>
+      <trans-unit id="4ua9tHT" resname="Load owl carousel:">
+        <source>Load owl carousel:</source>
+        <target>Load owl carousel:</target>
+      </trans-unit>
+      <trans-unit id="U5PJccr" resname="If this module can not show images in a sldier correctly, then try turning on this option, then this module would not load Owl carousel script, a widely used jQuery plugin, which is used to create sliders. Because of it might have already been loaded. Loading the same script more that once may cause problems.">
+        <source>If this module can not show images in a sldier correctly, then try turning on this option, then this module would not load Owl carousel script, a widely used jQuery plugin, which is used to create sliders. Because of it might have already been loaded. Loading the same script more that once may cause problems.</source>
+        <target>If this module can not show images in a sldier correctly, then try turning on this option, then this module would not load Owl carousel script, a widely used jQuery plugin, which is used to create sliders. Because of it might have already been loaded. Loading the same script more that once may cause problems.</target>
+      </trans-unit>
+      <trans-unit id="SSWwEDE" resname="Load jquery timeago plugin:">
+        <source>Load jquery timeago plugin:</source>
+        <target>Load jquery timeago plugin:</target>
+      </trans-unit>
+      <trans-unit id="CO2GtyP" resname="If one of your modules has already loaded this script, then turnning of this option to do not laod the same script twice.">
+        <source>If one of your modules has already loaded this script, then turnning of this option to do not laod the same script twice.</source>
+        <target>If one of your modules has already loaded this script, then turnning of this option to do not laod the same script twice.</target>
+      </trans-unit>
+      <trans-unit id="0F7ZH8w" resname="Custom CSS code">
+        <source>Custom CSS code</source>
+        <target>Custom CSS code</target>
+      </trans-unit>
+      <trans-unit id="oHFqNbj" resname="Put your CSS code here without wraping them in a html style tag.">
+        <source>Put your CSS code here without wraping them in a html style tag.</source>
+        <target>Put your CSS code here without wraping them in a html style tag.</target>
+      </trans-unit>
+      <trans-unit id="4nazX7q" resname="Custom javascript code">
+        <source>Custom javascript code</source>
+        <target>Custom javascript code</target>
+      </trans-unit>
+      <trans-unit id="RAWZH61" resname="Use html script tag to wrap you custom javascript code.">
+        <source>Use html script tag to wrap you custom javascript code.</source>
+        <target>Use html script tag to wrap you custom javascript code.</target>
+      </trans-unit>
+      <trans-unit id="722Lfo9" resname="Code here will be palced to the head tag.">
+        <source>Code here will be palced to the head tag.</source>
+        <target>Code here will be palced to the head tag.</target>
+      </trans-unit>
+      <trans-unit id="4mN.GQu" resname="If you want to load a file using this field, you have got to turn off the &quot;Use HTMLPurifier Library&quot; setting on the Preferences &gt; General page.">
+        <source>If you want to load a file using this field, you have got to turn off the "Use HTMLPurifier Library" setting on the Preferences &gt; General page.</source>
+        <target><![CDATA[If you want to load a file using this field, you have got to turn off the "Use HTMLPurifier Library" setting on the Preferences > General page.]]></target>
+      </trans-unit>
+      <trans-unit id="uBceDgX" resname="Client ID for advanced users:">
+        <source>Client ID for advanced users:</source>
+        <target>Client ID for advanced users:</target>
+      </trans-unit>
+      <trans-unit id="mxlUYpK" resname="User name is required.">
+        <source>User name is required.</source>
+        <target>User name is required.</target>
+      </trans-unit>
+      <trans-unit id="JsZuK4j" resname="function error.">
+        <source>function error.</source>
+        <target>function error.</target>
+      </trans-unit>
+      <trans-unit id="p32ZcZd" resname="Can not get data from instagram.com, try reloading this page.">
+        <source>Can not get data from instagram.com, try reloading this page.</source>
+        <target>Can not get data from instagram.com, try reloading this page.</target>
+      </trans-unit>
+      <trans-unit id="a1_8aPV" resname="An error occurred during new folder creation">
+        <source>An error occurred during new folder creation</source>
+        <target>An error occurred during new folder creation</target>
+      </trans-unit>
+      <trans-unit id="cbOdSOi" resname="directory isn\'t writable.">
+        <source>directory isn\'t writable.</source>
+        <target>directory isn\'t writable.</target>
+      </trans-unit>
+      <trans-unit id="jGTGMxb" resname="An error occurred during the image upload.">
+        <source>An error occurred during the image upload.</source>
+        <target>An error occurred during the image upload.</target>
+      </trans-unit>
+      <trans-unit id="rtffVnp" resname="The first step to use this module to show Instagram media on your site is clicking on this link to build a connection with Instagram.">
+        <source>The first step to use this module to show Instagram media on your site is clicking on this link to build a connection with Instagram.</source>
+        <target>The first step to use this module to show Instagram media on your site is clicking on this link to build a connection with Instagram.</target>
+      </trans-unit>
+      <trans-unit id="FdEoddB" resname="By using this module, you are agreeing to the">
+        <source>By using this module, you are agreeing to the</source>
+        <target>By using this module, you are agreeing to the</target>
+      </trans-unit>
+      <trans-unit id="UxvtZCd" resname="Instagram API Terms of Use">
+        <source>Instagram API Terms of Use</source>
+        <target>Instagram API Terms of Use</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="47ienTP" resname="Username">
+        <source>Username</source>
+        <target>Username</target>
+      </trans-unit>
+      <trans-unit id="OTOxgCF" resname="Bio">
+        <source>Bio</source>
+        <target>Bio</target>
+      </trans-unit>
+      <trans-unit id="U9wn7Qp" resname="Click here to disconnect from instagram.">
+        <source>Click here to disconnect from instagram.</source>
+        <target>Click here to disconnect from instagram.</target>
+      </trans-unit>
+      <trans-unit id="Xaj3_8K" resname="Back to list">
+        <source>Back to list</source>
+        <target>Back to list</target>
+      </trans-unit>
+      <trans-unit id="qa.hwGC" resname="Pattern credits:">
+        <source>Pattern credits:</source>
+        <target>Pattern credits:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ZiPm8pu" resname="Product Slider">
+        <source>Product Slider</source>
+        <target>Product Slider</target>
+      </trans-unit>
+      <trans-unit id="4LGuAgY" resname="Display products from different categories on the homepage.">
+        <source>Display products from different categories on the homepage.</source>
+        <target>Display products from different categories on the homepage.</target>
+      </trans-unit>
+      <trans-unit id="iKuEIRp" resname="The field &quot;Category / brand&quot; is required">
+        <source>The field "Category / brand" is required</source>
+        <target>The field "Category / brand" is required</target>
+      </trans-unit>
+      <trans-unit id="G0PCDzD" resname="The field &quot;Display on&quot; is required">
+        <source>The field "Display on" is required</source>
+        <target>The field "Display on" is required</target>
+      </trans-unit>
+      <trans-unit id="bh2c2y1" resname="Product categories slider">
+        <source>Product categories slider</source>
+        <target>Product categories slider</target>
+      </trans-unit>
+      <trans-unit id="YuHxJSO" resname="An error occurred during Product slider">
+        <source>An error occurred during Product slider</source>
+        <target>An error occurred during Product slider</target>
+      </trans-unit>
+      <trans-unit id="OAXiniP" resname="Product sldier">
+        <source>Product sldier</source>
+        <target>Product sldier</target>
+      </trans-unit>
+      <trans-unit id="BnbFCjz" resname="Category / Brand:">
+        <source>Category / Brand:</source>
+        <target>Category / Brand:</target>
+      </trans-unit>
+      <trans-unit id="XIEstgo" resname="Select a category or brand">
+        <source>Select a category or brand</source>
+        <target>Select a category or brand</target>
+      </trans-unit>
+      <trans-unit id="9j97KJm" resname="Tab heading alignment:">
+        <source>Tab heading alignment:</source>
+        <target>Tab heading alignment:</target>
+      </trans-unit>
+      <trans-unit id="7hkhaS." resname="Tab color:">
+        <source>Tab color:</source>
+        <target>Tab color:</target>
+      </trans-unit>
+      <trans-unit id=".UXCrxe" resname="Active tab color:">
+        <source>Active tab color:</source>
+        <target>Active tab color:</target>
+      </trans-unit>
+      <trans-unit id="ywJwH3n" resname="Tab background:">
+        <source>Tab background:</source>
+        <target>Tab background:</target>
+      </trans-unit>
+      <trans-unit id="WmeMseS" resname="Active tab background:">
+        <source>Active tab background:</source>
+        <target>Active tab background:</target>
+      </trans-unit>
+      <trans-unit id="WgpPmUR" resname="Border highlight color:">
+        <source>Border highlight color:</source>
+        <target>Border highlight color:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

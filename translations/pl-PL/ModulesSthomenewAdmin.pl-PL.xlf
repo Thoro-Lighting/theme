@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="pl-PL" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ZF6PsyR" resname="New Products Slider">
+        <source>New Products Slider</source>
+        <target>New Products Slider</target>
+      </trans-unit>
+      <trans-unit id="wDAuTim" resname="Display new products on homepage.">
+        <source>Display new products on homepage.</source>
+        <target>Display new products on homepage.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
