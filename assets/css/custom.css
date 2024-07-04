@@ -5,7 +5,7 @@ body {margin-top: -1px;}
 
 .app-container {
     max-width: 1024px;
-    margin: 80px auto 0 auto;
+    margin: 40px auto 0 auto;
   }
 
   .app-container b {
@@ -263,6 +263,10 @@ body {margin-top: -1px;}
     }
   }
   @media screen and (min-width: 768px) {
+    .app-container {
+        margin: 80px auto 0 auto;
+      }
+    
     .app-hero__block-gray {
       flex-direction: column;
     }
