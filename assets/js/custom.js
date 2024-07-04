@@ -529,6 +529,7 @@
       });
   });
 
+  initAppVideoPlay()
 
 }());
 
@@ -588,3 +589,15 @@ function custom_swiper_options_init() {
   });
 }
 }
+
+function initAppVideoPlay(){
+  const videoContainer = document.querySelector(".app-how__video");
+  if (!videoContainer) return
+  
+  const playBtn = document.querySelector(".app-how__video-cover");
+  const videoEl = document.querySelector("video");
+  playBtn.addEventListener("click", () => {
+    videoContainer.classList.add("playing");
+    videoEl.play();
+  });
+} 
