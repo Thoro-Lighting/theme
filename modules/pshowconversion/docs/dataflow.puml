@@ -1,0 +1,55 @@
+@startuml
+
+!theme plain
+'!theme crt-green
+
+participant "Serwer www\n(Measurement Protocol)" as server
+participant "Przeglądarka \ninternetowa\n(Google Tag gtag.js)" as webbrowser
+participant "Przeglądarka \ninternetowa\n(GTM dataLayer)" as webbrowser_dl
+database "Google\nTag Manager" as GTM
+database "Google\nAds" as GAds
+database "Google\nAnalytics 4" as GA4
+
+webbrowser_dl -> GTM: purchase
+server -> GA4: purchase
+GA4 --> GAds: purchase
+
+server -> GA4: refund
+
+webbrowser -> GA4: add_payment_info
+webbrowser -> GAds: add_payment_info
+webbrowser_dl -> GTM: add_payment_info
+
+webbrowser -> GA4: add_shipping_info
+webbrowser -> GAds: add_shipping_info
+webbrowser_dl -> GTM: add_shipping_info
+
+webbrowser -> GA4: add_to_cart
+webbrowser -> GAds: add_to_cart
+webbrowser_dl -> GTM: add_to_cart
+
+webbrowser -> GA4: begin_checkout
+webbrowser -> GAds: begin_checkout
+webbrowser_dl -> GTM: begin_checkout
+
+webbrowser -> GA4: remove_from_cart
+webbrowser -> GAds: remove_from_cart
+webbrowser_dl -> GTM: remove_from_cart
+
+webbrowser -> GA4: select_item
+webbrowser -> GAds: select_item
+webbrowser_dl -> GTM: select_item
+
+webbrowser -> GA4: view_cart
+webbrowser -> GAds: view_cart
+webbrowser_dl -> GTM: view_cart
+
+webbrowser -> GA4: view_item
+webbrowser -> GAds: view_item
+webbrowser_dl -> GTM: view_item
+
+webbrowser -> GA4: view_item_list
+webbrowser -> GAds: view_item_list
+webbrowser_dl -> GTM: view_item_list
+
+@enduml

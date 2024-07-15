@@ -1,0 +1,402 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #444;
+    background: #ededed;
+}
+
+body, 
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:"Merriweather";
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 17.5px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 11.9px;
+}
+
+img, iframe {
+    max-width: 100%;
+}
+
+iframe {
+    max-height: 100%;
+}
+
+img {
+    height:auto;
+}
+
+.btn {background:#135571;color:#fff;
+      -webkit-transition: all 250ms;
+      -moz-transition: all 250ms;
+      -o-transition: all  250ms;
+      transition: all  250ms
+}	
+.btn:hover {
+    background:#333;
+}
+.btn-download {
+    border-radius:0 4px 0 0;
+    font-weight:bold;
+    width: 25px;
+    overflow: hidden;
+}
+.btn-download  img {
+    width: 25px;
+    float: left;
+    margin-top: 18px;
+    margin-right: 15px;
+}
+
+.btn-download:hover { width:165px;} 
+
+iframe {
+    border: 0 !important;
+}
+
+.wrapper {
+    margin:20px 40px;
+    border-radius:4px;
+    box-shadow:0 0 2px 2px rgba(155,155,155,0.1);
+    border:1px solid #d3d3d3;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+strong, dt, h3, h4 {
+    font-weight: 700;
+}
+
+hr {
+    background: #EEE;
+    border: 0;
+    height: 1px;
+    margin: 40px 0 40px;
+}
+
+blockquote {
+    margin: 1em 0;
+    border-left: 3px solid #ccc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+dt {
+}
+
+dd {
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+a {
+    -webkit-transition: all ease 150ms;
+    -moz-transition: all ease 150ms;
+    -o-transition: all ease 150ms;
+    transition: all ease 150ms;
+    text-decoration: none;
+    color: #e42773;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #47b5e2;
+}
+
+/* Header Styles */
+header {
+    padding: 0; 
+    background: #fff;
+    color: #fff;
+}
+
+header #header-title {
+    background: #52B622; 
+}
+header #header-title h2 {
+    font-size: 22px;
+    font-weight: normal;
+    padding: 1em;
+}
+
+header #top {
+    background: #fff;
+    padding: 0;
+    min-height: 60px;
+    border-radius: 5px 5px 0 0;
+}
+
+header #top h1 a {
+    position: relative;
+    display: block;
+}
+header #top h1 a img {   
+    margin: 1em 6px 1em 1em;
+}
+
+header #top h1 a span {
+    position: absolute;
+    top: 66px;
+    left: 22px;
+    font-size: 15px;
+    font-style: italic;
+}
+header #top a:active {
+    color: #fff;
+    cursor: default;  
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+header h2 {
+    margin: 0 0 1em 0;
+}
+
+header h2.lone-header {
+    margin: 0;
+}
+
+footer {
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2e3d51;
+}
+
+.pull-right{ float:right;}
+.pull-left { float:left; }
+
+
+/* Content Styles */
+section {
+    padding: 1em 0 3em;
+    background: #fff;
+}
+section.vibrant {
+    background: #222;
+    color: #fff;
+}
+section.vibrant h4{  
+    line-height: 2;
+    font-weight: normal;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after ,
+nav:before, 
+nav:after, 
+header:before, 
+header:after,
+section:before, 
+section:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after, nav:after, header:after, section:after  { clear: both; }
+nav, header, section { *zoom: 1; }
+
+
+/* Form Styles */
+input {
+    display: block;
+    vertical-align: middle;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+}
+
+input:focus {
+    border-color: #007eb2;
+    outline: 0;
+}
+
+.docs-nav {
+    background-color: #f5f5f5;
+    list-style: none;
+    margin: 0 0 0 20px;
+    padding: 15px 20px;
+    font-size: 0.97em;
+}
+.docs-nav li.subtitle {
+    margin-bottom: 10px;
+}
+
+.docs-nav a {
+    display: block;
+    margin: 0 -20px;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-right: 2px solid transparent;
+    color: #374658;
+}
+
+.docs-content h2 {
+    padding: 30px 0 10px;
+    border-top: 1px #eee solid;
+}
+
+
+@media only screen and (max-width: 959px) {
+    body {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .wrapper {
+        margin: 0;
+    }
+    header #header-title h2 {
+        font-size: 18px;
+    }
+    .docs-nav {
+        margin: 0 20px 40px 20px;
+    }
+    .docs-nav .separator {
+        height: 10px;
+    }
+    .docs-content {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .docs-nav {
+        position: absolute;
+        top: 0;
+        width: 220px;
+
+        -webkit-transition: top linear 50ms;
+        -moz-transition: top linear 50ms;
+        -o-transition: top linear 50ms;
+        transition: top linear 50ms;
+    }
+
+    .docs-nav.fixed {
+        position: fixed;
+        top: 49px;
+        width: 220px;
+    }
+
+    .docs-nav a:hover {
+        background: #e42773;
+        color:#fff;
+    }
+
+    .docs-nav a:active, 
+    .docs-nav .active {
+        background: #e42773;
+        color: #fff;
+        border-right: 3px solid #374658;
+    }
+
+    .docs-nav .separator {
+        height: 20px;
+    }
+
+    .docs-content {
+        padding-left: 310px;
+        padding-right: 20px;
+    }
+
+    .container {
+        max-width: 1200px;
+        padding: 0;
+    }
+
+    section {
+        padding: 2em 0;
+        text-align: left;
+    }
+    section.centered {
+        text-align: center;
+    }
+
+    input {
+        display: inline-block;
+    }
+}
+
+.fancybox-wrap {
+    max-width: 96% !important;
+}
+.fancybox-wrap,
+.fancybox-inner {
+    width: auto !important;
+    height: auto !important;
+}
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Prestashow - module documentation</title>		
+        <meta name="description" content="">		
+        <meta name="keywords" content="">
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./media/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="./media/style.css">
+        <link rel="stylesheet" href="./media/prism.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <div id="top" class="clearfix">
+                    <div class="pull-left">
+                        <h1><a href=""><img src="./media/ps-logo.png" alt="" /> <span>Manual</span></a></h1>
+                    </div>
+                </div>
+
+                <div id="header-title" class="container" class="clearfix">
+                    <h2 class="lone-header">PShowConversion - Block and send transactions to Google Analytics</h2>
+                </div>
+            </header>
+
+            <section>
+                <div class="container">
+
+                    <!-- BEGIN MENU -->
+
+                    <ul class="docs-nav">
+                        <li class="start"><strong>Basic information</strong></li>
+                        <li><a href="#start">About this file</a></li>
+
+                        <li class="separator"></li>
+
+                        <li class="manual"><strong>Using the module</strong></li>
+                        <li><a href="#tasks">Module tasks</a></li>
+                        <li><a href="#test">Test tracking ID</a></li>
+                        <li><a href="#send">Manual sending orders from the store to Google Analytics</a></li>
+                        <li><a href="#warnings">Warnings</a></li>
+                    </ul>
+
+                    <!-- END CONTENT -->
+
+                    <div class="docs-content">
+                        <div style="min-height: 1000px;">
+                            <h2 id="start">About this file</h2>
+                            <p>
+                                This document describes the functions and operation of the module.<br/>
+                                When creating a module we have made many efforts to make its
+                                use was understandable and intuitive. Most available
+                                option in the module are described in the module. However, if
+                                some elements of the module will give you incomprehensible and will
+                                he wanted to question the tasks - refer to this document.<br/>
+                            </p>
+                            We are at your disposal.<br/>
+                            <i>Team PrestaShow</i>
+                        </div>
+
+                        <div style="min-height: 1000px;">
+                            <h3 id="tasks">Module tasks</h3>
+                            <p>
+                                The module has two main tasks:<br>
+                                1. Blocking other modules before sending transactions to Google Analytics. This prevents inter alia duplication of transactions.<br>
+                                2. Sending the transaction to Google Analytics, the statuses of orders defined in the configuration module.
+                            </p>
+                        </div>
+
+                        <!--<div style="min-height: 1000px;">-->
+                            <!--<h3 id="test">Test tracking ID</h3>-->
+                            <!--<p>-->
+                                <!--The module can easily check whether you have entered our tracking ID is correct.<br>-->
+                                <!--To perform the test, go to the sub-module 'Send test order'.-->
+                                <!--You can enter your own transaction ID or leave random.-->
+                                <!--Then confirm the sending of the order by pressing 'Send'.<br><br>-->
+
+                                <!--When you send goes without a problem, we'll get a <u>green message</u>:<br>-->
+                                <!--<img src="./media/test_success.png" alt="Test success"><br>-->
+                                <!--In Google Analytics reports need a few minutes to see the new transaction.<br><br>-->
+
+                                <!--When, however, you will see <u>red text</u>, please read the information contained therein-->
+                                <!--and then make corrections, eg. change tracking ID. If you experience difficulty with-->
+                                <!--the configuration of the module, please contact us.-->
+                            <!--</p>-->
+                        <!--</div>-->
+
+                        <div style="min-height: 1000px;">
+                            <h3 id="send">Manual sending orders from the store to Google Analytics</h3>
+                            <p>
+                                By accessing the sub module 'Send transactions to GTA', 
+                                you can send the selected order from the store to Google Analytics.<br><br>
+                                Just type identifiers orders or specify their ranges, such as:<br>
+                                1,2,4,7 - orders to send: 1,2,4,7<br>
+                                1,2,4-7 - orders to send: 1,2,4,5,6,7<br>
+                                1,2,9-7 - orders to send: 1,2,7,8,9<br>
+                            </p>
+                        </div>
+
+                        <div style="min-height: 1000px;">
+                            <h3 id="warnings">Warnings</h3>
+                            <p>
+                                It should be so set the status of orders that they were not sent several times to the GA.<br><br>
+                                Eg. Setting 'payment accepted', then 'order canceled'
+                                and finally again 'payment accepted' - will make the order
+                                twice will go to Google Analytics. <br>
+                                <small>
+                                    <i>
+                                        Assuming that the transactions are sent to Google Analytics
+                                        the status of 'payment accepted' - depends on the module configuration.
+                                    </i>
+                                </small>
+                            </p>
+                        </div>
+
+                        <!-- END CONTENT -->
+
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>Copyright &copy; PrestaShow.pl 2014-2016 All rights reserved.</p>
+            </footer>
+        </div>
+
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="./media/fancybox/jquery.fancybox.js"></script>
+        <script src="./media/prism.js"></script> 
+        <script src="./media/layout.js"></script>
+        <script>
+            $('.image').fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                padding: 5,
+                autoSize: true,
+                autoWidth: true,
+                autoHeight: true,
+                fitToView: true
+            });
+        </script>
+
+    </body>
+</html>
