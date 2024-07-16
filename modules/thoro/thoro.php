@@ -522,6 +522,13 @@ class Thoro extends ePrestaModule_T {
 			return $a['position'] > $b['position'];
 		});
 
+		foreach ($attributes as &$attribute) {
+			if (isset($attribute['values']) && is_array($attribute['values'])) {
+				usort($attribute['values'], function($a, $b) {
+					return $a['position'] > $b['position'];
+				});
+			}
+		}
 
 		// if ( _PS_MODE_DEV_ ) {
 		// 	echo '<pre>';
