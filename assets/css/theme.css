@@ -4919,14 +4919,41 @@ a.badge:focus,a.badge:hover {
 		#footer .gdpr_consent span.custom-input-box {
 		  margin-top: -5px;
 		}
+
+		.product-buttons__item button,
+		.product-buttons__item a{
+			display: block;
+			background: #fff;
+			border: 1px solid #222;
+			padding: 0px 54px 0 25px;
+			line-height: 50px;
+			font-size: 14px;
+			color: #222;
+			text-transform: none;
+			font-weight: 500;
+			border-radius: 100px;
+			position: relative;
+			cursor: pointer;
+		}
+
+		.product-buttons__item button:hover,
+		.product-buttons__item a:hover{
+			background-color: #699da8;
+    		border-color: #699da8;
+			color: #ffffff;
+		}
 		
 		#footer div.news_letter_0 label .psgdpr_consent_message { text-align:center; }
-		#footer .st_news_letter_form_inner .btn_arrow::after {
+		#footer .st_news_letter_form_inner .btn_arrow::after,
+		.product-buttons__item button::after,
+		.product-buttons__item a::after{
 		  right: 20px;
 		  background-image: url(../img/svg/right-arrow-black.svg);
 		}
 		
-		#footer .st_news_letter_form_inner .btn_arrow:hover::after {  background-image: url(../img/svg/right-arrow-white.svg);	}
+		#footer .st_news_letter_form_inner .btn_arrow:hover::after,
+		.product-buttons__item button:hover::after,
+		.product-buttons__item a:hover::after {  background-image: url(../img/svg/right-arrow-white.svg);	}
        .breadcrumb_spacing {height: 10px !important;}	
 
 		#footer #st_news_letter_1 .footer_block_content { padding:0px; } 
