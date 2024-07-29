@@ -530,6 +530,7 @@
   });
 
   initAppVideoPlay()
+  checkMobileSystem()
 
 }());
 
@@ -601,3 +602,15 @@ function initAppVideoPlay(){
     videoEl.play();
   });
 } 
+
+function checkMobileSystem(){
+  const userAgent = window.navigator.userAgent;
+  const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+  const isAndroid = /Android/i.test(userAgent);
+
+  if (isIOS) {
+    document.body.classList.add('is-ios');
+  } else if (isAndroid) {
+    document.body.classList.add('is-android');
+  }
+}

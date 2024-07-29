@@ -307,3 +307,19 @@ body {margin-top: -1px;}
       padding: 80px;
     }
   }
+
+
+.ios-only,.android-only{
+  display: none;
+}
+body:not(.is-android):not(.is-ios) .android-only{
+  display: block;
+} 
+
+body.is-ios .ios-only{
+  display: block;
+}
+
+body.is-android .android-only{
+  display: block;
+}
