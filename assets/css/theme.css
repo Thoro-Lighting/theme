@@ -4925,8 +4925,8 @@ a.badge:focus,a.badge:hover {
 			display: block;
 			background: #fff;
 			border: 1px solid #222;
-			padding: 0px 54px 0 25px;
-			line-height: 50px;
+			padding: 0 25px;
+			line-height: 40px;
 			font-size: 14px;
 			color: #222;
 			text-transform: none;
@@ -4934,6 +4934,8 @@ a.badge:focus,a.badge:hover {
 			border-radius: 100px;
 			position: relative;
 			cursor: pointer;
+			text-transform: uppercase;
+			transition: all 0.2s;
 		}
 
 		.product-buttons__item button:hover,
