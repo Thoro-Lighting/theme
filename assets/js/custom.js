@@ -630,7 +630,6 @@ function initConfiguratorVideoModal(){
 
   videoModal.addEventListener("click", (e) => {
     if (e.target != videoEl) {
-      console.log('zewnontrz')
       videoModal.classList.remove("active");
       videoEl.pause()
       videoEl.currentTime = 0;
