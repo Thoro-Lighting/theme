@@ -780,7 +780,7 @@ body.is-android .android-only{
   line-height: 32px;
   text-align: center;
   max-width: 600px;
-  margin: 0 auto 30px;
+  margin: 0 auto;
 }
 
 .configurator-contact{
