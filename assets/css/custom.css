@@ -655,6 +655,9 @@ body.is-android .android-only{
 
 
 
+.configurator-architect{
+  margin-bottom: 80px;
+}
 
 .configurator-architect__header{
   margin-bottom: 60px;
@@ -765,16 +768,57 @@ body.is-android .android-only{
   }
 }
 
+.configurator-contact-header h2{
+  font-size: 36px;
+  text-align: center;
+  max-width: 695px;
+  margin: 0 auto 30px;
+}
+
+.configurator-contact-header p{
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
 
 .configurator-contact{
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.configurator-contact .svg-decor{
+  position: absolute;
+  bottom: 0;
+  right: -70px;
+  width: 200px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .configurator-contact .svg-decor{
+    right: 0;
+    width: 360px;
+  }
+}
+
+.configurator-contact .content_form{
   margin: 0 auto;
   max-width: 695px;
+  position: relative;
+  z-index: 10;
 }
 
 .configurator-contact .form-control{
   height: 64px;
   font-size: 16px;
   border-color: #333333;
+}
+
+.configurator-contact textarea.form-control{
+  padding: 20px 10px !important;
+  min-height: 170px;
 }
 
 .configurator-contact .form-control-placeholder{
