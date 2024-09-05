@@ -531,6 +531,7 @@
 
   initAppVideoPlay()
   checkMobileSystem()
+  initConfiguratorVideoModal()
 
 }());
 
@@ -613,4 +614,27 @@ function checkMobileSystem(){
   } else if (isAndroid) {
     document.body.classList.add('is-android');
   }
+}
+
+function initConfiguratorVideoModal(){
+  const videoModal = document.querySelector(".modal-video");
+  if (!videoModal) return
+
+  const playBtn = document.querySelector(".app-how__video-cover");
+  const videoEl = videoModal.querySelector('video')
+
+  playBtn.addEventListener("click", () => {
+    videoModal.classList.add("active");
+    videoEl.play();
+  });
+
+  videoModal.addEventListener("click", (e) => {
+    if (e.target != videoEl) {
+      console.log('zewnontrz')
+      videoModal.classList.remove("active");
+      videoEl.pause()
+      videoEl.currentTime = 0;
+    }
+  });
+
 }
