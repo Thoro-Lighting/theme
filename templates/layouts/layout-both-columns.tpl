@@ -218,6 +218,10 @@
     {if isset($sttheme.custom_js) && $sttheme.custom_js}
       <script type="text/javascript" src="{$sttheme.custom_js}"></script>
     {/if}
+	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"></script>
+
     {if isset($sttheme.tracking_code) && $sttheme.tracking_code}{$sttheme.tracking_code nofilter}{/if}
 	{block name='hook_before_body_closing_tag'}
       {hook h='displayBeforeBodyClosingTag'}
