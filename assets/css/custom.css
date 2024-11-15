@@ -867,3 +867,16 @@ body.is-android .android-only{
   text-transform: none;
   margin-bottom: 5px;
 }
+
+#product .st_sticker_11{
+  position: fixed;
+  height: 70px;
+  width: 70px;
+  top: 70px;
+}
+
+@media screen and (min-width: 1024px) {
+  #product .st_sticker_11{
+    top: 120px;
+  }
+}

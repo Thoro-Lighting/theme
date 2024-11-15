@@ -20751,6 +20751,11 @@ hr {
 }
 
 .sticker-border {position: absolute;  width: 100%; height: 100%; left: 0px; top: 0px; z-index:1}
+.sticker-img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 .pro_first_box .st_sticker.flag_1:before,.pro_first_box .st_sticker.flag_2:before
 	{
 	content: "";
