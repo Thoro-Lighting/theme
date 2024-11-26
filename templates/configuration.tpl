@@ -9,7 +9,7 @@
 
 
   {hook h='displayConfigurator'}
-  <div class="configurator-contact">
+  <div class="form-contact">
    {hook h='displayAskAboutProduct'}
    <svg class="svg-decor" width="398" height="191" viewBox="0 0 398 191" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<g clip-path="url(#clip0_721_236)">
@@ -261,7 +261,7 @@
 		</div>
 	</div>
 
-	<div class="row configurator-contact-header">
+	<div class="row form-contact-header">
 		<div class="col-12">
 			<h2>Projektujesz wnętrza?</h2>
 			<p>Chcesz poznać szczegóły Programu Partnerskiego Klub Architekta? <u>Wypełnij formularz.</u></p>

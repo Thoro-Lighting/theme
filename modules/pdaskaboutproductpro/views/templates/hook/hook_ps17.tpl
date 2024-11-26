@@ -172,7 +172,7 @@
 				{/if}
 				<form id="aap_customer_question_form_{$aap_product->id}" class="cmxform" action="" method="get">
 				<div class="form_container">
-					{if $page.page_name != 'configuration'}
+					{if $page.page_name != 'configuration' && $page.page_name != 'architecture'}
 						<p class="mb-4">{l s='Please fill below informations. Customer service will contact with You soon as is possible.' mod='pdaskaboutproductpro'}</p>
 					{/if}
 					<fieldset>
@@ -205,14 +205,14 @@
 								</div>
 							{/if}
 						{/foreach}
-					{if $page.page_name != 'configuration'}
+					{if $page.page_name != 'configuration' && $page.page_name != 'architecture'}
 						<p class="txt_required mb-0"><span class="label_required">*</span> {l s='Required fields' mod='pdaskaboutproductpro'}</p>
 					{/if}
 				
 					<p class="submit">
 						<input id="id_product_send" name="id_product" type="hidden" value="{$aap_product->id}" />
 						<input name="recaptcha_value" id="recaptcha_value" type="hidden" value="{$captcha_enabled}" />
-						{if $page.page_name == 'configuration'}
+						{if $page.page_name == 'configuration' || $page.page_name == 'architecture'}
 							<button  id="sendQuestionEmail" class="btn btn-default btn-large btn_arrow" name="sendQuestionEmail" type="submit">
 									{l s='Send message' d='Shop.Theme.Global'}
 							</button>
@@ -221,7 +221,7 @@
 						{/if}
 	
 					</p>
-					{if $page.page_name == 'configuration'}
+					{if $page.page_name == 'configuration' || $page.page_name == 'architecture'}
 						<p class="privacy">{l s='Privacy policy text' d='Shop.Theme.Global'}</p>
 					{/if}
 				</fieldset>
