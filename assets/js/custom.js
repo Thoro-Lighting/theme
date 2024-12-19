@@ -529,6 +529,9 @@
       });
   });
 
+  initAppVideoPlay()
+  checkMobileSystem()
+  initConfiguratorVideoModal()
 
 }());
 
@@ -587,4 +590,50 @@ function custom_swiper_options_init() {
       }
   });
 }
+}
+
+function initAppVideoPlay(){
+  const videoContainer = document.querySelector(".app-how__video");
+  if (!videoContainer) return
+  
+  const playBtn = document.querySelector(".app-how__video-cover");
+  const videoEl = document.querySelector("video");
+  playBtn.addEventListener("click", () => {
+    videoContainer.classList.add("playing");
+    videoEl.play();
+  });
+} 
+
+function checkMobileSystem(){
+  const userAgent = window.navigator.userAgent;
+  const isIOS = /iPhone|iPad|iPod/i.test(userAgent);
+  const isAndroid = /Android/i.test(userAgent);
+
+  if (isIOS) {
+    document.body.classList.add('is-ios');
+  } else if (isAndroid) {
+    document.body.classList.add('is-android');
+  }
+}
+
+function initConfiguratorVideoModal(){
+  const videoModal = document.querySelector(".modal-video");
+  if (!videoModal) return
+
+  const playBtn = document.querySelector(".app-how__video-cover");
+  const videoEl = videoModal.querySelector('video')
+
+  playBtn.addEventListener("click", () => {
+    videoModal.classList.add("active");
+    videoEl.play();
+  });
+
+  videoModal.addEventListener("click", (e) => {
+    if (e.target != videoEl) {
+      videoModal.classList.remove("active");
+      videoEl.pause()
+      videoEl.currentTime = 0;
+    }
+  });
+
 }

@@ -7,7 +7,7 @@
 .fancybox-item.fancybox-close::before {content: '×'; padding-left: 8px; font-size: 1.75rem; top: 3px; position: relative;}
 .fancybox-close {position: absolute !important; top: 0 !important; right: -30px !important; width: 30px !important; height: 30px !important; cursor: pointer !important;}
 
-.arch-bottom .easycontent {max-width: 1000px; margin: 50px auto;}
+.arch-bottom .easycontent {margin: 40px auto;}
 .arch-bottom .easycontent p .btn.btn-default {margin-top: 20px}
 
 #architecture .about-intro {
@@ -191,4 +191,372 @@
 	  margin-top: 2rem;
 	}	
 	
+}
+
+
+
+
+
+
+
+
+
+#architecture{
+	color: #333333
+}
+
+#architecture .hero{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	min-height: 400px;
+	padding: 30px 40px;
+}
+
+#architecture .hero img{
+	position: absolute;
+	inset: 0;
+	object-fit: cover;
+	object-position: center;
+	height: 100%;
+}
+
+#architecture .hero h1{
+	position: relative;
+	z-index: 10;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+#architecture .hero h1::before{
+	position: absolute;
+	content: '';
+	width: 5px;
+	height: 40px;
+	background: #2DC3E4;
+	top: 5px;
+	left: -23px;
+	transform: skewX(-30deg);
+}
+
+#architecture strong,
+#architecture b{
+	font-weight: 700;
+}
+
+@media only screen and (min-width:768px) {
+	#architecture .hero{
+		padding: 50px;
+	}
+
+	#architecture .hero h1{
+		font-size: 48px;
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	#architecture .hero{
+		padding: 50px 100px;
+	}
+}
+
+
+#architecture .bg-decor{
+	position: relative;
+	overflow: hidden;
+	background: #F4F4F4;
+	padding: 30px 20px;
+	margin-bottom: 100px;
+}
+
+#architecture .bg-decor svg{
+	position: absolute;
+	top: 0;
+	right: 70px;
+	max-width: 80%;
+	pointer-events: none;
+}
+
+#architecture .bg-decor .inner{
+	position: relative;
+	z-index: 10;
+	max-width: 625px;
+	margin: 0 auto;
+}
+
+#architecture h2{
+	font-weight: 500;
+}
+
+@media only screen and (min-width:768px) {
+	#architecture .bg-decor{
+		padding: 100px 20px;
+	}
+
+	#architecture h2{
+		font-size: 36px;
+	}
+}
+
+#architecture .btn{
+	padding: 5px 60px 5px 25px !important;
+	display: block;
+	width: max-content;
+	margin: 0 auto;
+	text-transform: none !important;
+}
+
+.architecture-categories{
+	margin-bottom: 90px;
+}
+
+#architecture .architecture-categories_header{
+	margin: 0 auto;
+	max-width: 735px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+#architecture .architecture-categories_header a.mail{
+	display: inline-block;
+	margin-top: 8px;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: #87CEDD;
+	text-underline-offset: 5px;
+	text-decoration-thickness: 2px;
+}
+
+#architecture ul.categories{
+	columns: 1;
+	gap: 28px;
+	list-style: none;
+	margin-bottom: 50px;
+}
+
+@media only screen and (min-width:768px) {
+	#architecture ul.categories{
+		columns: 2;
+	}
+
+	#architecture ul.categories li:nth-child(3){
+		padding-top: 60px;
+	}
+}
+
+#architecture ul.categories li{
+	margin-bottom: 28px;
+}
+
+#architecture ul.categories li a{
+	background: #F4F4F4;
+	display: flex;
+}
+
+#architecture ul.categories li a .category-img{
+	flex-grow: 1;
+	aspect-ratio: 1;
+	overflow: hidden;
+}
+
+#architecture ul.categories li a .category-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.2s;
+}
+
+#architecture ul.categories li a:hover .category-img img{
+	transform: scale(1.05);
+}
+
+#architecture ul.categories li a div:has(.category-name){
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	gap: 10px;
+	padding: 20px;
+	flex-shrink: 0;
+	width: 150px;
+}
+
+#architecture ul.categories li a div .category-name{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+@media only screen and (min-width:768px) {
+	#architecture ul.categories li a div:has(.category-name){
+		width: 210px;
+	}
+}
+
+
+@media only screen and (min-width:1024px) {
+	#architecture ul.categories li a div .category-name{
+		font-size: 24px;
+	}
+}
+
+#architecture ul.categories li a svg{
+	padding: 12px;
+	transition: all 0.2s;
+	width: 46px;
+	height: 46px;
+	border-radius: 99px;
+	border: 1px solid #333333;
+	background-color: transparent;
+}
+#architecture ul.categories li a:hover svg{
+	border: 1px solid #699da8;
+	background-color: #699da8;
+}
+#architecture ul.categories li a:hover svg path{
+	stroke: #fff;
+}
+
+#architecture .btn.black_arrow{
+	border: 1px solid #333333;
+	line-height: 35px;
+	transition: all 0.2s;
+}
+
+#architecture .btn.black_arrow:hover{
+	border: 1px solid #699da8;
+	background: #699da8;
+	color: #fff;
+}
+
+
+#architecture .architecture-info{
+	margin-bottom: 100px;
+}
+
+#architecture .architecture-info_header{
+	margin-bottom: 50px;
+}
+
+#architecture .architecture-info .info-section {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+#architecture .architecture-info .info-row {
+	position: relative;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#architecture .architecture-info .info-image img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+#architecture .architecture-info .info-text {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 20px;
+}
+
+#architecture .architecture-info .info-item h3 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 16px;
+	position: relative;
+	padding-bottom: 8px;
+}
+
+#architecture .architecture-info .info-item h3::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 40px;
+	height: 2px;
+	background-color: #2DC3E4;
+}
+
+#architecture .architecture-info .info-item p {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333333;
+}
+
+
+#architecture .info-section svg{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-56%, -50%);
+	z-index: 0;
+	pointer-events: none;
+}
+
+@media (min-width: 768px) {
+	#architecture .architecture-info .info-image {
+		flex-basis: 50%;
+		align-self: stretch;
+	}
+
+	#architecture .architecture-info .info-row {
+		flex-direction: row;
+	}
+	#architecture .architecture-info .info-row.reverse {
+		flex-direction: row-reverse;
+	}
+
+	#architecture .architecture-info .info-text {
+		gap: 48px;
+		padding: 40px;
+	}
+
+	#architecture .info-section svg{
+		display: block;
+	}
+	
+}
+
+@media (min-width: 1024px) {
+
+	#architecture .architecture-info .info-row .info-text {
+		padding: 80px 90px 80px 130px;
+	}
+	
+	#architecture .architecture-info .info-row.reverse .info-text {
+		padding: 80px 130px 80px 90px;
+	}
+	
+}
+
+.arch-bottom-fullwidth{
+	position: relative;
+	margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+.arch-bottom-fullwidth .svg-decor{
+	position: absolute;
+	right: 0;
+	top: -210px;
+	max-width: 50%;
+}
+.arch-bottom{
+	z-index: 10;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.arch-bottom img{
+	width: 100%;
 }

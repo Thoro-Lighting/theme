@@ -29,6 +29,7 @@
         </div>
         <div class="product_middle_column box-right col-lg-5 mb-3">
           
+          {hook h='displayWeboProductButtons' productId=$product.id}
           {block name='page_header_container'}
             {block name='page_header'}
                {if $sttheme.is_mobile_device}
@@ -138,6 +139,7 @@
                </a>*}
              </div>
            {/foreach}
+		          {hook h='DisplayWeboProductArchitectZone' productId=$product.id}
            </section>
            {/if}
            {/block}

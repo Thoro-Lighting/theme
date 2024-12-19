@@ -184,12 +184,12 @@ body:not(.show-fixed-add-to-cart) .product-actions .pro_cart_block {margin-botto
 .product_middle_column .add-to-cart {
   height: 64px;
   border-radius: 100px;
-  border: 1px solid #222 !important;
+  border: 1px solid #87cedd !important;
 }
 
 .product_middle_column .add-to-cart:hover {
-  border: 1px solid #000 !important;
-  background: #000 !important;
+  border: 1px solid #699da8 !important;
+  background: #699da8 !important;
 }
 
 .qty_wrap_big .bootstrap-touchspin-down {

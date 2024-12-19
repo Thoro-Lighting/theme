@@ -34,6 +34,24 @@
          
         </ul>
     {/block}
+{hook h="displayClearCartBtn"}
+{literal}
+<style>
+.configurator-contact #sendQuestionEmail{
+  padding: 0 60px 0 25px !important;
+  font-weight: 500;
+  text-transform: none;
+  margin-bottom: 5px;
+}
+
+.checkout-summary-block {
+padding-bottom: 15px;
+}
+.checkout-summary-block .remove-cart-button{
+    margin-right: 15px;
+}
+</style>
+{/literal}
   </div>
 </div>
 </section>
