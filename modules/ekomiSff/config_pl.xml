@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ekomiSff</name>
+    <displayName><![CDATA[eKomi Iff Pop-up]]></displayName>
+    <version><![CDATA[2.0.1]]></version>
+    <description><![CDATA[This Module shows eKomi IFF pop-up form on order confirmation page.]]></description>
+    <author><![CDATA[eKomi]]></author>
+    <tab><![CDATA[checkout]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Prestashow - dokumentacja modułu</title>		
+        <meta name="description" content="">		
+        <meta name="keywords" content="">
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./media/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="./media/style.css">
+        <link rel="stylesheet" href="./media/prism.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <div id="top" class="clearfix">
+                    <div class="pull-left">
+                        <h1><a href=""><img src="./media/ps-logo.png" alt="" /> <span>Instrukcja obsługi</span></a></h1>
+                    </div>
+                </div>
+
+                <div id="header-title" class="container" class="clearfix">
+                    <h2 class="lone-header">PShowConversion - Blokuj i wysyłaj transakcje do Google Analytics</h2>
+                </div>
+            </header>
+
+            <section>
+                <div class="container">
+
+                    <!-- BEGIN MENU -->
+
+                    <ul class="docs-nav">
+                        <li class="start"><strong>Podstawowe informacje</strong></li>
+                        <li><a href="#start">O dokumentacji</a></li>
+
+                        <li class="separator"></li>
+
+                        <li class="manual"><strong>Użytkowanie modułu</strong></li>
+                        <li><a href="#tasks">Zadania modułu</a></li>
+                        <li><a href="#test">Test identyfikatora śledzenia</a></li>
+                        <li><a href="#send">Ręczne wysyłanie zamówień ze sklepu do Google Analytics</a></li>
+                        <li><a href="#warnings">Uwagi</a></li>
+                    </ul>
+
+                    <!-- END CONTENT -->
+
+                    <div class="docs-content">
+                        <div style="min-height: 1000px;">
+                            <h2 id="start">Podstawowe informacje</h2>
+                            <p>
+                                W tym dokumencie znajduje się opis działania i obsługi modułu.<br/>
+                                W trakcie tworzenia modułu dołożyliśmy wielu starań, aby jego uzywanie było zrozumiałe oraz intuicyjnie. Większość dostępnych w module opcji jest opisanych w samym module. Jeśli jednak wybrane elementy modułu wydadzą Ci się niezrozumiałe i będziesz chciał zadań pytanie - zajrzyj do tego dokumentu. <br/>
+                            </p>
+                            Jesteśmy do Twojej dyspozycji.<br/>
+                            <i>Zespół PrestaShow</i>
+                        </div>
+
+                        <div style="min-height: 1000px;">
+                            <h3 id="tasks">Zadania modułu</h3>
+                            <p>
+                                Moduł ma dwa główne zadania:<br>
+                                1. Blokowanie innych modułów przed wysyłaniem transakcji do Google Analytics. 
+                                Zapobiega to m.in. dublowaniu transakcji.<br>
+                                2. Wysyłanie transakcji do Google Analytics przy statusach zamówień zdefiniowanych w konfiguracji modułu.
+                            </p>
+                        </div>
+
+                        <!--<div style="min-height: 1000px;">-->
+                            <!--<h3 id="test">Test identyfikatora śledzenia</h3>-->
+                            <!--<p>-->
+                                <!--W module bardzo łatwo możemy sprawdzić czy wprowadzony przez nas identyfikator śledzenia jest poprawny.<br>-->
+                                <!--Do wykonania testu należy przejść do podstrony modułu 'Wyślij testowe zamówienie'. -->
+                                <!--Można wpisać własny identyfikator transakcji lub zostawić losowy. -->
+                                <!--Następnie należy potwierdzić wysłanie zamówienia przyciskiem 'Wyślij'.<br><br>-->
+
+                                <!--Gdy wysłanie przebiegnie bez problemu, dostaniemy taki <u>zielony komunikat</u>:<br>-->
+                                <!--<img src="./media/test_success.png" alt="Test success"><br>-->
+                                <!--W raportach Google Analytics powinniśmy po kilku minutach zobaczyć nową transakcję.<br><br>-->
+
+                                <!--Gdy jednak wyświetlony zostanie <u>czerwony komunikat</u>, należy przeczytać informacje w nim zawarte-->
+                                <!--a następnie dokonać poprawek, np. zmianę identyfikatora śledzenia. Jeśli wystąpią trudności z -->
+                                <!--poprawną konfiguracją modułu proszę o kontakt z nami.-->
+                            <!--</p>-->
+                        <!--</div>-->
+
+                        <div style="min-height: 1000px;">
+                            <h3 id="send">Ręczne wysyłanie zamówień ze sklepu do Google Analytics</h3>
+                            <p>
+                                Wchodząc na podstronę modułu 'Wyślij transakcje do GA', można wysłać 
+                                wybrane zamówienia ze sklepu do Google Analytics.<br><br>
+                                Wystarczy wpisać identyfikatory zamówień lub podać ich zakresy, np:<br>
+                                1,2,4,7 - zostaną wysłane zamówienia o id: 1,2,4,7<br>
+                                1,2,4-7 - zostaną wysłane zamówienia o id: 1,2,4,5,6,7<br>
+                                1,2,9-7 - zostaną wysłane zamówienia o id: 1,2,7,8,9<br>
+                            </p>
+                        </div>
+
+                        <div style="min-height: 1000px;">
+                            <h3 id="warnings">Uwagi</h3>
+                            <p>
+                                Należy tak ustawiać statusy zamówień by nie były one wysyłane kilka razy do GA.<br><br>
+                                Np. ustawienie ‘płatność zaakceptowana’, potem ‘zamówienie anulowane’ 
+                                a na końcu znowu ‘płatność zaakceptowana’ - spowoduje, że zamówienie 
+                                dwa razy trafi do Google Analytics. <br>
+                                <small>
+                                    <i>
+                                        Zakładając, że transakcje są wysyłane do Google Analytics 
+                                        przy statusie ‘płatność zaakceptowana’ - zależy od konf. modułu.
+                                    </i>
+                                </small>
+                            </p>
+                        </div>
+
+                        <!-- END CONTENT -->
+
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>Copyright &copy; PrestaShow.pl 2014-2016 All rights reserved.</p>
+            </footer>
+        </div>
+
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="./media/fancybox/jquery.fancybox.js"></script>
+        <script src="./media/prism.js"></script> 
+        <script src="./media/layout.js"></script>
+        <script>
+            $('.image').fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                padding: 5,
+                autoSize: true,
+                autoWidth: true,
+                autoHeight: true,
+                fitToView: true
+            });
+        </script>
+
+    </body>
+</html>
