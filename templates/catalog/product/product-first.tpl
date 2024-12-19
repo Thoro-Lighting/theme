@@ -28,7 +28,8 @@
         </div>
         </div>
         <div class="product_middle_column box-right col-lg-5 mb-3">
-          
+
+        {hook h='displayWeboProductButtons' productId=$product.id|intval}
           {block name='page_header_container'}
             {block name='page_header'}
                {if $sttheme.is_mobile_device}
