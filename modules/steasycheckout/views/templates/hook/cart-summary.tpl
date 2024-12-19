@@ -29,11 +29,12 @@
         {/foreach}
        
         
-         <li class="last-info">{hook h='displayEstimatedDeliveryDate'}</li>
+         <li class="last-info">{hook h='displayEstimatedDeliveryDate'}{hook h='displayDeliveryTime' cart=$cart}</li>
          
          
         </ul>
     {/block}
+        {hook h="displayClearCartBtn"}
   </div>
 </div>
 </section>

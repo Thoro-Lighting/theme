@@ -16,6 +16,7 @@
             {foreach from=$cart.products item=product}
               <li class="line_item">{include file='module:stshoppingcart/views/templates/hook/stshoppingcart-product-line.tpl' product=$product}</li>
             {/foreach}
+
             {if $cart.vouchers.added}
                 {foreach from=$cart.vouchers.added item=voucher}
                   <li class="line_item voucher">
@@ -29,6 +30,7 @@
                 {/foreach}
             {/if}
           </ul>
+{hook h="displayClearCartBtn"}
           </div>
          <div class="sidebar_button sidecart cart">
          <div class="cart-blur"></div>

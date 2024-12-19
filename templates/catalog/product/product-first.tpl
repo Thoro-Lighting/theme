@@ -1,7 +1,7 @@
 {if !$sttheme.is_mobile_device}<div class="top-name"><h1 {if $sttheme.google_rich_snippets} itemprop="name" {/if} class="product_name">{block name='page_title'}{$product.name}{/block}</h1></div>{/if}
 <div class="row product_page_container">
       <div class="product_left_column col-lg-7 mb-2 {foreach $product.images as $index => $image name=foo}{if $smarty.foreach.foo.last && $smarty.foreach.foo.iteration == 1}one-photo{/if}{/foreach}">
-        <div class="left-sticky">
+        <div class="left-sticky">        
         {block name='page_content_container'}
           <section class="product_left_content mb-2">
             {block name='page_content'}
@@ -28,7 +28,7 @@
         </div>
         </div>
         <div class="product_middle_column box-right col-lg-5 mb-3">
-
+          
         {hook h='displayWeboProductButtons' productId=$product.id}
           {block name='page_header_container'}
             {block name='page_header'}
@@ -62,7 +62,7 @@
                       {if $extra.moduleName == 'stproductlinknav' && ($extra.content.prev || $extra.content.next)}
                       {foreach $extra.content as $nav => $nav_product}
                           {if $nav_product}
-                              <div class="product_link_nav with_preview">
+                              <div class="product_link_nav with_preview"> 
                                   <a href="{$nav_product.url}" title="{$nav_product.name}"><i class="fto-{if $nav=='prev'}angle-left{/if}{if $nav=='next'}angle-right{/if}"></i>
                                       <div class="product_link_nav_preview">
                                           <img src="{$nav_product.cover}" alt="{$nav_product.name}" width="{$nav_product.small_default.width}" height="{$nav_product.small_default.height}"/>
@@ -85,7 +85,7 @@
             {/foreach}
            {hook h='displayUnderProductName'}
             {/block}
-
+            
          <div class="product-information">
           {if isset($product_manufacturer->id)}
                  {include file='catalog/_partials/miniatures/product-brand-extra.tpl'}
@@ -114,19 +114,19 @@
 
 
             <div class="steasy_divider between_short_and_price"><div class="steasy_divider_item"></div></div>
-
+             
             {if $product.is_customizable && count($product.customizations.fields)}
               {block name='product_customization'}
                 {include file="catalog/_partials/product-customization.tpl" customizations=$product.customizations}
               {/block}
             {/if}
-
+            
             {if !$sttheme.product_buy}{include file='catalog/_partials/product-buy.tpl'}{/if}
-
+    
             {hook h='displayAskAboutProductCustom'}
             {hook h='displayReassurance'}
             {hook h='displayProductCenterColumn'}
-
+            
             {block name='product_attachments'}
             {if $product.attachments}
             <section class="product-attachments">
@@ -142,8 +142,8 @@
            </section>
            {/if}
            {/block}
-
-
+            
+            
             {foreach $product.extraContent as $extra}
               {if $extra.moduleName=='stvideo'}
                   {include file="module:stvideo/views/templates/hook/stvideo_link.tpl" stvideos=$extra.content video_position=array(14)}

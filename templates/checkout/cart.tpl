@@ -49,9 +49,11 @@
         {/block}
 
         <!-- shipping informations -->
+        {hook h="displayClearCartBtn"}
         {block name='hook_shopping_cart_footer'}
           {hook h='displayShoppingCartFooter'}
         {/block}
+
       </div>
 
       <!-- Right Block: cart subtotal & cart total -->

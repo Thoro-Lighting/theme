@@ -1,3 +1,4 @@
+{if false}{* disable all bottom *}
 {if $page.page_name == 'product'}
 	{if $deli_holiday == 1 OR $deli_holiday == 3}
 		<div class="estimated-delivery-product product-quantity {if !$product.add_to_cart_url} hide_main_cart_button {/if} sticky_off">
@@ -51,4 +52,5 @@
 			<span>{$date_start} - {$date_end}</span>
 		</p>
 	</div>
+{/if}
 {/if}

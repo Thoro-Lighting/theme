@@ -44,7 +44,7 @@
                           <img decoding="async" src="{$carrier.logo}" alt="{$carrier.name}" class="img-fluid"/>
                           </div>
                         
-                           <div class="carrier-name col-sm-8 col-6">{$carrier.name}<br>{hook h='displayEstimatedDeliveryDate' id_carrier=$carrier.id}</div>
+                           <div class="carrier-name col-sm-8 col-6">{$carrier.name}<br>{hook h='displayEstimatedDeliveryDate' id_carrier=$carrier.id}{hook h='displayDeliveryTime' carrier=$carrier cart=$cart}</div>
                           
                     
                           

@@ -530,6 +530,7 @@ class Thoro extends ePrestaModule_T {
 			}
 		}
 
+
 		// if ( _PS_MODE_DEV_ ) {
 		// 	echo '<pre>';
 		// 	print_r($attributes);
@@ -538,7 +539,7 @@ class Thoro extends ePrestaModule_T {
 
 
 		$this->context->smarty->assign([
-			'attributes' => $attributes
+			'attributes' => array()
 		]);
 
 

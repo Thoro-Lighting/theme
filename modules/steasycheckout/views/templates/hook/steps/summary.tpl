@@ -84,5 +84,6 @@
     </div>
 </div>
 {hook h='displayEstimatedDeliveryDate'}
+{hook h='displayDeliveryTime' cart=$cart}
 {if $page.page_name == 'module-steasycheckout-default'}<div class="modal-backdrop fade show"></div>{/if}
 

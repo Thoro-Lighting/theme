@@ -1,4 +1,4 @@
-{if !empty($three_dimensional_link) || !empty($ar_link)}
+{* {if !empty($three_dimensional_link) || !empty($ar_linkx)}
     <div class="product-buttons">
         <div class="product-buttons__wrapper">
             {if !empty($three_dimensional_link)}
@@ -16,4 +16,5 @@
         </div>
 
     </div>
-{/if}
+{/if} *}
+test

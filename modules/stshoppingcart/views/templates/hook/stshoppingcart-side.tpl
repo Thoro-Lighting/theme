@@ -25,6 +25,7 @@
 	<div class="st-menu-header">
 		<div class="st-menu-title">{l s='Your cart' d='Shop.Theme.Transformer'} <span class="sidebar_cart_quantity">- <span class="ajax_cart_quantity cart_icon_item">{$cart.products_count}</span>{l s='pcs.' d='ShopThemeTransformer'}</span></div>
     	<a href="javascript:;" class="close_right_side" title="{l s='Close' d='Shop.Theme.Transformer'}"><i class="fto-angle-double-right side_close_right"></i><i class="fto-angle-double-left side_close_left"></i></a>
+{hook h='displayClearCartBtn'}
 	</div>
 	<div id="side_cart_block" class="">
 		{include file='module:stshoppingcart/views/templates/hook/stshoppingcart-list.tpl'}
