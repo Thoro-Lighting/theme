@@ -12,8 +12,8 @@
                    id="three_dimensional"
                    name="three_dimensional"
                    class="form-control js-webo-admin-products-input"
-                   {if !empty($delivery_time_on_stock)}
-                       value="{$delivery_time_on_stock}"
+                   {if !empty($three_dimensional)}
+                       value="{$three_dimensional}"
                    {/if}
             >
         </div>
