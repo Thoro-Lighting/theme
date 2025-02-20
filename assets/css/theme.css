@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+	font-family: 'ABC Favorit Variable';
+	src: url('../font/ABCFavoritVariable-Trial.woff2') format("woff2 supports variations"),
+    	 url('../font/ABCFavoritVariable-Trial.woff2') format("woff2-variations");
+	font-weight: 100 1000;
+}
+
 
 .bootstrap-touchspin .input-group-btn-vertical {
 	position: relative;
@@ -8606,7 +8612,7 @@ body,html {
 }
 
 body {
-	font-family: Raleway, Helvetica, sans-serif;
+	font-family: ABC Favorit Variable, sans-serif;
 	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -15764,7 +15770,8 @@ body#index .transparent-header #st_header.stuck  {background: #fff;}
 }
 
 #top_bar {
-	background: #000000
+	background: #3D4C99;
+	color: #fff;
 }
 
 #top_bar .top_bar_item {position: relative}
@@ -15994,11 +16001,6 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 	{
 	padding: 0 6px
 }
-
-#top_bar .top_bar_item .header_item, #top_bar_checkout p, #top_bar p, #top_bar .mobile_bar_tri_text {
-    font-size: 12px;
-}
-
 
 #top_bar .welcome.top_bar_item:hover .header_item, #top_bar .welcome.top_bar_item:hover {background: none; text-decoration: none; color: #000 !important}
 
@@ -22280,8 +22282,7 @@ margin-right: 8px; margin-top: -7px;}
 #languages-block-top-mod li {float: left; position: relative}
 #languages-block-top-mod li a {margin: 0px 2px;text-transform: uppercase;}
 #languages-block-top-mod li.active a:before, #languages-block-top-mod li:hover a:before {content: '';position: absolute;width: 21px;height: 1px;background: #333;bottom: -2px;}
-#nav_center p:before {content:''; width: 30px; height: 30px; position: absolute; background-image: url(../img/svg/delivery-truck.svg); background-size: 28px;  background-repeat: no-repeat; margin-left: -36px; margin-top: -4px;}
-#nav_center p span {font-weight: 700}	
+#top_bar p {font-weight: 400; font-size: 14px;}	
 #nav_right.flex_float_right {margin-left: 0;}
 	
 .privat_slider_2 .st_owl_carousel_block .text-icon {padding: 10px 0 30px; position:relative; }

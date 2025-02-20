@@ -553,7 +553,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	#mobile_bar {
 		display: block
 	}
-	#header_primary,#top_bar,#top_extra {
+	#header_primary,#top_extra,#nav_right,#nav_left {
 		display: none
 	}
 	.content_sortPagiBar .sortPagiBar #productsSortForm select {

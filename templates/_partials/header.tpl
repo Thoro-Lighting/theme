@@ -1,4 +1,4 @@
-{if $page.page_name != "index"}{block name='header_nav'}
+{block name='header_nav'}
   {capture name="displayNav1"}{hook h="displayNav1"}{/capture}
   {capture name="displayNav2"}{hook h="displayNav2"}{/capture}
   {capture name="displayNav3"}{hook h="displayNav3"}{/capture}
@@ -16,7 +16,6 @@
     </div>
   {/if}
 {/block}
-{/if}
 {block name='mobile_header'}
   <section id="mobile_bar" class="animated fast text_hd_{$sttheme.mobile_header_text}">
     <div class="container">
