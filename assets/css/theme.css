@@ -15695,7 +15695,7 @@ button.swiper-pagination-bullet {
 }
 
 #st_header #header_primary_container {
-	height: 92px
+	height: 73px
 }
 
 #st_header #header_primary_row {
@@ -15721,10 +15721,8 @@ button.swiper-pagination-bullet {
 
 #st_header .shop_logo {
 	display: block;
-	
+	width: 88px;
 }
-
-#st_header.stuck .shop_logo {max-width: 63%;}
 
 
 #st_header.stuck {
@@ -15828,35 +15826,18 @@ body#index .transparent-header #st_header.stuck  {background: #fff;}
 	white-space: nowrap
 }
 
-
-
-
-.mobile_bar_item,.mobile_bar_tri.with_text .mobile_bar_tri_text {
-	display: inline-block
-}
-
 .mobile_bar_item {
-  height: auto;
-  line-height: 20px;
-  text-align: center;
-  min-width: auto;
+  display: flex;
   position: relative;
-  padding: 26px 4px 20px;
-  vertical-align: middle;
+  padding: 16px 4px;
 }
 
 #st_header .mobile_bar_tri_text {
-    font-size: 11px;
-    text-transform: none;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 #header_primary .mobile_bar_item {
-    height: auto;
-    line-height: 38px;
-    text-align: center;
-    min-width: auto;
-    position: relative;
-    vertical-align: middle;
     padding: 10px 6px;
     text-decoration: none;
 }
@@ -15950,13 +15931,6 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 
 #header_primary .quick_login, #header_primary .shopping_cart_style_4 {padding: 0px}
 
-#header_right .blockcart:before {content: '';height: 34px;width: 1px;background: #333;position: absolute;rotate: 20deg;top: 12px; left: -6px;}
-#header_right .myaccount_mobile_bar_tri {
-  margin-right: 12px;
-}
-#index .transparent-header #st_header:not(.stuck) #header_right .blockcart:before {background: #fff}
-
-
 #top_bar_checkout #nav_center p {
 	margin: 0px;
 }
@@ -15980,7 +15954,7 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 }
 
 .nav_bar.space-s .top_bar_item .header_item, .nav_bar .mobile_bar_item, #top_bar_checkout #nav_center p, #top_bar .block.easycontent {
-    padding: 8px 6px;
+    padding: 6px;
 }
 
 
@@ -16466,9 +16440,8 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 }
 
 #languages-block-top-mod li, #st_mega_menu_wrap .ma_level_0 {
-  font-size: 0.84327rem;
-  letter-spacing: .75px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .ma_level_2 {
@@ -21791,7 +21764,6 @@ a.ammount {
 
 .forgotten-password .form-group-small .form-control {max-width: 100%}
 
-#header_right_top .mobile_bar_tri_text {font-size: 11px; }
 #header_right_top .logout.mobile_bar_tri_text:hover { color: #ef4d36; } 
 .cart_mobile_bar_tri.top_bar_item.icone_top {position: relative}
 
@@ -22403,4 +22375,13 @@ margin-right: 8px; margin-top: -7px;}
 
 #rightbar_facet_search{
 	background-color: #87cedd !important;
+}
+
+#mobile_bar_right .flex_container,
+#st_mega_menu_wrap .st_mega_menu{
+	gap: 8px
+}
+
+#header_right_top.flex_container{
+	gap: 4px
 }

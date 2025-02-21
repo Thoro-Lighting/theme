@@ -26,9 +26,9 @@ class Thoro extends ePrestaModule_T {
 		if (
 			!parent::install() 
 			|| !$this->registerHook('filterProductContent')
-
 			|| !$this->registerHook('displaySmartProductCombinations')
 			|| !$this->registerHook('actionAdminProductsListingFieldsModifier')
+			|| !$this->registerHook('displayTopLeft')
 			)
 			return false;
 
