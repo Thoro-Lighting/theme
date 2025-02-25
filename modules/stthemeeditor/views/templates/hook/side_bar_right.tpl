@@ -28,7 +28,11 @@
 			<div class="wrapperscroll">
 				<div class="st-menu-header">
 					<h3 class="st-menu-title">{l s='Wishlists' d='Shop.Theme.Transformer'}</h3>
-			    	<a href="javascript:;" class="close_right_side" title="{l s='Close' d='Shop.Theme.Transformer'}"><i class="fto-angle-double-right side_close_right"></i><i class="fto-angle-double-left side_close_left"></i></a>
+			    	<a href="javascript:;" class="close_right_side" title="{l s='Close' d='Shop.Theme.Transformer'}">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M18 6L6 18M18 18L6 6" stroke="#181B1A" stroke-width="1.2" stroke-linecap="round"/>
+				</svg> 
+			</a>
 				</div>
 				<div id="stwishlist_content">
 					<p id="stwishlist_added" class="alert alert-success unvisible">{l s='The product was successfully added to your wishlist.' d='Shop.Theme.Transformer'}</p>

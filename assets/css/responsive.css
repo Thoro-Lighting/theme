@@ -328,10 +328,16 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
         #switch_left_column_wrap {position: absolute; bottom: 60px; left: 15px;}
 	    #sidebar_box .rightbar_wrap a#switch_right_column {padding-right: 14px;}
 
-        .menu-one.menu-bottom {background: #fff;padding: 15px 0}
+        .menu-one.menu-bottom {background: #FBFBFB;padding: 24px 0}
 	    #side_mobile_nav #st_mobile_menu_ul {padding: 0 !important;background: #fff}
-	    .menu-one.menu-bottom a,.shortcuts-box a {padding-left: 20px}
-	    .shortcuts-box {margin-top: 0;padding-bottom: 80px;	box-shadow: 0 0 8px -5px rgba(0, 0, 0, .05)}
+	    .shortcuts-box a {padding-left: 20px;}
+		.menu-one.menu-bottom li{
+			padding: 0 16px;
+			font-weight: 500;
+			font-size: 20px;
+			margin-bottom: 8px;
+		}
+	    .shortcuts-box {margin-top: 0;padding-bottom: 80px;	box-shadow: 0 0 8px -5px rgba(0, 0, 0, .05);background: #FBFBFB}
 	    .menu-one.menu-shortcuts {background: #fff;	margin-top: 10px}
 		.shortcuts-box .shortcuts-info {
 		  text-align: center;
@@ -339,14 +345,10 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 		  font-size: 18px;
 		  padding-top: 20px;
 		  padding-bottom: 20px;
-		  background: #f3f3f3;
+		  background: #FBFBFB;
 		  margin-top: 5px;
 		}
 		
-		.menu-one.menu-bottom a, .shortcuts-box a {
-		  padding-left: 44px;
-		  font-size: 15px;
-		}
         .mobile_nav_box .opener {left: auto; right: 22px;}
         #checkout_mobile_nav .mo_ml_level_0, .mo_ml_level_0:last-child {border-bottom: 0;}
 
@@ -355,12 +357,8 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 		}
 
 .amount_circle {
-  right: 4px;
-  top: 8px;
-  height: 20px;
-  line-height: 18px;
-  width: 20px !important;
-  font-size: 10px;
+	bottom: 16px;
+	left: 14px;
 }
 	
 	.mobile_nav_box .search_widget_form .form-control {
@@ -792,7 +790,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 /* menu, logowanie, wyszukiwarka */
 
 	.mobile_nav_box_1  { background:#222;  }
-	.mobile_nav_box_2, .mobile_nav_box_account {  background: #444; display: inline-block; width: 100%; padding: 15px 20px 20px;}
 	.mobile_nav_box_account li a { color:#fff; font-size: 14px; font-weight: normal; margin:0px; padding: 15px 0;}
 	.st-menu .mobile_nav_box .mobile_menu_ul {
 	    float: left;

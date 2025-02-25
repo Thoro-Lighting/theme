@@ -4,6 +4,15 @@
 		{if $mm.alignment ==4}<div class="container menu-full-width"><div class="col-md-{($mm.width*10/10)|replace:'.':'-'}">{/if}
 		<div class="row m_column_row">
 		{assign var='t_width_tpl' value=0}
+		
+		<ul id="stmenu_sub_tabs_btns" role="tablist">
+			{foreach $mm.column as $column}
+				<li data-js-tab-btn="{$column.id_st_mega_column}" class="stmenu_sub_tabs_name {if $column@index eq 1}active{/if}">
+					<span>{$column.title}</span>
+				</li>
+			{/foreach}
+		</ul>
+
 		{foreach $mm.column as $column}
 			{if $column.hide_on_mobile == 2}{continue}{/if}
 			{if isset($column.children) && count($column.children)}
@@ -12,7 +21,7 @@
 				{assign var="t_width_tpl" value=$column.width}
 				</div><div class="row m_column_row">
 			{/if}
-			<div id="st_menu_column_{$column.id_st_mega_column}" class="col-md-{($column.width*10/10)|replace:'.':'-'}" {if $column.padding_column or $column.bg_column_color}style="{if $column.padding_column}padding: {$column.padding_column};{/if} {if $column.bg_column_color}background-color: {$column.bg_column_color};{/if}"{/if}>
+			<div data-js-tab="{$column.id_st_mega_column}" class="stmenu_sub_tab">
 				{foreach $column.children as $block}
 					{if $block.hide_on_mobile == 2}{continue}{/if}
 					{if $block.item_t==1}

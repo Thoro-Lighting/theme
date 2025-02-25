@@ -26,12 +26,7 @@
 	    max-width: 100% !important;
 	}
     
-#st_mega_menu_wrap .ma_level_0 {
-  padding-left: 4px;
-  padding-right: 4px;
-}
 	
-#st_header .shop_logo {width: 111px;}
 #languages-block-top-mod {margin: 0px 9px;}
 #header_right .blockcart::before {display: none}
 #header_primary .mobile_bar_item {padding: 10px 4px;}

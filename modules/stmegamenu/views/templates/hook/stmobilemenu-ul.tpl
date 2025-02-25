@@ -35,13 +35,30 @@
 		<li class="mo_ml_level_0 mo_ml_column {if $mm.menucss_class}menumob_privat_{$mm.menucss_class}{/if} {if $mm.bg_pattern && $mm.hide_on_mobile_icone > 0}menu-patern{/if}">
 		    {assign var='has_children' value=(isset($mm.column) && count($mm.column))}
 			<div class="menu_a_wrap">
-			<a id="st_mo_ma_{$mm.id_st_mega_menu}" href="{if $mm.m_link}{$mm.m_link}{else}javascript:;{/if}" class="mo_ma_level_0"{if !$menu_title} title="{$mm.m_name|strip_tags}"{/if}{if $mm.nofollow} rel="nofollow"{/if}{if $mm.new_window} target="_blank"{/if}>{if $mm.bg_pattern && $mm.hide_on_mobile_icone > 0}<img src="/modules/stthemeeditor/svg/{$mm.bg_pattern}.svg" alt="{$mm.m_name|strip_tags}" class="menu-svg">{/if}{if $mm.m_icon}{$mm.m_icon nofilter}{else}{if $mm.icon_class}<i class="{$mm.icon_class}"></i>{/if}{if $mm.html_mobile}{$mm.m_name|strip_tags}{else}{$mm.m_name nofilter}{/if}{/if}{if $mm.cate_label}<span class="cate_label">{$mm.cate_label}</span>{/if}</a>
-			{if $has_children}<span class="opener"><i class="fto-angle-down plus_sign"></i><i class="fto-angle-up minus_sign"></i></span>{/if}
+			{if $mm.m_link}
+				<a id="st_mo_ma_{$mm.id_st_mega_menu}" href="{$mm.m_link}" class="mo_ma_level_0"{if !$menu_title} title="{$mm.m_name|strip_tags}"{/if}{if $mm.nofollow} rel="nofollow"{/if}{if $mm.new_window} target="_blank"{/if}>{if $mm.bg_pattern && $mm.hide_on_mobile_icone > 0}<img src="/modules/stthemeeditor/svg/{$mm.bg_pattern}.svg" alt="{$mm.m_name|strip_tags}" class="menu-svg">{/if}{if $mm.m_icon}{$mm.m_icon nofilter}{else}{if $mm.icon_class}<i class="{$mm.icon_class}"></i>{/if}{if $mm.html_mobile}{$mm.m_name|strip_tags}{else}{$mm.m_name nofilter}{/if}{/if}{if $mm.cate_label}<span class="cate_label">{$mm.cate_label}</span>{/if}</a>
+			{else}
+				<span id="st_mo_ma_{$mm.id_st_mega_menu}" class="mo_ma_level_0"{if !$menu_title} title="{$mm.m_name|strip_tags}"{/if}{if $mm.nofollow} rel="nofollow"{/if}>{if $mm.bg_pattern && $mm.hide_on_mobile_icone > 0}<img src="/modules/stthemeeditor/svg/{$mm.bg_pattern}.svg" alt="{$mm.m_name|strip_tags}" class="menu-svg">{/if}{if $mm.m_icon}{$mm.m_icon nofilter}{else}{if $mm.icon_class}<i class="{$mm.icon_class}"></i>{/if}{if $mm.html_mobile}{$mm.m_name|strip_tags}{else}{$mm.m_name nofilter}{/if}{/if}{if $mm.cate_label}<span class="cate_label">{$mm.cate_label}</span>{/if}</span>
+			{/if}
 			</div>
 			<p class="mo_mu_level_1 mo_sub_ul show-all-cat"><a href="{if $mm.m_link}{$mm.m_link}{else}javascript:;{/if}" class="mo_sub_a" title="{l s='See all from' d='Shop.Theme.Transformer'}: {$mm.m_name nofilter}">{l s='See all from' d='Shop.Theme.Transformer'}: {$mm.m_name nofilter}</a></p>
 			{if $has_children}
 				{foreach $mm.column as $column}
 					{if $column.hide_on_mobile == 1 && !$is_mega_menu_column}{continue}{/if}
+					<div class="st_mobile_menu_page">
+						<div class="st_mobile_menu_img">
+							{* img *}
+						</div>
+						<div class="st_mobile_menu_page_title">
+							<span>{$column.title}</span>
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9.71094 17.29L14.2909 12.2892L9.71094 7.29004" stroke="#181B1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+					</div>
+					
+					<div>
+
 					{if isset($column.children) && count($column.children)}
 						{foreach $column.children as $block}
 							{if $block.hide_on_mobile == 1 && !$is_mega_menu_column}{continue}{/if}
@@ -155,6 +172,7 @@
 							{/if}
 						{/foreach}
 					{/if}
+					</div>
 				{/foreach}
 			{/if}
 			
@@ -163,7 +181,7 @@
 </div>
 <div class="shortcuts-box">
 
-<div class="shortcuts-info" title="{l s='Shortcuts' d='Shop.Theme.Transformer'}">{l s='See also' d='Shop.Theme.Transformer'}</div>
+{* <div class="shortcuts-info" title="{l s='Shortcuts' d='Shop.Theme.Transformer'}">{l s='See also' d='Shop.Theme.Transformer'}</div> *}
 
 				<div class="menu-one menu-shortcuts">
 	{foreach $stmenu as $mm}

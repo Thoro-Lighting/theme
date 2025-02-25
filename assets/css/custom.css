@@ -1114,3 +1114,31 @@ body.is-android .android-only{
     top: 120px;
   }
 }
+
+
+.st_mobile_menu_page{
+  background: #F7F5F1;
+  margin-bottom: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.st_mobile_menu_page .st_mobile_menu_img{
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.st_mobile_menu_page .st_mobile_menu_page_title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  gap: 10px;
+  padding: 16px;
+  padding-left: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #181B1A;
+}
