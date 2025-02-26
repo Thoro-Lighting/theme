@@ -532,6 +532,7 @@
   initAppVideoPlay()
   checkMobileSystem()
   initConfiguratorVideoModal()
+  initMobileSubMenu()
 
 }());
 
@@ -636,4 +637,25 @@ function initConfiguratorVideoModal(){
     }
   });
 
+}
+
+function initMobileSubMenu() {
+  const sidemenuButtons = document.querySelectorAll('[data-js-sidemenu-btn]');
+
+  sidemenuButtons.forEach(btn => {
+    const parent = btn.parentElement;
+    const id = btn.getAttribute('data-js-sidemenu-btn');
+    const sidemenu = parent.querySelector('[data-js-sidemenu="' + id + '"]');
+    const sidemenuCloseButton = sidemenu.querySelector('[data-js-sidemenu-close]');
+
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      sidemenu.classList.add('active'); 
+    });
+
+    sidemenuCloseButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      sidemenu.classList.remove('active');
+    });
+  });
 }

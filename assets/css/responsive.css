@@ -338,7 +338,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 			margin-bottom: 8px;
 		}
 	    .shortcuts-box {margin-top: 0;padding-bottom: 80px;	box-shadow: 0 0 8px -5px rgba(0, 0, 0, .05);background: #FBFBFB}
-	    .menu-one.menu-shortcuts {background: #fff;	margin-top: 10px}
 		.shortcuts-box .shortcuts-info {
 		  text-align: center;
 		  font-weight: 700;

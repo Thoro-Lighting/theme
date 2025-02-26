@@ -16146,6 +16146,7 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
     right: 16px !important;
     bottom: 16px;
     position: absolute;
+	z-index: 10;
 }
 
 .st-menu-left .st-menu-header .close_right_side {
