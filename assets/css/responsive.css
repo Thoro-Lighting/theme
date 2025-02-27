@@ -948,9 +948,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	
 .products.product_list.grid .product_list_item {padding-left: 15px !important; padding-right: 15px !important;}
 .products.product_list.grid {margin-left: -15px !important; margin-right: -15px !important;}
-	.st_image_layered_description {
-		
-	}
+
 	.flex_box.flex_column_sm,.flex_container.flex_column_sm {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;

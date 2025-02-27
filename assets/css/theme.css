@@ -5,6 +5,13 @@
 	font-weight: 100 1000;
 }
 
+@font-face {
+	font-family: 'ABC Favorit Mono Variable';
+	src: url('../font/ABCFavoritMonoVariable-Trial.woff2') format("woff2 supports variations"),
+    	 url('../font/ABCFavoritMonoVariable-Trial.woff2') format("woff2-variations");
+	font-weight: 100 1000;
+}
+
 
 .bootstrap-touchspin .input-group-btn-vertical {
 	position: relative;
@@ -1146,8 +1153,8 @@ pre code {
 
 @media ( min-width :992px) {
 	.container {
-		padding-right: 15px;
-		padding-left: 15px
+		padding-right: 32px;
+		padding-left: 32px
 	}
 }
 
@@ -15407,7 +15414,7 @@ button.swiper-pagination-bullet {
 	border-top-color: #d9d9d9
 }
 
-#st_mega_menu_wrap .st_mega_menu,.adveditor_content,.flex_box,.flex_container,.st_image_layered_description,.swiper-button-tr
+#st_mega_menu_wrap .st_mega_menu,.adveditor_content,.flex_box,.flex_container,.swiper-button-tr
 	{
 	display: -webkit-box;
 	display: -moz-box;
@@ -17303,25 +17310,26 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 	display: block;
 	overflow: hidden;
 	position: relative;
-	text-align: center
+	height: 608px;
+}
+
+@media screen and (min-width: 768px) {
+	.st_owl_carousel_block {height: 640px;}
+	
 }
 
 .st_owl_carousel_block .st_owl_carousel_image {
     display: block;
     margin: 0 auto;
     width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 
 .owl-carousel-banner .st_owl_carousel_block img,.st_owl_carousel_3 .st_owl_carousel_block img
 	{
 	background: #fff
-}
-
-.owl-carousel-banner .st_owl_carousel_block:hover img,.st_owl_carousel_3 .st_owl_carousel_block:hover img
-	{
-	opacity: .6;
-	filter: alpha(opacity = 60)
 }
 
 .owl-carousel-banner .st_owl_carousel_block {
@@ -17416,12 +17424,19 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 }
 
 .st_image_layered_description {
-	z-index: 4
+	z-index: 4;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
 }
 
 .st_image_layered_description_inner {
     display: inline-block;
-    padding: 15px 10px 10px;
+    padding-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+	.st_image_layered_description_inner {padding-bottom: 32px;}	
 }
 
 .adveditor_content {
@@ -17544,11 +17559,6 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
     display: block;
     margin: 0 8px;
     width: calc(100% - 18px);
-}
-
-.st_image_layered_description_inner {
-    display: inline-block;
-    padding: 10px;
 }
 
 .owl-carousel .owl-wrapper {
