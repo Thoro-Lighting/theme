@@ -533,6 +533,7 @@
   checkMobileSystem()
   initConfiguratorVideoModal()
   initMobileSubMenu()
+  initDesktopSubmenuToggle()
 
 }());
 
@@ -645,17 +646,35 @@ function initMobileSubMenu() {
   sidemenuButtons.forEach(btn => {
     const parent = btn.parentElement;
     const id = btn.getAttribute('data-js-sidemenu-btn');
-    const sidemenu = parent.querySelector('[data-js-sidemenu="' + id + '"]');
+    const sidemenu = parent.querySelector(`[data-js-sidemenu="${id}"]`);
+    if(!sidemenu) return
+    
     const sidemenuCloseButton = sidemenu.querySelector('[data-js-sidemenu-close]');
 
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
+    btn.addEventListener('click', function() {
       sidemenu.classList.add('active'); 
     });
 
-    sidemenuCloseButton.addEventListener('click', function(e) {
-      e.preventDefault();
+    sidemenuCloseButton.addEventListener('click', function() {
       sidemenu.classList.remove('active');
+    });
+  });
+}
+
+function initDesktopSubmenuToggle() {
+  const tabButtons = document.querySelectorAll('[data-js-tab-btn]');
+
+  tabButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      
+      document.querySelectorAll('[data-js-tab-btn]').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('[data-js-tab]').forEach(t => t.classList.remove('active'));
+
+      btn.classList.add('active');
+
+      const tabId = btn.getAttribute('data-js-tab-btn');
+      const tab = document.querySelector(`[data-js-tab="${tabId}"]`);
+      if (tab) tab.classList.add('active');
     });
   });
 }

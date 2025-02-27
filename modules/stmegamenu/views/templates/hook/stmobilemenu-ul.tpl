@@ -109,7 +109,7 @@
 													</ul>	
 												{/foreach}
 											{elseif $block.subtype==1 || $block.subtype==3}
-												<a id="st_mo_ma_{$block.id_st_mega_menu}" href="{$block.children.link}"{if !$menu_title} title="{$block.children.name}"{/if}{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="mobile-category-link">
+												<a id="st_mo_ma_{$block.id_st_mega_menu}" href="{$block.children.link}"{if !$menu_title} title="{$block.children.name}"{/if}{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="tile-category-link">
 													{if $block.children.id_image}
 														<img src="{$urls.img_cat_url}{$block.children.id_image}.jpg" />
 													{/if}
@@ -129,7 +129,7 @@
 										{elseif $block.item_t==3 && isset($block.children) && count($block.children)}
 											{if isset($block.subtype) && $block.subtype}
 												{foreach $block.children as $brand}
-														<a href="{$brand.url}" title="{$brand.name}"{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="mobile-category-link">
+														<a href="{$brand.url}" title="{$brand.name}"{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="tile-category-link">
 															{if $brand.image}
 																<img src="{$brand.image}" />
 															{/if}

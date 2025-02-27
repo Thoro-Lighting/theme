@@ -15682,7 +15682,7 @@ button.swiper-pagination-bullet {
 #st_header {
     position: relative;
     z-index: 100;
- 
+	border-bottom: 1px solid #E3E3E2;
 }
 
 #st_header .banner {
@@ -15695,7 +15695,8 @@ button.swiper-pagination-bullet {
 }
 
 #st_header #header_primary_container {
-	height: 56px
+	height: 56px;
+	position: static;
 }
 
 #st_header .shop_logo {
@@ -15753,9 +15754,6 @@ button.swiper-pagination-bullet {
 	left: 0;
 	right: 0;
 	width: 100%;
-	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .1);
-	box-shadow: 0 0 4px rgba(0, 0, 0, .1);
-	border-bottom: none
 }
 
 body#index .transparent-header #st_header.stuck  {background: #fff;}
@@ -16419,15 +16417,11 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 
 
 
-#st_mega_menu_wrap .m_alignment_4 .style_wide
-	{
-	left: -3000px;
-	padding-left: 3000px !important;
-    max-width: 6000px;
-	width: 6000px;	
+#st_mega_menu_wrap .m_alignment_4 .style_wide{
+	margin-top: -1px;
+	left: 0;
+	right: 0;
 }
-
-.m_alignment_4 .container.menu-full-width {float: left}
 
 .st_mega_menu {
 	margin-bottom: 0
@@ -16509,10 +16503,6 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 .mu_level_2 .granditem_0>ul,.stmenu_multi_level ul,.stmenu_sub {
 	display: none;
 	position: absolute;
-	background: #fff;
-	font-weight: 400;
-	-webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
-	box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 	z-index: 70
 }
 
@@ -16554,8 +16544,15 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 	border-bottom: none
 }
 
-.style_wide {
-	padding: 30px 40px
+.style_wide{
+	padding-top: 20px !important;
+}
+
+.style_wide_inner {
+	padding: 20px 0px 64px;
+	float: left;
+	width: 100%;
+	background: #FBFAF8;
 }
 
 .st_menu_block {

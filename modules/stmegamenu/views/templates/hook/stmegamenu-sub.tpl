@@ -1,6 +1,7 @@
 {if $mm.is_mega}
 	<div class="{if !isset($is_mega_menu_vertical)}stmenu_sub{else}stmenu_vs{/if} style_wide {if $mm.alignment !=4}col-md-{($mm.width*10/10)|replace:'.':'-'}{/if}">
-		{debug}
+		<div class="style_wide_inner">
+		
 		{if $mm.alignment ==4}<div class="container menu-full-width"><div class="col-md-{($mm.width*10/10)|replace:'.':'-'}">{/if}
 		<div class="row m_column_row">
 			<div>
@@ -22,7 +23,7 @@
 					{assign var="t_width_tpl" value=$column.width}
 					</div><div class="row m_column_row">
 				{/if}
-				<div data-js-tab="{$column.id_st_mega_column}" class="stmenu_sub_tab">
+				<div data-js-tab="{$column.id_st_mega_column}" class="stmenu_sub_tab {if $column@index eq 0}active{/if}">
 					{foreach $column.children as $block}
 						{if $block.hide_on_mobile == 2}{continue}{/if}
 						{if $block.item_t==1}
@@ -76,24 +77,12 @@
 								</div>
 								</div>
 							{elseif $block.subtype==1 || $block.subtype==3}
-								<div id="st_menu_block_{$block.id_st_mega_menu}">
-									{if $block.show_cate_img}
-										{include file="module:stmegamenu/views/templates/hook/stmegamenu-cate-img.tpl" menu_cate=$block.children nofollow=$block.nofollow new_window=$block.new_window}
-									{/if}
-									<ul class="mu_level_1">
-										<li class="ml_level_1">
-											<a id="st_ma_{$block.id_st_mega_menu}" href="{$block.children.link}"{if !$menu_title} title="{$block.children.name}"{/if}{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if}  class="ma_level_1 ma_item">{$block.children.name}{if $block.cate_label}<span class="cate_label">{$block.cate_label}</span>{/if}</a>
-											{if $block.subtype==1 && isset($block.children.children) && is_array($block.children.children) && count($block.children.children)}
-												{assign var='granditem' value=0}
-												{if isset($block.granditem) && $block.granditem}{$granditem=1}{/if}
-												{include file="module:stmegamenu/views/templates/hook/stmegamenu-category.tpl" nofollow=$block.nofollow new_window=$block.new_window menus=$block.children.children granditem=$granditem m_level=2}
-											{/if}
-											
-											{if $block.show_more != 0}<a href="{$block.children.link}" {if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="mega_show_more">{if $block.border_bottom_hover == 1}<span class="btn-line">{/if}{if $block.moretext}{$block.moretext}{else}{l s='Show more' d='Shop.Theme.Transformer'}{/if}{if $block.border_bottom_hover == 1}</span>{/if} {if $block.display_icone_more ==1}<i class="fto-angle-right list_arrow"></i>{/if}</a>{/if}
-								
-										</li>
-									</ul>	
-								</div>
+								<a id="st_ma_{$block.id_st_mega_menu}" href="{$block.children.link}"{if !$menu_title} title="{$block.children.name}"{/if}{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="tile-category-link">
+									<img src="{$urls.img_cat_url}{$block.children.id_image}.jpg" />
+									<span>
+										{$block.children.name}
+									</span>
+								</a>
 							{/if}
 						{elseif $block.item_t==2 && isset($block.children) && count($block.children)}
 							<div id="st_menu_block_{$block.id_st_mega_menu}">
@@ -107,22 +96,16 @@
 							</div>
 						{elseif $block.item_t==3 && isset($block.children) && count($block.children)}
 							{if isset($block.subtype) && $block.subtype}
-								<div id="st_menu_block_{$block.id_st_mega_menu}">
-								<div class="row">
 								{foreach $block.children as $brand}
-									<div class="col-md-{((12/$block.items_md)*10/10)|replace:'.':'-'}">
-										<ul class="mu_level_1">
-											<li class="ml_level_1">
-												<a href="{$link->getmanufacturerLink($brand.id_manufacturer, $brand.link_rewrite)}" title="{$brand.name}"{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if}  class="advanced_ma_level_1 advanced_ma_item">{$brand.name}</a>
-											</li>
-										</ul>	
-									</div>
-									{if $brand@iteration%$block.items_md==0 && !$brand@last}
-									</div><div class="row">
-									{/if}
+									<a id="st_ma_{$block.id_st_mega_menu}" href="{$link->getmanufacturerLink($brand.id_manufacturer, $brand.link_rewrite)}{$link->getmanufacturerLink($brand.id_manufacturer, $brand.link_rewrite)}"{if !$menu_title} title="{$brand.name}"{/if}{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="tile-category-link">
+										{if $brand.image}
+											<img src="{$brand.image}" />
+										{/if}
+										<span>
+											{$brand.name}
+										</span>
+									</a>			
 								{/foreach}
-								</div>
-								</div>
 							{else}
 								<div id="st_menu_block_{$block.id_st_mega_menu}" class="row">
 								{foreach $block.children as $brand}
@@ -162,6 +145,7 @@
 			</div>
 		</div>
 		{if $mm.alignment ==4}</div></div>{/if}
+		</div>
 	</div>
 	{else}
 		<ul id="st_menu_multi_level_{$mm.id_st_mega_menu}" class="{if !isset($is_mega_menu_vertical)}stmenu_sub{else}stmenu_vs{/if} stmenu_multi_level">
