@@ -17306,7 +17306,7 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 	opacity: .8
 }
 
-.st_owl_carousel_block {
+#st_owl_carousel-1 .st_owl_carousel_block {
 	display: block;
 	overflow: hidden;
 	position: relative;
@@ -17314,7 +17314,7 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 }
 
 @media screen and (min-width: 768px) {
-	.st_owl_carousel_block {height: 640px;}
+	#st_owl_carousel-1 .st_owl_carousel_block {height: 640px;}
 	
 }
 
@@ -22291,6 +22291,11 @@ margin-right: 8px; margin-top: -7px;}
   margin: 0;
   position: relative;
   top: 0px;
+  object-fit: contain;
+}
+
+#st_owl_carousel-2 .st_owl_carousel_block{
+	text-align: center;
 }
 
 .privat_slider_2 .st_owl_carousel_block_2 .text-icon img {
