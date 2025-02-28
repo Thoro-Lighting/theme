@@ -37,5 +37,23 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-
+	initProductDescSwiper()
 });
+
+function initProductDescSwiper() {
+	const swiperContainer = document.querySelector(
+	  '[data-js="swiper-product-desc"]'
+	);
+
+	if(!swiperContainer) return;
+
+	new Swiper(swiperContainer, {
+		spaceBetween: 10,
+		slidesPerView: 1,
+		watchSlidesProgress: true,
+		enabled: true,
+		nextButton: '[data-js="swiper-product-desc"] .swiper-product-button-next',
+		prevButton: '[data-js="swiper-product-desc"] .swiper-product-button-prev',
+		scrollbar: '[data-js="swiper-product-desc"] .swiper-scrollbar',
+	});
+  }
