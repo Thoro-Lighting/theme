@@ -23,107 +23,43 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-{assign var='view_more_align_desk' value=Configuration::get('ST_BRANDS_VIEW_MORE_ALIGN_DESK')}
-{assign var='view_more_align_mobile' value=Configuration::get('ST_BRANDS_VIEW_MORE_ALIGN_MOBILE')}
-{assign var='view_more_style' value=Configuration::get('ST_BRANDS_VIEW_MORE_STYLE')}
-{assign var='position_buttons' value=Configuration::get('ST_BRANDS_POSITION_BUTTONS')}
-
-
 {if isset($brands) && count($brands)}
-<div id="brands_slider_container_{$hook_hash}" class="brands_slider_container {if $hide_mob == 1} hidden-md-down {elseif $hide_mob == 2} hidden-lg-up {/if} block products_container {if $video_mpfour} video_bg_block {/if}" 
-{if $has_background_img && $speed} data-stellar-background-ratio="{$speed}" data-stellar-vertical-offset="{(int)$bg_img_v_offset}" {/if}
-{if $video_mpfour} data-vide-bg="mp4: {$video_mpfour}{if $video_webm}, webm: {$video_webm}{/if}{if $video_ogg}, ogv: {$video_ogg}{/if}{if $video_poster}, poster: {$video_poster}{/if}" data-vide-options="loop: {if $video_loop}true{else}false{/if}, muted: {if $video_muted}true{else}false{/if}, position: 50% {(int)$video_v_offset}%" {/if}>
-{if isset($homeverybottom) && $homeverybottom}<div class="wide_container"><div class="container">{/if}
-<section id="brands_slider_{$hook_hash}" class="brands_slider">
+    <div id="brands_slider_container_{$hook_hash}" class="brands_slider_container">
 
-    <div class="row flex_lg_container flex_stretch ">
-        {if isset($custom_content) && $custom_content && $custom_content.10.width}
-            <div class="col-lg-{$custom_content.10.width}">
-            {$custom_content.10.content nofilter}
+        <div class="brands_slider_header">
+            <div>
+                <p>{l s='Product Brands' d='Shop.Theme.Transformer'}</p>
+                <h2>{l s='Discover Product Brands' d='Shop.Theme.Transformer'}</h2>
             </div>
-        {/if}
-        <div class="col-lg-{if isset($custom_content) && $custom_content}{12-$custom_content.10.width-$custom_content.30.width}{else}12{/if} products_slider"> <!-- to do what if the sum of left and right contents larger than 12 -->
-        
-
-    {if $title_position!=3}
-        <div class="title_block flex_container title_align_{(int)$title_position} title_style_{(int)$sttheme.heading_style}">
-            <div class="flex_child title_flex_left"></div>
-            <a href="{url entity='manufacturer'}" class="title_block_inner" title="{l s='Product Brands' d='Shop.Theme.Transformer'}">{l s='Product Brands' d='Shop.Theme.Transformer'}</a>
-            <div class="flex_child title_flex_right"></div>
-            {if $direction_nav==1 && isset($brands) && $brands}
-                <div class="swiper-button-tr {if $hide_direction_nav_on_mob} hidden-md-down {/if}"><div class="swiper-button swiper-button-outer swiper-button-prev"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div><div class="swiper-button swiper-button-outer swiper-button-next"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div></div>        
-            {/if}
-            
-             {if isset($view_more) && $view_more == 2}<div class="view_more_top"><a href="{url entity='manufacturer'}" class="btn btn-default" title="{l s='View more' d='Shop.Theme.Transformer'}">{l s='more' d='Shop.Theme.Transformer'}</a></div>{/if}
-            
+            <a href="{url entity='manufacturer'}"
+                class="btn-secondary hidden-md-down">{l s='View all brands' d='Shop.Theme.Transformer'}</a>
         </div>
-    {elseif $direction_nav==1}
-        {$direction_nav=5}
-    {/if}
 
-    {if isset($custom_content) && $custom_content}{$custom_content.1.content nofilter}{/if}
 
-    <div class="block_content">
-        <div class="swiper-container products_sldier_swiper position_buttons_{$position_buttons} {if $direction_nav>1} swiper-button-lr swiper-small-button {if $direction_nav==6 || $direction_nav==7} swiper-navigation-circle {elseif $direction_nav==4 || $direction_nav==5} swiper-navigation-rectangle {elseif $direction_nav==8 || $direction_nav==9} swiper-navigation-arrow {elseif $direction_nav==2 || $direction_nav==3} swiper-navigation-full {/if} {if $direction_nav==2 || $direction_nav==4 || $direction_nav==6|| $direction_nav==8} swiper-navigation_visible {/if}{/if}" {if $sttheme.is_rtl} dir="rtl" {/if}>
+        <div class="swiper-tiles-default swiper" data-js="swiper-tiles-default">
             <div class="swiper-wrapper">
-                {assign var='is_lazy' value=(isset($lazy_load) && $lazy_load)}
-            	{foreach $brands as $brand}
-                <div class="brands_slider_wrap swiper-slide">
-                    <div class="pro_outer_box">
-                	<a href="{$brand.url}" title="{$brand.name}" class="brands_slider_item product_img_link {if $is_lazy} is_lazy {/if}">
-                        <img 
-                        {if $is_lazy}data-src{else}src{/if}="{$brand.image}"
-                        {if $sttheme.retina && $brand.image_2x}
-                          {if $is_lazy}data-srcset{else}srcset{/if}="{$brand.image_2x} 2x"
-                        {/if}
-                         alt="{$brand.name}" width="{$manufacturerSize.width}" height="{$manufacturerSize.height}" class="{if $is_lazy} swiper-lazy {/if} front-image" />
-                    </a>
-                    {assign var='show_brand_desc' value=Configuration::get('ST_BRANDS_SHORT_DESC')}
-                    {assign var='show_brand_name' value=Configuration::get('ST_BRANDS_NAME')}
-                    {if $show_brand_name || $show_brand_desc}
-                        <div class="pro_second_box">
-                        {if $show_brand_name}
-                        <h3 class="s_title_block "><a href="{$brand.url}" title="{$brand.name}">{$brand.name}</a></h3>
-                        {/if}
-                        {if $show_brand_desc == 1}
-                        <div class="product-desc-brand">{$brand.short_description|strip_tags:'UTF-8'|truncate:100:'...'}</div>
-                        {elseif $show_brand_desc == 2}
-                        <div class="product-desc-brand">{$brand.short_description|strip_tags:'UTF-8'|truncate:10000:'...'}</div>
-                        {/if}
-                        </div>
-                    {/if}
+                {foreach $brands as $brand}
+                    <div class="swiper-slide">
+                        <a href="{$brand.url}" title="{$brand.name}">
+                            <h3>{$brand.name}</h3>
+                            <svg width="62" height="18" viewBox="0 0 62 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M51.7678 1.5L61 8.86861M61 8.86861L52.4271 16.5M61 8.86861H1" stroke="white"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <img src="{$brand.image}" alt="{$brand.name}" width="{$manufacturerSize.width}"
+                                height="{$manufacturerSize.height}" />
+                            <span class="gradient"></span>
+                        </a>
                     </div>
-                </div>
                 {/foreach}
             </div>
-            
-            {if $position_buttons == 0}
-	<div class="left_zone_visible"></div>
-    <div class="right_zone_visible"></div>{/if}
-            {if $direction_nav>1}
-                <div class="swiper-button swiper-button-outer swiper-button-next {if $hide_direction_nav_on_mob} hidden-md-down {/if}"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div>
-                <div class="swiper-button swiper-button-outer swiper-button-prev {if $hide_direction_nav_on_mob} hidden-md-down {/if}"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div>
-            {/if}
-            {if $control_nav}
-            <div class="swiper-pagination {if $control_nav==2} swiper-pagination-st-custom {elseif $control_nav==4} swiper-pagination-st-round {/if} {if $hide_control_nav_on_mob} hidden-md-down {/if}"></div>
-            {/if}
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper_btns_wrapper hidden-md-down"><button class="swiper-product-button-prev"></button> <button
+                        class="swiper-product-button-next"></button></div>
         </div>
-    </div>
-    {include file="catalog/slider/script.tpl" block_name="#brands_slider_container_{$hook_hash}" is_product_slider=0}
-            
-            {if isset($view_more) && $view_more == 1}<div class="product_view_more_box more_align_desk_{$view_more_align_desk} more_align_mobile_{$view_more_align_mobile} {if $view_more_align_desk == 3}hidden-lg-up-991{/if} {if $view_more_align_mobile == 3}hidden-sm-down{/if}"><a href="{url entity='manufacturer'}" class="{if $view_more_style == 0}btn btn-default btn-more-padding btn-large btn_arrow{elseif $view_more_style == 2}btn-line{elseif $view_more_style == 3}btn-line-under{/if}" title="{l s='View more' d='Shop.Theme.Transformer'}">{l s='View more' d='Shop.Theme.Transformer'}</a></div>{/if}
-            
-            
-            {if isset($custom_content) && $custom_content}{$custom_content.2.content nofilter}{/if}
-        </div>
-        {if isset($custom_content) && $custom_content && $custom_content.30.width}
-            <div class="col-lg-{$custom_content.30.width}">
-            {$custom_content.30.content nofilter}
-            </div>
-        {/if}
-    </div>
-</section>
 
-{if isset($homeverybottom) && $homeverybottom}</div></div>{/if}
-</div>
+        <a href="{url entity='manufacturer'}"
+            class="btn-secondary hidden-lg-up">{l s='View all brands' d='Shop.Theme.Transformer'}</a>
+
+    </div>
 {/if}

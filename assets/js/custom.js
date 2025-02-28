@@ -534,6 +534,7 @@
   initConfiguratorVideoModal()
   initMobileSubMenu()
   initDesktopSubmenuToggle()
+  initTilesDefaultSwiper()
 
 }());
 
@@ -677,4 +678,34 @@ function initDesktopSubmenuToggle() {
       if (tab) tab.classList.add('active');
     });
   });
+}
+
+function initTilesDefaultSwiper() {
+	const swiperContainers = document.querySelectorAll(
+	  '[data-js="swiper-tiles-default"]'
+	);
+	
+	if(!swiperContainers) return;
+
+  swiperContainers.forEach(el => 
+    new Swiper(el, {
+      spaceBetween: 16,
+      slidesPerView: 4,
+      watchSlidesProgress: true,
+      enabled: true,
+      nextButton: el.querySelector('.swiper-product-button-next'),
+      prevButton: el.querySelector('.swiper-product-button-prev'),
+      scrollbar: el.querySelector('.swiper-scrollbar'),
+      breakpoints:{
+        992:{
+          slidesPerView: 2.3,
+          spaceBetween: 8,
+        },
+        768:{
+          slidesPerView: 1.3,
+          spaceBetween: 8,
+        },
+      }
+    })
+  )
 }
