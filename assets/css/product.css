@@ -897,7 +897,7 @@ body:not(.show-fixed-add-to-cart) .loved-sticky .add_to_love.btn_inline {
 }
 
 
-
+/* TEMP fonts import */
 @font-face {
 	font-family: 'ABC Favorit Variable';
 	src: url('../font/ABCFavoritVariable-Trial.woff2') format("woff2 supports variations"),
@@ -1040,16 +1040,12 @@ body:not(.show-fixed-add-to-cart) .loved-sticky .add_to_love.btn_inline {
   position: relative;
 }
 
-[data-js="swiper-product-desc"].swiper .container3 {
-  padding-left: 0;
-  padding-right: 32px;
-}
-@media only screen and (max-width: 992px) {
-  [data-js="swiper-product-desc"].swiper .container3 {
-    padding-left: 0;
-    padding-right: 0px;
+@media only screen and (min-width: 992px) {
+  [data-js="swiper-product-desc"].swiper .col1 {
+    padding-right: 32px;
   }
 }
+
 [data-js="swiper-product-desc"].swiper .row_content .col1 {
   flex-basis: 45%;
   display: block;
