@@ -26,7 +26,7 @@
 
 
  
-<div class="swiper-container products_sldier_swiper position_buttons_{$position_buttons} {if $direction_nav>1} swiper-button-lr {if $direction_nav==6 || $direction_nav==7} swiper-navigation-circle {elseif $direction_nav==4 || $direction_nav==5} swiper-navigation-rectangle {elseif $direction_nav==8 || $direction_nav==9} swiper-navigation-arrow {elseif $direction_nav==2 || $direction_nav==3} swiper-navigation-full {/if} {if $direction_nav==2 || $direction_nav==4 || $direction_nav==6|| $direction_nav==8} swiper-navigation_visible {/if}{/if} swiper_loading" {if $sttheme.is_rtl} dir="rtl" {/if}>
+<div class="swiper-tiles-default swiper swiper-container" data-js="swiper-tiles-default">
 	
 	<div class="swiper-wrapper">
 	{block name='slider_content'}
@@ -58,14 +58,17 @@
 	{/if}
 	{/block}
 	</div>
+	<div class="swiper-scrollbar"></div>
 
   {if $position_buttons == 0}
 	<div class="left_zone_visible"></div>
     <div class="right_zone_visible"></div>{/if}
 	
 	{if $direction_nav>1 && (!isset($column_slider) || !$column_slider)}
-	    <div class="swiper-button swiper-button-outer swiper-button-next{if $hide_direction_nav_on_mob} hidden-md-down {/if}"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div>
-        <div class="swiper-button swiper-button-outer swiper-button-prev{if $hide_direction_nav_on_mob} hidden-md-down {/if}" ><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div>
+		<div class="swiper_btns_wrapper hidden-md-down">
+			<button class="swiper-product-button-prev"></button> 
+			<button class="swiper-product-button-next"></button>
+		</div>
     {/if}
 </div>
 {if $control_nav}

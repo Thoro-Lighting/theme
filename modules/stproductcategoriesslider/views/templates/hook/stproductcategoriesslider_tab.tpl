@@ -192,7 +192,7 @@
                                             {/if}
 
                                             {if isset($p_c.view_more) && $p_c.view_more == 1 && isset($p_c.link) && $p_c.link}
-                                                <div class="product_view_more_box">
+                                                <div class="product_view_more_box" style="margin-bottom: 32px;">
                                                     <a href="{$p_c.link}" class="btn-secondary hidden-lg-up"
                                                         title="{l s='Show more' d='Shop.Theme.Transformer'}">{l s='Show more' d='Shop.Theme.Transformer'}</a>
                                                 </div>

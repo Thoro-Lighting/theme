@@ -19280,7 +19280,7 @@ body#product .quick-view {
 }
 
 .sttab_block .tab-pane-body {
-	padding: 0px 0px
+	padding-bottom: 1px;
 }
 
 .sttab_1_1 .nav-tabs,.sttab_1_2 .nav-tabs {
@@ -22439,14 +22439,17 @@ margin-right: 8px; margin-top: -7px;}
 }
 
 
-.brands_slider_container .swiper-tiles-default{
+.brands_slider_container .swiper-tiles-default,
+.products_slider .swiper-tiles-default{
 	position: relative;
 	margin-bottom: 32px;
 }
-.brands_slider_container{
+.brands_slider_container,
+.products_slider{
 	margin-bottom: 32px
 }
-.brands_slider_container .swiper-tiles-default .swiper-wrapper{
+.brands_slider_container .swiper-tiles-default .swiper-wrapper,
+.products_slider .swiper-tiles-default .swiper-wrapper{
 	margin-bottom: 23px;
 }
 
@@ -22457,11 +22460,13 @@ margin-right: 8px; margin-top: -7px;}
 .brands_slider_header h2,
 .products_slider_tabs_header h2 {font-weight: 500; font-size: 40px;} 
 @media screen and (min-width: 992px){
-	.brands_slider_container{
+	.brands_slider_container,
+	.products_slider{
 		margin-bottom: 60px
 	}	
 
-	.brands_slider_container .swiper-tiles-default .swiper-wrapper{
+	.brands_slider_container .swiper-tiles-default .swiper-wrapper,
+	.products_slider .swiper-tiles-default .swiper-wrapper{
 		margin-bottom: 64px;
 	}
 	
@@ -22622,14 +22627,12 @@ margin-right: 8px; margin-top: -7px;}
 
 .pc_slider_block_container{
 	padding-top: 32px;
-	padding-bottom: 32px;
 	background: #F3EFE9;
 }
 
 @media only screen and (min-width: 992px) {
 	.pc_slider_block_container{
 		padding-top: 64px;
-		padding-bottom: 64px;
 	}
 }
 

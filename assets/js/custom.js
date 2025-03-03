@@ -693,6 +693,8 @@ function initTilesDefaultSwiper() {
       slidesPerView: 4,
       watchSlidesProgress: true,
       enabled: true,
+      observer: true,
+      observeParents: true,
       nextButton: el.querySelector('.swiper-product-button-next'),
       prevButton: el.querySelector('.swiper-product-button-prev'),
       scrollbar: el.querySelector('.swiper-scrollbar'),
