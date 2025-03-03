@@ -97,7 +97,7 @@
 						{elseif $block.item_t==3 && isset($block.children) && count($block.children)}
 							{if isset($block.subtype) && $block.subtype}
 								{foreach $block.children as $brand}
-									<a id="st_ma_{$block.id_st_mega_menu}" href="{$link->getmanufacturerLink($brand.id_manufacturer, $brand.link_rewrite)}{$link->getmanufacturerLink($brand.id_manufacturer, $brand.link_rewrite)}"{if !$menu_title} title="{$brand.name}"{/if}{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="tile-category-link">
+									<a id="st_ma_{$block.id_st_mega_menu}" href="{$link->getmanufacturerLink($brand.id_manufacturer, $brand.link_rewrite)}"{if !$menu_title} title="{$brand.name}"{/if}{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="tile-category-link">
 										{if $brand.image}
 											<img src="{$brand.image}" />
 										{/if}

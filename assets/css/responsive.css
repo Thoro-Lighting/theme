@@ -925,11 +925,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
     #center_column .title_block_inner, .pc_slider_block_container .nav-header .title_block_inner, .pc_slider_block_container .nav-header p {
 	    line-height: 1.125!important;	
     }
-
-	
-	.pc_slider_block_container { margin-top:50px!important; }
-	
-	
 	
 	.pro_outer_box .btn-line, .pro_outer_box .btn-line-under {
 	    border-bottom: 1px solid;
@@ -1249,14 +1244,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	.more_align_mobile_1 {text-align: center}
 	.more_align_mobile_2 {text-align: right}
 	
-	.product_view_more_box {
-	    margin: 20px 0px;
-	}
-	.product_view_more_box a {
-	    font-weight: bold;
-	    font-size: 18px;
-	}	
-	
+
 	#footer-tertiary {
 	    padding-top: 0;
 	    padding-bottom: 0;

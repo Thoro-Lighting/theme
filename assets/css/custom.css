@@ -1275,3 +1275,16 @@ body.is-android .android-only{
     gap: 32px 74px;
   }
 }
+
+
+.force-fullwidth{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@media screen and (min-width: 992px) {
+  .force-fullwidth{
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+}
