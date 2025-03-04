@@ -535,6 +535,7 @@
   initMobileSubMenu()
   initDesktopSubmenuToggle()
   initTilesDefaultSwiper()
+  initBasicSwiper()
 
 }());
 
@@ -705,6 +706,34 @@ function initTilesDefaultSwiper() {
         },
         768:{
           slidesPerView: 1.3,
+          spaceBetween: 8,
+        },
+      }
+    })
+  )
+}
+
+function initBasicSwiper(){
+  const swiperContainers = document.querySelectorAll(
+	  '[data-js="swiper-tiles-basic"]'
+	);
+	
+	if(!swiperContainers) return;
+
+  swiperContainers.forEach(el => 
+    new Swiper(el, {
+      spaceBetween: 16,
+      slidesPerView: 3,
+      watchSlidesProgress: true,
+      enabled: true,
+      scrollbar: el.querySelector('.swiper-scrollbar'),
+      breakpoints:{
+        992:{
+          slidesPerView: 2,
+          spaceBetween: 8,
+        },
+        768:{
+          slidesPerView: 1,
           spaceBetween: 8,
         },
       }

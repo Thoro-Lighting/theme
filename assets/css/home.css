@@ -388,6 +388,54 @@ body#index .transparent-header.header-container,body#index .transparent-mobile-h
 }
 
 
+#home_secondary_row{
+	gap: 16px;
+	margin-bottom: 32px;
+}
+
+#home_secondary_row h3{
+	font-weight: 500;
+	color: #fff;
+	font-size: 32px;
+	margin-bottom: 16px;
+	max-width: 400px;
+}
+#home_secondary_left .st_banner_block{
+	height: 434px !important;
+}
+#home_secondary_right .st_banner_block{
+	height: 343px !important;
+}
+#home_secondary_left,
+#home_secondary_right{
+	width: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+	#easycontent_90{
+		margin-bottom: 64px;
+	}
+	#home_secondary_row{
+		flex-wrap: nowrap;
+		margin-bottom: 64px
+	}
+	#home_secondary_row h3{
+		font-size: 40px;
+	}
+	#home_secondary_row #home_secondary_left{
+		flex-basis: 60%;
+		flex-shrink: 0;
+	}
+	#home_secondary_left .st_banner_block,
+	#home_secondary_right .st_banner_block{
+		height: 497px !important;
+	}
+}
+.st_image_layered_description{
+	justify-content: end !important;
+}
+
+
 
 .box-about{
   display: flex;
@@ -474,5 +522,68 @@ body#index .transparent-header.header-container,body#index .transparent-mobile-h
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+
+.box-discover .discover-tiles-container{
+	overflow: visible
+}
+
+.box-discover .discover-tile{
+  position: relative;
+  aspect-ratio: 1 / 1;
+  width: 448px;
+  max-width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.box-discover .discover-tile .btn-white{
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+}
+
+.box-discover a.discover-tile:hover .btn-white{
+  background: #3D4C99 !important;
+  color: #fff !important;
+}
+
+.box-discover .discover-tile h3{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  max-width: 320px;
+  position: relative;
+  z-index: 1;
+}
+
+.box-discover .discover-tile img{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .box-discover{
+    margin-bottom: 64px;
+  }
+
+  .box-discover .discover-tile{
+    padding: 32px;	
+  }
+  
+  .box-discover .discover-tile h3{
+    font-size: 40px;
   }
 }
