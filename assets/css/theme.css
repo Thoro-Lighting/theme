@@ -22454,7 +22454,7 @@ margin-right: 8px; margin-top: -7px;}
 }
 
 .content_header {margin-bottom: 32px;}
-.content_header p {font-family: 'ABC Favorit Mono Variable';font-weight: 400; font-size: 12px; margin-bottom: 8px; text-transform: uppercase;line-height: 1.5;}
+.content_header p,.header-tag {font-family: 'ABC Favorit Mono Variable';font-weight: 400; font-size: 12px; margin-bottom: 8px; text-transform: uppercase;line-height: 1.5;}
 .content_header h2 {font-weight: 500; font-size: 40px;} 
 @media screen and (min-width: 992px){
 	.brands_slider_container,
@@ -22468,7 +22468,7 @@ margin-right: 8px; margin-top: -7px;}
 	}
 	
 	.content_header {margin-bottom: 48px;}
-	.content_header p {font-size: 16px;}
+	.content_header p,.header-tag {font-size: 16px;}
 	.content_header h2 {font-size: 56px;}
 }
 
@@ -22667,6 +22667,7 @@ margin-right: 8px; margin-top: -7px;}
 
 #home_secondary_row{
 	gap: 16px;
+	margin-bottom: 32px;
 }
 
 #home_secondary_row h3{
@@ -22689,7 +22690,8 @@ margin-right: 8px; margin-top: -7px;}
 
 @media only screen and (min-width: 992px) {
 	#home_secondary_row{
-		flex-wrap: nowrap
+		flex-wrap: nowrap;
+		margin-bottom: 64px
 	}
 	#home_secondary_row h3{
 		font-size: 40px;
