@@ -26,7 +26,7 @@
 {if isset($brands) && count($brands)}
     <div id="brands_slider_container_{$hook_hash}" class="brands_slider_container">
 
-        <div class="brands_slider_header">
+        <div class="content_header">
             <div>
                 <p>{l s='Product Brands' d='Shop.Theme.Transformer'}</p>
                 <h2>{l s='Discover Product Brands' d='Shop.Theme.Transformer'}</h2>

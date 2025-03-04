@@ -40,7 +40,7 @@
                         {foreach $product_categories as $p_c}
                             {if (isset($p_c.products) && is_array($p_c.products)) || $p_c.aw_display}
                                 <div id="category_products_container_{$p_c.id_st_product_categories_slider}-t"
-                                    class="products_slider_tabs_header {if $p_c@first} active{/if} nav-header">
+                                    class="content_header products_slider_tabs_header {if $p_c@first} active{/if} nav-header">
                                     <div>
                                         {if $p_c.subtitle}<p>{$p_c.subtitle}</p>{/if}
                                         <h2>{$p_c.title}</h2>

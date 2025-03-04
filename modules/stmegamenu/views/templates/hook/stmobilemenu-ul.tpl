@@ -47,9 +47,9 @@
 					{if $column.hide_on_mobile == 1 && !$is_mega_menu_column}{continue}{/if}
 					<div class="st_mobile_menu_page" data-js-sidemenu-btn="{$column.id_st_mega_column}">
 							{if $column.title == 'Kategorie'}
-								<img class="st_mobile_menu_img" src="{$urls.img_url}img_kategorie.png" />
+								<img class="st_mobile_menu_img" src="{$urls.img_url}img_kategorie.png" loading="lazy" />
 							{elseif $column.title == 'Kolekcje'}
-								<img class="st_mobile_menu_img" src="{$urls.img_url}img_kolekcje.png" />
+								<img class="st_mobile_menu_img" src="{$urls.img_url}img_kolekcje.png" loading="lazy" />
 							{/if}
 						<div class="st_mobile_menu_page_title">
 							<span>{$column.title}</span>
@@ -111,7 +111,7 @@
 											{elseif $block.subtype==1 || $block.subtype==3}
 												<a id="st_mo_ma_{$block.id_st_mega_menu}" href="{$block.children.link}"{if !$menu_title} title="{$block.children.name}"{/if}{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="tile-category-link">
 													{if $block.children.id_image}
-														<img src="{$urls.img_cat_url}{$block.children.id_image}.jpg" />
+														<img src="{$urls.img_cat_url}{$block.children.id_image}.jpg" loading="lazy" />
 													{/if}
 													<span>{$block.children.name}</span>
 												</a>
@@ -131,7 +131,7 @@
 												{foreach $block.children as $brand}
 														<a href="{$brand.url}" title="{$brand.name}"{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="tile-category-link">
 															{if $brand.image}
-																<img src="{$brand.image}" />
+																<img src="{$brand.image}" loading="lazy" />
 															{/if}
 															<span>{$brand.name}</span>
 														</a>
@@ -141,7 +141,7 @@
 													{foreach $block.children as $brand}
 														<div class="mo_brand_div">
 															<a href="{$brand.url}" title="{$brand.name}"{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="st_menu_brand">
-																<img src="{$brand.image}" alt="{$brand.name}" width="{$manufacturerSize.width}" height="{$manufacturerSize.height}" />
+																<img src="{$brand.image}" alt="{$brand.name}" width="{$manufacturerSize.width}" height="{$manufacturerSize.height}" loading="lazy" />
 															</a>
 														</div>
 													{/foreach}
@@ -281,7 +281,7 @@
 										{foreach $block.children as $brand}
 	    									<div class="mo_brand_div">
 												<a href="{$brand.url}" title="{$brand.name}"{if $block.nofollow} rel="nofollow"{/if}{if $block.new_window} target="_blank"{/if} class="st_menu_brand">
-								                    <img src="{$brand.image}" alt="{$brand.name}" width="{$manufacturerSize.width}" height="{$manufacturerSize.height}" />
+								                    <img src="{$brand.image}" alt="{$brand.name}" width="{$manufacturerSize.width}" height="{$manufacturerSize.height}" loading="lazy" />
 								                </a>
 											</div>
 										{/foreach}
