@@ -87,10 +87,7 @@
         </div>
     </section>
     {/if}
-    {/block}
-    
-    <div class="ekomi_reviews"><a href="https://www.ekomi-pl.com/opinie-thoro_pl.html" target="_blank" rel="nofollow" title="Zaufane opinie Klientów"><p>Klienci polecają</p><div class="ekomi-stars"><i class="fto-star-2"></i><i class="fto-star-2"></i><i class="fto-star-2"></i><i class="fto-star-2"></i><i class="fto-star-2"></i> <span>5/5</span></div><div class="ekomi-text">Klienci nas polecają<br>Zobacz opinie tutaj.</div><div class="zaufane"></div></a></div>
-  
+    {/block}  
 
     {include file='_partials/footer-bottom.tpl'}
 </footer>
