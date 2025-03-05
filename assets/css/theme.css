@@ -22725,7 +22725,7 @@ a.st_banner_block:hover .btn-white,
 	display: inline;
 }
 
-#easycontent_22 span{
+#easycontent_22 span.breaker{
 	display: block;
 	height: 0;
 	overflow: hidden;
