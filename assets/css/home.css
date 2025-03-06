@@ -587,3 +587,38 @@ body#index .transparent-header.header-container,body#index .transparent-mobile-h
     font-size: 40px;
   }
 }
+
+.products_container .product_img_link{
+  background: #fff;
+  border-radius: 4px;
+}
+
+.products_container .product_img_link img{
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.products_container .pro_first_box{
+  padding: 0;
+}
+
+.products_container .pro_first_box{
+  margin-bottom: 8px;
+}
+
+.products_container .pro_outer_box .pro_second_box{
+  padding: 0 8px;
+}
+
+.products_container .pro_outer_box .pro_second_box .price{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.products_container .pro_outer_box .pro_second_box .pro_list_manufacturer{
+  font-weight: 400;
+}
+
+.products_container .pro_outer_box .pro_second_box .s_title_block.two_rows{
+  font-weight: 700 !important;
+}

@@ -59,10 +59,6 @@
 	{/block}
 	</div>
 	<div class="swiper-scrollbar"></div>
-
-  {if $position_buttons == 0}
-	<div class="left_zone_visible"></div>
-    <div class="right_zone_visible"></div>{/if}
 	
 	{if $direction_nav>1 && (!isset($column_slider) || !$column_slider)}
 		<div class="swiper_btns_wrapper hidden-md-down">
