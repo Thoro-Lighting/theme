@@ -296,7 +296,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
     .pro_second_box .act_box_cart.add_hide_on_mobile {display: flex; visibility: visible; margin-bottom: 4px;}
 	.pro_second_box .act_box_cart.add_hide_on_mobile  .btn-prod-more {display: none}
 	section#wrapper.menu_blur {margin-top: 2rem;}
-   .ajax_block_product .pro_outer_box .pro_second_box {padding: 10px 0px 10px;}
    .pro_first_box {padding: 0 0px 5px;}
 	    #footer_bottom_left {order:1} 
         #st_header {box-shadow: 0px 5px 10px rgba(0,0,0,0.02);}
@@ -1119,12 +1118,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	    margin-bottom: 18px;
 	}
 	
-	/* produkty wersja mobile */
-	
-	.ajax_block_product .pro_second_box .price {
-	    font-size: 14px;
-	}
-	
+	/* produkty wersja mobile */	
 	
 	.ajax_block_product .pro_outer_box .btn-line, .ajax_block_product .pro_outer_box .btn-line-under {
 	    padding: 0px;
@@ -2363,7 +2357,5 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
        .mobile_bar_tri_text.yes_device_7, .mobile_bar_tri_text.yes_device_8 {display: none}
        #register_form_block, .register_two_columns .from_blcok,  .login_two_columns .from_blcok {padding: 30px}
       
-.pro_second_box .product-price-and-shipping {height: 40px !important;}
-.pro_second_box  .s_title_block.two_rows {height: 40px !important;}
 }
      
