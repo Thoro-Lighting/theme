@@ -170,10 +170,6 @@ span.range-name {position: absolute; top: 33px; z-index: 10; left: 10px; font-si
   cursor: pointer;
 }
 
-.s_title_block.two_rows {
-  height: 78px;
-}
-
 .openfiltr {float: right}
 .PM_ASCriterionsGroup .openfiltr .open_search .fto-angle-up, .PM_ASCriterionsGroup .openfiltr .open_search.open .fto-angle-up {display: block}
 .PM_ASCriterionsGroup p.PM_ASCriterionsGroupTitle.open_search.close_all + .PM_ASCriterionsGroupOuter, .PM_ASCriterionsGroup p.PM_ASCriterionsGroupTitle.open_search.open + .PM_ASCriterionsGroupOuter,.PM_ASCriterionsGroup p.open_search.open + .PM_ASCriterionsGroupOuter, .PM_ASCriterionsGroup p.open + .PM_ASCriterionsGroupOuter,

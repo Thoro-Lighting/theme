@@ -1,12 +1,5 @@
 body#index .product_list.grid .product_list_item {border-top: none}
 #index .block_blog .s_title_block a {font-size: 16px;}
-#index .s_title_block.two_rows {
-  height: auto;
-  margin-bottom: 5px;
-  margin-right: 15px;
-  font-weight: 500;
-  font-size: 16px;
-}
 
 #index .pro_list_manufacturer {
   font-size: 14px;
@@ -148,8 +141,6 @@ body#index .product_list.grid .product_list_item {border-top: none}
   .privat_slider_full_1 h1 {font-size: 72px;margin-bottom: 24px;} 
 }
 
-.ajax_block_product .pro_first_box {padding: 0 15px 15px;}
-.ajax_block_product .pro_outer_box .pro_second_box {padding: 25px 15px 15px}
 body#index .header-container.transparent-header {
 	position: absolute;
 	top: 0;
@@ -586,39 +577,4 @@ body#index .transparent-header.header-container,body#index .transparent-mobile-h
   .box-discover .discover-tile h3{
     font-size: 40px;
   }
-}
-
-.products_container .product_img_link{
-  background: #fff;
-  border-radius: 4px;
-}
-
-.products_container .product_img_link img{
-  width: 100%;
-  aspect-ratio: 1;
-}
-
-.products_container .pro_first_box{
-  padding: 0;
-}
-
-.products_container .pro_first_box{
-  margin-bottom: 8px;
-}
-
-.products_container .pro_outer_box .pro_second_box{
-  padding: 0 8px;
-}
-
-.products_container .pro_outer_box .pro_second_box .price{
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.products_container .pro_outer_box .pro_second_box .pro_list_manufacturer{
-  font-weight: 400;
-}
-
-.products_container .pro_outer_box .pro_second_box .s_title_block.two_rows{
-  font-weight: 700 !important;
 }
