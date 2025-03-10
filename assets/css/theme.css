@@ -22797,7 +22797,7 @@ a.st_banner_block:hover .btn-white,
 	aspect-ratio: 1;
   }
   
-.pro_first_box{
+.pro_outer_box .pro_first_box{
 	padding: 0;
   }
   

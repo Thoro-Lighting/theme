@@ -1,5 +1,5 @@
 {assign var='text_fl_buttons' value=Configuration::get('STSN_TEXT_FL_BUTTONS')}
-<div class="hover_fly fly_span_text hover_fly_0 flex_container mobile_hover_fly_cart">
+<div class="hover_fly fly_span_text hover_fly_0 flex_container mobile_hover_fly_cart hidden-md-down">
           {if !$sttheme.display_add_to_cart && $sttheme.pro_quantity_input!=1 && $sttheme.pro_quantity_input!=3}
             {if $has_add_to_cart}
               {include file='catalog/_partials/miniatures/btn-add-to-cart.tpl'}
