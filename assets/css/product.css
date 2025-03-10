@@ -896,22 +896,6 @@ body:not(.show-fixed-add-to-cart) .loved-sticky .add_to_love.btn_inline {
 
 }
 
-
-/* TEMP fonts import */
-@font-face {
-	font-family: 'ABC Favorit Variable';
-	src: url('../font/ABCFavoritVariable-Trial.woff2') format("woff2 supports variations"),
-    	 url('../font/ABCFavoritVariable-Trial.woff2') format("woff2-variations");
-	font-weight: 100 1000;
-}
-
-@font-face {
-	font-family: 'ABC Favorit Mono Variable';
-	src: url('../font/ABCFavoritMonoVariable-Trial.woff2') format("woff2 supports variations"),
-    	 url('../font/ABCFavoritMonoVariable-Trial.woff2') format("woff2-variations");
-	font-weight: 100 1000;
-}
-
 .prod-desc{
   font-family: 'ABC Favorit Variable', sans-serif;
   overflow: hidden;
