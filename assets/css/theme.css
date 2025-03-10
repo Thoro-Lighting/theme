@@ -15664,7 +15664,7 @@ button.swiper-pagination-bullet {
 @media screen and (min-width: 992px) {
 	
 	#st_header #header_primary_container {
-		height: auto;
+		height: auto !important;
 	}
 	
 	#header_primary_row{
@@ -15760,6 +15760,10 @@ body#index .transparent-header #st_header.stuck  {background: #fff;}
 	{
 	padding-left: 20px;
 	padding-right: 20px
+}
+
+#top_bar_container p{
+	color: #fff
 }
 
 #header_primary,#header_primary .wide_container {
@@ -16400,8 +16404,8 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 	text-decoration:none; 
 }
 
-.ma_level_0:hover {
-	color: #3D4C99;
+#st_mega_menu_wrap .ma_level_0:hover {
+	color: #3D4C99 !important;
 }
 
 #st_mega_menu_wrap .ma_level_0,.menu_item {
@@ -22848,3 +22852,9 @@ a.st_banner_block:hover .btn-white,
 .pro_outer_box .product-price-and-shipping{
 	margin-bottom: 5px;
 }
+
+#st_mega_menu_wrap .ma_level_0{
+	text-transform: none !important;
+	color: #181B1A !important;
+}
+

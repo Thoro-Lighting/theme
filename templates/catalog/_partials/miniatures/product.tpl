@@ -64,9 +64,9 @@
         {/if}
        
        
-        {if isset($loved_position) && $loved_position && $loved_position!=10 && $loved_position!=11}
+        {* {if isset($loved_position) && $loved_position && $loved_position!=10 && $loved_position!=11}
             {include file='module:stlovedproduct/views/templates/hook/icon.tpl' id_source=$product.id_product}
-        {/if}
+        {/if} *}
       {/block}
       {if $sttheme.flyout_buttons==0 || $sttheme.flyout_buttons==1 || $sttheme.flyout_buttons==3}
         {include file='catalog/_partials/miniatures/hover_fly.tpl'}
