@@ -76,7 +76,6 @@ body:not(.show-fixed-add-to-cart) .product_middle_column .rating_box.epresta-sta
 .counselor-box .counselor-text a span {color: #333 !important; font-weight: 700}
 .product-description .row {margin: 0px;}
 .product-description .row .col-md-7, .product-description .row .col-md-5 {padding: 0px}
-.product_second_section .style_content {max-width: 1185px; margin: 0 auto}
 .product-description  .row.first-box {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-ms-flex-direction: row;flex-direction: row;background: no-repeat center center;  background-color: rgba(0, 0, 0, 0);min-height: 558px;background-color: #F7F7F7;  margin: 0px;}
 .product-description  .row.first-box .col-md-5 {padding: 90px 40px 30px 60px;  background-color: #222222;}
 .product-description  .col-md-5 {-ms-flex-preferred-size: 35%;flex-basis: 35%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: flex-start; min-width: 340px; flex-direction: column;}
@@ -898,3 +897,238 @@ body:not(.show-fixed-add-to-cart) .loved-sticky .add_to_love.btn_inline {
 }
 
 
+/* TEMP fonts import */
+@font-face {
+	font-family: 'ABC Favorit Variable';
+	src: url('../font/ABCFavoritVariable-Trial.woff2') format("woff2 supports variations"),
+    	 url('../font/ABCFavoritVariable-Trial.woff2') format("woff2-variations");
+	font-weight: 100 1000;
+}
+
+@font-face {
+	font-family: 'ABC Favorit Mono Variable';
+	src: url('../font/ABCFavoritMonoVariable-Trial.woff2') format("woff2 supports variations"),
+    	 url('../font/ABCFavoritMonoVariable-Trial.woff2') format("woff2-variations");
+	font-weight: 100 1000;
+}
+
+.prod-desc{
+  font-family: 'ABC Favorit Variable', sans-serif;
+  overflow: hidden;
+}
+
+.prod-desc img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.full_width.prod-desc {
+  width: 100%;
+  background-color: #f7f5f1;
+}
+
+.container2 {
+  padding-left: 32px;
+}
+@media only screen and (max-width: 992px) {
+  .container2 {
+    padding-left: 0px;
+  }
+}
+
+.col_wrapper {
+  display: flex;
+  flex-basis: 65%;
+  width: 100%;
+  gap: 17px;
+}
+
+@media only screen and (max-width: 992px) {
+  .col_wrapper {
+    gap: 8px;
+    overflow: hidden;
+    flex-direction: row-reverse;
+  }
+  .col_wrapper .col2 {
+    display: flex;
+    flex-basis: 42% !important;
+    align-items: flex-start;
+  }
+  .col_wrapper .col3 {
+    display: flex;
+    flex-basis: 58% !important;
+  }
+}
+
+.prod-desc .row_content {
+  padding-top: 32px;
+  display: flex;
+  gap: 17px;
+}
+
+@media only screen and (min-width: 992px) {
+  .prod-desc .row_content {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .prod-desc .row_content {
+    flex-direction: column-reverse;
+  }
+}
+.row_content .col1 {
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 992px) {
+  .row_content .col1 {
+    justify-content: flex-start;
+    padding: 0 16px;
+  }
+  .row_content .col2 {
+    flex-basis: 50%;
+  }
+  .row_content .col3 {
+    flex-basis: 50%;
+  }
+}
+.row_content .col2 {
+  flex-basis: 50%;
+}
+.row_content .col3 {
+  flex-basis: 50%;
+}
+
+.prod-desc .tag {
+  font-family: 'ABC Favorit Mono Variable', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 992px) {
+  .prod-desc .tag {
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+}
+
+.prod-desc .title h2 {
+  margin-top: 0px;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 62px;
+}
+@media only screen and (max-width: 992px) {
+  .prod-desc .title h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 44px;
+  }
+}
+.prod-desc .description {
+  align-self: flex-end;
+  line-height: 27px;
+  font-size: 18px;
+}
+
+[data-js="swiper-product-desc"].swiper{
+  position: relative;
+}
+
+@media only screen and (min-width: 992px) {
+  [data-js="swiper-product-desc"].swiper .col1 {
+    padding-right: 32px;
+  }
+}
+
+[data-js="swiper-product-desc"].swiper .row_content .col1 {
+  flex-basis: 45%;
+  display: block;
+  padding-bottom: 40px;
+}
+
+[data-js="swiper-product-desc"].swiper .row_content .col2 {
+  flex-basis: 55%;
+}
+[data-js="swiper-product-desc"].swiper .row_content .col2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 800px;
+}
+
+[data-js="swiper-product-desc"].swiper .row_content {
+  display: flex;
+  gap: 17px;
+}
+@media only screen and (max-width: 992px) {
+  [data-js="swiper-product-desc"].swiper .row_content {
+    flex-direction: column;
+  }
+}
+
+[data-js="swiper-product-desc"].swiper .title {
+  margin-bottom: 32px;
+}
+
+[data-js="swiper-product-desc"] .swiper_btns_wrapper {
+  width: fit-content;
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+  position: absolute;
+  bottom: 53px;
+  right: 32px;
+}
+
+[data-js="swiper-product-desc"].swiper .swiper-product-button-next,
+[data-js="swiper-product-desc"].swiper .swiper-product-button-prev{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  [data-js="swiper-product-desc"].swiper .swiper-product-button-next,
+  [data-js="swiper-product-desc"].swiper .swiper-product-button-prev {
+    display: block;
+  }
+}
+
+[data-js="swiper-product-desc"].swiper .swiper-product-button-next::after{
+  content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="15" viewBox="0 0 48 15" fill="none" ><path d="M39.9961 1.81738L46.9974 7.55636M46.9974 7.55636L40.4961 13.5M46.9974 7.55636H1.49609" stroke="%233D4C99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ></path></svg>');
+}
+
+[data-js="swiper-product-desc"].swiper .swiper-product-button-prev::after {
+  content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="15" viewBox="0 0 48 15" fill="none" ><path d="M7.99609 1.81738L0.994793 7.55636M0.994793 7.55636L7.49609 13.5M0.994793 7.55636H46.4961" stroke="%233D4C99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ></path></svg>');
+}
+
+[data-js="swiper-product-desc"] .swiper-button-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+[data-js="swiper-product-desc"] .swiper-scrollbar {
+  opacity: 1 !important;
+  bottom: 16px;
+  position: relative;
+}
+
+@media only screen and (min-width: 992px) {
+  [data-js="swiper-product-desc"] .swiper-scrollbar {
+    max-width: 250px;
+    position: absolute ;
+    bottom: 64px;
+    left: 55%;
+  }
+}
+
+[data-js="swiper-product-desc"] .swiper-scrollbar-drag {
+  background: #3d4c99;
+}
