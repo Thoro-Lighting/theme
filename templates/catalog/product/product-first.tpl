@@ -1,5 +1,4 @@
-{if !$sttheme.is_mobile_device}<div class="top-name"><h1 {if $sttheme.google_rich_snippets} itemprop="name" {/if} class="product_name">{block name='page_title'}{$product.name}{/block}</h1></div>{/if}
-<div class="row product_page_container">
+<div class="product_page_container">
       <div class="product_left_column col-lg-7 mb-2 {foreach $product.images as $index => $image name=foo}{if $smarty.foreach.foo.last && $smarty.foreach.foo.iteration == 1}one-photo{/if}{/foreach}">
         <div class="left-sticky">        
         {block name='page_content_container'}
@@ -28,25 +27,16 @@
         </div>
         </div>
         <div class="product_middle_column box-right col-lg-5 mb-3">
-          
+  
+
           {hook h='displayWeboProductButtons' productId=$product.id}
-          {block name='page_header_container'}
-            {block name='page_header'}
-               {if $sttheme.is_mobile_device}
-               <div class="product_name_wrap flex_container flex_start">
-                    <div class="flex_child">
-                      <h1 {if $sttheme.google_rich_snippets} itemprop="name" {/if} class="product_name">{block name='page_title'}{$product.name}{/block}</h1>
-                    </div>
-                    <section class="pro_name_right">
-                    <div class="flex_box">
-                    {hook h='displayProductNameRight'}
-                    </div>
-                    </section>
-                </div>
-                {/if}
-               {hook h="displayStars" id_product=$product.id_product}
-            {/block}
-          {/block}
+        <div class="product-above-heading">
+          <div>
+          </div>
+          {hook h="displayStars" id_product=$product.id_product}
+        </div>
+
+        <h1 {if $sttheme.google_rich_snippets} itemprop="name" {/if} class="product_name">{block name='page_title'}{$product.name}{/block}</h1>
 
          <div class="product-top-price flex_container flex_center">
           <div class="flex_child">
@@ -56,25 +46,6 @@
              {/block}
             </div>
             </div>
-            <section class="pro_price_right">
-                    <div class="flex_box">
-                    {foreach $product.extraContent as $extra}
-                      {if $extra.moduleName == 'stproductlinknav' && ($extra.content.prev || $extra.content.next)}
-                      {foreach $extra.content as $nav => $nav_product}
-                          {if $nav_product}
-                              <div class="product_link_nav with_preview"> 
-                                  <a href="{$nav_product.url}" title="{$nav_product.name}"><i class="fto-{if $nav=='prev'}angle-left{/if}{if $nav=='next'}angle-right{/if}"></i>
-                                      <div class="product_link_nav_preview">
-                                          <img src="{$nav_product.cover}" alt="{$nav_product.name}" width="{$nav_product.small_default.width}" height="{$nav_product.small_default.height}"/>
-                                      </div>
-                                  </a>
-                              </div>
-                          {/if}
-                      {/foreach}
-                      {/if}
-                   {/foreach}
-                    </div>
-                    </section>
             </div>
 
             {block name='product_flags_under'}
@@ -87,25 +58,6 @@
             {/block}
             
          <div class="product-information">
-          {if isset($product_manufacturer->id)}
-                 {include file='catalog/_partials/miniatures/product-brand-extra.tpl'}
-          {/if}
-          {block name='product_reference'}
-            {if $product.reference}
-            <div class="product-information">
-              <div class="product-reference pro_extra_info flex_container">
-                <span class="pro_extra_info_label">{l s='Reference' d='Shop.Theme.Transformer'}: </span>
-                <div class="pro_extra_info_content flex_child" {if $sttheme.google_rich_snippets} itemprop="sku" {/if}>{$product.reference_to_display}</div>
-              </div>
-             </div>
-             {/if}
-            {/block}
-             {capture name=feature_list_top}{foreach from=$product.grouped_features item=feature}{if in_array($feature.id_feature, explode(',', str_replace(' ', '', $sttheme.id_feature_list_top)))}
-                 <div class="product-features_top pro_extra_info flex_container feature_group_{$feature.id_feature}">
-                      <span class="pro_extra_info_label">{$feature.name}: </span>
-                      <div class="pro_extra_info_content flex_child feature_value_{$feature.id_feature_value}">{$feature.value|escape:'htmlall'|nl2br|replace:"<br />":","}</div>
-                 </div>
-               {/if}{/foreach}{/capture}
 
             {if $smarty.capture.feature_list_top}
               {*<p class="mb-2 label-text">{l s='Product features' d='Shop.Theme.Transformer'}</p>*}

@@ -61,7 +61,7 @@
       {assign var='beam_option_width' value=Configuration::get('ST_SB_BEAM_OPTION_WIDTH')}
       {assign var='hide_sidebar_mobile' value=Configuration::get('ST_SB_HIDE_SIDEBAR_MOBILE')}
       <div class="product_first_section {if $beam_option}sticky_cart{/if} {if $beam_option_position == 1}sticky_cart_top{/if} {if $beam_option_width == 1}sticky_padding{/if} sticky_mobile_{$hide_sidebar_mobile}">
-      <div class="{if !$sttheme.pro_page_first_full_screen} container {else} container-fluid {/if}">
+      <div>
          {include file='catalog/product/product-first.tpl'}
       </div>
       </div>

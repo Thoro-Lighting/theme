@@ -29,9 +29,9 @@
             aria-label="{l s='Quantity' d='Shop.Theme.Actions'}"
           >
         </div>
-       <div class="add mar_b6">
-          <button class="btn btn-default btn-large add-to-cart btn-full-width btn-spin" data-button-action="add-to-cart" type="submit" {if !$product.add_to_cart_url} disabled {/if}>
-            <i class="fto-glyph icon_btn"></i><span>{l s='Add to cart' d='Shop.Theme.Actions'}</span>
+       <div class="add">
+          <button class="btn btn-main add-to-cart btn-spin" data-button-action="add-to-cart" type="submit" {if !$product.add_to_cart_url} disabled {/if}>
+            <span>{l s='Add to cart' d='Shop.Theme.Actions'}</span>
           </button>
         </div>
         <div class="loved-sticky">{hook h='displayProductCartRight'}</div>
