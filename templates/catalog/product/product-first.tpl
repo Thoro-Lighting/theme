@@ -72,25 +72,7 @@
               {/block}
             {/if}
             
-            {if !$sttheme.product_buy}{include file='catalog/_partials/product-buy.tpl'}{/if}
-                
-            {block name='product_attachments'}
-            {if $product.attachments}
-            <section class="product-attachments">
-            {foreach from=$product.attachments item=attachment}
-             <div class="attachment">
-               <a href="{url entity='attachment' params=['id_attachment' => $attachment.id_attachment]}" title="{l s='Download' d='Shop.Theme.Actions'} {$attachment.name}" rel="nofollow" class="mar_r6 font-weight-bold">{$attachment.name} - <span>{l s='Download' d='Shop.Theme.Actions'}</span> <i class="fto-angle-right"></i></a>
-               {*<div class="flex_child mar_r6">{$attachment.description}</div>
-               <a href="{url entity='attachment' params=['id_attachment' => $attachment.id_attachment]}" title="{l s='Download' d='Shop.Theme.Actions'}" rel="nofollow">
-                 {l s='Download' d='Shop.Theme.Actions'} ({$attachment.file_size_formatted})
-               </a>*}
-             </div>
-           {/foreach}
-		          {hook h='DisplayWeboProductArchitectZone' productId=$product.id}
-           </section>
-           {/if}
-           {/block}
-            
+            {if !$sttheme.product_buy}{include file='catalog/_partials/product-buy.tpl'}{/if}            
             
             {foreach $product.extraContent as $extra}
               {if $extra.moduleName=='stvideo'}

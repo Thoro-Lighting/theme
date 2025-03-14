@@ -62,7 +62,7 @@
     {foreach $product.extraContent as $extra}
         {if $extra.moduleName=='ststickers'}
             {* {include file='catalog/_partials/miniatures/sticker-product.tpl' stickers=$extra.content sticker_position=array(0,1,2,3,4,5,6,7,8,9,12) is_from_product_page=1} *}
-        {if $extra.moduleName=='stvideo'}
+        {elseif $extra.moduleName=='stvideo'}
             {include file="module:stvideo/views/templates/hook/stvideo.tpl" stvideos=$extra.content.videos video_position=array(1,2,3,4,5,6,7,8,9)}
         {/if}
     {/foreach}

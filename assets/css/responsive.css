@@ -635,9 +635,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 		display: block;
 		cursor: pointer
 	}
-	.mobile_tab .nav-tabs {
-		display: none
-	}
 	
     .desktop_tab .mobile_tab .nav-tabs {
 		display: flex
@@ -658,12 +655,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 		border-bottom: none
 	}
 	.mobile_tab .tab-pane {
-		display: block;
-	}
-	.mobile_tab .tab-pane .tab-pane-body {
-		display: none
-	}
-	.mobile_tab .tab-pane.st_open .tab-pane-body {
 		display: block;
 	}
 
@@ -830,6 +821,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 .st-menu .mobile_nav_box #userinfo_mod_mobile_menu.mobile_menu_ul li span.opener, .st-menu .mobile_nav_box #currencies_block_mobile_menu.mobile_menu_ul li span.opener, .st-menu .mobile_nav_box #languages-block_mobile_menu.mobile_menu_ul li span.opener {
     z-index: 1000;
 }
+
 	
 /* koniec menu, logowanie, wyszukiwarka */
 
@@ -848,6 +840,13 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 
 	
 	
+}
+
+.mobile_tab .tab-pane .tab-pane-body {
+	display: none
+}
+.mobile_tab .tab-pane.st_open .tab-pane-body {
+	display: block;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {

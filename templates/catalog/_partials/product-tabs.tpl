@@ -2,7 +2,8 @@
 
 {assign var="st_active_pro_tab" value=""}
 <div class="product_info_tabs sttab_block mobile_tab {if $sttheme.prod_tabs_sticky && ($sttheme.product_tabs_style == 0 OR $sttheme.product_tabs_style == 2)}tabs-sticky{/if} {if $sttheme.product_tabs_style==0} sttab_2 sttab_2_2 {elseif $sttheme.product_tabs_style==2} sttab_2 sttab_2_3 {elseif $sttheme.product_tabs_style==3} sttab_3 sttab_3_2 flex_container flex_start {/if}">
-  <ul class="nav nav-tabs {if !$sttheme.product_tabs} tab_lg {/if} {if $sttheme.product_tabs_style==2} flex_box flex_center {/if}">
+<div class="product_tabs_nav">
+  <ul class="nav nav-tabs {if !$sttheme.product_tabs} tab_lg {/if}">
     {if $product.description || ($sttheme.remove_product_details_tab == 3 && $product.grouped_features)}
     <li class="nav-item">
       <a class="nav-link{if !$st_active_pro_tab} active{/if}" data-toggle="tab" data="product_desc"  href="#description">{l s='Description' d='Shop.Theme.Catalog'}</a>
@@ -50,7 +51,7 @@
         </li>
     {/foreach}
     {if $product_comments|count}
-     <li class="nav-item">
+    <li class="nav-item">
       <a class="nav-link" data-toggle="tab" title="{l s='Reviews' d='Shop.Theme.Transformer'}" href="#comments">
         {l s='Reviews' d='Shop.Theme.Transformer'}
         ({$product_comments|count})
@@ -68,14 +69,11 @@
 
 
   </ul>
+</div>
 
   <div class="tab-content">
   {if $product.description || $sttheme.remove_product_details_tab == 3}
    <div role="tabpanel" class="tab-pane {if $st_active_pro_tab=='description'}active{/if} st_open" id="description">
-      <div class="mobile_tab_title">
-            <a href="javascript:;" class="opener" title="{l s='Description' d='Shop.Theme.Catalog'}"><i class="fto-angle-down plus_sign"></i><i class="fto-angle-up minus_sign"></i></a>
-              <div class="mobile_tab_name">{l s='Description' d='Shop.Theme.Catalog'}</div>
-          </div>
       <div class="tab-pane-body">
          {block name='product_description'}
             <div class="product-description">
@@ -91,25 +89,16 @@
          {/block}
         </div>
         
-        <p class="more-desc mt-4"><span title="{l s='See full description' d='Shop.Theme.Transformer'}">{l s='See full description' d='Shop.Theme.Transformer'}  <i class="fto-down-open-big" title="{l s='See all reviews' d='Shop.Theme.Transformer'}"></i></span></p>
-           <script>
-      		window.addEventListener('load', function(event) {
-	            $('.more-desc').on('click', function() {
-			        $( ".more-desc").toggleClass('open');
-			        $( ".product-description").toggleClass('open');
-		        }); 
-	        });
-	    </script>
    </div>
 {/if}
 
    {block name='product_details'}
      {include file='catalog/_partials/product-details.tpl'}
    {/block}
-   {*{block name='product_attachments'}
+   {block name='product_attachments'}
      {if $product.attachments}
       <div role="tabpanel" class="tab-pane {if $st_active_pro_tab=='attachments'} active {if $sttheme.product_tabs_style==1} st_open {/if} {/if}" id="attachments">
-        <div class="mobile_tab_title">
+        <div class="mobile_tab_title" style="display: block;">
             <a href="javascript:;" class="opener" title="{l s='Attachments' d='Shop.Theme.Catalog'}"><i class="fto-angle-down plus_sign"></i><i class="fto-angle-up minus_sign"></i></a>
               <div class="mobile_tab_name">{l s='Attachments' d='Shop.Theme.Catalog'}</div>
           </div>
@@ -129,7 +118,7 @@
         </div>
        </div>
      {/if}
-   {/block}*}
+   {/block}
    {foreach from=$product.extraContent item=extra key=extraKey}
        {if $extra.moduleName == 'stproductlinknav' || $extra.moduleName == 'ststickers' || $extra.moduleName == 'stvideo'}{continue}{/if}
        {if $extra.moduleName == 'stthemeeditor'}

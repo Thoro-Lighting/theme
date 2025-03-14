@@ -73,7 +73,7 @@
        {/if}
       
       <div class="product_second_section">
-      <div class="{if !$sttheme.pro_page_second_full_screen} container {else} container-fluid {/if}">
+      <div class="">
         {include file='catalog/product/product-second.tpl'}
       </div>
       </div>
