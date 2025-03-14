@@ -17,7 +17,7 @@
     {block name='product_quantity'}  
        <div class="product-quantity flex_child {if !$product.add_to_cart_url} hide_main_cart_button {/if}">
           <div class="sticy-price price {if $product.has_discount}promo_price{/if}">{$product.price nofilter} {if $sttheme.tax_label_price  == 1}<span>{$product.labels.tax_long}</span>{/if}</div>
-      <div class="qty qty_wrap qty_wrap_big mar_b6">
+      <div class="qty qty_wrap qty_wrap_big">
           <input
             type="text"
             name="qty"
@@ -38,7 +38,7 @@
     </div>
       {block name='product_minimal_quantity'}
       {if $product.minimal_quantity > 1}
-      <div class="product-minimal-quantity mar_b6">
+      <div class="product-minimal-quantity">
           {l
           s='The minimum purchase order quantity for the product is %quantity%.'
           d='Shop.Theme.Checkout'

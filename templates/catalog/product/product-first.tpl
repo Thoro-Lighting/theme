@@ -29,7 +29,6 @@
         <div class="product_middle_column box-right col-lg-5 mb-3">
   
 
-          {hook h='displayWeboProductButtons' productId=$product.id}
         <div class="product-above-heading">
           <div>
           </div>
@@ -74,11 +73,7 @@
             {/if}
             
             {if !$sttheme.product_buy}{include file='catalog/_partials/product-buy.tpl'}{/if}
-    
-            {hook h='displayAskAboutProductCustom'}
-            {hook h='displayReassurance'}
-            {hook h='displayProductCenterColumn'}
-            
+                
             {block name='product_attachments'}
             {if $product.attachments}
             <section class="product-attachments">
