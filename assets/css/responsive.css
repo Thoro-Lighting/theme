@@ -835,13 +835,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	
 }
 
-.mobile_tab .tab-pane .tab-pane-body {
-	display: none
-}
-.mobile_tab .tab-pane.st_open .tab-pane-body {
-	display: block;
-}
-
 @media only screen and (min-width:768px) and (max-width:991px) {
 	.product_list.grid .product_list_item.first-item-of-tablet-line {
 		clear: both

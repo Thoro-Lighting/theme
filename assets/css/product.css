@@ -1359,3 +1359,10 @@ section#wrapper.menu_blur{
 .tab-content .tab-pane:last-child:not(#comments){
   margin-bottom: 64px;
 }
+
+.mobile_tab .tab-pane .tab-pane-body {
+	display: none
+}
+.mobile_tab .tab-pane.st_open .tab-pane-body {
+	display: block;
+}
