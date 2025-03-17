@@ -721,14 +721,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	    display: inline-block;
 	    width: 100%;
 	} 
-	
-	.pcomment_left .rating_box_inner i.fto-star-2::before, .pcomment_left div.star.star_on::after, .pcomment_left div.star::after {
-	    width: 12px;
-	    height: 12px;
-	    top: 0px;
-	    background-size: 12px;
-	}
-	
+		
 	#footer_bottom_left .style_content .easy_brother_block {text-align: center}
     #category-description.no_mobile  {max-height: 100%; margin-bottom: 40px !important}
     .no_mobile.show_category  {display: none}

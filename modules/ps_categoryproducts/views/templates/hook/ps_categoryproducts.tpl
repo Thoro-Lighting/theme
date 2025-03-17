@@ -23,24 +23,17 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 {if isset($products) && $products}
-<div id="category_products_container" class="category_products_container block products_container {if $sttheme.position_buttons_cat}position_buttons_2{/if}">
+<div id="category_products_container" class="category_products_container products_container {if $sttheme.position_buttons_cat}position_buttons_2{/if}">
 <section class="products_section" >    
     <div class="products_slider">
-    <div class="title_block flex_container title_align_{(int)$sttheme.pc_title} title_style_{(int)$sttheme.heading_style}">
-        <div class="flex_child title_flex_left"></div>
-        <div class="title_block_inner">
-           {* {if $products|@count == 1}
-              {l s='%s other product in the same category:' sprintf=[$products|@count] d='Shop.Theme.Transformer'}
-            {else}
-              {l s='%s other products in the same category:' sprintf=[$products|@count] d='Shop.Theme.Transformer'}
-            {/if}*}
-            {l s='From the same category' d='Shop.Theme.Transformer'}
+            <div class="content_header">
+            <div>
+                <p>{l s='Our products' d='Shop.Theme.Transformer'}</p>
+                <h2>{l s='From the same category' d='Shop.Theme.Transformer'}</h2>
+            </div>
+            <a href="{$link->getCategoryLink($category->id_category, $category->link_rewrite)|escape:'html':'UTF-8'}"
+                class="btn-secondary hidden-md-down">{l s='View all products' d='Shop.Theme.Transformer'}</a>
         </div>
-        <div class="flex_child title_flex_right"></div>
-        {if $sttheme.pc_direction_nav==1 && isset($products) && $products}
-            <div class="swiper-button-tr{if $sttheme.pc_hide_direction_nav_on_mob} hidden-md-down {/if}"><div class="swiper-button swiper-button-outer swiper-button-prev"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div><div class="swiper-button swiper-button-outer swiper-button-next"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div></div>        
-        {/if}
-    </div>
 
     <div class="block_content">
         {include file="catalog/slider/product-slider.tpl" 
@@ -74,6 +67,10 @@
     pro_per_xs=$sttheme.pc_per_xs
     }
     </div>
+
+    <a href="{$link->getCategoryLink($category->id_category, $category->link_rewrite)|escape:'html':'UTF-8'}"
+    class="btn-secondary hidden-lg-up">{l s='View all products' d='Shop.Theme.Transformer'}</a>
+
 </section>
 </div>
 {/if}

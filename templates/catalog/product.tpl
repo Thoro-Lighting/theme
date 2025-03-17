@@ -78,9 +78,7 @@
       </div>
       </div>
       <div class="product_third_section">
-      <div class="{if !$sttheme.pro_page_third_full_screen} container {else} container-fluid {/if}">
         {include file='catalog/product/product-third.tpl'}
-      </div>
       </div>
       
       {capture name="displayProductBottomZone"}{hook h="displayProductBottomZone"}{/capture}

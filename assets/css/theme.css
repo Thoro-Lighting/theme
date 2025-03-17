@@ -19913,7 +19913,8 @@ hr {
 }
 
 .grower .plus_sign,.opener .plus_sign {
-	display: inline-block
+	display: inline-block;
+	height: 20px;
 }
 
 .grower .minus_sign,.opener .minus_sign {
@@ -19967,7 +19968,7 @@ hr {
 .mobile_tab .mobile_tab_title {
 	display: none;
 	position: relative;
-	padding: 20px 0
+	padding: 17px 0
 }
 
 .mobile_tab .mobile_tab_name {
@@ -19979,7 +19980,10 @@ hr {
 }
 
 .pro_more_info .mobile_tab .mobile_tab_name {
-	padding-left: 0
+	padding-left: 0;
+	font-size: 18px;
+	font-weight: 400;
+	color: #181B1A;
 }
 
 .accordion_more_info .mobile_tab .nav-tabs {

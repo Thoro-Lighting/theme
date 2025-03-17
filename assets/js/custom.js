@@ -128,7 +128,7 @@
 	    let $tabs = $("#product .tabs-sticky .nav-tabs .nav-link");
 	    if ($tabs.length == 0) return;
 
-	    let $contents = $("#product .tabs-sticky .tab-content > div");
+	    let $contents = $("#product .tabs-sticky .tab-content > div.tab-pane");
 	    let $title = $(".title_block").first();
 
 	    $tabs
@@ -136,7 +136,7 @@
 	        e.stopPropagation();
 	        e.preventDefault();
 
-	       $contents = $("#product .tabs-sticky .tab-content > div");
+	       $contents = $("#product .tabs-sticky .tab-content > div.tab-pane");
 	        let $tab = $(this);
 
 	        $("body, html").animate({
