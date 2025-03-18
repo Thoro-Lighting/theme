@@ -2,4 +2,7 @@
 {block name='page_header_container'}{/block}
 {block name='page_content'}
     {hook h='displayDistribution'}
+    <div class="form-contact">
+        {hook h='displayAskAboutProduct'}
+    </div>
 {/block}
