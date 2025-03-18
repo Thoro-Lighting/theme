@@ -63,13 +63,11 @@
 
     <div id="search_filters_wrapper" class="column_filter block column_block">
        	<div class="block_content">
-    		{if $sttheme.is_mobile_device}
-                <script>
-                    window.addEventListener('load', function(event) {
-                       jQuery('.PM_ASBlockOutput').appendTo('#side_facets')
-                    });
-                </script>
-            {/if}
+            <script>
+                window.addEventListener('load', function(event) {
+                    jQuery('.PM_ASBlockOutput').appendTo('#side_facets')
+                });
+            </script>
         </div>
     </div>
   
