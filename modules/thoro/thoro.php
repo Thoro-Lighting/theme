@@ -26,6 +26,7 @@ class Thoro extends ePrestaModule_T {
 		if (
 			!parent::install() 
 			|| !$this->registerHook('filterProductContent')
+
 			|| !$this->registerHook('displaySmartProductCombinations')
 			|| !$this->registerHook('actionAdminProductsListingFieldsModifier')
 			)
@@ -463,6 +464,10 @@ class Thoro extends ePrestaModule_T {
 					];
 				}
 
+				if ($comb['group_type'] == 'color') {
+					$attributes[$comb['id_attribute_group']]['values'][$comb['id_attribute']]['color'] = $comb['color'];
+				}
+
 				if ( $row['id_product'] == $params['product']['id_product'] ) 
 					$attributes[$comb['id_attribute_group']]['values'][$comb['id_attribute']]['selected'] = true;
 
@@ -570,7 +575,7 @@ class Thoro extends ePrestaModule_T {
 
 	protected function getCombinations($id_product_attribute) {
 		return DB::getInstance()->executeS('
-			SELECT a.`id_attribute`, ag.`id_attribute_group`, al.`name` AS attribute_name, agl.`name` AS group_name, a.`position` AS attribute_position, ag.`position` AS group_position, group_type
+			SELECT a.`id_attribute`, ag.`id_attribute_group`, al.`name` AS attribute_name, agl.`name` AS group_name, a.`position` AS attribute_position, ag.`position` AS group_position, group_type, color
 
 			FROM `' . _DB_PREFIX_ . 'product_attribute_combination` pac
 			JOIN `' . _DB_PREFIX_ . 'attribute` a USING(`id_attribute`)

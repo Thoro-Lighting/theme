@@ -1,1 +1,1 @@
-{if !$sttheme.product_tabs}<div class="bottom_more_info_block pro_more_info p-t-1 p-b-1 {if $sttheme.product_tabs_style==1 || $sttheme.product_tabs_style==4} accordion_more_info {/if}">{include file='catalog/_partials/product-tabs.tpl'}</div>{/if}
+{if !$sttheme.product_tabs}<div class="bottom_more_info_block pro_more_info {if $sttheme.product_tabs_style==1 || $sttheme.product_tabs_style==4} accordion_more_info {/if}">{include file='catalog/_partials/product-tabs.tpl'}</div>{/if}

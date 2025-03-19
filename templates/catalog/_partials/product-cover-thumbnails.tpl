@@ -57,10 +57,11 @@
 {assign var="gallery_top_width_v_mobile" value=12-$gallery_thumbnails_width_v_mobile}
 <div class="pro_gallery_top_container {if $sttheme.product_thumbnails==1 || $sttheme.product_thumbnails==2} col-{$gallery_top_width_v_mobile|replace:'.':'-'} col-md-{$gallery_top_width_v|replace:'.':'-'} {/if}{if $sttheme.product_thumbnails==1} push-{$gallery_thumbnails_width_v_mobile|replace:'.':'-'} push-md-{$sttheme.gallery_thumbnails_width_v|replace:'.':'-'} {/if} mb-3">
   <div class="pro_gallery_top_inner posi_rel">
+  {hook h='displayWeboProductButtons' productId=$product.id}
   {block name='product_flags'}
     {foreach $product.extraContent as $extra}
         {if $extra.moduleName=='ststickers'}
-            {include file='catalog/_partials/miniatures/sticker-product.tpl' stickers=$extra.content sticker_position=array(0,1,2,3,4,5,6,7,8,9,12) is_from_product_page=1}
+            {* {include file='catalog/_partials/miniatures/sticker-product.tpl' stickers=$extra.content sticker_position=array(0,1,2,3,4,5,6,7,8,9,12) is_from_product_page=1} *}
         {elseif $extra.moduleName=='stvideo'}
             {include file="module:stvideo/views/templates/hook/stvideo.tpl" stvideos=$extra.content.videos video_position=array(1,2,3,4,5,6,7,8,9)}
         {/if}
@@ -99,8 +100,18 @@
               {/if}
         </div>
         {assign var='button_prod_gallery' value=Configuration::get('STSN_BUTTON_PROD_GALLERY')}
-        {if $button_prod_gallery == 1}<div class="swiper-button swiper-button-next"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div>
-        <div class="swiper-button swiper-button-prev"><i class="fto-left-open-3 slider_arrow_left"></i><i class="fto-right-open-3 slider_arrow_right"></i></div>{/if}
+        {if $button_prod_gallery == 1}
+          <div class="swiper-button swiper-button-next">
+            <svg width="48" height="14" viewBox="0 0 48 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M39.5 1L46.5013 6.73898M46.5013 6.73898L40 12.6826M46.5013 6.73898H1" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="swiper-button swiper-button-prev">
+            <svg width="48" height="14" viewBox="0 0 48 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 12.6826L0.9987 6.94364M0.9987 6.94364L7.5 0.999997M0.9987 6.94364L46.5 6.94364" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>          
+          </div>
+        {/if}
         {if $sttheme.product_thumbnails==4}<div class="swiper-pagination"></div>{/if}
         <div class="swiper-pagination-number"><span>1</span>/{$product.images|count}</div>
     </div>

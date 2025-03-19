@@ -1,0 +1,1 @@
+<p class="delivery-box">{l s='Delivery from' d='Shop.Theme.Transformer'}: {$carrier.cost}{*{$carrier.name}*}</p>

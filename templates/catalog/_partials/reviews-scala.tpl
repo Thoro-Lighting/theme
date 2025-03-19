@@ -17,5 +17,8 @@
 	
 </div>
 <p class="info-reviews mt-4 sticky_off">
-	<span><i class="fto-ok-1"></i> {l s='Opinions are issued by customers after purchasing the product.' d='Shop.Theme.Transformer'}</span>
+	<svg width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M11.2953 0.77002L4.1358 7.97002L1.69531 5.51574" stroke="#181B1A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+	</svg>
+	<span>{l s='Opinions are issued by customers after purchasing the product.' d='Shop.Theme.Transformer'}</span>
 </p>
