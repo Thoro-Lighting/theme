@@ -1243,7 +1243,7 @@ padding-right: 30px;}
   }
 
   .product_left_column{
-    max-width: min(720px, 58.33333%) !important;
+    max-width: 50%
   }
 }
 
