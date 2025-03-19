@@ -315,7 +315,7 @@ body:not(.show-fixed-add-to-cart) .product-actions .pro_cart_block {margin-botto
 .mobile_device .product_middle_column {
   font-size: 14px;
 }
-.mobile_device .product-prices .current-price .price { font-size: 18px; }
+.mobile_device .product-prices .current-price .price { font-size: 20px; }
 .mobile_device .product_middle_column { margin-top:15px; margin-bottom:0px!important; }
 .mobile_device .product_middle_column .info_discount label { display:none; }
 .mobile_device .product_middle_column .price .name_price { font-size: 10px; }
@@ -376,16 +376,6 @@ body:not(.show-fixed-add-to-cart) .product-actions .pro_cart_block {margin-botto
   padding-bottom: 13px;
   margin-bottom: 50px;
 }
-.mobile_device .product-top-price {
-  border-bottom: 1px solid #dddddd;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
-}
-#product.mobile_device .product-actions {
-  border-top: 1px solid #dddddd;
-  margin-top: 15px;
-  padding-top: 15px;
-}
 
 #product.mobile_device .product_middle_column, #product.mobile_device #product-availability {
   font-size: 14px;
@@ -398,11 +388,6 @@ body:not(.show-fixed-add-to-cart) .product-actions .pro_cart_block {margin-botto
 }
 #product.mobile_device .variant-box .control-label {
   margin-bottom: 8px;
-}
-#product.mobile_device .pro_cart_block {
-  border-top: 1px solid #dddddd;
-  margin-top: 5px;
-  padding-top: 30px;
 }
 
 #product.mobile_device.show-fixed-add-to-cart .pro_cart_block {
@@ -580,7 +565,7 @@ p.info-reviews {text-align: center;}
   font-size: 15px;
 }
 
-.product-add-to-cart { margin-bottom:0px!important; }
+.product-add-to-cart { margin-bottom:32px!important; }
 .tab-prod-box .remove-loved, .tab-prod-box .st_added .add-loved {display: none}
 .tab-prod-box .st_added .remove-loved {display: inline-block}
 .tab-prod-box .flex_child i::before {

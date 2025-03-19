@@ -1,4 +1,4 @@
-<div class="product-add-to-cart  mb-3">
+<div class="product-add-to-cart">
   {if !$configuration.is_catalog}
      {foreach $product.extraContent as $extra}
               {if $extra.moduleName=='stvideo'}
