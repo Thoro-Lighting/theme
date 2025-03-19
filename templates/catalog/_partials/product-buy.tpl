@@ -8,7 +8,6 @@
 
                   <div class="product-config">
                     {block name='product_variants'}
-                      <h3>{l s='Configuration' d='Shop.Theme.Global'}</h3>
                           {include file='catalog/_partials/product-variants.tpl'}
                           {hook h="displaySmartProductCombinations" product=$product}
                     {/block}

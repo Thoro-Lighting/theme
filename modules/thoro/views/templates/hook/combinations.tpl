@@ -1,5 +1,6 @@
 {if !empty($attributes)}
 	<div class="smart-variants sticky_off">
+		<h3>{l s='Configuration' d='Shop.Theme.Global'}</h3>
 		{foreach $attributes as $attribute_group}
 		<div class="box-smart-variants">
 			<label>{$attribute_group.name}</label>
