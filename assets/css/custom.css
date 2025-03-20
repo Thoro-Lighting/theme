@@ -1284,8 +1284,6 @@ body.is-android .android-only {
   }
 }
 
-/* page dystrybucja */
-
 .dyst_banner {
   margin-bottom: 24px;
 }
@@ -1386,4 +1384,10 @@ body.is-android .android-only {
 .dyst_form h2 {
   font-size: 56px;
   font-weight: 500px;
+}
+.dyst_form ul li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #484540;
 }
