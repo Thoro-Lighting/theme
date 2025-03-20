@@ -8,6 +8,7 @@
 {/block}
 
 {* template
+
   <div>
     <div class="dyst_banner">
       <div class="content_header container-prod-tab">
