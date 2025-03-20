@@ -900,7 +900,7 @@
         </div>
         <div class="dyst_col_right">
           <img
-            src="./img/dystr_form_img.png"
+            src="https://thoro.webo.design/img/cms/dystr_form_img.png"
             alt="lampa"
           />
         </div>
