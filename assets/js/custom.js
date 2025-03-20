@@ -161,8 +161,49 @@
   };
 
   _self.product_tabs_column = function () {
-    let $tabs = $("#product .tabs-sticky .nav-tabs .nav-link");
-    if ($tabs.length == 0) return;
+	    let $tabs = $("#product .tabs-sticky .nav-tabs .nav-link");
+	    if ($tabs.length == 0) return;
+
+	    let $contents = $("#product .tabs-sticky .tab-content > div.tab-pane");
+	    let $title = $(".title_block").first();
+
+	    $tabs
+	      .on("click", function (e) {
+	        e.stopPropagation();
+	        e.preventDefault();
+
+	       $contents = $("#product .tabs-sticky .tab-content > div.tab-pane");
+	        let $tab = $(this);
+
+	        $("body, html").animate({
+	          scrollTop: $contents.eq($tabs.index($tab)).offset().top - 160,
+	        });
+	      })
+	      .each(function () {
+	        let $tab = $(this);
+
+	        let $header = $title.clone();
+	                 
+	      });
+
+	    $contents.show();
+	  };
+
+    _self.mobile_product_top_sticky = function() {
+      let $div = $('body.mobile_device #js-product-list-top');
+      if ( $div.length == 0 ) return;
+
+      let scroll = $(window).scrollTop();
+      let top = $div.parent().offset().top;
+      let header = $('#mobile_bar').height();
+
+      if ( scroll > 0 && scroll + header > top && $div.is(':visible') ) {
+        $div.parent().css('padding-top', $div.height());
+        $div.css({
+          position: 'fixed',
+          top: header + 'px',
+          zIndex: 5
+        }).addClass('is-sticky');
 
     let $contents = $("#product .tabs-sticky .tab-content > div");
     let $title = $(".title_block").first();
