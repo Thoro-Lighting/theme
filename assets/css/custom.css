@@ -1521,7 +1521,7 @@ body.is-android .android-only {
 }
 @media only screen and (max-width: 992px) {
   .configurator_col_right .content_header h2 {
-    font-size: 54px;
+    font-size: 46px;
     line-height: 100%;
   }
   .configurator_col_right .content_header h2 span {
