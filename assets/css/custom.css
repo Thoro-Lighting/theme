@@ -1648,6 +1648,7 @@ body.is-android .android-only {
   line-height: 150%;
   font-size: 16px;
   color: #181b1a;
+  font-weight: 400;
 }
 .configurator_tile_btn {
   width: 100%;
