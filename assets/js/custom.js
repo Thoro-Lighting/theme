@@ -668,14 +668,16 @@ function initDesktopSubmenuToggle() {
 
   tabButtons.forEach(btn => {
     btn.addEventListener('click', () => {
+
+      const container = btn.parentElement.parentElement
       
-      document.querySelectorAll('[data-js-tab-btn]').forEach(b => b.classList.remove('active'));
-      document.querySelectorAll('[data-js-tab]').forEach(t => t.classList.remove('active'));
+      container.querySelectorAll('[data-js-tab-btn]').forEach(b => b.classList.remove('active'));
+      container.querySelectorAll('[data-js-tab]').forEach(t => t.classList.remove('active'));
 
       btn.classList.add('active');
 
       const tabId = btn.getAttribute('data-js-tab-btn');
-      const tab = document.querySelector(`[data-js-tab="${tabId}"]`);
+      const tab = container.querySelector(`[data-js-tab="${tabId}"]`);
       if (tab) tab.classList.add('active');
     });
   });

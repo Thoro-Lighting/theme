@@ -1242,13 +1242,15 @@ body.is-android .android-only{
   }
 }
 
-.stmenu_sub_tabs_btns{
+.stmenu_sub_tabs_btns,
+.listing_btns{
   display: flex;
   gap: 16px;
   margin-bottom: 32px;
 }
 
-.stmenu_sub_tabs_name{
+.stmenu_sub_tabs_name,
+.listing_btns li{
   font-size: 16px;
   font-weight: 700;
   padding: 4px 0;
@@ -1258,11 +1260,20 @@ body.is-android .android-only{
   cursor: pointer;
 }
 
-.stmenu_sub_tabs_name.active{
+.stmenu_sub_tabs_name.active,
+.listing_btns li.active{
   font-weight: 700;
   color: #181B1A;
   border-bottom: 2px solid #181B1A;
 }
+
+.listing_swipers [data-js-tab]{
+  display: none;
+}
+.listing_swipers [data-js-tab].active{
+  display: block;
+}
+
 
 .stmenu_sub_tab{
   display: none;
