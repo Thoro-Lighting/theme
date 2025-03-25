@@ -1216,8 +1216,13 @@ body.is-android .android-only{
   transition: .2s ease-in-out;
 }
 
-.tile-category-link:hover{
+.tile-category-link:hover,
+.tile-category-link.current{
   background: #EFEAE2
+}
+
+.tile-category-link.current{
+  border-bottom: 4px solid #73716D;
 }
 
 .tile-category-link img{

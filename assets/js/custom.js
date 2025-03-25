@@ -536,6 +536,7 @@
   initDesktopSubmenuToggle()
   initTilesDefaultSwiper()
   initBasicSwiper()
+  initBasicSwiperAuto()
 
 }());
 
@@ -745,4 +746,33 @@ function initBasicSwiper(){
       }
     })
   )
+}
+
+function initBasicSwiperAuto() {
+	const swiperContainers = document.querySelectorAll(
+	  '[data-js="swiper-basic-auto"]'
+	);
+	
+	if(!swiperContainers) return;
+
+  swiperContainers.forEach(el => {
+    const swiper = new Swiper(el, {
+      spaceBetween: 16,
+      slidesPerView: 'auto',
+      watchSlidesProgress: true,
+      watchSlidesVisibility: true,
+      enabled: true,
+      observer: true,
+      observeParents: true,
+      lazyLoading: true,
+      lazyLoadingInPrevNext: true,
+      lazyLoadingInPrevNextAmount: true,
+      nextButton: el.querySelector('.swiper-product-button-next'),
+      prevButton: el.querySelector('.swiper-product-button-prev'),
+      scrollbar: el.querySelector('.swiper-scrollbar'),
+    })
+
+    swiper.on('onObserverUpdate', () => swiper.slideTo(0,0))
+    
+  })
 }

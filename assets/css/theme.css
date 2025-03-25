@@ -22453,6 +22453,15 @@ margin-right: 8px; margin-top: -7px;}
 	opacity: 0.5;
 	pointer-events: none;
   }
+
+  .swiper_btns_wrapper:has(.swiper-button-disabled~.swiper-button-disabled){
+	display: none !important;
+  }
+
+  .swiper-tiles-default .swiper-button-disabled {
+	opacity: 0.5;
+	pointer-events: none;
+  }
   
   .swiper-tiles-default .swiper-scrollbar {
 	opacity: 1 !important;
@@ -22465,18 +22474,39 @@ margin-right: 8px; margin-top: -7px;}
 	justify-content: space-between;
 	align-items: end;
   }
-  
+    
+  .swiper-tiles-default .swiper-scrollbar-drag {
+	background: #3d4c99;
+  }
+
+  .swiper-basic-auto{
+	position: relative;
+  }
+
+  .swiper-basic-auto .swiper-wrapper{
+	margin-bottom: 30px;
+  }
+
+  .swiper-basic-auto .swiper-slide{
+	width: auto;
+	margin-right: 16px;
+  }
+
+  .swiper-basic-auto .swiper-slide .tile-category-link{
+    min-width: 216px;
+  }
+
   @media only screen and (min-width: 992px) {
 	.swiper-tiles-default .swiper-scrollbar {
 	  bottom: 16px;
 	  max-width: 50%;
 	  left: 0;
 	}
+	.swiper-basic-auto .swiper-wrapper{
+	  margin-bottom: 56px;
+	}
   }
-  
-  .swiper-tiles-default .swiper-scrollbar-drag {
-	background: #3d4c99;
-  }
+
 
 
   .banner-gradient-circle{
