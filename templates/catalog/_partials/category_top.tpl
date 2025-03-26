@@ -70,7 +70,6 @@
 
           <div class=listing_swipers>
             <ul class="listing_btns" role="tablist">
-            {debug}
               {foreach $menu_global[0].column as $column}
                 <li data-js-tab-btn="listing-{$column.id_st_mega_column}" class="{if $column.id_st_mega_column == 4 && $page.page_name == 'category' || $column.id_st_mega_column == 5 && $page.page_name == 'manufacturer' }active{/if}">
                   {$column.title}

@@ -22,9 +22,9 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-  <div class="products-sort-order dropdown_wrap mar_r1">
+  <div class="products-sort-order dropdown_wrap">
     <a href="javascript:" class="dropdown_tri dropdown_tri_in" rel="nofollow" aria-haspopup="true" aria-expanded="false">
-      {if isset($listing.sort_selected) && $listing.sort_selected}{$listing.sort_selected}{else}{l s='Select' d='Shop.Theme.Actions'}{/if}
+      {l s='Sorting' d='Shop.Theme.Actions'}
       <i class="fto-angle-down arrow_down arrow"></i>
       <i class="fto-angle-up arrow_up arrow"></i>
     </a>

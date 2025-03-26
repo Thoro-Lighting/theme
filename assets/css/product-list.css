@@ -65,17 +65,47 @@
 
 #rightbar_facet_search {
   position: relative;
-  padding: 8px 20px 8px 45px;
-  background-image: url(../img/svg/filter.svg);
-  background-size: 17px;
-  background-position: 16px center;
-  background-repeat: no-repeat;
-  background-color: #222;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
   border-radius: 50px;
   border: 0px; 
-  color: #fff;
-  font-size: 13px;
-  margin: 0 0px 0px 10px;
+  color: #181B1A;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #DDD8CF;
+}
+#rightbar_facet_search:hover {
+  color: #DDD8CF;
+  background-color: #181B1A;
+}
+#rightbar_facet_search svg path{
+  transition: all .2s ease-in-out;
+}
+#rightbar_facet_search:hover svg path {
+  stroke: #DDD8CF;
+}
+#product-list-top-wrap .bottom_pagination{
+  margin-top: 32px;
+}
+
+#js-product-list-top .bottom_pagination{
+  display: none;
+}
+.bottom_pagination{
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+@media only screen and (min-width:992px) {
+  #js-product-list-top .bottom_pagination{
+    display: flex;
+  }
+  .bottom_pagination{
+    flex-direction: row;
+  }
 }
 
 .h6.active-filter-title {font-size: 12px;font-weight: 400;text-transform: uppercase;margin-bottom: 10px;}
@@ -225,6 +255,12 @@ body {overflow-x: hidden; overflow-y: scroll;}
   margin-bottom: 3rem !important;
 }
 
+@media only screen and (min-width: 992px) {
+  .bottom_pagination {
+    margin-bottom: 5rem !important;
+  }  
+}
+
 #category-description { 
   max-width: 720px;
  }
@@ -304,10 +340,17 @@ body {overflow-x: hidden; overflow-y: scroll;}
 
 .show_category .more-desc:hover { text-decoration: underline; }
 #js-product-list-top .products-sort-order {
-  border: 1px solid #222;
+  border: 1px solid #181B1A;
   border-radius: 50px;
-  padding: 8px 20px;
-  font-size: 13px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.dropdown_tri_in .arrow{
+  opacity: 1;
+  font-size: 24px;
 }
 
 #js-product-list-top .products-sort-order .dropdown_list {  }
@@ -319,6 +362,23 @@ body {overflow-x: hidden; overflow-y: scroll;}
 }
 #js-product-list-top .dropdown_list::before {
   top: 6px;
+}
+
+#products #js-product-list-top:not(.is-sticky) {
+  border-top: 1px solid #E6E6E6;
+  padding: 16px 0px;
+  margin-top: 30px !important;
+}
+
+.product_count{
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+.dropdown_list .dropdown_list_ul li .dropdown_list_item.current{
+  color: #3D4C99;
+  font-weight: 500;
 }
 
 
@@ -430,14 +490,6 @@ section#wrapper.menu_blur {margin-top: 0px !important;}
 .serach-text .privat_easy_4 p.phone {margin-left: 30px;}
 #js-product-list-top.is-sticky {left: 0px;width: 100%;background: #fff; padding: 10px 15px; border-bottom: 1px solid #dcdcdc; margin-top: 0px;}
 .sticky-top #js-product-list-top.is-sticky  {top: 0px !important; margin-top: 0px;}
-#js-product-list-top .products-sort-order {margin-left: 0px;}
-#products #js-product-list-top:not(.is-sticky) {
-  border-top: 1px solid #f1f1f1;
-  border-bottom: 1px solid #f1f1f1;
-  padding: 15px 0px;
-  margin: 0px 0px !important;
-}
-.page-item.disabled .page-link {border-bottom: 0px}
 #js-active-search-filters {display: none}
 .back-category {display: block; position: absolute; left: 0px; font-size: 28px; top: -18px; border-right: 1px solid #333; padding-right: 0px; height: 36px; line-height: 36px; width: 44px; text-align: center;}
 .mobile_device .page_heading_box {margin-bottom: 0px; position: relative;}
@@ -458,7 +510,6 @@ section#wrapper.menu_blur {margin-top: 0px !important;}
 @media ( max-width :767px) {
 
     #category-description.desc-bottom .col-md-7 {padding-left: 15px; padding-right: 15px;}
-    #js-product-list-top .products-sort-order {padding: 8px 10px; font-size: 13px;}
 	#category #left-column {width: 100%	}
 	#category #content-wrapper  {width: 100%	}
 	.products-selection h1 {padding-top: 0;text-align: center;margin-bottom: 1rem}
@@ -513,9 +564,17 @@ section#wrapper.menu_blur {margin-top: 0px !important;}
 	
 	
 }
-@media ( max-width :400px) {
-#js-product-list-top .products-sort-order {padding: 8px 2px; }
 
+section#wrapper.menu_blur{
+  margin-top: 0 !important;
 }
 
+.products.product_list.grid .product_list_item{
+  padding: 0 8px 16px 8px !important;
+}
 
+@media ( min-width :992px) {
+  .products.product_list.grid .product_list_item{
+    padding: 0 8px 48px 8px !important;
+  }
+}
