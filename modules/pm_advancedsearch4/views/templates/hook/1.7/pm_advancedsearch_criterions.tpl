@@ -8,23 +8,27 @@
 <div id="PM_ASCriterions_{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}" class="PM_ASCriterions{if $criterion_can_hide} PM_ASCriterionsToggle{if $as_search.show_hide_crit_method == 2}Click{/if}{if $as_search.show_hide_crit_method == 1}Hover{/if}{/if}">
 {if $as_search.hide_empty_crit_group && $as_search.step_search && (!isset($as_search.criterions[$criterions_group.id_criterion_group]) || !sizeof($as_search.criterions[$criterions_group.id_criterion_group]))}
 {else}
-<p class="PM_ASCriterionsGroupTitle h4{if !empty($as_search.criterions_selected[$criterions_group.id_criterion_group])} open_search{/if} {if $criterions_group.max_display == 253}close_all{else}open{/if}" id="PM_ASCriterionsGroupTitle_{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}" rel="{$criterions_group.id_criterion_group|intval}">
+<p class="PM_ASCriterionsGroupTitle h4{if !empty($as_search.criterions_selected[$criterions_group.id_criterion_group])} open_search{/if} {if $criterions_group.max_display == 253}close_all{/if}" id="PM_ASCriterionsGroupTitle_{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}" rel="{$criterions_group.id_criterion_group|intval}">
 	{if $criterions_group.icon}
 		<img src="{$as_path nofilter}search_files/criterions_group/{$criterions_group.icon}" alt="{$criterions_group.name}" title="{$criterions_group.name}" id="PM_ASCriterionsGroupIcon_{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}" class="PM_ASCriterionsGroupIcon" />
 	{/if}
-	<span class="PM_ASCriterionsGroupName">
+	<span class="PM_ASCriterionsGroupName openfiltr">
 		{$criterions_group.name} 
 		{if !empty($as_search.criterions_selected[$criterions_group.id_criterion_group])}
 			({count($as_search.criterions_selected[$criterions_group.id_criterion_group])})
 		{/if}
 		{if $as_search.reset_group|intval && isset($as_search.selected_criterion[$criterions_group.id_criterion_group]) && sizeof($as_search.selected_criterion[$criterions_group.id_criterion_group])}
-	<a href="#" class="PM_ASResetGroup" rel="{$criterions_group.id_criterion_group|intval}" title="{l s='Reset this group' mod='pm_advancedsearch4'}">
-		<i class="fto-trash"></i>{*{l s='Reset this group' mod='pm_advancedsearch4'}*}
-	</a>
 {/if}
 	</span>
 	
-	<span class="openfiltr"><i class="fto-angle-down" title="{l s='Open the filter' mod='pm_advancedsearch4'}"></i><i class="fto-angle-up" title="{l s='Close the filter' mod='pm_advancedsearch4'}"></i></span>
+	<span class="openfiltr">
+		<svg class="filter-closed" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M12 6.5L12 18.5M18 12.5L6 12.5" stroke="#181B1A" stroke-width="1.25" stroke-linecap="round"/>
+		</svg>
+		<svg class="filter-opened" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M18 12.5L6 12.5" stroke="#181B1A" stroke-width="1.25" stroke-linecap="round"/>
+		</svg>
+	</span>
 </p>
 
 <div class="PM_ASCriterionsGroupOuter">

@@ -10,17 +10,11 @@
   border: 0px;
 }
 .side-filter-button.btn:hover {background: #699da8}
-.side-filter-button .PM_ASSubmitSearch {border: 0; background: transparent; color: #fff; font-weight: 700; text-transform: uppercase; margin: 0 !important; z-index: 1; position: relative; padding-right: 35px;}
-.show-button .mobile-filter-count {
-  position: absolute;
-  top: 3px;
-  right: 50%;
-  color: #fff;
-  width: 100px;
-  text-align: left;
-  margin-right: -130px;
-  font-size: 14px;
+.PM_ASSubmitSearch {
+  width: 100%;
+  margin-bottom: 32px;
 }
+
 .hide_filter_page.filter-active, #rightbar_facet_search .filter_count span {display: none !important}
 .count_name {margin-left: 3px}
 .mobile_device #js-active-search-filters, .back-category, #side_facets .card-header, .loading-filtr  {display: none}
@@ -110,10 +104,6 @@
 
 .h6.active-filter-title {font-size: 12px;font-weight: 400;text-transform: uppercase;margin-bottom: 10px;}
 .PM_ASCriterions div.checkbox {position: relative}
-.PM_ASCriterionsGroupOuter {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
 .PM_ASCriterionGroupLinkColor span.PM_ASCriterionColorSquare.white_filter {border: 1px solid #ddd;}
 .PM_ASCriterionGroupLinkColor span.PM_ASCriterionColorSquare i {display: none}
 .PM_ASCriterionGroupLinkColor .PM_ASCriterionLink.PM_ASCriterionLinkSelected i {display: block;position: absolute;left: 5px; color: #fff}
@@ -175,10 +165,10 @@ span.range-name {position: absolute; top: 33px; z-index: 10; left: 10px; font-si
 
 #side_facets .PM_ASBlockOutputVertical .PM_ASCriterionsGroup {margin-bottom: 0px;}
 #side_facets .text-right.checkbox {display: none}
-#side_facets .show-button {position: fixed; width: 520px; padding: 0px 20px; margin: 0px -20px; bottom: 0px; background: #efefef; z-index: 10;}
+#side_facets .show-button {position: fixed; width: 520px; padding: 0px 20px; margin: 0px -20px; bottom: 0px; background: #fbfbfb; z-index: 10;}
 #side_facets .openfiltr i {font-size: 20px;}
 #side_facets .PM_ASCriterionGroupCheckbox .checkbox .checkbox-box {margin-top: -2px; width: 24px; height: 24px; border: 1px solid #a1a1a1;}
-#side_facets .PM_ASLabelCheckbox {margin-bottom: 12px;}
+#side_facets .PM_ASLabelCheckbox {margin-bottom: 12px; width:100%;}
 #side_facets .PM_ASCriterionGroupLinkColor .PM_ASCriterionLink .PM_ASCriterionValue {font-size: 16px;}
 #side_facets .PM_ASCriterionGroupLink .PM_ASCriterionValue {font-size: 14px}
 #side_facets .PM_ASCriterionGroupLinkColor span.PM_ASCriterionColorSquare {width: 24px; height: 24px; position: relative; border-radius: 3px;}
@@ -187,15 +177,12 @@ span.range-name {position: absolute; top: 33px; z-index: 10; left: 10px; font-si
 #side_facets  .PM_ASBlockOutputVertical .PM_ASCriterionsGroupTitle {font-size: 18px;}
 #side_facets .PM_ASResetGroup {font-size: 16px;top: 0px;}
 #side_facets .PM_ASCriterionGroupCheckbox .checkbox .PM_ASLabelCheckboxSelected .checkbox-box i {font-size: 13px;top: 0px; left: 4px;}
-#side_facets .remove_filters.PM_ASResetAll {background: transparent}
+
 
 .side-filter-button.btn.btn-primary input {width: 100%;padding: 0px -35px 0px 0px;height: 100%; cursor: pointer;}
-.remove_filters.PM_ASResetAll {
-  border: 0px;
-  font-size: 13px;
-  margin-bottom: 12px;
-  padding: 0px;
-  background: #fff;
+.PM_ASResetAll {
+  margin-bottom: 16px;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -313,7 +300,10 @@ body {overflow-x: hidden; overflow-y: scroll;}
   padding-bottom: 0px;
 }
 
-#side_facets .card-block {display: block; padding: 0 20px 120px;}
+#side_facets .card-block {display: block; padding: 20px 20px 120px;}
+#side_facets .card{
+  background: transparent;
+}
 
 
 #category-description.desc-bottom .row div {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: flex-start;
@@ -577,4 +567,130 @@ section#wrapper.menu_blur{
   .products.product_list.grid .product_list_item{
     padding: 0 8px 48px 8px !important;
   }
+}
+
+.PM_ASCriterionsGroupList .PM_ASCriterionsGroup{
+  width: 100%;
+  border-bottom: 1px solid #E3E3E2;
+}
+
+.PM_ASCriterionsGroupList .PM_ASCriterionsGroup p.PM_ASCriterionsGroupTitle{
+  display: flex;
+  width: 100%;
+  margin-bottom: 0;
+  cursor: pointer;
+  align-items: center;
+}
+
+.PM_ASCriterionsGroupList .PM_ASCriterionsGroup .PM_ASCriterionsGroupName{
+  width: 100%;
+  padding: 16px 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #181B1A;
+}
+
+.PM_ASCriterionsGroup p.open .filter-closed{
+  display: none
+}
+
+.PM_ASCriterionsGroup p:not(.open) .filter-opened{
+  display: none;
+}
+
+.PM_ASBlockOutputHorizontal .PM_ASCriterionsGroup{
+  padding: 0 !important;
+}
+
+.PM_ASCriterionsGroupTitle .filter-closed,
+.PM_ASCriterionsGroupTitle .filter-opened{
+  display: block;
+}
+
+.PM_ASCriterionCheckbox[type=radio]{
+  display: none;
+}
+
+.PM_ASLabelLink{
+  display: flex;
+  justify-content: space-between;
+  color: #181B1A;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+div.PM_ASCriterionNbProduct{
+  color: #181B1A;
+  font-size: 14px !important;
+  font-weight: 400;
+  opacity: 1 !important;
+}
+
+.PM_ASCriterionCheckbox[type=radio]:checked + label .PM_checkbox{
+  border: .5px solid #3D4C99;
+  background: #3D4C99;
+}
+
+.PM_checkbox{
+  width: 12px;
+  height: 12px;
+  border: .5px solid #181B1A;
+  border-radius: 2px;
+  margin-right: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PM_ASCritRange{
+  max-width: 100% !important;
+  height: 1px !important;
+  background: #D9D9D9 !important;
+  margin-bottom: 10px;
+}
+
+.ui-slider-range{
+  background: #9E9D9A !important;
+}
+
+.ui-slider-handle{
+  width: 8px !important;
+  height: 8px !important;
+  border: 1px solid #9E9D9A !important;
+  background: #D9D9D9 !important;
+  top: -3px !important;
+  margin-left: -4px !important;
+}
+
+.PM_ASCritRangeInputs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.PM_ASCritRangeInputs input{
+  padding: 2px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #181B1A;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #9E9D9A;
+  border-radius: 2px;
+}
+
+.PM_ASCritRangeInputs input[type=number] {
+  -moz-appearance:textfield;
+}
+
+.PM_ASCritRangeInputs input[type=number]::-webkit-outer-spin-button,
+.PM_ASCritRangeInputs input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.PM_ASCriterionsGroupOuter{
+  margin-bottom: 20px;
 }

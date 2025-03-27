@@ -16061,11 +16061,15 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 	transition: none
 }
 
+.st-menu{
+	background: #fbfbfb;
+}
+
 .st-menu-header {
 	position: relative;
 	height: 56px;
-	margin-top: 10px;
 	border-bottom: 1px solid #E6E6E6;
+	background: #fbfaf8;
 }
 
 .st-menu-header .close_right_side .side_close_right, .st-menu-header .close_right_side .side_close_left  {

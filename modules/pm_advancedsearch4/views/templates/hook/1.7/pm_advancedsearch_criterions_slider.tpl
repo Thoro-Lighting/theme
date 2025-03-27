@@ -10,21 +10,7 @@ Slider
                     <p class="PM_ASCriterionNoChoice">{l s='No choice available on this group' mod='pm_advancedsearch4'}</p>
                     <input type="hidden" name="as4c[{$criterions_group.id_criterion_group|intval}][]" id="PM_ASInputCritRange{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}" value="{if isset($criterion.cur_min)}{$criterion.cur_min|floatval}-{$criterion.cur_max|floatval}{/if}" />
                 {else}
-                <span class="PM_ASCritRangeValue mb-2" id="PM_ASCritRangeValue{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}">
-                        {if isset($criterion.cur_min)}
-                            {if !empty($criterion.cur_min_currency_formated)}
-                                {$criterion.cur_min_currency_formated} - {$criterion.cur_max_currency_formated}
-                            {else}
-                                {if isset($criterions_group.left_range_sign)}{$criterions_group.left_range_sign}{/if}{$criterion.cur_min|floatval}{if isset($criterions_group.right_range_sign)}{$criterions_group.right_range_sign}{/if} - {if isset($criterions_group.left_range_sign)}{$criterions_group.left_range_sign}{/if}{$criterion.cur_max|floatval}{if isset($criterions_group.right_range_sign)}{$criterions_group.right_range_sign}{/if}
-                            {/if}
-                        {else}
-                            {if !empty($criterion.min_currency_formated)}
-                                {$criterion.min_currency_formated} - {$criterion.max_currency_formated}
-                            {else}
-                                {if isset($criterions_group.left_range_sign)}{$criterions_group.left_range_sign}{/if}{$criterion.min|floatval}{if isset($criterions_group.right_range_sign)}{$criterions_group.right_range_sign}{/if} - {if isset($criterions_group.left_range_sign)}{$criterions_group.left_range_sign}{/if}{$criterion.max|floatval}{if isset($criterions_group.right_range_sign)}{$criterions_group.right_range_sign}{/if}
-                            {/if}
-                        {/if}
-                    </span>
+
                     <div
                         class="PM_ASCritRange"
                         id="PM_ASCritRange{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}"
@@ -40,6 +26,10 @@ Slider
                         data-currency-iso-code="{if isset($criterions_group.currency_iso_code)}{$criterions_group.currency_iso_code|escape:'htmlall':'UTF-8'}{/if}"
                         data-currency-precision="{if isset($criterions_group.currency_precision)}{$criterions_group.currency_precision|escape:'htmlall':'UTF-8'}{/if}"
                     ></div>
+                    <div class=PM_ASCritRangeInputs>
+                        <input class="PM_ASCritRangeInput-min" type="number" step="{$criterion.step|floatval}" min="{$criterion.min|floatval}" max="{if isset($criterion.cur_max)}{$criterion.cur_max|floatval}{else}{$criterion.max|floatval}{/if}" value="{if isset($criterion.cur_min)}{$criterion.cur_min|floatval}{else}{$criterion.min|floatval}{/if}">
+                        <input class="PM_ASCritRangeInput-max" type="number" step="{$criterion.step|floatval}" min="{if isset($criterion.cur_min)}{$criterion.cur_min|floatval}{else}{$criterion.min|floatval}{/if}" max="{$criterion.max|floatval}" value="{if isset($criterion.cur_max)}{$criterion.cur_max|floatval}{else}{$criterion.max|floatval}{/if}">
+                    </div>
                     
                     <input type="hidden" name="as4c[{$criterions_group.id_criterion_group|intval}][]" id="PM_ASInputCritRange{$as_search.id_search|intval}_{$criterions_group.id_criterion_group|intval}" value="{if isset($criterion.cur_min)}{$criterion.cur_min|floatval}~{$criterion.cur_max|floatval}{/if}" data-id-criterion-group="{$criterions_group.id_criterion_group|intval}" />
                     <script type="text/javascript">

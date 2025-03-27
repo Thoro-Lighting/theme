@@ -511,7 +511,7 @@ var as4Plugin = {
         });
 
         // Numeric range
-        $(document).on('change', '.PM_ASCriterionsGroup input[type=number]', function(e) {
+        $(document).on('change', '.PM_ASCriterionsGroup input[type=number]:not(.PM_ASCritRangeInput-min,.PM_ASCritRangeInput-max)', function(e) {
             e.preventDefault();
 
             id_search = as4Plugin.getIdSearchFromItem(this);

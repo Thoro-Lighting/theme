@@ -10,7 +10,18 @@ Checkbox
 			{if !$criterions_group.is_multicriteria && !isset($criterions_group.is_preselected_by_emplacement)}
 				<li>
 					<div class="radio">
-						<input type="radio" value="" id="as4c_{$criterions_group.id_criterion_group|intval}_0" name="as4c[{$criterions_group.id_criterion_group|intval}][]" {if !isset($as_search.selected_criterion[$criterions_group.id_criterion_group])}checked="checked"{/if} class="PM_ASCriterionCheckbox" /> <label for="as4c_{$criterions_group.id_criterion_group|intval}_0" class="PM_ASLabelCheckbox">{l s='All' mod='pm_advancedsearch4'}</label>
+						<input type="radio" value="" id="as4c_{$criterions_group.id_criterion_group|intval}_0" name="as4c[{$criterions_group.id_criterion_group|intval}][]" {if !isset($as_search.selected_criterion[$criterions_group.id_criterion_group])}checked="checked"{/if} class="PM_ASCriterionCheckbox" />
+						<label for="as4c_{$criterions_group.id_criterion_group|intval}_0" class="PM_ASLabelCheckbox">
+							<div class="PM_ASLabelLink">
+								<div>
+									<span class="PM_checkbox">
+										<svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M7.20017 1.14783L2.42716 5.94783L0.800171 4.31164" stroke="#FBFBFB" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</span>{l s='All' mod='pm_advancedsearch4'}
+								</div>
+							</div>
+						</label>
 					</div>
 				</li>
 			{/if}
@@ -42,8 +53,14 @@ Checkbox
 					<input type="{if $criterions_group.is_multicriteria}checkbox{else}radio{/if}" value="{$criterion.id_criterion nofilter}" data-id-criterion-group="{$criterions_group.id_criterion_group|intval}" id="as4c_{$criterions_group.id_criterion_group|intval}_{$criterion_key|intval}" name="as4c[{$criterions_group.id_criterion_group|intval}][]" {if $as_criterion_is_selected}checked="checked"{/if} class="PM_ASCriterionCheckbox" {if !$criterion.nb_product || !$as_search.selected_criterions[$criterions_group.id_criterion_group].is_selected}disabled="disabled"{/if} /> 
 					<label for="as4c_{$criterions_group.id_criterion_group|intval}_{$criterion_key|intval}" class="PM_ASLabelCheckbox{if $as_criterion_is_selected} PM_ASLabelCheckboxSelected{/if}{if !$criterions_group.is_multicriteria} PM_ASNotMulticriteria{/if}">
 						<div class="PM_ASLabelLink" href="{if isset($criterion.id_seo) && $criterion.id_seo != false && isset($criterion.seo_page_url) && $criterion.seo_page_url != false}{$criterion.seo_page_url nofilter}{else}#{/if}">
-							<span class="checkbox-box"><i class="fto-ok"></i></span>
-							{$criterion.value}{if $as_search.display_nb_result_criterion} <div class="PM_ASCriterionNbProduct">({$criterion.nb_product})</div>{/if}
+							<div>
+								<span class="PM_checkbox">
+									<svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.20017 1.14783L2.42716 5.94783L0.800171 4.31164" stroke="#FBFBFB" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</span>{$criterion.value}
+							</div>
+							{if $as_search.display_nb_result_criterion} <div class="PM_ASCriterionNbProduct">({$criterion.nb_product})</div>{/if}
 						</div>
 					</label>
 					{if $criterions_group.is_multicriteria}</div>{else}</div>{/if}

@@ -8,7 +8,7 @@
 		{/if}
 		{*<a {if !Tools::getIsset('id_seo') && isset($as_selected_criterion) && is_array($as_selected_criterion) && !sizeof($as_selected_criterion)}style="display: none" {/if}href="#" class="PM_ASResetSearch">{l s='Clear filters' mod='pm_advancedsearch4'}</a>*}
 		<form action="{$ASSearchUrlForm}" method="POST" id="PM_ASForm_{$as_search.id_search|intval}" class="PM_ASForm">
-			<div class="PM_ASCriterionsGroupList{if !preg_match('/.*(left|right)column$/i', $hookName)} row{/if}">
+			<div class="PM_ASCriterionsGroupList">
 		{foreach from=$as_search.criterions_groups item=criterions_group name=criterions_groups}
 			{capture name="as4_input_hidden_criterions"}
 				{if isset($as_search.selected_criterion[$criterions_group.id_criterion_group])}
@@ -59,12 +59,10 @@
 		<input type="hidden" name="n"{if Tools::getIsset('n') && Tools::getValue('n')} value="{Tools::getValue('n')|intval}"{else} disabled="disabled"{/if} />
 		{if $as_search.search_method == 2 || $as_search.search_method == 4}
 			<p class="col-xs-12 text-center show-button">
-				<span class="side-filter-button btn btn-primary"><input type="submit" value="{l s='Search' mod='pm_advancedsearch4'}" name="submitAsearch" class="PM_ASSubmitSearch" />
-				<span class="mobile-filter-count">(<span>{$as_search.total_products|intval}</span>)</span></span>
-
-				{if !empty($as_search.hasOneVisibleSelectedCriterion) }
-					<span></span><input type="button" value="x {l s='Remove selected filters' mod='pm_advancedsearch4'}" class="remove_filters PM_ASResetAll" />
-				{/if}
+			{if !empty($as_search.hasOneVisibleSelectedCriterion) }
+				<input type="button" value="x {l s='Remove selected filters' mod='pm_advancedsearch4'}" class="PM_ASResetAll btn-secondary" />
+			{/if}
+				<input type="submit" value="{l s='Search' mod='pm_advancedsearch4'} ({$as_search.total_products|intval})" name="submitAsearch" class="PM_ASSubmitSearch btn-main" />
 			</p>
 			<!---->
 		{/if}

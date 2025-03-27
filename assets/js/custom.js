@@ -776,3 +776,26 @@ function initBasicSwiperAuto() {
     
   })
 }
+
+$(document).on("slidechange", ".PM_ASCritRange", function(event, ui) {
+  const $group = $(this).closest('.PM_ASCriterionsGroupOuter');
+  if(ui){
+    $group.find('.PM_ASCritRangeInput-min').val(ui.values[0]);
+    $group.find('.PM_ASCritRangeInput-max').val(ui.values[1]); 
+  }
+
+});
+
+$(document).on('change', '.PM_ASCritRangeInput-min, .PM_ASCritRangeInput-max', function(event) {
+  const $group = $(this).closest('.PM_ASCriterionsGroupOuter');
+  $group.find('.PM_ASCritRange').slider('option','values', [
+    $group.find('.PM_ASCritRangeInput-min').val(),
+    $group.find('.PM_ASCritRangeInput-max').val()
+  ]);
+
+  const stopEvent = $.Event('stop');
+  const ui = {
+    values: $group.find('.PM_ASCritRange').slider('option','values')
+  };
+  $group.find('.PM_ASCritRange').slider('option', 'stop').call($group.find('.PM_ASCritRange')[0],stopEvent, ui);
+});
