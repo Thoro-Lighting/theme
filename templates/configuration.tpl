@@ -268,4 +268,164 @@
 			<p>Chcesz poznać szczegóły Programu Partnerskiego Klub Architekta? <u>Wypełnij formularz.</u></p>
 		</div>
 	</div>
-</div> *}
+</div>
+
+*}
+
+{* 
+  <div>
+    <div class="configurator_banner">
+      <div class="configurator_col_left">
+        <img
+          src="./img/configurator_banner.png"
+          alt="banner-image"
+        />
+      </div>
+      <div class="configurator_col_right">
+        <div class="content_header container-prod-tab">
+          <div>
+            <h2>Skorzystaj z konfiguratora lamp na szynoprzewodach</h2>
+          </div>
+        </div>
+        <div class="configurator_banner_desc">
+          <a href="#">Przejdź do konfiguratora 3D</a>
+          <p>
+            Prowadzimy sprzedaż naszych lamp na terenie całej Polski. Zapraszamy
+            do współpracy architektów i dystrybutorów:
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="configurator_steps">
+      <div class="content_header container-prod-tab">
+        <div>
+          <h2>Stwórz oświetlenie dla Twojego projektu w 3 krokach</h2>
+        </div>
+        <p>
+          Chcesz sprawdzić jak to działa?
+          <a href="#">Zobacz wideo</a>
+        </p>
+      </div>
+
+      <div class="configurator_steps_tiles">
+        <div class="configurator_tile">
+          <div class="configurator_tile_img">
+            <img
+              src="./img/tile1.png"
+              alt="tablet"
+            />
+          </div>
+
+          <span>KROK 1</span>
+
+          <h3>Uruchom konfigurator</h3>
+
+          <p>
+            Nasze narzędzie umożliwia pełną personalizację oświetlenia
+            szynowego, pozwalając Ci stworzyć oprawę idealnie dopasowaną do
+            projektu.
+          </p>
+        </div>
+        <div class="configurator_tile">
+          <div class="configurator_tile_img">
+            <img
+              src="./img/tile2.png"
+              alt="tablet"
+            />
+          </div>
+
+          <span>KROK 2</span>
+
+          <h3>Dopasuj każdy detal</h3>
+
+          <p>
+            Dopasuj konfigurację oświetlenia do swojego wnętrza i podkreśl jego
+            charakter. Wybierz oprawy o odpowiedniej mocy, barwie i kącie
+            rozsyłu światła. Określ precyzyjne wymiary lampy zgodnie z
+            potrzebami przestrzeni. Znajdź optymalne miejsce podłączenia
+            zasilania szynoprzewodu.
+          </p>
+        </div>
+        <div class="configurator_tile">
+          <div class="configurator_tile_img">
+            <img
+              src="./img/tile3.png"
+              alt="tablet"
+            />
+          </div>
+
+          <span>KROK 3</span>
+
+          <h3>Sprawdź wizualizację i dokonaj zakupu</h3>
+
+          <p>
+            Sprawdź jak Twoje wybory prezentują się w przestrzeni - w razie
+            potrzeby możesz wrócić na każdy wcześniejszy etap projektowania i
+            dokonać zmiany w dokonanych wyborach. Po zakończeniu konfiguracji
+            oświetlenia możesz od razu dokonać zakupu online, pobrać
+            specyfikację lub skonsultować się z naszym zespołem. Możesz też
+            przesłać projekt Klientowi – jeśli dokona zakupu, otrzymasz prowizję
+            w ramach Klubu Architekta.
+          </p>
+        </div>
+      </div>
+      <div class="configurator_tile_btn">
+        <a href="#">Przejdź do konfiguratora 3D</a>
+      </div>
+    </div>
+
+    <div class="dyst_form">
+      <img
+        class="dyst_form_img_mobile"
+        src="https://thoro.webo.design/img/cms/dystr_form_img.png"
+        alt="lampa"
+      />
+      <div class="content_header container-prod-tab">
+        <div>
+          <p>POZNAJ KORZYŚCI WSPÓŁPRACY</p>
+          <h2>Twój projekt zasługuje na najwyższą jakość obsługi.</h2>
+        </div>
+      </div>
+
+      <ul>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M9.6 21.5999H14.4M10.2 9.5999H13.8M6 8.3999C6 5.08619 8.68629 2.3999 12 2.3999C15.3137 2.3999 18 5.08619 18 8.3999C18 10.8603 16.5191 12.874 14.4 13.7999V17.3999C14.4 18.0626 13.8627 18.5999 13.2 18.5999H10.8C10.1373 18.5999 9.6 18.0626 9.6 17.3999V13.9006C7.48091 12.9748 6 10.8603 6 8.3999Z"
+              stroke="#484540"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          5 lat gwarancji
+        </li>
+        <li>100 dni na zwrot</li>
+        <li>Gwarancja satysfakcji</li>
+        <li>Szybki czas realizacji zamówienia</li>
+      </ul>
+
+      <div class="dyst_form_content">
+        <div class="dyst_col_left">
+          <h3>
+            Napisz do nas i&nbsp;porozmawiajmy o&nbsp;możliwościach współpracy
+          </h3>
+          <p>Odezwiemy się tak szybko jak to możliwe!</p>
+        </div>
+        <div class="dyst_col_right">
+          <img
+            src="https://thoro.webo.design/img/cms/dystr_form_img.png"
+            alt="lampa"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+*}
