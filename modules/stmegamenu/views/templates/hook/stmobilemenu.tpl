@@ -24,7 +24,11 @@
 <div class="st-menu" id="side_stmobilemenu">
   <div class="st-menu-header">
 	<div class="st-menu-title">{l s='Menu' d='Shop.Theme.Transformer'}</div>
-	  <a href="javascript:;" class="close_right_side" title="{l s='Close' d='Shop.Theme.Transformer'}"><i class="fto-angle-double-right side_close_right"></i><i class="fto-angle-double-left side_close_left"></i></a>
+	  <a href="javascript:;" class="close_right_side" title="{l s='Close' d='Shop.Theme.Transformer'}">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M18 6L6 18M18 18L6 6" stroke="#181B1A" stroke-width="1.2" stroke-linecap="round"/>
+				</svg> 
+			</a>
   </div>
   <div id="st_mobile_menu" class="stmobilemenu_box">
 	{include file="module:stmegamenu/views/templates/hook/stmobilemenu-ul.tpl"}

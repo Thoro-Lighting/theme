@@ -1,4 +1,4 @@
-<div class="product-add-to-cart  mb-3">
+<div class="product-add-to-cart">
   {if !$configuration.is_catalog}
      {foreach $product.extraContent as $extra}
               {if $extra.moduleName=='stvideo'}
@@ -17,7 +17,7 @@
     {block name='product_quantity'}  
        <div class="product-quantity flex_child {if !$product.add_to_cart_url} hide_main_cart_button {/if}">
           <div class="sticy-price price {if $product.has_discount}promo_price{/if}">{$product.price nofilter} {if $sttheme.tax_label_price  == 1}<span>{$product.labels.tax_long}</span>{/if}</div>
-      <div class="qty qty_wrap qty_wrap_big mar_b6">
+      <div class="qty qty_wrap qty_wrap_big">
           <input
             type="text"
             name="qty"
@@ -29,16 +29,16 @@
             aria-label="{l s='Quantity' d='Shop.Theme.Actions'}"
           >
         </div>
-       <div class="add mar_b6">
-          <button class="btn btn-default btn-large add-to-cart btn-full-width btn-spin" data-button-action="add-to-cart" type="submit" {if !$product.add_to_cart_url} disabled {/if}>
-            <i class="fto-glyph icon_btn"></i><span>{l s='Add to cart' d='Shop.Theme.Actions'}</span>
+       <div class="add">
+          <button class="btn btn-main add-to-cart btn-spin" data-button-action="add-to-cart" type="submit" {if !$product.add_to_cart_url} disabled {/if}>
+            <span>{l s='Add to cart' d='Shop.Theme.Actions'}</span>
           </button>
         </div>
         <div class="loved-sticky">{hook h='displayProductCartRight'}</div>
     </div>
       {block name='product_minimal_quantity'}
       {if $product.minimal_quantity > 1}
-      <div class="product-minimal-quantity mar_b6">
+      <div class="product-minimal-quantity">
           {l
           s='The minimum purchase order quantity for the product is %quantity%.'
           d='Shop.Theme.Checkout'

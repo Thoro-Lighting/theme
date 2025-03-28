@@ -1,4 +1,4 @@
-{if $page.page_name != "index"}{block name='header_nav'}
+{block name='header_nav'}
   {capture name="displayNav1"}{hook h="displayNav1"}{/capture}
   {capture name="displayNav2"}{hook h="displayNav2"}{/capture}
   {capture name="displayNav3"}{hook h="displayNav3"}{/capture}
@@ -16,7 +16,6 @@
     </div>
   {/if}
 {/block}
-{/if}
 {block name='mobile_header'}
   <section id="mobile_bar" class="animated fast text_hd_{$sttheme.mobile_header_text}">
     <div class="container">
@@ -42,12 +41,16 @@
       <div id="header_primary_container" class="container">
         <div id="header_primary_row" class="flex_container logo_left">
           <div id="header_left" class="">
-            <div class="flex_container header_box flex_left">
-               <div class="logo_box">
-                 <a class="shop_logo" href="{$urls.base_url}" title="{$shop.name}">
+            <div id="header_left_top" class="flex_container header_box flex_left">
+                {hook h='displayHeaderLeft'}
+            </div>
+          </div>
+
+          <div id="header_center" class="">
+            <div class="logo_box">
+              <a class="shop_logo" href="{$urls.base_url}" title="{$shop.name}">
                 <img class="logo" src="/img/logo_thoro.svg" alt="{$shop.name}" width="190px" height="65px"/>
-                 </a>
-             </div>
+              </a>
             </div>
           </div>
           <div id="header_right" class="">

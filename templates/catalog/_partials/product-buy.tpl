@@ -6,10 +6,12 @@
                   <input type="hidden" name="id_product" value="{$product.id}" id="product_page_product_id">
                   <input type="hidden" name="id_customization" value="{$product.id_customization}" id="product_customization_id">
 
-              {block name='product_variants'}
-                    {include file='catalog/_partials/product-variants.tpl'}
-                    {hook h="displaySmartProductCombinations" product=$product}
-              {/block}
+                  <div class="product-config">
+                    {block name='product_variants'}
+                          {include file='catalog/_partials/product-variants.tpl'}
+                          {hook h="displaySmartProductCombinations" product=$product}
+                    {/block}
+                  </div>
                   
                 {foreach $product.extraContent as $extra}
                   {if $extra.moduleName=='stvideo'}

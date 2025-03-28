@@ -170,10 +170,6 @@ span.range-name {position: absolute; top: 33px; z-index: 10; left: 10px; font-si
   cursor: pointer;
 }
 
-.s_title_block.two_rows {
-  height: 78px;
-}
-
 .openfiltr {float: right}
 .PM_ASCriterionsGroup .openfiltr .open_search .fto-angle-up, .PM_ASCriterionsGroup .openfiltr .open_search.open .fto-angle-up {display: block}
 .PM_ASCriterionsGroup p.PM_ASCriterionsGroupTitle.open_search.close_all + .PM_ASCriterionsGroupOuter, .PM_ASCriterionsGroup p.PM_ASCriterionsGroupTitle.open_search.open + .PM_ASCriterionsGroupOuter,.PM_ASCriterionsGroup p.open_search.open + .PM_ASCriterionsGroupOuter, .PM_ASCriterionsGroup p.open + .PM_ASCriterionsGroupOuter,
@@ -372,8 +368,7 @@ body {overflow-x: hidden; overflow-y: scroll;}
 .no-search {text-align: center; position: relative;}
 .desktop_device #search .page_heading_box.bg-top {text-align: center}
 #search section#wrapper.menu_blur {margin-top: 1rem;}
-.mobile_device .breadcrumb_wrapper, .mobile_device .page_heading_box.bg-top  {padding-left: 56px; background: #f1f1f1; padding-bottom: 10px; margin-top: -1px; position: relative;}
-.mobile_device #page_banner_container_1 {padding-bottom: 0px;}
+.mobile_device .page_heading_box.bg-top  {padding-left: 56px; background: #f1f1f1; padding-bottom: 10px; margin-top: -1px; position: relative;}
 
 @media ( min-width :1680px) {
 	

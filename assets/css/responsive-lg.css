@@ -26,18 +26,7 @@
 	    max-width: 100% !important;
 	}
     
-#st_mega_menu_wrap .ma_level_0 {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-#top_bar .top_bar_item .header_item, #top_bar_checkout p, #top_bar p, #top_bar .mobile_bar_tri_text {
-  font-size: 11px;
-}	
-
-#languages-block-top-mod li, #st_mega_menu_wrap .ma_level_0 { font-size: 12px; }
 	
-#header_right .myaccount_mobile_bar_tri {margin-right: 0px;}
-.header_normal #st_header .shop_logo {max-width: 110px;}
 #languages-block-top-mod {margin: 0px 9px;}
 #header_right .blockcart::before {display: none}
 #header_primary .mobile_bar_item {padding: 10px 4px;}

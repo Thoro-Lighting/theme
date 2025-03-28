@@ -128,7 +128,7 @@
 	    let $tabs = $("#product .tabs-sticky .nav-tabs .nav-link");
 	    if ($tabs.length == 0) return;
 
-	    let $contents = $("#product .tabs-sticky .tab-content > div");
+	    let $contents = $("#product .tabs-sticky .tab-content > div.tab-pane");
 	    let $title = $(".title_block").first();
 
 	    $tabs
@@ -136,7 +136,7 @@
 	        e.stopPropagation();
 	        e.preventDefault();
 
-	       $contents = $("#product .tabs-sticky .tab-content > div");
+	       $contents = $("#product .tabs-sticky .tab-content > div.tab-pane");
 	        let $tab = $(this);
 
 	        $("body, html").animate({
@@ -532,6 +532,10 @@
   initAppVideoPlay()
   checkMobileSystem()
   initConfiguratorVideoModal()
+  initMobileSubMenu()
+  initDesktopSubmenuToggle()
+  initTilesDefaultSwiper()
+  initBasicSwiper()
 
 }());
 
@@ -636,4 +640,107 @@ function initConfiguratorVideoModal(){
     }
   });
 
+}
+
+function initMobileSubMenu() {
+  const sidemenuButtons = document.querySelectorAll('[data-js-sidemenu-btn]');
+
+  sidemenuButtons.forEach(btn => {
+    const parent = btn.parentElement;
+    const id = btn.getAttribute('data-js-sidemenu-btn');
+    const sidemenu = parent.querySelector(`[data-js-sidemenu="${id}"]`);
+    if(!sidemenu) return
+    
+    const sidemenuCloseButton = sidemenu.querySelector('[data-js-sidemenu-close]');
+
+    btn.addEventListener('click', function() {
+      sidemenu.classList.add('active'); 
+    });
+
+    sidemenuCloseButton.addEventListener('click', function() {
+      sidemenu.classList.remove('active');
+    });
+  });
+}
+
+function initDesktopSubmenuToggle() {
+  const tabButtons = document.querySelectorAll('[data-js-tab-btn]');
+
+  tabButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      
+      document.querySelectorAll('[data-js-tab-btn]').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('[data-js-tab]').forEach(t => t.classList.remove('active'));
+
+      btn.classList.add('active');
+
+      const tabId = btn.getAttribute('data-js-tab-btn');
+      const tab = document.querySelector(`[data-js-tab="${tabId}"]`);
+      if (tab) tab.classList.add('active');
+    });
+  });
+}
+
+function initTilesDefaultSwiper() {
+	const swiperContainers = document.querySelectorAll(
+	  '[data-js="swiper-tiles-default"]'
+	);
+	
+	if(!swiperContainers) return;
+
+  swiperContainers.forEach(el => 
+    new Swiper(el, {
+      spaceBetween: 16,
+      slidesPerView: 4,
+      watchSlidesProgress: true,
+      watchSlidesVisibility: true,
+      enabled: true,
+      observer: true,
+      observeParents: true,
+      lazyLoading: true,
+      lazyLoadingInPrevNext: true,
+      lazyLoadingInPrevNextAmount: true,
+      nextButton: el.querySelector('.swiper-product-button-next'),
+      prevButton: el.querySelector('.swiper-product-button-prev'),
+      scrollbar: el.querySelector('.swiper-scrollbar'),
+      breakpoints:{
+        992:{
+          slidesPerView: 2.3,
+          spaceBetween: 8,
+        },
+        768:{
+          slidesPerView: 1.3,
+          spaceBetween: 8,
+        },
+      }
+    })
+  )
+}
+
+function initBasicSwiper(){
+  const swiperContainers = document.querySelectorAll(
+	  '[data-js="swiper-tiles-basic"]'
+	);
+	
+	if(!swiperContainers) return;
+
+  swiperContainers.forEach(el => 
+    new Swiper(el, {
+      spaceBetween: 16,
+      slidesPerView: 3,
+      watchSlidesProgress: true,
+      enabled: true,
+      scrollbar: el.querySelector('.swiper-scrollbar'),
+      breakpoints:{
+        992:{
+          slidesPerView: 2,
+          spaceBetween: 8,
+        },
+        768:{
+          slidesPerView: 1,
+          spaceBetween: 8,
+        },
+      }
+    })
+  )
 }

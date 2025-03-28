@@ -355,12 +355,6 @@
     
 .account-full-width .myacount_dashbord_list .list-group-item {width: calc(20% - 16px);}
 #languages-block-top-mod {margin: 0px 50px;}
-#st_mega_menu_wrap .ma_level_0 {padding-left: 18px; padding-right: 18px;}
-    
- .lang-en #st_mega_menu_wrap .ma_level_0 {
-  padding-left: 16px;
-  padding-right: 16px;
-}	
     
 }
 
@@ -387,10 +381,7 @@
 	    line-height: 38px;
 	    margin-bottom: 28px !important;
 	}
-	
-.header_normal #st_header .shop_logo {max-width: 100%;}
-.header_normal #st_header.stuck .shop_logo {max-width: 70%;}
-	
+		
 }
 
 
@@ -402,17 +393,8 @@
 #languages-block-top-mod {
   margin: 0px 60px;
 }
+	
 
-#st_mega_menu_wrap .ma_level_0 {padding-left: 21px; padding-right: 21px;}	
-
-
-
-.lang-en #st_mega_menu_wrap .ma_level_0 {
-  padding-left: 18px;
-  padding-right: 18px;
-}		
-
-#languages-block-top-mod li, #st_mega_menu_wrap .ma_level_0 {   font-size: 0.84327rem; } 	
 	
 .container {width: 1540px}
 
@@ -434,15 +416,5 @@
 #languages-block-top-mod {
   margin: 0px 80px;
 }
-
-#st_mega_menu_wrap .ma_level_0 {
-  padding-left: 26px;
-  padding-right: 26px;
-}
-
-.lang-en #st_mega_menu_wrap .ma_level_0 {
-  padding-left: 22px;
-  padding-right: 22px;
-}	
 	
 }

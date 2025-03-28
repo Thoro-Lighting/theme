@@ -1,4 +1,4 @@
-<ul class="st_mega_menu clearfix mu_level_0"> 
+<ul class="st_mega_menu mu_level_0"> 
 	{if isset($stvertical) && count($stvertical) && isset($is_mega_menu_main) && $is_mega_menu_main}
 		{assign var='responsive_max' value=Configuration::get('STSN_RESPONSIVE_MAX')}
 		

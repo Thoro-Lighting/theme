@@ -7,7 +7,7 @@ $(document).ready(function () {
     prestashop.on(
       'updateCart', function(event){
         if($('#module-steasycheckout-default').length){    
-          if(event && typeof(event.resp)!='undefined' && (!event.resp.cart.products_count || event.resp.cart.minimalPurchaseRequired!='')){
+          if(event && typeof(event.resp)!='undefined' && (event.reason == 'refresh' || (typeof(event.resp.cart)!='undefined' && !event.resp.cart.products_count) || (typeof(event.resp.cart)!='undefined' && event.resp.cart.minimalPurchaseRequired!=''))){
             window.location.reload(true);
           }
           steco.update({'item':28});
