@@ -62,9 +62,15 @@
               {if $page.type === 'previous'} aria-label="Previous" {elseif $page.type === 'next'} aria-label="Next" {/if}
             >
               {if $page.type === 'previous'}
-                <i class="fto-angle-left"></i><span class="sr-only">{l s='Previous' d='Shop.Theme.Actions'}</span>
+                <svg width="48" height="14" viewBox="0 0 48 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 12.8652L0.9987 7.12625M0.9987 7.12625L7.5 1.18261M0.9987 7.12625L46.5 7.12626" stroke="#3D4C99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="sr-only">{l s='Previous' d='Shop.Theme.Actions'}</span>
               {elseif $page.type === 'next'}
-                <i class="fto-angle-right"></i><span class="sr-only">{l s='Next' d='Shop.Theme.Actions'}</span>
+                <svg width="48" height="14" viewBox="0 0 48 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M40 1.18262L47.0013 6.92159M47.0013 6.92159L40.5 12.8652M47.0013 6.92159H1.5" stroke="#3D4C99" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="sr-only">{l s='Next' d='Shop.Theme.Actions'}</span>
               {else}
                 {$page.page}
               {/if}

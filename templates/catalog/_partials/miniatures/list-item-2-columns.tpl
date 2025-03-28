@@ -28,20 +28,20 @@
   {/if}
   {*to do do not use capture*}
 
-  {if !isset($pro_per_fw_2)}{$pro_per_fw_2=$sttheme["{$for_w}_per_fw_2"]}{/if}
+  {* {if !isset($pro_per_fw_2)}{$pro_per_fw_2=$sttheme["{$for_w}_per_fw_2"]}{/if}
   {if !isset($pro_per_xxl_2)}{$pro_per_xxl_2=$sttheme["{$for_w}_per_xxl_2"]}{/if}
   {if !isset($pro_per_xl_2)}{$pro_per_xl_2=$sttheme["{$for_w}_per_xl_2"]}{/if}
   {if !isset($pro_per_lg_2)}{$pro_per_lg_2=$sttheme["{$for_w}_per_lg_2"]}{/if}
   {if !isset($pro_per_md_2)}{$pro_per_md_2=$sttheme["{$for_w}_per_md_2"]}{/if}
   {if !isset($pro_per_sm_2)}{$pro_per_sm_2=$sttheme["{$for_w}_per_sm_2"]}{/if}
-  {if !isset($pro_per_xs_2)}{$pro_per_xs_2=$sttheme["{$for_w}_per_xs_2"]}{/if}
+  {if !isset($pro_per_xs_2)}{$pro_per_xs_2=$sttheme["{$for_w}_per_xs_2"]}{/if} *}
 
-  {if !$pro_per_fw_2}{$pro_per_fw_2=1}{/if}
-  {if !$pro_per_xxl_2}{$pro_per_xxl_2=1}{/if}
-  {if !$pro_per_xl_2}{$pro_per_xl_2=1}{/if}
-  {if !$pro_per_lg_2}{$pro_per_lg_2=1}{/if}
-  {if !$pro_per_md_2}{$pro_per_md_2=1}{/if}
-  {if !$pro_per_sm_2}{$pro_per_sm_2=1}{/if}
+  {if !$pro_per_fw_2}{$pro_per_fw_2=4}{/if}
+  {if !$pro_per_xxl_2}{$pro_per_xxl_2=4}{/if}
+  {if !$pro_per_xl_2}{$pro_per_xl_2=4}{/if}
+  {if !$pro_per_lg_2}{$pro_per_lg_2=4}{/if}
+  {if !$pro_per_md_2}{$pro_per_md_2=2}{/if}
+  {if !$pro_per_sm_2}{$pro_per_sm_2=2}{/if}
   {if !$pro_per_xs_2}{$pro_per_xs_2=1}{/if}
 
 

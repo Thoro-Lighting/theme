@@ -1,6 +1,7 @@
 
 
 {if isset($stmenu) && is_array($stmenu) && count($stmenu)}
+	{assign var="menu_global" value=$stmenu scope=global}
 {if $header_bottom}
 <div class="st_mega_menu_container animated fast">
 	<div id="st_mega_menu_header_container">

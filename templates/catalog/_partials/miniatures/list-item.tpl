@@ -28,20 +28,20 @@
   {/if}
   {*to do do not use capture*}
 
-  {if !isset($pro_per_fw)}{$pro_per_fw=$sttheme["{$for_w}_per_fw"]}{/if}
+  {* {if !isset($pro_per_fw)}{$pro_per_fw=$sttheme["{$for_w}_per_fw"]}{/if}
   {if !isset($pro_per_xxl)}{$pro_per_xxl=$sttheme["{$for_w}_per_xxl"]}{/if}
   {if !isset($pro_per_xl)}{$pro_per_xl=$sttheme["{$for_w}_per_xl"]}{/if}
   {if !isset($pro_per_lg)}{$pro_per_lg=$sttheme["{$for_w}_per_lg"]}{/if}
   {if !isset($pro_per_md)}{$pro_per_md=$sttheme["{$for_w}_per_md"]}{/if}
   {if !isset($pro_per_sm)}{$pro_per_sm=$sttheme["{$for_w}_per_sm"]}{/if}
-  {if !isset($pro_per_xs)}{$pro_per_xs=$sttheme["{$for_w}_per_xs"]}{/if}
+  {if !isset($pro_per_xs)}{$pro_per_xs=$sttheme["{$for_w}_per_xs"]}{/if} *}
 
-  {if !$pro_per_fw}{$pro_per_fw=1}{/if}
-  {if !$pro_per_xxl}{$pro_per_xxl=1}{/if}
-  {if !$pro_per_xl}{$pro_per_xl=1}{/if}
-  {if !$pro_per_lg}{$pro_per_lg=1}{/if}
-  {if !$pro_per_md}{$pro_per_md=1}{/if}
-  {if !$pro_per_sm}{$pro_per_sm=1}{/if}
+  {if !$pro_per_fw}{$pro_per_fw=4}{/if}
+  {if !$pro_per_xxl}{$pro_per_xxl=4}{/if}
+  {if !$pro_per_xl}{$pro_per_xl=4}{/if}
+  {if !$pro_per_lg}{$pro_per_lg=4}{/if}
+  {if !$pro_per_md}{$pro_per_md=2}{/if}
+  {if !$pro_per_sm}{$pro_per_sm=2}{/if}
   {if !$pro_per_xs}{$pro_per_xs=1}{/if}
 
   {*define numbers of product per line in other page for tablet*}
@@ -91,12 +91,12 @@
       {/block}
       </div>
     {/foreach}
-    {hook h='displayCategoryHeaderListing'}
+    {* {hook h='displayCategoryHeaderListing'}
     {hook h='displayManufacturerHeaderListing'}
     {if $page.page_name == 'prices-drop'}{hook h='displayPromotionListing'}{/if}
     {if $page.page_name == 'search'}{hook h='displaySearchListing'}{/if}
     {if $page.page_name == 'new-products'}{hook h='displayNewproductListing'}{/if}
-    {if $page.page_name == 'best-sales'}{hook h='displayBestsalesListing'}{/if}
+    {if $page.page_name == 'best-sales'}{hook h='displayBestsalesListing'}{/if} *}
     {if $sttheme.big_next && $for_w=="category" && !$sttheme.infinite_scroll && count($listing.pagination.pages)>3 && $listing.pagination.items_shown_to<$listing.pagination.total_items}
       <div class="product_list_item {$smarty.capture.product_gide_class}
       {if $curr_iteration%$pro_per_fw == 0} last-item-of-screen-line{elseif $curr_iteration%$pro_per_fw == 1} first-item-of-screen-line{/if}{if $curr_iteration > ($nbLi - $totModuloScreen)} last-screen-line{/if}{if $curr_index < $pro_per_fw} first-screen-line{/if}
