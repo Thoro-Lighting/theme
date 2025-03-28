@@ -8901,7 +8901,7 @@ input.form-control {
 
 .form-group.animation_placeholder {
   position: relative;
-  margin-bottom: 1.2rem !important;
+  margin-bottom: 12px !important;
 }
 
 .animation_placeholder .form-control-placeholder {
