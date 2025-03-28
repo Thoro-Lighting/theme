@@ -1,4 +1,4 @@
-{if !$sttheme.is_mobile_device}
+
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-xl-12">
@@ -123,6 +123,3 @@
     </div>
 
   {/if}
-
-
-{/if}

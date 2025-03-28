@@ -757,7 +757,7 @@ function initBasicSwiperAuto() {
 
   swiperContainers.forEach(el => {
     const swiper = new Swiper(el, {
-      spaceBetween: 16,
+      spaceBetween: 0,
       slidesPerView: 'auto',
       watchSlidesProgress: true,
       watchSlidesVisibility: true,

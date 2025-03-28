@@ -12,7 +12,6 @@
 .side-filter-button.btn:hover {background: #699da8}
 .PM_ASSubmitSearch {
   width: 100%;
-  margin-bottom: 32px;
 }
 
 .hide_filter_page.filter-active, #rightbar_facet_search .filter_count span {display: none !important}
@@ -165,7 +164,7 @@ span.range-name {position: absolute; top: 33px; z-index: 10; left: 10px; font-si
 
 #side_facets .PM_ASBlockOutputVertical .PM_ASCriterionsGroup {margin-bottom: 0px;}
 #side_facets .text-right.checkbox {display: none}
-#side_facets .show-button {position: fixed; width: 520px; padding: 0px 20px; margin: 0px -20px; bottom: 0px; background: #fbfbfb; z-index: 10;}
+#side_facets .show-button {position: fixed; width: 520px; padding: 32px 20px; margin: 0px -20px; bottom: 0px; background: #FBFAF8; border-top: 1px solid #E3E3E2; z-index: 10;}
 #side_facets .openfiltr i {font-size: 20px;}
 #side_facets .PM_ASCriterionGroupCheckbox .checkbox .checkbox-box {margin-top: -2px; width: 24px; height: 24px; border: 1px solid #a1a1a1;}
 #side_facets .PM_ASLabelCheckbox {margin-bottom: 12px; width:100%;}
@@ -627,14 +626,14 @@ div.PM_ASCriterionNbProduct{
 }
 
 .PM_ASCriterionCheckbox[type=radio]:checked + label .PM_checkbox{
-  border: .5px solid #3D4C99;
+  border: 1px solid #3D4C99;
   background: #3D4C99;
 }
 
 .PM_checkbox{
   width: 12px;
   height: 12px;
-  border: .5px solid #181B1A;
+  border: 1px solid #181B1A;
   border-radius: 2px;
   margin-right: 8px;
   display: inline-flex;

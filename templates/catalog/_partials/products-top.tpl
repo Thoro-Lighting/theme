@@ -25,18 +25,11 @@
   </div>
 
       {assign var='pagination_top' value=Configuration::get('STSN_PAGINATION_TOP')}
-      {if !$sttheme.is_mobile_device}
-        {if $pagination_top == 0}
-        {include file='_partials/pagination-sample.tpl' pagination=$listing.pagination}{elseif $pagination_top == 1}
-          {include file='_partials/pagination.tpl' pagination=$listing.pagination}
-        {/if}
+      {if $pagination_top == 0}
+        {include file='_partials/pagination-sample.tpl' pagination=$listing.pagination}
+      {elseif $pagination_top == 1}
+        {include file='_partials/pagination.tpl' pagination=$listing.pagination}
       {/if}
-      {assign var='pagination_top_mobile' value=Configuration::get('STSN_PAGINATION_TOP_MOBILE')}
-      {if $sttheme.is_mobile_device}
-        {if $pagination_top_mobile == 0}
-        {include file='_partials/pagination-sample.tpl' pagination=$listing.pagination}{elseif $pagination_top_mobile == 1}
-          {include file='_partials/pagination.tpl' pagination=$listing.pagination}
-        {/if}
-      {/if}
+
   
 </div>
