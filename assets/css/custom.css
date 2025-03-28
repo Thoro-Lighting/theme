@@ -1290,9 +1290,22 @@ body.is-android .android-only{
   display: flex;
 }
 
+@media screen and (min-width: 992px) {
+  .style_wide_inner{
+    max-height: calc(100dvh - 75px);
+    overflow: auto;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   [data-js-tab="5"].stmenu_sub_tab{
     gap: 32px 74px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  [data-js-tab="5"].stmenu_sub_tab{
+    gap: 32px 68px;
   }
 }
 
