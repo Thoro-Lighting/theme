@@ -890,31 +890,21 @@ function initBasicSwiper() {
 }
 
 function initTabs() {
-  const wojewodztwaTitleTrigger = document.querySelectorAll(
-    "[data-js-wojewodztwo-title-trigger]"
-  );
-  const wojewodztwaTabs = document.querySelectorAll(
-    "[data-js-wojewodztwo-tab]"
-  );
+  const buttons = document.querySelectorAll("[data-js-voivodeship-title-trigger]");
+  if (!buttons.length) return;
 
-  wojewodztwaTitleTrigger.forEach((wojewodztwo) => {
-    wojewodztwo.addEventListener("click", function () {
-      wojewodztwaTitleTrigger.forEach((wojewodztwo) => {
-        wojewodztwo.classList.remove("isActive");
-      });
+  const tabs = document.querySelectorAll("[data-js-voivodeship-tab]");
 
-      wojewodztwo.classList.add("isActive");
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      buttons.forEach(b => b.classList.remove("isActive")); 
+      tabs.forEach(t => t.classList.remove("isVisible"));
 
-      wojewodztwaTabs.forEach((wojewodztwoTab) => {
-        if (
-          wojewodztwo.attributes[0].value == wojewodztwoTab.attributes[0].value
-        ) {
-          wojewodztwaTabs.forEach((wojewodztwoTab) => {
-            wojewodztwoTab.classList.remove("isVisible");
-          });
-          wojewodztwoTab.classList.add("isVisible");
-        }
-      });
+      btn.classList.add("isActive");
+
+      const tabId = btn.getAttribute("data-js-voivodeship-title-trigger");
+      const tab = document.querySelector(`[data-js-voivodeship-tab="${tabId}"]`);
+      if (tab) tab.classList.add("isVisible");
     });
   });
 }

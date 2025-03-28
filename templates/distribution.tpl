@@ -2,9 +2,22 @@
 {block name='page_header_container'}{/block}
 {block name='page_content'}
     {hook h='displayDistribution'}
-    <div class="form-contact">
+    
+	<div class="static-page_form_content force-fullwidth">
+    <div class="container">
+      <div class="static-page_col_left">
+        <h3>{l s='Contact us and lets talk about cooperation opportunities' d='Shop.Theme.Global'}</h3>
+        <p>{l s='We will get back to you as soon as possible' d='Shop.Theme.Global'}</p>
         {hook h='displayAskAboutProduct'}
+      </div>
+      <div class="static-page_col_right">
+        <img
+        src="https://thoro.webo.design/img/cms/dystr_form_img.png"
+        alt="lampa"
+        />
+      </div>
     </div>
+  </div>
 {/block}
 
 {* template
@@ -28,34 +41,34 @@
       <div class="dyst_tabs_titles">
         <ul>
           <li
-            data-js-wojewodztwo-title-trigger="zachodnio-pomorskie"
+            data-js-voivodeship-title-trigger="zachodnio-pomorskie"
             class="isActive"
           >
             Zachodnio-Pomorskie
           </li>
-          <li data-js-wojewodztwo-title-trigger="pomorskie">Pomorskie</li>
-          <li data-js-wojewodztwo-title-trigger="warminsko-mazurskie">
+          <li data-js-voivodeship-title-trigger="pomorskie">Pomorskie</li>
+          <li data-js-voivodeship-title-trigger="warminsko-mazurskie">
             Warmińsko-Mazurskie
           </li>
-          <li data-js-wojewodztwo-title-trigger="podlaskie">Podlaskie</li>
-          <li data-js-wojewodztwo-title-trigger="lubuskie">Lubuskie</li>
-          <li data-js-wojewodztwo-title-trigger="wielkopolska">Wielkopolska</li>
-          <li data-js-wojewodztwo-title-trigger="kujawsko-pomorskie">
+          <li data-js-voivodeship-title-trigger="podlaskie">Podlaskie</li>
+          <li data-js-voivodeship-title-trigger="lubuskie">Lubuskie</li>
+          <li data-js-voivodeship-title-trigger="wielkopolska">Wielkopolska</li>
+          <li data-js-voivodeship-title-trigger="kujawsko-pomorskie">
             Kujawsko-pomorskie
           </li>
-          <li data-js-wojewodztwo-title-trigger="mazowieckie">Mazowieckie</li>
-          <li data-js-wojewodztwo-title-trigger="lubelskie">Lubelskie</li>
-          <li data-js-wojewodztwo-title-trigger="dolnoslaskie">Dolnośląskie</li>
-          <li data-js-wojewodztwo-title-trigger="lodzkie">Łódzkie</li>
-          <li data-js-wojewodztwo-title-trigger="slaskie">Śląskie</li>
-          <li data-js-wojewodztwo-title-trigger="malopolskie">Małopolskie</li>
-          <li data-js-wojewodztwo-title-trigger="podkarpackie">Podkarpackie</li>
+          <li data-js-voivodeship-title-trigger="mazowieckie">Mazowieckie</li>
+          <li data-js-voivodeship-title-trigger="lubelskie">Lubelskie</li>
+          <li data-js-voivodeship-title-trigger="dolnoslaskie">Dolnośląskie</li>
+          <li data-js-voivodeship-title-trigger="lodzkie">Łódzkie</li>
+          <li data-js-voivodeship-title-trigger="slaskie">Śląskie</li>
+          <li data-js-voivodeship-title-trigger="malopolskie">Małopolskie</li>
+          <li data-js-voivodeship-title-trigger="podkarpackie">Podkarpackie</li>
         </ul>
       </div>
 
       <div class="dyst_tab_content_wrapper">
         <div
-          data-js-wojewodztwo-tab="zachodnio-pomorskie"
+          data-js-voivodeship-tab="zachodnio-pomorskie"
           class="dyst_tab_content isVisible"
         >
           <h2>Zachodnio-Pomorskie</h2>
@@ -76,7 +89,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="pomorskie"
+          data-js-voivodeship-tab="pomorskie"
           class="dyst_tab_content"
         >
           <h2>Pomorskie</h2>
@@ -149,7 +162,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="warminsko-mazurskie"
+          data-js-voivodeship-tab="warminsko-mazurskie"
           class="dyst_tab_content"
         >
           <h2>Warmińsko-Mazurskie</h2>
@@ -173,7 +186,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="podlaskie"
+          data-js-voivodeship-tab="podlaskie"
           class="dyst_tab_content"
         >
           <h2>Podlaskie</h2>
@@ -221,7 +234,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="lubuskie"
+          data-js-voivodeship-tab="lubuskie"
           class="dyst_tab_content"
         >
           <h2>Lubuskie</h2>
@@ -246,7 +259,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="wielkopolska"
+          data-js-voivodeship-tab="wielkopolska"
           class="dyst_tab_content"
         >
           <h2>Wielkopolska</h2>
@@ -342,7 +355,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="kujawsko-pomorskie"
+          data-js-voivodeship-tab="kujawsko-pomorskie"
           class="dyst_tab_content"
         >
           <h2>Kujawsko-pomorskie</h2>
@@ -398,7 +411,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="mazowieckie"
+          data-js-voivodeship-tab="mazowieckie"
           class="dyst_tab_content"
         >
           <h2>Mazowieckie</h2>
@@ -501,7 +514,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="lubelskie"
+          data-js-voivodeship-tab="lubelskie"
           class="dyst_tab_content"
         >
           <h2>Lubelskie</h2>
@@ -588,7 +601,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="dolnoslaskie"
+          data-js-voivodeship-tab="dolnoslaskie"
           class="dyst_tab_content"
         >
           <h2>Dolnośląskie</h2>
@@ -604,7 +617,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="lodzkie"
+          data-js-voivodeship-tab="lodzkie"
           class="dyst_tab_content"
         >
           <h2>Łódzkie</h2>
@@ -644,7 +657,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="slaskie"
+          data-js-voivodeship-tab="slaskie"
           class="dyst_tab_content"
         >
           <h2>Śląskie</h2>
@@ -740,7 +753,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="malopolskie"
+          data-js-voivodeship-tab="malopolskie"
           class="dyst_tab_content"
         >
           <h2>Małopolskie</h2>
@@ -804,7 +817,7 @@
           </ul>
         </div>
         <div
-          data-js-wojewodztwo-tab="podkarpackie"
+          data-js-voivodeship-tab="podkarpackie"
           class="dyst_tab_content"
         >
           <h2>Podkarpackie</h2>
@@ -861,51 +874,38 @@
         </div>
       </div>
     </div>
-
-    <div class="dyst_form">
-      <div class="content_header container-prod-tab">
-        <div>
-          <p>POZNAJ KORZYŚCI WSPÓŁPRACY</p>
-          <h2>Twój projekt zasługuje na najwyższą jakość obsługi.</h2>
-        </div>
-      </div>
-
-      <ul>
-        <li>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-          >
-            <path
-              d="M9.6 21.5999H14.4M10.2 9.5999H13.8M6 8.3999C6 5.08619 8.68629 2.3999 12 2.3999C15.3137 2.3999 18 5.08619 18 8.3999C18 10.8603 16.5191 12.874 14.4 13.7999V17.3999C14.4 18.0626 13.8627 18.5999 13.2 18.5999H10.8C10.1373 18.5999 9.6 18.0626 9.6 17.3999V13.9006C7.48091 12.9748 6 10.8603 6 8.3999Z"
-              stroke="#484540"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-          5 lat gwarancji
-        </li>
-        <li>100 dni na zwrot</li>
-        <li>Gwarancja satysfakcji</li>
-        <li>Szybki czas realizacji zamówienia</li>
-      </ul>
-
-      <div class="dyst_form_content">
-        <div class="dyst_col_left">
-          <h3>Napisz do nas i porozmawiajmy o&nbsp;możliwościach współpracy</h3>
-          <p>Odezwiemy się tak szybko jak to możliwe!</p>
-        </div>
-        <div class="dyst_col_right">
-          <img
-            src="https://thoro.webo.design/img/cms/dystr_form_img.png"
-            alt="lampa"
-          />
-        </div>
-      </div>
-    </div>
+    <div class="force-fullwidth hidden-md-up"><img src="https://thoro.webo.design/img/cms/dystr_form_img.png" alt="lampa" class=""></div>
+  	<div class="static-page_form_header force-fullwidth">
+  		<div class="container">
+  			<div class="content_header container-prod-tab">
+  				<div>
+  					<p>POZNAJ KORZYŚCI WSPÓŁPRACY</p>
+  					<h2>Twój projekt zasługuje na najwyższą jakość obsługi.</h2>
+  				</div>
+  			</div>
+  			<ul>
+  				<li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+  						<path
+  							d="M9.6 21.5999H14.4M10.2 9.5999H13.8M6 8.3999C6 5.08619 8.68629 2.3999 12 2.3999C15.3137 2.3999 18 5.08619 18 8.3999C18 10.8603 16.5191 12.874 14.4 13.7999V17.3999C14.4 18.0626 13.8627 18.5999 13.2 18.5999H10.8C10.1373 18.5999 9.6 18.0626 9.6 17.3999V13.9006C7.48091 12.9748 6 10.8603 6 8.3999Z"
+  							stroke="#484540" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  					</svg> 5 lat gwarancji</li>
+  				<li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+  						<path
+  							d="M9.6 21.5999H14.4M10.2 9.5999H13.8M6 8.3999C6 5.08619 8.68629 2.3999 12 2.3999C15.3137 2.3999 18 5.08619 18 8.3999C18 10.8603 16.5191 12.874 14.4 13.7999V17.3999C14.4 18.0626 13.8627 18.5999 13.2 18.5999H10.8C10.1373 18.5999 9.6 18.0626 9.6 17.3999V13.9006C7.48091 12.9748 6 10.8603 6 8.3999Z"
+  							stroke="#484540" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  					</svg> 100 dni na zwrot</li>
+  				<li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+  						<path
+  							d="M9.6 21.5999H14.4M10.2 9.5999H13.8M6 8.3999C6 5.08619 8.68629 2.3999 12 2.3999C15.3137 2.3999 18 5.08619 18 8.3999C18 10.8603 16.5191 12.874 14.4 13.7999V17.3999C14.4 18.0626 13.8627 18.5999 13.2 18.5999H10.8C10.1373 18.5999 9.6 18.0626 9.6 17.3999V13.9006C7.48091 12.9748 6 10.8603 6 8.3999Z"
+  							stroke="#484540" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  					</svg> Gwarancja satysfakcji</li>
+  				<li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none">
+  						<path
+  							d="M9.6 21.5999H14.4M10.2 9.5999H13.8M6 8.3999C6 5.08619 8.68629 2.3999 12 2.3999C15.3137 2.3999 18 5.08619 18 8.3999C18 10.8603 16.5191 12.874 14.4 13.7999V17.3999C14.4 18.0626 13.8627 18.5999 13.2 18.5999H10.8C10.1373 18.5999 9.6 18.0626 9.6 17.3999V13.9006C7.48091 12.9748 6 10.8603 6 8.3999Z"
+  							stroke="#484540" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  					</svg> Szybki czas realizacji zamówienia</li>
+  			</ul>
+  		</div>
+  	</div>
   </div>
 *}
