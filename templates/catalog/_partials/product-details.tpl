@@ -1,4 +1,4 @@
- {if $product.grouped_features}
+ {if $product.grouped_features || $product.reference_to_display || $product.ean13}
 
    <div class="content_header container-prod-tab" >
      <div>
@@ -31,6 +31,22 @@
            <section class="product-features">
              <div class="product-features-box">
                <div>
+                {if $product.reference_to_display}
+                  <dl class="data-sheet flex_container">
+                    <dt class="name">SKU</dt>
+                    <dd class="value flex_child" itemprop="sku">
+                      {$product.reference_to_display}
+                    </dd>
+                  </dl>
+                {/if}
+                {if $product.ean13}
+                  <dl class="data-sheet flex_container">
+                    <dt class="name">EAN</dt>
+                    <dd class="value flex_child">
+                      {$product.ean13}
+                    </dd>
+                  </dl>
+                {/if}
                  {foreach from=$product.grouped_features item=feature}
                    {if !in_array($feature.id_feature, explode(',', str_replace(' ', '', $sttheme.id_feature_list)))}
                      <dl class="data-sheet flex_container">
