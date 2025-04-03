@@ -1191,12 +1191,6 @@ body.is-android .android-only{
   transform: translateX(0%);
 }
 
-[data-js-sidemenu] .st-menu-header{
-  margin-top: 0px;
-  padding-top: 10px;
-  height: 66px;
-}
-
 [data-js-sidemenu-close]{
   position: absolute;
   left: 16px;

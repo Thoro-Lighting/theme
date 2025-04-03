@@ -16044,7 +16044,6 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 .st-menu-header {
 	position: relative;
 	height: 56px;
-	margin-top: 10px;
 	border-bottom: 1px solid #E6E6E6;
 }
 
@@ -22314,6 +22313,8 @@ margin-right: 8px; margin-top: -7px;}
 	padding: 11px 24px;
 	display: block;
 	text-align: center;
+	transition: .2s ease-in-out;
+	cursor: pointer;
 }
 .btn-secondary:hover{
 	background: #3D4C99;
