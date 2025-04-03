@@ -1216,8 +1216,13 @@ body.is-android .android-only{
   transition: .2s ease-in-out;
 }
 
-.tile-category-link:hover{
+.tile-category-link:hover,
+.tile-category-link.current{
   background: #EFEAE2
+}
+
+.tile-category-link.current{
+  border-bottom: 4px solid #73716D;
 }
 
 .tile-category-link img{
@@ -1242,13 +1247,15 @@ body.is-android .android-only{
   }
 }
 
-.stmenu_sub_tabs_btns{
+.stmenu_sub_tabs_btns,
+.listing_btns{
   display: flex;
   gap: 16px;
   margin-bottom: 32px;
 }
 
-.stmenu_sub_tabs_name{
+.stmenu_sub_tabs_name,
+.listing_btns li{
   font-size: 16px;
   font-weight: 700;
   padding: 4px 0;
@@ -1258,11 +1265,20 @@ body.is-android .android-only{
   cursor: pointer;
 }
 
-.stmenu_sub_tabs_name.active{
+.stmenu_sub_tabs_name.active,
+.listing_btns li.active{
   font-weight: 700;
   color: #181B1A;
   border-bottom: 2px solid #181B1A;
 }
+
+.listing_swipers [data-js-tab]{
+  display: none;
+}
+.listing_swipers [data-js-tab].active{
+  display: block;
+}
+
 
 .stmenu_sub_tab{
   display: none;
@@ -1274,9 +1290,22 @@ body.is-android .android-only{
   display: flex;
 }
 
+@media screen and (min-width: 992px) {
+  .style_wide_inner{
+    max-height: calc(100dvh - 75px);
+    overflow: auto;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   [data-js-tab="5"].stmenu_sub_tab{
     gap: 32px 74px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  [data-js-tab="5"].stmenu_sub_tab{
+    gap: 32px 68px;
   }
 }
 

@@ -536,6 +536,7 @@
   initDesktopSubmenuToggle()
   initTilesDefaultSwiper()
   initBasicSwiper()
+  initBasicSwiperAuto()
 
 }());
 
@@ -668,14 +669,16 @@ function initDesktopSubmenuToggle() {
 
   tabButtons.forEach(btn => {
     btn.addEventListener('click', () => {
+
+      const container = btn.parentElement.parentElement
       
-      document.querySelectorAll('[data-js-tab-btn]').forEach(b => b.classList.remove('active'));
-      document.querySelectorAll('[data-js-tab]').forEach(t => t.classList.remove('active'));
+      container.querySelectorAll('[data-js-tab-btn]').forEach(b => b.classList.remove('active'));
+      container.querySelectorAll('[data-js-tab]').forEach(t => t.classList.remove('active'));
 
       btn.classList.add('active');
 
       const tabId = btn.getAttribute('data-js-tab-btn');
-      const tab = document.querySelector(`[data-js-tab="${tabId}"]`);
+      const tab = container.querySelector(`[data-js-tab="${tabId}"]`);
       if (tab) tab.classList.add('active');
     });
   });
@@ -744,3 +747,55 @@ function initBasicSwiper(){
     })
   )
 }
+
+function initBasicSwiperAuto() {
+	const swiperContainers = document.querySelectorAll(
+	  '[data-js="swiper-basic-auto"]'
+	);
+	
+	if(!swiperContainers) return;
+
+  swiperContainers.forEach(el => {
+    const swiper = new Swiper(el, {
+      spaceBetween: 0,
+      slidesPerView: 'auto',
+      watchSlidesProgress: true,
+      watchSlidesVisibility: true,
+      enabled: true,
+      observer: true,
+      observeParents: true,
+      lazyLoading: true,
+      lazyLoadingInPrevNext: true,
+      lazyLoadingInPrevNextAmount: true,
+      nextButton: el.querySelector('.swiper-product-button-next'),
+      prevButton: el.querySelector('.swiper-product-button-prev'),
+      scrollbar: el.querySelector('.swiper-scrollbar'),
+    })
+
+    swiper.on('onObserverUpdate', () => swiper.slideTo(0,0))
+    
+  })
+}
+
+$(document).on("slidechange", ".PM_ASCritRange", function(event, ui) {
+  const $group = $(this).closest('.PM_ASCriterionsGroupOuter');
+  if(ui){
+    $group.find('.PM_ASCritRangeInput-min').val(ui.values[0]);
+    $group.find('.PM_ASCritRangeInput-max').val(ui.values[1]); 
+  }
+
+});
+
+$(document).on('change', '.PM_ASCritRangeInput-min, .PM_ASCritRangeInput-max', function(event) {
+  const $group = $(this).closest('.PM_ASCriterionsGroupOuter');
+  $group.find('.PM_ASCritRange').slider('option','values', [
+    $group.find('.PM_ASCritRangeInput-min').val(),
+    $group.find('.PM_ASCritRangeInput-max').val()
+  ]);
+
+  const stopEvent = $.Event('stop');
+  const ui = {
+    values: $group.find('.PM_ASCritRange').slider('option','values')
+  };
+  $group.find('.PM_ASCritRange').slider('option', 'stop').call($group.find('.PM_ASCritRange')[0],stopEvent, ui);
+});

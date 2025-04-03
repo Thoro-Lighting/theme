@@ -51,28 +51,22 @@
 {/foreach}
 
 
- <div class="st-menu menu_blur" id="side_facets">
-    <div class="st-menu-header">
-        <div class="st-menu-title">{l s='Filter By' d='Shop.Theme.Actions'}</div>
-        <a href="javascript:;" class="close_right_side" title="{l s='Close' d='Shop.Theme.Transformer'}">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18 6L6 18M18 18L6 6" stroke="#181B1A" stroke-width="1.2" stroke-linecap="round"/>
-          </svg> 
-        </a>
-    </div>
-
-    <div id="search_filters_wrapper" class="column_filter block column_block">
-       	<div class="block_content">
-    		{if $sttheme.is_mobile_device}
-                <script>
-                    window.addEventListener('load', function(event) {
-                       jQuery('.PM_ASBlockOutput').appendTo('#side_facets')
-                    });
-                </script>
-            {/if}
-        </div>
-    </div>
+{if $page.page_name == 'manufacturer' || $page.page_name == 'category'}
+  <div class="st-menu menu_blur" id="side_facets">
+     <div class="st-menu-header">
+         <div class="st-menu-title">{l s='Filter By' d='Shop.Theme.Actions'}</div>
+         <a href="javascript:;" class="close_right_side" title="{l s='Close' d='Shop.Theme.Transformer'}">
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M18 6L6 18M18 18L6 6" stroke="#181B1A" stroke-width="1.2" stroke-linecap="round"/>
+           </svg> 
+         </a>
+     </div>
   
-</div>
-
-
+     <div id="search_filters_wrapper" class="column_filter block column_block">
+          <div class="block_content">
+          {widget name="pm_advancedsearch4" id_search_engine="1"}
+         </div>
+     </div>
+   
+  </div>
+{/if}
