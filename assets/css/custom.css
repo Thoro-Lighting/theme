@@ -603,7 +603,7 @@ body.is-android .android-only {
   }
 }
 
-.configurator-container .modal-video {
+.modal-video {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -653,7 +653,7 @@ body.is-android .android-only {
   fill: #87cedd;
 }
 
-.configurator-container .modal-video.active {
+.modal-video.active {
   pointer-events: all;
   opacity: 100%;
 }
@@ -1634,8 +1634,9 @@ body.is-android .android-only {
   text-transform: none;
   letter-spacing: -1px;
 }
-.configurator_steps .content_header a {
+.configurator_steps .content_header span.video-btn {
   color: #3d4c99;
+  cursor: pointer;
 }
 .configurator_steps h2 {
   margin-bottom: 16px;

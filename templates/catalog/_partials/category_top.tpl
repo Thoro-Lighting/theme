@@ -14,7 +14,7 @@
             </div>
           {/if}
           {if $page.page_name != 'category'}
-            <div class="page_heading_box bg-top">
+            <div class="page_heading_box">
               <h1 class="page_heading" data-ish>
                 {if $page.page_name == 'manufacturer'}
                   {if $page.page_name== 'manufacturer' && isset($manufacturer)}
@@ -71,13 +71,13 @@
           <div class=listing_swipers>
             <ul class="listing_btns" role="tablist">
               {foreach $menu_global[0].column as $column}
-                <li data-js-tab-btn="listing-{$column.id_st_mega_column}" class="{if $column.id_st_mega_column == 4 && $page.page_name == 'category' || $column.id_st_mega_column == 5 && $page.page_name == 'manufacturer' }active{/if}">
+                <li data-js-tab-btn="listing-{$column.id_st_mega_column}" class="{if $column.id_st_mega_column == 5 && $page.page_name == 'category' || $column.id_st_mega_column == 6 && $page.page_name == 'manufacturer' }active{/if}">
                   {$column.title}
                 </li>
               {/foreach}
             </ul>
             {foreach $menu_global[0].column as $column}
-              <div data-js-tab="listing-{$column.id_st_mega_column}" class="{if $column.id_st_mega_column == 4 && $page.page_name == 'category' || $column.id_st_mega_column == 5 && $page.page_name == 'manufacturer' }active{/if}">
+              <div data-js-tab="listing-{$column.id_st_mega_column}" class="{if $column.id_st_mega_column == 5 && $page.page_name == 'category' || $column.id_st_mega_column == 6 && $page.page_name == 'manufacturer' }active{/if}">
                 <div class="swiper-basic-auto swiper-tiles-default swiper" data-js="swiper-basic-auto">
                   <div class="swiper-wrapper">
 
