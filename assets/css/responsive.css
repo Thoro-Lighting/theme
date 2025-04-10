@@ -14,7 +14,6 @@
   transition: ease-out .3s;
   z-index: 10;
 }
-    .small_cart_sumary.base_list_line .line_item {margin-bottom: 9px; font-weight: 500}
     #side_stcustomersignin .dropdown_box { padding: 20px 40px;}	
 	#side_stcustomersignin .quick_login .customer-links li a {
 	  font-size: 14px;

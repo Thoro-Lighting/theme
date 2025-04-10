@@ -9,7 +9,7 @@
     {/foreach}
     
       </div>
-      <div class="pad_10">
+      <div class="small_cart_product_list_container px-3 pt-5 pb-3">
       
       
           <ul class="small_cart_product_list base_list_line medium_list">
@@ -32,7 +32,6 @@
 {hook h="displayClearCartBtn"}
           </div>
          <div class="sidebar_button sidecart cart">
-         <div class="cart-blur"></div>
           <div class="small_cart_sumary base_list_line">
 
             {foreach from=$cart.subtotals_popup item="subtotal"}
@@ -74,17 +73,14 @@
 <div class="free-info-small"><div class="" style="width:{100-(($cart.free_delivery_value/$cart.carrier_shipping_free_price_value)*100)}%"></div></div>
 </div>
 {/if}
-{if $cart.free_delivery == 0 && $cart.carrier_shipping_free_price_value != 0} 
-<p class="free-deliver-grahpic-plus">{l s='Congratulations! free delivery' d='Shop.Theme.Transformer'}</p>
-{/if}
 {/if}
           
           {assign var='checkout_button' value=Configuration::get('ST_BLOCK_CART_CHECKOUT')}
           {assign var='arrow_buttons' value=Configuration::get('STSN_ARROW_BUTTONS')}
           {assign var='button_checkout' value=Configuration::get('ST_BUTTON_CHECKOUT')}
                    
-          {if $checkout_button==0 || $checkout_button==2}<a href="{$cart_url}" rel="nofollow" class="{if $arrow_buttons}btn_arrow{/if} small_cart_btn btn btn-default btn_full_width benabled" title="{l s='Pay' d='Shop.Theme.Transformer'}">{l s='Pay' d='Shop.Theme.Transformer'} {*<i class="fto-angle-right"></i>*}</a>{/if}
-          {if $checkout_button==1 || $checkout_button==2}<a href="{$order_url}" rel="nofollow" class="{if $arrow_buttons}btn_arrow{/if} small_cart_btn btn btn-default btn_full_width {if $checkout_button==2} benabled {/if} btn_to_checkout {if $button_checkout == 1}checkout_border{/if}" title="{l s='Checkout' d='Shop.Theme.Actions'}"><span class="{if $button_checkout == 1}btn-line-under{/if}">{l s='Checkout' d='Shop.Theme.Actions'}</span> {*<i class="fto-angle-right"></i>*}</a>{/if}
+          {if $checkout_button==0 || $checkout_button==2}<a href="{$cart_url}" rel="nofollow" class=" btn btn-main btn_full_width benabled" title="{l s='Pay' d='Shop.Theme.Transformer'}">{l s='Pay' d='Shop.Theme.Transformer'} {*<i class="fto-angle-right"></i>*}</a>{/if}
+          {if $checkout_button==1 || $checkout_button==2}<a href="{$order_url}" rel="nofollow" class=" btn btn-main btn_full_width {if $checkout_button==2} benabled {/if} btn_to_checkout {if $button_checkout == 1}checkout_border{/if}" title="{l s='Checkout' d='Shop.Theme.Actions'}"><span class="{if $button_checkout == 1}btn-line-under{/if}">{l s='Checkout' d='Shop.Theme.Actions'}</span> {*<i class="fto-angle-right"></i>*}</a>{/if}
       
       
       
@@ -95,7 +91,7 @@
       {assign var='empty_cart' value=Configuration::get('ST_EMPTY_CART')}
     
       
-        <div class="cart_empty {if $empty_cart == 0}pad_10{/if}">{if $empty_cart == 0}{l s='Your shopping cart is empty.' d='Shop.Theme.Transformer'}{elseif $empty_cart == 4}
+        <div class="cart_empty {if $empty_cart == 0}px-3 pt-5 pb-3{/if}">{if $empty_cart == 0}{l s='Your shopping cart is empty.' d='Shop.Theme.Transformer'}{elseif $empty_cart == 4}
         
         <div class="cart_empty_sidebar">{hook h='displayCartEmpty'}</div>
         {else}
@@ -103,12 +99,12 @@
         <div class="cart_empty_link">
         {assign var='button_style' value=Configuration::get('ST_BUTTON_STYLE')}
         <h6>{l s='You do not know where to start?' d='Shop.Theme.Transformer'}</h6>
-       {if $empty_cart == 1}<a href="{$urls.pages.new_products}" title="{l s='See new products' d='Shop.Theme.Transformer'}" class="btn {if $button_style ==1}btn-primary{else}btn-border black_arrow{/if} btn-spin btn-full-width newpromo {if $arrow_buttons}btn_arrow{/if}">{l s='See new products' d='Shop.Theme.Transformer'}</a>{/if}
-       {if $empty_cart == 2}<a href="{$urls.pages.prices_drop}" title="{l s='See promotions' d='Shop.Theme.Transformer'}" class="btn {if $button_style ==1}btn-primary{else}btn-border black_arrow{/if} btn-spin btn-full-width newpromo {if $arrow_buttons}btn_arrow{/if}">{l s='See promotions' d='Shop.Theme.Transformer'}</a>{/if}
+       {if $empty_cart == 1}<a href="{$urls.pages.new_products}" title="{l s='See new products' d='Shop.Theme.Transformer'}" class="btn-secondary">{l s='See new products' d='Shop.Theme.Transformer'}</a>{/if}
+       {if $empty_cart == 2}<a href="{$urls.pages.prices_drop}" title="{l s='See promotions' d='Shop.Theme.Transformer'}" class="btn-secondary">{l s='See promotions' d='Shop.Theme.Transformer'}</a>{/if}
          
         {if $empty_cart == 3}
         {assign var='cart_category' value=Configuration::get('ST_CART_CATEGORY')}
-        <a href="{$link->getCategoryLink($cart_category)|escape:'html'}" title="{l s='See recommended products' d='Shop.Theme.Transformer'}" class="btn {if $button_style ==1}btn-primary{else}btn-border black_arrow{/if} btn-spin btn-full-width recomended {if $arrow_buttons}btn_arrow{/if}">{l s='See recommended products' d='Shop.Theme.Transformer'}</a>{/if}
+        <a href="{$link->getCategoryLink($cart_category)|escape:'html'}" title="{l s='See recommended products' d='Shop.Theme.Transformer'}" class="btn-secondary">{l s='See recommended products' d='Shop.Theme.Transformer'}</a>{/if}
        
        
         
