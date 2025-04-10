@@ -1183,7 +1183,7 @@ body.is-android .android-only {
   transform: translateX(0%);
 }
 
-[data-js-sidemenu-close] {
+[data-js-sidemenu-close]{
   position: absolute;
   left: 16px;
   bottom: 16px;
