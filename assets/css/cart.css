@@ -39,3 +39,7 @@ right: 20px !important; background-size: 26px; height: 25px; width: 27px; backgr
 .step-1 #body_wrapper {padding-bottom: 110px;}
 
 }
+
+#module-steasycheckout-default #wrapper {
+    background: #F3EFE9 !important;
+}

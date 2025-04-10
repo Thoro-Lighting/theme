@@ -11702,6 +11702,12 @@ body#checkout #header .header-nav {
 
 #st_header.header_checkout .shop_logo, .header_checkout #st_header .shop_logo {max-width: 120px;}
 
+@media screen and (max-width: 991px){
+	.header_checkout #mobile_bar_right{
+		width: 50%;
+	}	
+}
+
 .top_stlinkgroups_plus_2:before {
   content: '';
   width: 36px;
@@ -22107,20 +22113,38 @@ padding: 10px;
 #inline_popup_content_login.inline_popup_content .sidebar_auth_form {padding: 30px 50px 40px;}
 #inline_popup_content_login.inline_popup_content .sidebar_login_form {padding: 50px;}
 #inline_popup_content_login.inline_popup_content .mfp-close {top: 12px; right: 12px;}
-.checkout-shop {font-size: 12px;}
+.checkout-shop {font-size: 16px; font-weight: 500;}
 
 	
 .line_item.voucher .icone_svg, .remove_button a .icone_svg {background-repeat: no-repeat; background-position: center center; display: inline-block; vertical-align: middle; height: 20px;width: 15px;background-size: 13px;
 margin-right: 8px; margin-top: -7px;}
 .line_item.voucher .icone_svg, .remove_button .icone_svg {background-image: url("../img/svg/bin.svg");}
-.safe-top {font-size: 13px; line-height: 19px; color: #000; letter-spacing: 0;}
-.safe-top::before {content: '';background-image: url(../img/svg/credit-card.svg);position: absolute; width: 41px; height: 30px;
-  background-size: 29px; margin-left: -47px; margin-top: 4px; background-repeat: no-repeat; background-position: center;}
+.safe-top {font-size: 14px; font-weight: 400; color: #181B1A; letter-spacing: 0;}
 #languages-block-top-mod li {float: left; position: relative}
 #languages-block-top-mod li a {margin: 0px 2px;text-transform: uppercase;}
 #languages-block-top-mod li.active a:before, #languages-block-top-mod li:hover a:before {content: '';position: absolute;width: 21px;height: 1px;background: #333;bottom: -2px;}
 #top_bar p {font-weight: 400; font-size: 14px;}	
 #nav_right.flex_float_right {margin-left: 0;}
+
+@media screen and (min-width: 991px){
+	.safe-top{
+		display: flex;
+		align-items: center;
+		font-size: 18px;
+	}
+	.safe-top::before {
+		content: '';
+		background-image: url(../img/svg/credit-card.svg);
+		position: relative;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 40px;
+		height: 26px;
+		display: block;
+	}
+	  
+}
 	
 .privat_slider_2 .st_owl_carousel_block .text-icon {padding: 10px 0 30px; position:relative; }
 .privat_slider_2 .st_owl_carousel_block .text-icon .svg-img {

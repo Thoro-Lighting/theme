@@ -2128,10 +2128,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 		
        .modal-content.mini_modal .info_plus_mini .md_totals {padding: 20px 20px 20px; background: #f6f6f6; width: 100%; text-align: center;}
 		.modal-content.mini_modal .info_plus_mini li {list-style: none; font-size: 15px; font-weight: 500;}
-		.modal-content.mini_modal .info_plus_mini li  .free-color { font-weight: bold; }
-         #mobile_bar_left,
-         #mobile_bar_center,
-         #mobile_bar_right { }
+		.modal-content.mini_modal .info_plus_mini li  .free-color { font-weight: bold; } 
          .mobile_bar_tri_text.yes_device_7, .mobile_bar_tri_text.yes_device_10 {display: inline-block;}
          .mobile_bar_tri_text.yes_device_8, .mobile_bar_tri_text.yes_device_9 {display: block;}
          .mobile_bar_tri_text.yes_device_5, .mobile_bar_tri_text.yes_device_4 {display: none}
