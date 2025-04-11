@@ -2,7 +2,7 @@
 right: 20px !important; background-size: 26px; height: 25px; width: 27px; background-position: center; top: 50%; margin-top: -14px; z-index: 1;}
 .step-2 .cart-name-top {display: none}
 .personal_information-box .steco_cart.steco_block {padding-top: 0px; padding-bottom: 0px;}
-.steco_delivery.steco_block {padding-top: 14px !important; padding-bottom: 0px;}
+.steco_delivery.steco_block {padding-top: 32px !important; padding-bottom: 0px;}
 .free-delivery_info.free-right {padding: 0px 0px 14px 0px; margin-top: 0px; border-bottom: 1px solid #ddd;}
 .free-delivery_info.free-right .free-info-icon {padding: 0px 0px 6px 45px; border: 0px; text-align: left; margin-bottom: 0px;}
 .free-delivery_info.free-right .free-info-icon:before {left: 0px; margin-left: 0px;}
@@ -38,8 +38,4 @@ right: 20px !important; background-size: 26px; height: 25px; width: 27px; backgr
 
 .step-1 #body_wrapper {padding-bottom: 110px;}
 
-}
-
-#module-steasycheckout-default #wrapper {
-    background: #F3EFE9 !important;
 }

@@ -13,7 +13,7 @@
   {/if}
   
   <div class="payment-options {if isset($is_free) && $is_free}hidden-xs-up{/if} steco-payment-option row">
-   <div class="cart-name-top">3. {l s='Payment method' d='ShopThemeTransformer'}</div>
+   <div class="cart-name-top">{l s='Payment method' d='ShopThemeTransformer'}</div>
     {foreach $payment_options as $module_options}
       {foreach $module_options as $option}
           <div id="{$option.id}-container" class="payment-option steco_mb_6 col-12 payment-plus">
@@ -30,7 +30,10 @@
                   required
                   {if $selected_payment_option == $option.id || (isset($is_free) && $is_free)} checked {/if}
                 >
-                <span class="steco-custom-input-item steco-custom-input-radio"><div class="payment-check"><i class="eco-ok checkbox-checked"></i><i class="eco-spin5 steco-animate-spin"></i></div></span>
+                <span class="steco-custom-input-item steco-custom-input-radio"><div class="payment-check"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                </span><i class="eco-spin5 steco-animate-spin"></i></div></span>
               </span>
               
                <span class="align-items-start full-width">

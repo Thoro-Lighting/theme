@@ -4,10 +4,10 @@
 			<div class="col-md-12">
 			<section id="head_steps" class="{if $steco.beambar_cart == 3 OR $steco.beambar_cart == 4}head-no-numbers{/if}">
 			<div class="row">
-			<div class="col-md-6 steps flex_container">
-			<div class="flex_container line_1 line_all"><a href="{$link->getModuleLink('steasycheckout','default')|escape:'html'}" class="step_link"><p>1. {l s='Your cart' d='ShopThemeTransformer'} <i class="fto-ok"></i></p></a></div>
-			<div class="flex_container line_2 line_all"><a  href="{$link->getModuleLink('steasycheckout','default')|escape:'html'}?checkout" class="step_link next"><p>2. {l s='Shipping' d='ShopThemeTransformer'} <i class="fto-ok"></i></p></a></div>
-			<div class="flex_container line_3 line_all"><a  href="{$link->getModuleLink('steasycheckout','default')|escape:'html'}?checkout" class="step_link next"><p>3. {l s='Summary' d='ShopThemeTransformer'} <i class="fto-ok"></i></p></a></div>
+			<div class="steps flex_container">
+			<div class="line_1 line_all"><a href="{$link->getModuleLink('steasycheckout','default')|escape:'html'}" class="step_link"><span>1.{l s='Your cart' d='ShopThemeTransformer'} <i class="fto-ok"></i></span></a></div>
+			<div class="line_2 line_all"><a  href="{$link->getModuleLink('steasycheckout','default')|escape:'html'}?checkout" class="step_link next"><span>2.{l s='Shipping' d='ShopThemeTransformer'} <i class="fto-ok"></i></span></a></div>
+			<div class="line_3 line_all"><a  href="{$link->getModuleLink('steasycheckout','default')|escape:'html'}?checkout" class="step_link next"><span>3.{l s='Summary' d='ShopThemeTransformer'} <i class="fto-ok"></i></span></a></div>
 			</div>
 		   </section>
 			</div>
