@@ -20,14 +20,11 @@
 
               <div class="steco_flex_child mini_price"><span
                   class="{if $product.has_discount && $promotion_price == 1}new_price_color{/if}">{$product.price nofilter}
-                  {if $price_tax_cart_products > 0}<span class="name_price">{$product.labels.tax_long}</span>{/if}</span>
+                  {if $price_tax_cart_products > 0}<span
+                    class="name_price">{$product.labels.tax_long}</span>{/if}</span>
                 {if $product.has_discount && $promotion_price == 1}<span
-                    class="regular-price">{$product.regular_price nofilter}</span>{/if}{if $product.has_discount && $promotion_save == 1}<br>{if $product.discount_type === 'percentage'}<span
-                    class="discount-cart">{l s='Save' d='Shop.Theme.Transformer'}
-                    {$product.discount_percentage nofilter}</span>
-                {else}<span class="discount-cart">{l s='Save' d='Shop.Theme.Transformer'}
-                  {$product.discount_to_display nofilter}</span>{/if}
-                {/if}
+                    class="regular-price">{$product.regular_price nofilter}</span>{/if}
+                
             </div>
 
           </div>

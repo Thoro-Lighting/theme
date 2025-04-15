@@ -29,7 +29,7 @@
   
   
     <div class="form_content_inner">
-    <div class="addres-head">1. {l s='Personal data' d='Shop.Theme.Transformer'}</div>
+    <div class="addres-head">{l s='First login' d='Shop.Theme.Transformer'}</div>
   <div class="row steco_grid_view">
       <div class="classpl_choose_company adres_padding col-lg-12 adres_padding_chekbox adres_padding" style="z-index: 1">
       <div class="form-group st_form_item_id_choose_company">
@@ -40,7 +40,10 @@
        <span class="steco-custom-input-box">
        <input class="steco-custom-input" name="choose_company" type="radio" value="0" autocomplete="disabled" {if (isset($cart_info.company) && empty($cart_info.company)) || ( !isset($cart_info.company) && $steco.default_account == 0 )}checked=""{/if}>
        <span class="steco-custom-input-item steco-custom-input-radio">
-       <i class="eco-ok checkbox-checked"></i>
+       <span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+       </svg>
+       </span>
        <i class="eco-spin5 steco-animate-spin"></i>
        </span>
        </span>
@@ -52,7 +55,10 @@
        <span class="steco-custom-input-box">
        <input class="steco-custom-input" name="choose_company" type="radio" value="1" autocomplete="disabled" {if (isset($cart_info.company) && !empty($cart_info.company)) || ( !isset($cart_info.company) && $steco.default_account == 1 )}checked=""{/if}>
        <span class="steco-custom-input-item steco-custom-input-radio">
-       <i class="eco-ok checkbox-checked"></i>
+       <span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+       </svg>
+       </span>
        <i class="eco-spin5 steco-animate-spin"></i>
        </span>
        </span>

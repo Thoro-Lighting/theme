@@ -22928,8 +22928,13 @@ a.st_banner_block:hover .btn-white,
   }
   
   .btn-main:hover {
-	background: white;
-	color: #3D4C99;
+	color: #fff ;
+	background: #293573;
+  }
+
+  .btn-main:disabled{
+	background: #9EA5CC !important;
+	pointer-events: none;
   }
 
   button, input, select, textarea{
