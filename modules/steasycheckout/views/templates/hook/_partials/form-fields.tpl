@@ -27,6 +27,8 @@
   <input type="hidden" name="{$field.name}" value="{$field.value}">
   {/block}
 {else}
+  
+  {assign var="input_fields" value=3}
 
   <div class="form-group {if !empty($field.errors)}has-error{/if} st_form_item_{$field.name} {if $input_fields == 2}input_placeholder{/if} {if $input_fields == 1}input_label{/if} {if $input_fields == 3}animation_placeholder{/if} placeholder_error_{$placeholder_error} fields_border_{$input_fields_border} {$field.type}_style">
     {if $field.type !== 'checkbox' && $input_fields == 1}
@@ -81,7 +83,10 @@
                       {if $field.value}checked="checked"{/if}
                       autocomplete="disabled"
               >
-              <span class="steco-custom-input-item steco-custom-input-radio"><i class="eco-ok checkbox-checked"></i><i class="eco-spin5 steco-animate-spin"></i></span>
+              <span class="steco-custom-input-item steco-custom-input-radio"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </span><i class="eco-spin5 steco-animate-spin"></i></span>
             </span>
             <span class="steco_flex_child">{$label}</span>
             </span>
@@ -100,7 +105,10 @@
                   {if $field.value}checked="checked"{/if}
                   autocomplete="disabled"
           >
-          <span class="steco-custom-input-item"><i class="eco-ok checkbox-checked"></i><i class="eco-spin5 steco-animate-spin"></i></span>
+          <span class="steco-custom-input-item"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </span><i class="eco-spin5 steco-animate-spin"></i></span>
         </span>
        <span class="steco_flex_child"> {if $field.required}<span class="label_required">{l s='*' d='Shop.Theme.Transformer'}</span > {/if}{if $field.name == optin}{l s='I accept the' d='Shop.Theme.Transformer'} <a href="{url entity='cms' id=3 id_lang=1}" target="_blank">{l s='Privacy Policy' d='Shop.Theme.Transformer'}</a><br><span class="privacy-text">{l s='I consent to the transfer of my personal data in the form of an e-mail address and information about the order placed by me to Opineo (Ringier Axel Springer Polska Sp.z o.o.), in order to know my opinion on the purchase in the online store https://europ24. pl, which will be published on the Opineo.pl website' d='Shop.Theme.Transformer'}</span>{elseif $field.name == newsletter}{l s='I want to use the Newsletter service by e-mail, in accordance with' d='Shop.Theme.Transformer'} <a href="{url entity='cms' id=1 id_lang=1}" target="_blank">{l s='Regulations' d='Shop.Theme.Transformer'}</a> {l s='providing newsletter services' d='Shop.Theme.Transformer'}{else}{$field.label nofilter}{/if}
        </label>

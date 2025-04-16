@@ -68,7 +68,10 @@
                         class = "steco-custom-input"
                         {if !$use_same_address} checked="checked"{/if}
                 >
-                <span class="steco-custom-input-item steco-custom-input-checkbox"><i class="eco-ok checkbox-checked"></i></span>
+                <span class="steco-custom-input-item steco-custom-input-checkbox"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </span></span>
               </span>
               {l s='Invoice address differs from shipping address' d='Shop.Theme.Transformer'}
             </label>
@@ -98,7 +101,7 @@
         {/if}
       {/if}
       <div class="add-address steco_mt_10 steco_text_center">
-        <a href="{$new_address_delivery_url}" class="steco_address_btn btn btn-border steco_btn_more_padding btn_arrow black_arrow btn-spin js-submit-active" title="{l s='Add new address' d='Shop.Theme.Transformer'}">{l s='Add new address' d='Shop.Theme.Transformer'}</a>
+        <a href="{$new_address_delivery_url}" class="btn btn-main btn-spin btn_arrow js-submit-active steco_address_btn steco_btn_more_padding" title="{l s='Add new address' d='Shop.Theme.Transformer'}">{l s='Add new address' d='Shop.Theme.Transformer'}</a>
       </div>
 
       <br>

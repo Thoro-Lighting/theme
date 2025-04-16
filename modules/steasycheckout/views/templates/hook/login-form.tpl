@@ -56,7 +56,7 @@
     <input type="hidden" name="submitLogin" value="1">
     {block name='form_buttons'}
     <button
-      class="btn steco_btn steco-btn-spin btn-primary btn-large js-submit-active {if $sttheme.auth_layout}{if $arrow_buttons}btn_arrow{/if}{/if} btn-spin btn-full-width"
+      class="btn steco_btn steco-btn-spin btn-main btn-large js-submit-active {if $sttheme.auth_layout}{if $arrow_buttons}btn_arrow{/if}{/if} btn-spin btn-full-width"
       name="steco_login"
       type="submit"
       value="1"

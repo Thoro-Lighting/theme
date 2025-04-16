@@ -17,8 +17,8 @@
   {if $customer.is_logged && !$customer.is_guest}
 
     <div class="identity">
-      <div class="row">
-        <div class="col-md-6">
+      <div>
+        <div class="col-md-6 px-3">
           <div class="hello_info">
             {l s='Welcome' d='Shop.Theme.Transformer'} <a href="{$steco_urls.identity}">{$customer.firstname}
               {$customer.lastname}</a>{if $display_logout}, <i class="fto-logout-1"></i><a href="{$steco_urls.logout}"
@@ -100,7 +100,7 @@
         </div>
 
 
-        <div class="col-md-12">
+        <div class="col-md-12 px-3">
 
 
           <div class="steco_addresses steco_block"></div>
