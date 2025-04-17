@@ -92,27 +92,7 @@
     </section>
 
     {block name='checkout_footer'}
-    {if ($sttheme.checkout_same_footer == 2 && !isset($smarty.get.checkout)) OR ($sttheme.checkout_same_footer == 0)}
-        {include file='_partials/footer.tpl'}
-      {else}
-        <footer id="footer" class="footer-container {if $blurred_menu_bg == 1}menu_blur{/if} footer_checkout">
-    {block name='hook_footer_checkout'}
-    {capture name="displayFooterCheckout"}{hook h="displayFooterCheckout"}{/capture}
-    {if $smarty.capture.displayFooterCheckout|trim}
-    <section id="footer-checkout">
-		<div class="{if !$sttheme.footer_fullwidth && $sttheme.responsive_max!=3}wide_container{/if}">
-			<div class="{if !$sttheme.footer_fullwidth && $sttheme.responsive_max!=3}container{else}container-fluid{/if}">
-                <div class="row footer_first_level_row">
-				    {$smarty.capture.displayFooterCheckout nofilter}
-                </div>
-			</div>
-        </div>
-    </section>
-    {/if}
-    {/block}
-        {include file='_partials/footer-bottom.tpl'}
-        </footer>
-      {/if}
+      {include file='_partials/footer-checkout.tpl'}
     {/block}
     {if isset($sttheme.boxstyle) && $sttheme.boxstyle==2}</div>{/if}
   </main>

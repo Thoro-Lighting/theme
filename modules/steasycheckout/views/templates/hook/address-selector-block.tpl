@@ -39,7 +39,10 @@
               value="{$address.id}"
               {if in_array($address.id, $not_valid_addresses)}disabled{elseif $address.id == $selected}checked{/if}
             >
-            <span class="steco-custom-input-item steco-custom-input-radio"><i class="eco-ok checkbox-checked"></i><i class="eco-spin5 steco-animate-spin"></i></span>
+            <span class="steco-custom-input-item steco-custom-input-radio"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </span><i class="eco-spin5 steco-animate-spin"></i></span>
           </span>
           <span class="address-alias">{$address.alias}</span>
           <div class="address">{$address.formatted nofilter}</div>

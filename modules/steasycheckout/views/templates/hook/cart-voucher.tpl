@@ -25,14 +25,13 @@
 {if $cart.vouchers.allowed && $steco.vis_voucher_zone == 1}
   {block name='cart_voucher'}
   <div class="steco-cart-voucher">
-     <div class="promo-code {if $steco.presentation_voucher == 0}voucher_slide{/if}" id="promo-code">
-        <div class="steco_promo_title steco_mb_10 {if $steco.presentation_voucher == 0}voucher_open{/if}"><span class="on-voucher">{l s='Have a promo code' d='Shop.Theme.Transformer'}</span></div>
-        <div {if $steco.presentation_voucher == 0}id="voucher_box"{/if} class="{if $steco.presentation_voucher == 0}collapse{/if}">
+     <div class="voucher_slide" id="promo-code">
+        <div id="voucher_box">
         {block name='cart_voucher_form'}
         <form action="{$steco_urls.cart}" data-link-action="add-voucher" method="post">
           <input type="hidden" name="token" value="{$static_token}">
           <input type="hidden" name="addDiscount" value="1">
-          <div class="input-group mar_b10">
+          <div class="input-group">
             <input class="promo-input form-control" type="text" name="discount_name" placeholder="{l s='Promo code' d='Shop.Theme.Transformer'}">
             <span class="input-group-btn">
               <button type="submit" class="btn small_cart_btn btn-default steco_btn voucher"><span>{l s='Add code' d='Shop.Theme.Transformer'}</span></button>

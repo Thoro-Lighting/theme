@@ -28,7 +28,7 @@
                  </a>
            <div class="flex_child">
               <div class="checkout_header_right flex_container flex_right ">
-                <div class="safe-top">{l s='Safe payments<br>thanks to SSL encryption' d='Shop.Theme.Transformer'}</div>
+                <div class="safe-top">{l s='Safe payments thanks to SSL encryption' d='Shop.Theme.Transformer'}</div>
               </div>
           </div>
         </div>

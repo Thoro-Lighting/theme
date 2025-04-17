@@ -54,7 +54,7 @@
 	    width: 650px;
 	}
 	.step-1 .steco_container { max-width: 100%; }
-	#order-confirmation section#wrapper, #footer-checkout, .step-2 .steco_column, .step-2 #head_steps, .step-3 #head_steps, #authentication #wrapper .container {
+	#footer-checkout, .step-2 .steco_column, .step-2 #head_steps, .step-3 #head_steps, #authentication #wrapper .container {
 	    max-width: 1250px;
 	    margin: 0 auto;
 	}
@@ -79,9 +79,6 @@
 		margin: 5px auto 70px !important
 	}
 	
-	#module-steasycheckout-default #create_account_block h3.login_form_heading {
-	    padding-left: 25px;
-	}
 	#steasy_element_28 .sttext_banner_text {
 	    margin: 8px 0px;
 	}
@@ -143,7 +140,7 @@
 	
       #register_form_block, #login_form_block .sidebar_login_form,  .login_two_columns .from_blcok {padding: 25px 45px;}
 		#st-checkout-personal-information-step .identity {
-		    padding: 25px 10px 40px;
+		    padding: 25px 16px 40px;
 		}
       
       
@@ -1191,15 +1188,13 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	    margin-bottom: 15px !important;
 	}
 		
-	#center_column #main .account_box .page_heading, #order-confirmation #order-details .page_heading, #order-confirmation #content-hook_order_confirmation .page_heading { margin-bottom:0px!important; }
+	#center_column #main .account_box .page_heading { margin-bottom:0px!important; }
 	.account_box_bg {
 	    padding-left: 0px;
 	    padding-right: 0px;
 	    margin: 0px;
 	}
-	
-	#order-confirmation #content-hook_order_confirmation { margin: 1em 0px; }
-	
+		
 	.orders .order.line_item .text-right {
 	    width: 100%;
 	    text-align: left !important;
@@ -1668,9 +1663,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 		margin-left: auto;
 	    max-width: 80%;
 	}
-	.page-order-confirmation #order-items {
-		margin-bottom: 1.5rem
-	}
 	.product_page_layout_1 .pro_cart_block .product-quantity,.product_page_layout_1 .product-add-to-cart .product-available,.product_page_layout_1 .product-description-short,.product_page_layout_1 .product-variants .product-variants-item
 		{
 		text-align: center
@@ -2127,10 +2119,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 		
        .modal-content.mini_modal .info_plus_mini .md_totals {padding: 20px 20px 20px; background: #f6f6f6; width: 100%; text-align: center;}
 		.modal-content.mini_modal .info_plus_mini li {list-style: none; font-size: 15px; font-weight: 500;}
-		.modal-content.mini_modal .info_plus_mini li  .free-color { font-weight: bold; }
-         #mobile_bar_left,
-         #mobile_bar_center,
-         #mobile_bar_right { }
+		.modal-content.mini_modal .info_plus_mini li  .free-color { font-weight: bold; } 
          .mobile_bar_tri_text.yes_device_7, .mobile_bar_tri_text.yes_device_10 {display: inline-block;}
          .mobile_bar_tri_text.yes_device_8, .mobile_bar_tri_text.yes_device_9 {display: block;}
          .mobile_bar_tri_text.yes_device_5, .mobile_bar_tri_text.yes_device_4 {display: none}

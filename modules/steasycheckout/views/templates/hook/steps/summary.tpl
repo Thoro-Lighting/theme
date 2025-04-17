@@ -14,22 +14,13 @@
 {/if}*}
 
     <div class="steco_cart_summay_item steco_cart_summay_{if $steco.cart_summary==2}big{else}small{/if}">
-    <p class="summary-head">{l s='Cart summary' d='ShopThemeCheckout'} <a class="edit-summary" title="{l s='edit basket' d='ShopThemeTransformer'}" href="{$link->getModuleLink('steasycheckout','default')|escape:'html'}"></a></p>
-     {block name='cart_summary_products'}
-     <ul class="small_cart_product_list steco_base_list_line medium_list step-2">
-     {foreach from=$cart.products item=product}
-     <li class="line_item">
-     {include file='module:steasycheckout/views/templates/hook/cart-product-line-mini.tpl' product=$product}
-     </li>
-     {/foreach}
-     </ul>
-     {/block}
+    <p class="summary-head">{l s='Cart summary' d='ShopThemeCheckout'}</p>
       
       {block name='cart_summary_subtotals'}
 	      {foreach from=$cart.subtotals item="subtotal"}
 	        {if $subtotal && $subtotal.type !== 'tax' && $subtotal.type !== 'products_discounts'}
 	          <div class="cart-summary-line clearfix cart-summary-subtotals" id="cart-subtotal-{$subtotal.type}">
-	            <span class="label">{$subtotal.label}{if $subtotal.type != 'payment'}:{/if}{if $subtotal.type == 'shipping' OR $subtotal.type == 'payment'}<a class="edit-summary" href="{$link->getModuleLink('steasycheckout','default')|escape:'html'}" title="{l s='edit basket' d='ShopThemeTransformer'}"></a>{/if}</span>
+	            <span class="label">{$subtotal.label}{if $subtotal.type != 'payment'}:{/if}</span>
 	      
 	            {if $subtotal.type != 'payment'}<span class="value price">{$subtotal.value nofilter}</span>{/if}
 	          </div>
@@ -67,9 +58,9 @@
         
 </div>
 </div>
-<button class="btn_arrow small_cart_btn btn btn-default btn_full_width bt_first_step summary_bt" type="button">{l s='Check out' d='ShopThemeTransformer'}</button>
+<button class="btn-main w-100 bt_first_step summary_bt" type="button">{l s='Check out' d='ShopThemeTransformer'}</button>
 <div id="payment-confirmation" class="steco_text_center">
-  <button type="submit" class="btn btn-default steco_btn steco_btn_more_padding {if $arrow_buttons}btn_arrow{/if} bt_last_step summary_bt">
+  <button type="submit" class="btn-main w-100 bt_last_step summary_bt">
         {l s='I order and pay' d='Shop.Theme.Transformer'}  {If $steco.show_payment_name}{if $selected_payment_confirming}{$selected_payment_confirming}{else}{$selected_payment_name}{/if}{/if}
   </button>
 </div>
@@ -84,6 +75,9 @@
     </div>
 </div>
 {hook h='displayEstimatedDeliveryDate'}
-{hook h='displayDeliveryTime' cart=$cart}
+{block name='cart_summary_voucher'}
+  {include file='module:steasycheckout/views/templates/hook/cart-reassurance.tpl'}
+{/block}
+
 {if $page.page_name == 'module-steasycheckout-default'}<div class="modal-backdrop fade show"></div>{/if}
 

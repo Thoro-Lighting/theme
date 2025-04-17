@@ -24,7 +24,7 @@
 
 {block name='form_buttons'}
   {if $is_logged && !$is_guest}
-    <button type="submit" class="btn btn-default steco_btn steco-btn-spin btn_arrow btn_full_width step_down new_adress"><i class="eco-spin5 fs_md steco_mr_r4"></i>{l s='Save the address' d='Shop.Theme.Transformer'}</button>
+    <button type="submit" class="btn btn-main steco_btn steco-btn-spin btn_arrow btn_full_width step_down new_adress"><i class="eco-spin5 fs_md steco_mr_r4"></i>{l s='Save the address' d='Shop.Theme.Transformer'}</button>
     {if isset($addresses_count) && $addresses_count}<div class="cancel-address steco_mt_10 steco_text_center"><a class="steco-cancel-address btn black_arrow bt_left continue_shop" href="javascript:;">{l s='Go back' d='Shop.Theme.Transformer'}</a></div>{/if}
   {/if}
 {/block}
