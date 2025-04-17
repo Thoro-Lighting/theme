@@ -11897,22 +11897,6 @@ body#checkout #gift_message {
 	padding: .625rem
 }
 
-#order-items .order-line {
-	margin-top: 1rem
-}
-
-#order-items .details {
-	margin-bottom: 1rem
-}
-
-#order-items .details .customizations {
-	margin-top: .625rem
-}
-
-#order-items .qty {
-	margin-bottom: 1rem
-}
-
 #order-confirmation #registration-form {
 	width: 50%;
 	margin: 0 auto 1rem
@@ -21731,7 +21715,6 @@ a.ammount {
 #order-confirmation .card-block dl dd {
     font-weight: 600;
 }
-#order-confirmation #content-hook_order_confirmation .page_heading i { margin-right:15px; }
 
 	
 
@@ -21759,7 +21742,7 @@ a.ammount {
     padding-right: 15px;
     margin: 0px;
 }
-#center_column #main .account_box .page_heading, #order-confirmation #order-details .page_heading, #order-confirmation #content-hook_order_confirmation .page_heading {
+#center_column #main .account_box .page_heading {
     font-size: 28px;
     margin-bottom: 15px !important;
 }

@@ -990,9 +990,9 @@ transition: all 0.6s ease-in; }
 }
 
 .step_link i {display: none}
-.step-2 .line_1 .step_link i {display: inline-block;width: 24px;height: 24px;border-radius: 50%;background: #3D4C99;color: #fff;
+.order_confirmation .step_link i, .step-2 .line_1 .step_link i {display: inline-block;width: 24px;height: 24px;border-radius: 50%;background: #3D4C99;color: #fff;
 position: relative;top: -2px;margin-left: 4px;line-height: 24px; font-size: 13px;}
-
+.checkout_wrapper{background: transparent !important;}
 .checkout_wrapper .steps{
   width: 100%;;
   max-width: 992px;
@@ -1022,7 +1022,8 @@ position: relative;top: -2px;margin-left: 4px;line-height: 24px; font-size: 13px
   border-radius: 5px;
 }
 #head_steps .line_1:after, #head_steps .line_2:after, #head_steps .line_3:after  {background: #d0d0d0;}
-body.step-2 #head_steps .line_1:after  {background: #3D4C99;}
+body.step-2 #head_steps .line_1:after{background: #3D4C99;}
+.order_confirmation .line_all:after{background: #3D4C99 !important;}
 body.step-1 #head_steps .line_1:after,
 body.step-2 #head_steps .line_2:after {
 	-webkit-animation-duration: 1.5s;
@@ -1695,7 +1696,7 @@ max-width: 100% !important;}
   flex-direction: column-reverse;
   align-items: center;
 }
-.step-2 .line_1 .step_link i{
+.order_confirmation .step_link i, .step-2 .line_1 .step_link i{
   width: 16px;
   height: 16px;
   line-height: 16px;
@@ -1843,4 +1844,153 @@ max-width: 100% !important;}
 
 .info-required .label_required{
   font-weight: 400;
+}
+
+.order_confirmation .card{
+  background: #FBFBFB;
+  border: none;
+}
+
+.order_confirmation .page_heading{
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 992px) {
+  .order_confirmation .page_heading{
+    font-size: 24px;
+  }
+}
+
+.order-mail-info{
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+}
+.order-mail-info span{
+  font-weight: 700;
+}
+
+.order_confirmation .card{
+  margin-bottom: 32px;
+}
+
+.order-line_img{
+  width: 108px;
+  height: 108px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  object-fit: cover;
+}
+
+#order-items .order-line{
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+#order-items .details {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#order-items .order-line .total{
+  font-weight: 700;
+}
+
+.order-confirmation-table .base_list_line.medium_list .line_item{
+  border-bottom: 1px solid #E3E3E2;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.base_list_line.medium_list .line_item:last-child{
+  margin-bottom: 32px;
+}
+
+.order_confirmation .cart-summary-wrap{
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.order_confirmation .cart-summary-wrap .cart-summary-line{
+  margin-bottom: 16px;
+}
+
+.order_confirmation .cart-summary-wrap .cart-summary-line.cart-total .value{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.order-summary-block{
+  margin-top: 28px;
+}
+
+.page-order-confirmation #order-items .order-confirmation-wrap{
+  border-bottom: 1px solid #E3E3E2;
+  padding-bottom: 10px;
+  margin-bottom: 32px;
+}
+
+#order-details .page_heading{
+  margin-bottom: 16px;
+}
+
+#order-details .details-items ul li{
+  list-style: disc;
+  color: #111;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  margin-left: 20px;
+}
+
+#content-hook_payment_return p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #181B1A;
+  line-height: 1.75;
+}
+
+#content-hook_payment_return p a{
+  color: #3D4C99;
+  text-decoration: underline;
+}
+
+#order-confirmation #order-details .details-items ul{
+  margin-bottom: 0px !important;
+}
+
+
+@media only screen and (min-width: 992px) {
+  #order-items .details {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #order-items .details .name {
+    flex-basis: 50%;
+  }
+
+  .order_confirmation .card-block{
+    padding: 32px;
+  }
+
+  .order_confirmation .cart-summary-wrap .cart-summary-line.cart-total .value{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #order-items .details {
+    gap: 64px;
+  }
 }
