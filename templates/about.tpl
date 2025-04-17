@@ -2,9 +2,38 @@
 {block name='page_header_container'}{/block}
 {block name='page_content'}
     {hook h='displayAbout'}
+
+    <div class="static-page_form_content force-fullwidth">
+      <div class="container">
+        <div class="static-page_col_left">
+          <h3>{l s='Contact us and lets talk about cooperation opportunities' d='Shop.Theme.Global'}</h3>
+          <p>{l s='We will get back to you as soon as possible' d='Shop.Theme.Global'}</p>
+          {hook h='displayAskAboutProduct'}
+        </div>
+        <div class="static-page_col_right">
+          <img
+          src="https://thoro.webo.design/img/cms/dystr_form_img.png"
+          alt="lampa"
+          />
+        </div>
+      </div>
+    </div>
+
+    {if $smarty.capture.displayHomeRight || $smarty.capture.displayHomeLeft}
+      <div id="home_secondary_row" class="row">
+        <div id="home_secondary_left">
+          {$smarty.capture.displayHomeLeft nofilter}
+        </div>
+        <div id="home_secondary_right">
+          {$smarty.capture.displayHomeRight nofilter}
+        </div>
+      </div>
+    {/if}
 {/block}
 
-{* <section class="about_banner">
+{* template
+
+  <section class="about_banner">
     <div class="about_banner_container">
       <div class="about_left_col">
         <div>
@@ -90,7 +119,35 @@
         Nasze lampy posiadają wysokie parametry techniczne, w tym CRI (>90), które zapewnia doskonałe odwzorowanie kolorów, nie powoduje olśnienia dla oka i wrażenia nadmiernej jaskrawości - dzięki temu światło rozpraszane jest równomiernie, zapewniając Użytkownikom lepsze samopoczucie i wysoki komfort przebywania w pomieszczeniu.
       </p>
     </div>
-    <div class="swiper" style="margin:80px">zapytac czy swiper idzie powielić z poprzednich stron</div>
+    <div class="swiper" data-js="swiper-product-about">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide relative">
+          <a href="/wiszace">
+            <img src="https://thoro.webo.design/img/cms/o%20nas/wiszace.png" alt="lampy-wiszace" class="size-full !absolute !inset-0">
+            <h3>Wiszące</h3>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="/plafony">
+            <img src="https://thoro.webo.design/img/cms/o%20nas/plafony.png" alt="plafony">
+            <h3>Plafony</h3>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="/kinkiety">
+            <img src="https://thoro.webo.design/img/cms/o%20nas/kinkiety.png" alt="kinkiety">
+            <h3>Kinkiety</h3>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="/zyrandole">
+            <img src="https://thoro.webo.design/img/cms/o%20nas/zyrandole.png" alt="zyrandole">
+            <h3>Żyrandole</h3>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-scrollbar"></div>
+    </div>
   </section>
 
   <section class="meet_us">
@@ -129,4 +186,6 @@
         <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none"> <path d="M9.6 21.5999H14.4M10.2 9.5999H13.8M6 8.3999C6 5.08619 8.68629 2.3999 12 2.3999C15.3137 2.3999 18 5.08619 18 8.3999C18 10.8603 16.5191 12.874 14.4 13.7999V17.3999C14.4 18.0626 13.8627 18.5999 13.2 18.5999H10.8C10.1373 18.5999 9.6 18.0626 9.6 17.3999V13.9006C7.48091 12.9748 6 10.8603 6 8.3999Z" stroke="#484540" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> Szybki czas realizacji zamówienia</li>
       </ul>
     </div>
-  </section> *}
+  </section>
+
+*}
