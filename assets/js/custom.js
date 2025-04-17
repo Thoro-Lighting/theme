@@ -766,7 +766,7 @@ function initConfiguratorVideoModal() {
   const videoModal = document.querySelector(".modal-video");
   if (!videoModal) return;
 
-  const playBtn = document.querySelector(".app-how__video-cover");
+  const playBtn = document.querySelector("[data-js-video-open]");
   const videoEl = videoModal.querySelector("video");
 
   playBtn.addEventListener("click", () => {
@@ -819,9 +819,9 @@ function initDesktopSubmenuToggle() {
 
       btn.classList.add("active");
 
-      const tabId = btn.getAttribute('data-js-tab-btn');
+      const tabId = btn.getAttribute("data-js-tab-btn");
       const tab = container.querySelector(`[data-js-tab="${tabId}"]`);
-      if (tab) tab.classList.add('active');
+      if (tab) tab.classList.add("active");
     });
   });
 }

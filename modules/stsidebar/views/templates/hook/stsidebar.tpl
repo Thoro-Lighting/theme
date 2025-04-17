@@ -51,7 +51,7 @@
 {/foreach}
 
 
-{if $page.page_name == 'manufacturer' || $page.page_name == 'category'}
+{if $page.page_name == 'manufacturer' || $page.page_name == 'category' || $page.page_name == 'search'}
   <div class="st-menu menu_blur" id="side_facets">
      <div class="st-menu-header">
          <div class="st-menu-title">{l s='Filter By' d='Shop.Theme.Actions'}</div>

@@ -60,7 +60,7 @@
 		{if $as_search.search_method == 2 || $as_search.search_method == 4}
 			<p class="col-xs-12 text-center show-button">
 			{if !empty($as_search.hasOneVisibleSelectedCriterion) }
-				<input type="button" value="x {l s='Remove selected filters' mod='pm_advancedsearch4'}" class="PM_ASResetAll btn-secondary" />
+				<input type="button" value="{l s='Remove selected filters' mod='pm_advancedsearch4'}" class="PM_ASResetAll btn-secondary" />
 			{/if}
 				<input type="submit" value="{l s='Search' mod='pm_advancedsearch4'} ({$as_search.total_products|intval})" name="submitAsearch" class="PM_ASSubmitSearch btn-main" />
 			</p>

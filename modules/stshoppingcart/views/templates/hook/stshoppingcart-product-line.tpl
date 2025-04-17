@@ -11,7 +11,9 @@
                 data-link-action="remove-from-cart"
                 title="{l s="Remove product" d="ShopThemeTransformer"}"
             >
-                <span class="icone_svg"></span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6.17647H20M10 16.7647V10.4118M14 16.7647V10.4118M16 21H8C6.89543 21 6 20.0519 6 18.8824V7.23529C6 6.65052 6.44772 6.17647 7 6.17647H17C17.5523 6.17647 18 6.65052 18 7.23529V18.8824C18 20.0519 17.1046 21 16 21ZM10 6.17647H14C14.5523 6.17647 15 5.70242 15 5.11765V4.05882C15 3.47405 14.5523 3 14 3H10C9.44772 3 9 3.47405 9 4.05882V5.11765C9 5.70242 9.44772 6.17647 10 6.17647Z" stroke="#181B1A" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
             </a>
             </div>
         
@@ -19,8 +21,7 @@
         <div class="flex_start">
         <div class="mini-cart-price-gt flex_container mt-2">
          
-        <div class="qty_wrap mar_t4">
-        {*{$product.cart_quantity} {l s='item(s)' d="Shop.Theme.Transformer"}*}
+        <div class="qty qty_wrap qty_wrap_big">
             <input
                 class="cart_quantity cart_quantity_{$product.id_product} {if $product.quantity>=$product.stock_quantity} hits_the_max_limit{/if} {if $product.quantity<=$product.minimal_quantity} hits_the_min_limit{/if}"
                 type="text"

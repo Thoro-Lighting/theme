@@ -603,7 +603,7 @@ body.is-android .android-only {
   }
 }
 
-.configurator-container .modal-video {
+.modal-video {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -653,7 +653,7 @@ body.is-android .android-only {
   fill: #87cedd;
 }
 
-.configurator-container .modal-video.active {
+.modal-video.active {
   pointer-events: all;
   opacity: 100%;
 }
@@ -1183,13 +1183,7 @@ body.is-android .android-only {
   transform: translateX(0%);
 }
 
-[data-js-sidemenu] .st-menu-header {
-  margin-top: 0px;
-  padding-top: 10px;
-  height: 66px;
-}
-
-[data-js-sidemenu-close] {
+[data-js-sidemenu-close]{
   position: absolute;
   left: 16px;
   bottom: 16px;
@@ -1217,11 +1211,7 @@ body.is-android .android-only {
   border-bottom: 4px solid #73716D;
 }
 
-.tile-category-link.current{
-  border-bottom: 4px solid #73716D;
-}
-
-.tile-category-link img {
+.tile-category-link img{
   width: 80px;
   height: 80px;
   object-fit: cover;
@@ -1276,7 +1266,7 @@ body.is-android .android-only {
 }
 
 
-.stmenu_sub_tab {
+.stmenu_sub_tab{
   display: none;
   flex-wrap: wrap;
   gap: 32px;
@@ -1305,7 +1295,8 @@ body.is-android .android-only {
   }
 }
 
-.force-fullwidth {
+
+.force-fullwidth{
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -1637,8 +1628,9 @@ body.is-android .android-only {
   text-transform: none;
   letter-spacing: -1px;
 }
-.configurator_steps .content_header a {
+.configurator_steps .content_header span.video-btn {
   color: #3d4c99;
+  cursor: pointer;
 }
 .configurator_steps h2 {
   margin-bottom: 16px;
