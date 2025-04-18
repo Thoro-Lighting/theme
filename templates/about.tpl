@@ -19,7 +19,20 @@
       </div>
     </div>
 
+    {capture name="displayHomeRight"}{hook h="displayHomeRight"}{/capture}
+    {capture name="displayHomeLeft"}{hook h="displayHomeLeft"}{/capture}
+
     {if $smarty.capture.displayHomeRight || $smarty.capture.displayHomeLeft}
+
+      <div class="style_content  block_content " style="padding-top:64px;">
+        <div class="easy_brother_block text-1 text-md-0">
+          <div class="content_header">
+            <p>Poznaj Thoro</p>
+            <h2>Oświetlamy to co dla Ciebie najważniejsze</h2>
+          </div>
+        </div>                  
+      </div>
+      
       <div id="home_secondary_row" class="row">
         <div id="home_secondary_left">
           {$smarty.capture.displayHomeLeft nofilter}
