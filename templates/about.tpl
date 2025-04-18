@@ -27,8 +27,8 @@
       <div class="style_content  block_content " style="padding-top:64px;">
         <div class="easy_brother_block text-1 text-md-0">
           <div class="content_header">
-            <p>Poznaj Thoro</p>
-            <h2>Oświetlamy to co dla Ciebie najważniejsze</h2>
+            <p>{l s='Meet Thoro' d='Shop.Theme.Global'}</p>
+            <h2>{l s='Highlighting what’s most important to you' d='Shop.Theme.Global'}</h2>
           </div>
         </div>                  
       </div>
