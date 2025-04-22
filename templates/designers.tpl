@@ -19,8 +19,9 @@
 
 
 <div class="designers_banner force-fullwidth">
-  <div class="designers_col_left"><img src="https://thoro.webo.design/img/cms/projektanci/designers_banner.png"
-      alt="banner-image" width="480" height="641" /></div>
+  <div class="designers_col_left">
+    <img src="https://thoro.webo.design/img/cms/projektanci/designers-banner.jpg" alt="banner-image" width="500" height="667"/>
+  </div>
   <div class="designers_col_right container">
     <h1>Gdzie wizja spotyka światło.</h1>
     <div class="designers_banner_desc">
@@ -56,12 +57,8 @@
       <div class="designers_list_item_collections">
         <p>Autor kolekcji:</p>
         <ul>
-          <li><a href="https://thoro.pl/lehdet"><img src="https://thoro.pl/img/m/2-brand_default.jpg" alt="Lahdet" />
-              <span>Lahdet</span></a></li>
-          <li><a href="https://thoro.pl/kukkia"><img src="https://thoro.pl/img/m/3-brand_default.jpg" alt="Kukkia" />
-              <span>Kukkia</span></a></li>
-          <li><a href="https://thoro.pl/valo"><img src="https://thoro.pl/img/m/4-brand_default.jpg" alt="Valo" />
-              <span>Valo</span></a></li>
+          <li><a href="https://thoro.pl/biscuit"><img src="https://thoro.pl/img/m/26-brand_default.jpg" alt="Biscuit" />
+              <span>Biscuit</span></a></li>
         </ul>
       </div>
     </div>
