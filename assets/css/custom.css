@@ -843,7 +843,6 @@ body.is-android .android-only {
 }
 .static-page_form_content .container {
   display: flex;
-  height: 700px;
   padding-bottom: 64px;
 }
 @media only screen and (max-width: 991px) {
