@@ -63,7 +63,7 @@
     </div>
   </div>
 
-  {if $page.page_name == 'category' || $page.page_name == 'manufacturer'}
+  {if $page.page_name == 'category' || ($page.page_name == 'manufacturer' && isset($manufacturer))}
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-xl-12">
