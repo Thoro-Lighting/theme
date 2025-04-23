@@ -27,6 +27,12 @@
                 {/if}
               </h1>
 
+              {if $page.page_name== 'manufacturer' && !isset($manufacturer)}
+                <p class="heading-desc">
+                  {l s='THORO is a brand created out of passion for lighting, combining artistic design and Scandinavian minimalism.' d='Shop.Theme.Catalog'}
+                </p>
+              {/if}
+
               {if $page.page_name == 'search'}
                 {if $listing.products|count}
                   <div class="search_tag">"{$search_string}"</div>
