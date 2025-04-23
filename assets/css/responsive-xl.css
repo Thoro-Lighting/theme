@@ -354,10 +354,6 @@
 }
 
 @media only screen and (min-width:1200px) {
-
-	#manufacturer.collection-page #wrapper .container {
-	  width: 1170px;
-	}
 		
 #languages-block-top-mod {margin: 0px 28px;}	
 #avatar_right {margin: 32px 0 0 0;}
