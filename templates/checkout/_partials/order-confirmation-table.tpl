@@ -30,93 +30,114 @@
   <div class="order-confirmation-table order-summary-block">
     {block name='order_confirmation_table'}
       <div class="base_list_line medium_list dotted_line">
-      {foreach from=$products item=product}
-        <div class="order-line row line_item">
-          <div class="col-sm-2 col-3">
-            <img src="{$product.cover.bySize.cart_default.url}" width="{$product.cover.bySize.cart_default.width}" height="{$product.cover.bySize.cart_default.height}" alt="{$product.name}" />
-          </div>
-          <div class="col-sm-4 col-9 details">
-            {if $add_product_link}<a href="{$product.url}" target="_blank" title="{$product.name}">{/if}
-              <span>{$product.name}</span>
-              
-                    
-            {if $add_product_link}</a>{/if}
-            {if $product.customizations|count}
-              {foreach from=$product.customizations item="customization"}
-                <div class="customizations">
-                  <a href="#" data-toggle="modal" data-target="#product-customizations-modal-{$customization.id_customization}" data-backdrop=false>{l s='Product customization' d='Shop.Theme.Catalog'}</a>
-                </div>
-                <div class="modal fade customization-modal" id="product-customizations-modal-{$customization.id_customization}" tabindex="-1" role="dialog" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <button type="button" class="st_modal_close" data-dismiss="modal" aria-label="{l s='Close' d='Shop.Theme.Transformer'}">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                      <div class="modal-body base_list_line general_border">
-                        <h6 class="fs_md mb-3">{l s='Product customization' d='Shop.Theme.Catalog'}</h6>
-                        {foreach from=$customization.fields item="field"}
-                          <div class="product-customization-line line_item row">
-                            <div class="col-sm-3 col-4 label">
-                              {$field.label}
-                            </div>
-                            <div class="col-sm-9 col-8 value">
-                              {if $field.type == 'text'}
-                                {if (int)$field.id_module}
-                                  {$field.text nofilter}
-                                {else}
-                                  {$field.text}
-                                {/if}
-                              {elseif $field.type == 'image'}
-                                <img src="{$field.image.small.url}" alt="{$field.label}">
-                              {/if}
-                            </div>
+        {foreach from=$products item=product}
+          <div class="order-line line_item">
+            <img class="order-line_img" src="{$product.cover.bySize.cart_default.url}"
+              width="{$product.cover.bySize.cart_default.width}" height="{$product.cover.bySize.cart_default.height}"
+              alt="{$product.name}" />
+            <div class="details">
+
+              <div class="name">
+                {if $add_product_link}<a href="{$product.url}" target="_blank" title="{$product.name}">{/if}
+                  <span>{$product.name}</span>
+
+
+                {if $add_product_link}</a>{/if}
+                {if $product.customizations|count}
+                  {foreach from=$product.customizations item="customization"}
+                    <div class="customizations">
+                      <a href="#" data-toggle="modal"
+                        data-target="#product-customizations-modal-{$customization.id_customization}"
+                        data-backdrop=false>{l s='Product customization' d='Shop.Theme.Catalog'}</a>
+                    </div>
+                    <div class="modal fade customization-modal"
+                      id="product-customizations-modal-{$customization.id_customization}" tabindex="-1" role="dialog"
+                      aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <button type="button" class="st_modal_close" data-dismiss="modal"
+                            aria-label="{l s='Close' d='Shop.Theme.Transformer'}">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          <div class="modal-body base_list_line general_border">
+                            <h6 class="fs_md mb-3">{l s='Product customization' d='Shop.Theme.Catalog'}</h6>
+                            {foreach from=$customization.fields item="field"}
+                              <div class="product-customization-line line_item row">
+                                <div class="col-sm-3 col-4 label">
+                                  {$field.label}
+                                </div>
+                                <div class="col-sm-9 col-8 value">
+                                  {if $field.type == 'text'}
+                                    {if (int)$field.id_module}
+                                      {$field.text nofilter}
+                                    {else}
+                                      {$field.text}
+                                    {/if}
+                                  {elseif $field.type == 'image'}
+                                    <img src="{$field.image.small.url}" alt="{$field.label}">
+                                  {/if}
+                                </div>
+                              </div>
+                            {/foreach}
                           </div>
-                        {/foreach}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              {/foreach}
-            {/if}
-            {hook h='displayProductPriceBlock' product=$product type="unit_price"}
-          </div>
-          <div class="col-sm-6 col-12 qty">
-            <div class="row">
-              <div class="col-5 text-sm-right text-1">{$product.price nofilter} {if $price_tax_cart_products > 0}{$labels.tax_long}{/if}</div>
-              <div class="col-2 text-center">{$product.quantity} {l s='pcs.' d='Shop.Theme.Transformer'}</div>
-              <div class="col-5 text-right bold">{$product.total nofilter} {if $price_tax_cart_products > 0}{$product.labels.tax_long}{$labels.tax_long}{/if}</div>
-            </div>
-          </div>
-        </div>
-      {/foreach}
-      </div>
-    <hr />
-    <div class="cart-summary-wrap">
-      {foreach $subtotals as $subtotal}
-        {if $subtotal.type !== 'tax'}
-          <div class="cart-summary-line clearfix">
-            <span class="label">{$subtotal.label}{if 'products' == $subtotal.type || 'shipping' == $subtotal.type }{if $price_tax_cart == 0}<span class="name_price_left">{$labels.tax_long}</span>{/if}{/if}</span>
-            <span class="value price">{$subtotal.value nofilter}</span>
-          </div>
-        {/if}
-      {/foreach}
-       {assign var='taxin_cart' value=Configuration::get('ST_TAXIN_CART')}
-       
-       
-       {if $taxin_cart == 0}
-      {foreach $subtotals as $subtotal}
-        {if $subtotal.type == 'tax'}
-          <div class="cart-summary-line clearfix">
-            <span class="label">{$subtotal.label}</span>
-            <span class="value price">{$subtotal.value nofilter}</span>
-          </div>
-      {/if} {/foreach}{/if}
+                  {/foreach}
+                {/if}
+                {hook h='displayProductPriceBlock' product=$product type="unit_price"}
+              </div>
 
-      <div class="cart-summary-line clearfix cart-total">
-        <span class="label font-weight-bold">{$totals.total.label}{if $price_tax_cart == 0}<span class="name_price_left">{$labels.tax_long}{/if}</span></span>
-        <span class="value price fs_lg font-weight-bold">{$totals.total.value nofilter}</span>
+              <div class="single">{$product.price nofilter}
+                {if $price_tax_cart_products > 0}{$labels.tax_long}{/if}
+              </div>
+
+              <div class="pcs">{$product.quantity} {l s='pcs.' d='Shop.Theme.Transformer'}
+              </div>
+
+              <div class="total">{$product.total nofilter}
+                {if $price_tax_cart_products > 0}{$product.labels.tax_long}{$labels.tax_long}{/if}
+              </div>
+              
+            </div>
+
+            
+          </div>
+        {/foreach}
       </div>
-    </div>
+      <div class="cart-summary-wrap">
+        {foreach $subtotals as $subtotal}
+          {if $subtotal.type !== 'tax' && $subtotal.value !== '' }
+            <div class="cart-summary-line clearfix">
+              <span
+                class="label">{$subtotal.label}{if 'products' == $subtotal.type || 'shipping' == $subtotal.type }
+                  {if $price_tax_cart == 0}<span
+                    class="name_price_left">{$labels.tax_long}</span>{/if}
+                  {/if}</span>
+              <span class="value price">{$subtotal.value nofilter}</span>
+            </div>
+          {/if}
+        {/foreach}
+        {assign var='taxin_cart' value=Configuration::get('ST_TAXIN_CART')}
+
+
+        {if $taxin_cart == 0}
+          {foreach $subtotals as $subtotal}
+            {if $subtotal.type == 'tax'}
+              <div class="cart-summary-line clearfix">
+                <span class="label">{$subtotal.label}</span>
+                <span class="value price">{$subtotal.value nofilter}</span>
+              </div>
+            {/if} 
+          {/foreach}
+        {/if}
+
+        <div class="cart-summary-line clearfix cart-total">
+          <span class="label">{$totals.total.label}{if $price_tax_cart == 0}<span
+              class="name_price_left">{$labels.tax_long}{/if}</span></span>
+          <span class="value price fs_lg">{$totals.total.value nofilter}</span>
+        </div>
+      </div>
     {/block}
   </div>
 </div>

@@ -23,7 +23,7 @@
 *}
 {if isset($news_letter_array) && count($news_letter_array)}
 	{foreach $news_letter_array as $ec}
-		{if $ec.visibility_cart != 0 || $page.page_name != 'module-steasycheckout-default'}
+		{if $ec.visibility_cart != 0 }
 
 			<section id="st_news_letter_{$ec.id_st_news_letter}"
 				class="st_news_letter_{$ec.id_st_news_letter} {if $ec.hide_on_mobile == 1} hidden-sm-down {elseif $ec.hide_on_mobile == 2} st_open {elseif $ec.hide_on_mobile == 3} hidden-lg-up-991 {elseif $ec.hide_on_mobile == 4} hidden-lg-up-991 st_open{/if} footer_block block {if !$ec.is_stacked_footer} col-lg-{if $ec.span}{$ec.span}{else}3{/if} {/if}">

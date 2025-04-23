@@ -29,7 +29,7 @@
   
   
     <div class="form_content_inner">
-    <div class="addres-head">1. {l s='Personal data' d='Shop.Theme.Transformer'}</div>
+    <div class="addres-head">{l s='First login' d='Shop.Theme.Transformer'}</div>
   <div class="row steco_grid_view">
       <div class="classpl_choose_company adres_padding col-lg-12 adres_padding_chekbox adres_padding" style="z-index: 1">
       <div class="form-group st_form_item_id_choose_company">
@@ -40,7 +40,10 @@
        <span class="steco-custom-input-box">
        <input class="steco-custom-input" name="choose_company" type="radio" value="0" autocomplete="disabled" {if (isset($cart_info.company) && empty($cart_info.company)) || ( !isset($cart_info.company) && $steco.default_account == 0 )}checked=""{/if}>
        <span class="steco-custom-input-item steco-custom-input-radio">
-       <i class="eco-ok checkbox-checked"></i>
+       <span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+       </svg>
+       </span>
        <i class="eco-spin5 steco-animate-spin"></i>
        </span>
        </span>
@@ -52,7 +55,10 @@
        <span class="steco-custom-input-box">
        <input class="steco-custom-input" name="choose_company" type="radio" value="1" autocomplete="disabled" {if (isset($cart_info.company) && !empty($cart_info.company)) || ( !isset($cart_info.company) && $steco.default_account == 1 )}checked=""{/if}>
        <span class="steco-custom-input-item steco-custom-input-radio">
-       <i class="eco-ok checkbox-checked"></i>
+       <span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+       </svg>
+       </span>
        <i class="eco-spin5 steco-animate-spin"></i>
        </span>
        </span>
@@ -146,7 +152,12 @@
                     class = "steco-custom-input"
                     {if $cart.id_address_delivery != $cart.id_address_invoice} checked{/if}
             >
-            <span class="steco-custom-input-item steco-custom-input-checkbox"><i class="eco-ok checkbox-checked"></i></span>
+            <span class="steco-custom-input-item steco-custom-input-checkbox">
+              <span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </span>
+            </span>
           </span>{l s='Use this address for invoice' d='Shop.Theme.Transformer'}</label>
        </div>
       </div>
@@ -163,7 +174,12 @@
                   class = "steco-custom-input"
                   {if $show_delivery_address_form} checked {/if}
           >
-          <span class="steco-custom-input-item steco-custom-input-checkbox"><i class="eco-ok checkbox-checked"></i></span>
+          <span class="steco-custom-input-item steco-custom-input-checkbox">
+          <span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        </span>
+          </span>
         </span>
         {l s='Use this address for delivery' d='Shop.Theme.Transformer'}</label>
       </div>
@@ -178,7 +194,10 @@
                   class = "steco-custom-input"
                   {if $show_invoice_address_form} checked {/if}
           >
-          <span class="steco-custom-input-item steco-custom-input-checkbox"><i class="eco-ok checkbox-checked"></i></span>
+          <span class="steco-custom-input-item steco-custom-input-checkbox"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          </span></span>
         </span>
         {l s='Use this address for invoice' d='Shop.Theme.Transformer'}</label>
       </div>
@@ -192,7 +211,10 @@
         <label class="steco_flex_container steco_flex_start">
           <span class="steco-custom-input-box">
               <input class="steco-custom-input" name="invoice" type="checkbox" value="1"{if !empty($cart_info.invoice)} checked=""{/if}>
-              <span class="steco-custom-input-item steco-custom-input-checkbox"><i class="fto-ok-1 checkbox-checked"></i></span>
+              <span class="steco-custom-input-item steco-custom-input-checkbox"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </span></span>
           </span>
           <div class="invoice_consent_message steco_flex_child">
              {l s='I want to receive an invoice' d='Shop.Theme.Transformer'}
@@ -209,7 +231,10 @@
         <label class="steco_flex_container steco_flex_start">
           <span class="steco-custom-input-box">
               <input class="steco-custom-input" name="register_account" type="checkbox" value="1">
-              <span class="steco-custom-input-item steco-custom-input-checkbox"><i class="fto-ok-1 checkbox-checked"></i></span>
+              <span class="steco-custom-input-item steco-custom-input-checkbox"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </span></span>
           </span>
           <div class="password_message steco_flex_child">
              {l s='Create an account with a password' d='Shop.Theme.Transformer'}  
@@ -249,7 +274,10 @@
               data-guest_token="{$steco_gdpr.psgdpr_guest_token}"
               data-id_module="{$steco_gdpr.psgdpr_id_module}"
               >
-              <span class="steco-custom-input-item steco-custom-input-checkbox"><i class="fto-ok-1 checkbox-checked"></i></span>
+              <span class="steco-custom-input-item steco-custom-input-checkbox"><span class="checkbox-checked"><svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14.4016 1.2002L4.85554 10.8002L1.60156 7.52782" stroke="#FBFBFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              </span></span>
           </span>
           <div class="psgdpr_consent_message steco_flex_child"><span class="label_required">{l s='*' d='Shop.Theme.Transformer'}</span> {$steco_gdpr.psgdpr_consent_message nofilter}
           </div>

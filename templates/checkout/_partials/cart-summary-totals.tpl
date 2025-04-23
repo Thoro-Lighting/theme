@@ -22,7 +22,7 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="cart-summary-totals card-block">
+<div class="cart-summary-totals">
   {assign var='taxin_cart' value=Configuration::get('ST_TAXIN_CART')}
                   {if $taxin_cart == 0}
     {block name='cart_summary_tax'}
