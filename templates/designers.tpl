@@ -11,7 +11,7 @@
         {hook h='displayAskAboutProduct'}
       </div>
       <div class="static-page_col_right">
-        <img src="https://thoro.webo.design/img/cms/dystr_form_img.png" alt="lampa" />
+        <img src="https://thoro.pl/img/cms/form_img.png" alt="lampa" />
       </div>
     </div>
   </div>
@@ -94,7 +94,7 @@
   </div>
 </div>
 
-<div class="force-fullwidth hidden-md-up"><img src="https://thoro.webo.design/img/cms/dystr_form_img.png" alt="lampa"
+<div class="force-fullwidth hidden-md-up"><img src="https://thoro.pl/img/cms/form_img.png" alt="lampa"
     class="" /></div>
 <div class="static-page_form_header force-fullwidth">
   <div class="container">
