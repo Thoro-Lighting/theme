@@ -18,7 +18,7 @@
 {/block}
 
 
-<div class="designers_banner force-fullwidth">
+{* <div class="designers_banner force-fullwidth">
   <div class="designers_col_left">
     <img src="https://thoro.webo.design/img/cms/projektanci/designers-banner.jpg" alt="banner-image" width="500" height="667"/>
   </div>
@@ -127,4 +127,4 @@
         </svg> Modele 3D</li>
     </ul>
   </div>
-</div>
+</div> *}
