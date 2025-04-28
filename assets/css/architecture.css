@@ -121,6 +121,7 @@
 .architect_bar_container{
   display: flex;
   gap: 24px;
+  justify-content: center;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-bottom: 0;
@@ -130,6 +131,7 @@
 @media only screen and (max-width: 992px) {
   .architect_bar_container{
     width: 100%;
+    justify-content: start;
   }
 }
 .architect_bar_container li {
@@ -382,7 +384,12 @@
   left: 16px;
 }
 .architect_swiper .swiper {
-padding-bottom: 30px;
+  padding-bottom: 64px;
+}
+@media only screen and (max-width: 992px) {
+  .architect_swiper .swiper {
+    padding-bottom: 32px;
+  }
 }
 .architect_swiper .swiper-scrollbar-drag{
   background: #3D4C99;

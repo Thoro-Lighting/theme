@@ -39,7 +39,7 @@ template
         </div>
       </div>
       <div class="architect_banner_desc">
-        <a href="https://thoro.pl/strefa-architekta#kontakt">Skontaktuj się z nami</a>
+        <a href="/strefa-architekta#kontakt">Skontaktuj się z nami</a>
         <p>
           Serdecznie zapraszamy do współpracy architektów, projektantów i dekoratorów wnętrz a także restauracje, sieci hoteli i deweloperów. Oferujemy warunki współpracy, aby Twoje projekty były jeszcze lepsze
         </p>
