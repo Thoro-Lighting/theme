@@ -19,7 +19,7 @@
 			</div>
 			<div class="static-page_col_right">
 				<img
-				src="https://thoro.webo.design/img/cms/dystr_form_img.png"
+				src="https://thoro.pl/img/cms/form_img.png"
 				alt="lampa"
 				/>
 			</div>
@@ -125,7 +125,7 @@
   		<div class="configurator_tile_btn"><a href="#" data-toggle="arlity-open-fullscreen">Przejdź do konfiguratora
   				3D</a></div>
   	</div>
-	<div class="force-fullwidth hidden-md-up"><img src="https://thoro.webo.design/img/cms/dystr_form_img.png" alt="lampa" class=""></div>
+	<div class="force-fullwidth hidden-md-up"><img src="https://thoro.pl/img/cms/form_img.png" alt="lampa" class=""></div>
   	<div class="static-page_form_header force-fullwidth">
   		<div class="container">
   			<div class="content_header container-prod-tab">

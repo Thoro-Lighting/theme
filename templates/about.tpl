@@ -12,7 +12,7 @@
         </div>
         <div class="static-page_col_right">
           <img
-          src="https://thoro.webo.design/img/cms/dystr_form_img.png"
+          src="https://thoro.pl/img/cms/form_img.png"
           alt="lampa"
           />
         </div>
