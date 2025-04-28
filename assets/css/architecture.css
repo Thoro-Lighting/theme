@@ -1,4 +1,13 @@
 
+#architecture #wrapper {
+  margin-top: 0px!important;
+}
+
+#architecture .breadcrumb_wrapper{
+  padding-bottom: 18px!important;
+  padding-top: 18px!important;
+}
+
 #architecture #body_wrapper{
   background-color: #FBFAF8;
 }
@@ -40,6 +49,7 @@
 }
 .architect_col_right h1 {
   font-size: 72px;
+  max-width: 900px;
 }
 @media only screen and (max-width: 992px) {
   .architect_col_right h1 {
@@ -96,33 +106,38 @@
   }
 }
 
-.architect_bar{
-  background-color: #F3EFE9;
+.architect_bar .inner-scroll-container {
+  overflow-x: scroll;
+}
+
+.architect_bar {
+  background: #F3EFE9;
+  overflow: hidden;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .architect_bar_container{
-  padding-top: 26px;
-  padding-bottom: 26px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 0;
   gap: 32px;
   font-size: 14px;
 }
 @media only screen and (max-width: 992px) {
   .architect_bar_container{
-    flex-direction: column;
+    width: 100%;
   }
 }
 .architect_bar_container li {
   color: #484540;
   display: flex;
-  gap: 8px;
   align-items: center;
-}
-@media only screen and (max-width: 992px) {
-  .architect_bar_container span{
-    max-width: 180px;
-  }
+  gap: 8px;
+  flex-shrink: 0;
 }
 
 .architect_about {
@@ -219,7 +234,7 @@
 @media only screen and (max-width: 992px) {
   .architect_about_header {
     flex-direction: column;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
   }
   
 }
@@ -251,6 +266,7 @@
 @media only screen and (max-width: 992px) {
   .architect_image_aside{
     flex-direction: column;
+    padding-top: 0px;
   }
 }
 .architect_image_aside img,
@@ -392,7 +408,6 @@ padding-bottom: 30px;
   color: #fff;
 }
 
-
 .architect_3dmodels_btn.desktop{
   display: block!important;
 }
@@ -433,4 +448,14 @@ padding-bottom: 30px;
     position: static!important;
     margin-top: 24px!important;
   }
+}
+
+.archtect_form .static-page_form_header,
+.archtect_form .static-page_form_header h2{
+  padding-bottom: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+#architecture aside{
+  margin-bottom: 0!important;
 }
