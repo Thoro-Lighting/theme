@@ -79,20 +79,18 @@
     {assign var="auth_login_width" value=6}
     {if $sttheme.auth_login_width}{$auth_login_width=$sttheme.auth_login_width}{/if}
       <div class="row">
-        <div class="col-lg-{$auth_login_width} {if $auth_login_width<11}offset-lg-{floor((12-$auth_login_width)/2)}{/if}">
         <section id="register_form_block" class="from_blcok block login_form_block">
           {if $sttheme.auth_heading_align!=3}<h3 class="page_heading {if $sttheme.auth_heading_align==1} text-2 {elseif $sttheme.auth_heading_align==2} text-3 {else} text-1 {/if}">{l s='Create an account' d='Shop.Theme.Customeraccount'}</h3>{/if}
           <div class="form_content">
             <div class="form_content_inner">
                 <p>
-                  {l s='Already have an account?' d='Shop.Theme.Customeraccount'} <a class="btn-line-under" href="{$urls.pages.authentication}" rel="nofollow" title="{l s='Log in instead!' d='Shop.Theme.Customeraccount'}"><i class="fto-logout-1"></i> {l s='Log in instead!' d='Shop.Theme.Customeraccount'}</a>
+                  {l s='Already have an account?' d='Shop.Theme.Customeraccount'} <a href="{$urls.pages.authentication}" rel="nofollow" title="{l s='Log in instead!' d='Shop.Theme.Customeraccount'}"><i class="fto-logout-1"></i> {l s='Log in instead!' d='Shop.Theme.Customeraccount'}</a>
                 </p>
                 {$hook_create_account_top nofilter}
             </div>
           </div>
           {render file='customer/_partials/customer-form-regi.tpl' ui=$register_form}            
         </section>
-        </div>
       </div>
     {/block}
 {/block}
@@ -100,31 +98,7 @@
       </div>
     </section>
 
-    {block name='checkout_footer'}
-      {if $auth_same_footer == 1}
-        {include file='_partials/footer.tpl'}
-      {else}
-        <footer id="footer" class="footer-container {if $blurred_menu_bg == 1}menu_blur{/if} footer_checkout">
-    {if $auth_same_footer != 0}
-    {block name='hook_footer_checkout'}
-    {capture name="displayFooterCheckout"}{hook h="displayFooterCheckout"}{/capture}
-    {if $smarty.capture.displayFooterCheckout|trim}
-    <section id="footer-checkout">
-		<div class="{if !$sttheme.footer_fullwidth && $sttheme.responsive_max!=3}wide_container{/if}">
-			<div class="{if !$sttheme.footer_fullwidth && $sttheme.responsive_max!=3}container{else}container-fluid{/if}">
-                <div class="row footer_first_level_row">
-				    {$smarty.capture.displayFooterCheckout nofilter}
-                </div>
-			</div>
-        </div>
-    </section>
-    {/if}
-    {/block}
-    {/if}
-        {include file='_partials/footer-bottom.tpl'}
-        </footer>
-      {/if}
-    {/block}
+    {include file='_partials/footer.tpl'}
     {if isset($sttheme.boxstyle) && $sttheme.boxstyle==2}</div>{/if}
   </main>
   <!-- off-canvas-begin -->

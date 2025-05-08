@@ -22990,10 +22990,6 @@ body#authentication .columns-container{
 	background: #fbfbfb !important;
 }
 
-#login_form_block{
-	padding: 0 !important;
-}
-
 body#authentication .page_heading,
 body#authentication .from_blcok .form_content_inner,
 body#authentication #login-form{
@@ -23001,7 +22997,7 @@ body#authentication #login-form{
 }
 
 body#authentication .page_heading{
-	font-size: 18px;
+	font-size: 20px;
 	color: #333333;
 }
 #login_form_block .sidebar_login_form p,
@@ -23028,30 +23024,74 @@ body#authentication p.footer-register{
 	color: #111;
 }
 body#authentication #login-form .forgot-password a,
-body#authentication p.footer-register a{
+body#authentication p.footer-register a,
+#register_form_block .form_content .form_content_inner p a{
 	color: #3D4C99;
 }
 body#authentication #login-form .forgot-password a:hover,
-body#authentication p.footer-register a:hover{
+body#authentication p.footer-register a:hover,
+#register_form_block .form_content .form_content_inner p a:hover{
 	text-decoration: underline;
 }
 
-#login_form_block .sidebar_auth_form{
+body#authentication .sidebar_auth_form{
 	padding: 0 !important;
 }
 
-#login_form_block input.form-control{
+body#authentication input.form-control{
 	height: 56px;
 }
 
-#login_form_block .animation_placeholder .form-control-placeholder{
+body#authentication .animation_placeholder .form-control-placeholder{
 	padding: 16px;
 }
-
 #login_form_block{
+	padding: 0 !important;
+}
+#login_form_block,
+#register_form_block{
 	width: 100%;
 	max-width: 880px;
 	margin: 0 auto;
+}
+#register_form_block{
+	padding: 15px !important;
+}
+#register_form_block .form-footer .btn-main{
+	margin-top: 16px 0 !important;
+}
+#register_form_block .form-footer .info-required .label_required{
+	font-size: 14px;
+}
+#register_form_block .checkbox-inline .steco_flex_child{
+	font-size: 14px;
+	font-weight: 400;
+	color: #181B1A;
+}
+#register_form_block .checkbox-inline .steco_flex_child a{
+	text-decoration: underline;
+	color: #3D4C99;
+}
+
+#register_form_block .form-group.animation_placeholder.st_form_item_password{
+	margin-bottom: 32px !important;
+}
+#register_form_block .steco-custom-input-box .steco-custom-input-item{
+	width: 24px;
+	height: 24px;
+	border-radius: 2px;
+	border: 1px solid #CAC9C8 !important;
+	background: #fff;
+  }
+#register_form_block .steco-custom-input-box .steco-custom-input-item:hover{
+	border: 1px solid  #3D4C99 !important;
+}
+#register_form_block .steco-custom-input-box input.steco-custom-input:checked ~ .steco-custom-input-item{
+	width: 24px;
+	height: 24px;
+	background: #3D4C99 !important;
+	border: 1px solid  #3D4C99 !important;
+	line-height: 24px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -23059,11 +23099,13 @@ body#authentication p.footer-register a:hover{
 		padding: 64px 0 !important;
 		background-color: #F7F5F1 !important;
 	}
-	#login_form_block{
+	#login_form_block,
+	#register_form_block{
 		background: #FBFBFB;
 	}
 	body#authentication .page_heading{
-		font-size: 24px;
+		font-size: 24px !important;
+		margin-bottom: 6px;
 	}
 	#login_form_block .sidebar_login_form p,
 	#register_form_block .form_content .form_content_inner p{
@@ -23072,7 +23114,8 @@ body#authentication p.footer-register a:hover{
 	body#authentication #login-form .forgot-password{
 		margin-top: 32px;
 	}
-	#login_form_block.from_blcok{
+	#login_form_block.from_blcok,
+	#register_form_block.from_blcok{
 		padding: 32px !important;
 	}
 	#register_form_block, #login_form_block .sidebar_login_form{
