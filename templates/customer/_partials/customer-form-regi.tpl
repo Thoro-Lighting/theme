@@ -30,14 +30,14 @@
         {assign var='ask_for_gender' value=Configuration::get('STECO_ASK_FOR_GENDER')}
          
         {if ($field.name =='id_gender' && $ask_for_gender == 1) || $field.name !='id_gender'}
-          {form_field field=$field file='_partials/form-fields-1.tpl'}{/if}
+          {form_field field=$field file='module:steasycheckout/views/templates/hook/_partials/form-fields.tpl'}{/if}
         {if $field.type != 'hidden'}</div>{/if}
         {/block}
         
       {block "form_buttons"}
-        <button class="btn btn-primary btn-large js-submit-active {if $arrow_buttons}btn_arrow{/if} btn-spin btn-full-width" data-link-action="save-customer" type="submit">
-          {*<i class="fto-user icon_btn"></i>*}{l s='Create an account' d='Shop.Theme.Actions'}
+        <button class="btn btn-main btn-large js-submit-active {if $arrow_buttons}btn_arrow{/if} btn-spin btn-full-width" data-link-action="save-customer" type="submit">
+          {l s='Create an account' d='Shop.Theme.Actions'}
         </button>
-         <p class="info-required standard mt-3"><span class="label_required">{l s='*' d='Shop.Theme.Transformer'} - {l s='required field' d='Shop.Theme.Transformer'}</span></p>
+        <p class="info-required standard mt-3"><span class="label_required">{l s='*' d='Shop.Theme.Transformer'} - {l s='required field' d='Shop.Theme.Transformer'}</span></p>
    
       {/block}

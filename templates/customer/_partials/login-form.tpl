@@ -36,15 +36,16 @@
       {block name='login_form_fields'}
         {foreach from=$formFields item="field"}
           {block name='form_field'}
-            {form_field field=$field file='_partials/form-fields-1.tpl'}
+            {form_field field=$field file='module:steasycheckout/views/templates/hook/_partials/form-fields.tpl'}
           {/block}
         {/foreach}
       {/block}
-      <div class="p-b-1">
-          <a href="{$urls.pages.password}" class="forgot-password btn-line-under" rel="nofollow" title="{l s='Forgot your password?' d='Shop.Theme.Customeraccount'}">
-            {l s='Forgot your password?' d='Shop.Theme.Customeraccount'}
+      <p class="forgot-password">
+          {l s='Forgot your password?' d='Shop.Theme.Customeraccount'}
+          <a href="{$urls.pages.password}" rel="nofollow" title="{l s='Reset password' d='Shop.Theme.Customeraccount'}">
+            {l s='Reset password' d='Shop.Theme.Customeraccount'}
           </a>
-      </div>
+      </p>
     </div>
   </div>
   
@@ -53,14 +54,12 @@
   <footer class="form-footer {if !$sttheme.auth_layout}no-padding{/if}">
     <input type="hidden" name="submitLogin" value="1">
     {block name='form_buttons'}
-    <button class="btn btn-primary btn-large js-submit-active {if $sttheme.auth_layout}{if $arrow_buttons}btn_arrow{/if}{/if} btn-spin btn-full-width" data-link-action="sign-in" type="submit" id="SubmitLogin">
-      {*<i class="fto-lock"></i>*}
+    <button class="btn btn-primary btn-main btn-large js-submit-active {if $sttheme.auth_layout}{if $arrow_buttons}btn_arrow{/if}{/if} btn-spin btn-full-width" data-link-action="sign-in" type="submit" id="SubmitLogin">
       {l s='Sign in' d='Shop.Theme.Actions'}
     </button>
     {/block}
   </footer>
   {/block}
-   <p class="info-required standard "><span class="label_required">{l s='*' d='Shop.Theme.Transformer'} - {l s='required field' d='Shop.Theme.Transformer'}</span></p>
    
 
 </form>
