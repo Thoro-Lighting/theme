@@ -16093,7 +16093,7 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
   margin: 0;
   padding: 15px 0;
   color: #181B1A;
-  background: #FBFBFB;
+  background: #fbfaf8;
 }
 
 .st-menu .close_right_side i.side_close_right::before, .st-menu .close_right_side i.side_close_left::before, .backtoaccount .side_close_left:before {
@@ -21429,16 +21429,13 @@ textarea#delivery_message {
   margin-bottom: 10px;
 }
 .quick_login .customer-links li {border-bottom: 0px; }
-.quick_login .customer-links li a {font-size: 14px;padding: 4px 0px !important; background: #fff !important}
-.quick_login .customer-links li a:hover, .customer-register:hover {text-decoration: underline}
+.quick_login .customer-links li a:hover, .customer-register:hover {color: #3D4C99}
 .quick_login .customer-links {margin-bottom: 0px}
 .quick_login .customer-links i {
   margin-right: 12px;
 }
 .quick_login .customer-links.border-icon {
-  border-top: 1px solid #ddd;
-  margin: 10px 0px;
-  padding: 10px 0px 0px;
+  border-top: 1px solid #E3E3E2;
 }
 
 .quick_login .login_last .btn {
@@ -21450,11 +21447,52 @@ textarea#delivery_message {
 .new-client {
   padding: 0px 10px;
 }
-.customer-register {color: #67becf}
-#side_stcustomersignin .dropdown_box {width: 100%; padding: 20px;}
-#side_stcustomersignin .quick_login .customer-links li a {font-size: 17px; padding: 10px 0px !important; line-height: 35px;}
+#side_stcustomersignin .dropdown_box {width: 100%; padding: 32px 16px;}
+#side_stcustomersignin .quick_login .customer-links li a {display:flex; align-items:center; gap: 10px; font-size: 16px; padding: 16px 0px !important;}
+#side_stcustomersignin .quick_login .customer-links li a svg {flex-shrink: 0;}
 #side_stcustomersignin .dropdown_list_ul .account-head-mini {margin-bottom: 8px; font-size: 16px;}
-#side_stcustomersignin .dropdown_list_ul .account-head {font-size: 23px;margin-bottom: 6px;}
+#side_stcustomersignin .dropdown_list_ul .account-head {font-size: 20px;font-weight: 700 ;margin-bottom: 0px;padding-bottom: 16px; border-bottom: 1px solid #E3E3E2;}
+#side_stcustomersignin {display: flex; flex-direction: column;}
+#side_stcustomersignin .quick_login {display: flex;flex-direction: column;justify-content: space-between;flex-grow: 1;}
+.quick_login_footer{
+	position:sticky;
+	bottom:0px;
+	padding: 32px 16px;
+	background: #FBFAF8;
+	border-top: 1px solid #E3E3E2;
+}
+.quick_login_footer .login_last{
+	text-align: center;
+	font-size: 16px;
+}
+.quick_login_footer .login-customer.btn-main{
+	display: block;
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.customer-register{
+	color: #3D4C99;
+}
+.customer-register:hover{
+	text-decoration: underline;
+}
+
+@media screen and (min-width:992px){
+	.quick_login .customer-links{
+		padding: 14px 0;
+	}
+	.quick_login_footer{
+		padding: 32px;
+	}
+	#side_stcustomersignin .dropdown_box{
+		padding: 64px 32px 32px !important;
+	}
+	#side_stcustomersignin .dropdown_list_ul .account-head{
+		font-size: 24px !important;
+		margin-bottom: 0px !important;
+	}
+}
 
 body#password .columns-container {padding-bottom: 38px; padding-top: 38px;}
 .st-menu .page_heading {font-size: 14px;}
