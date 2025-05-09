@@ -174,7 +174,7 @@
                 data-text-show="{l s='Show' d='Shop.Theme.Transformer'}"
                 data-text-hide="{l s='Hide' d='Shop.Theme.Transformer'}"
               >
-                <i class="eco-eye-off"></i>
+                <i class="fto-eye-off"></i>
               </button>
             </span>
           </div>

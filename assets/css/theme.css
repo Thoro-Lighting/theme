@@ -12053,16 +12053,6 @@ body#checkout #gift_message {
 	padding-right: 0
 }
 
-.from_blcok {
-    border: 1px solid #d9d9d9;
-    border-radius: 3px;
-}
-
-#password .from_blcok {
-    border: 1px solid #d9d9d9;
-    padding: 25px;
-}
-
 .from_blcok.has_social_login {
 	min-height: 250px
 }
@@ -22985,23 +22975,29 @@ a.st_banner_block:hover .btn-white,
 
 
 
-body#authentication .columns-container{
+body#authentication .columns-container,
+body#password .columns-container{
 	padding: 32px 0px !important;
 	background: #fbfbfb !important;
 }
 
 body#authentication .page_heading,
 body#authentication .from_blcok .form_content_inner,
+body#password .from_blcok .form_content_inner,
+body#password .page_heading,
 body#authentication #login-form{
 	padding: 0 !important;
 }
 
-body#authentication .page_heading{
+body#authentication .page_heading,
+body#password .page_heading{
 	font-size: 20px;
 	color: #333333;
+	font-weight: 700;
 }
 #login_form_block .sidebar_login_form p,
-#register_form_block .form_content .form_content_inner p{
+#register_form_block .form_content .form_content_inner p,
+.send-renew-password-link{
 	font-size: 18px;
 	color: #333333;
 	margin-bottom: 24px;
@@ -23054,6 +23050,12 @@ body#authentication .animation_placeholder .form-control-placeholder{
 	max-width: 880px;
 	margin: 0 auto;
 }
+body#password .from_blcok,
+.register_info{
+	width: 100%;
+	max-width: 680px;
+	margin: 0 auto;
+}
 #register_form_block{
 	padding: 15px !important;
 }
@@ -23094,13 +23096,31 @@ body#authentication .animation_placeholder .form-control-placeholder{
 	line-height: 24px;
 }
 
+.st_form_item_password .show_password{
+	opacity: 1;
+	color: #3D4C99;
+	top: 8px !important;
+}
+
+#password .breadcrumb_wrapper{
+	display: none;
+}
+
 @media only screen and (min-width: 992px) {
-	body#authentication .columns-container{
+
+	body#password section#wrapper.menu_blur,
+	body#authentication section#wrapper.menu_blur{
+		margin-top: 0 !important;
+	}
+	body#authentication .columns-container,
+	body#password .columns-container{
 		padding: 64px 0 !important;
 		background-color: #F7F5F1 !important;
 	}
 	#login_form_block,
-	#register_form_block{
+	#register_form_block,
+	body#password .from_blcok,
+	.register_info{
 		background: #FBFBFB;
 	}
 	body#authentication .page_heading{
@@ -23108,14 +23128,17 @@ body#authentication .animation_placeholder .form-control-placeholder{
 		margin-bottom: 6px;
 	}
 	#login_form_block .sidebar_login_form p,
-	#register_form_block .form_content .form_content_inner p{
+	#register_form_block .form_content .form_content_inner p,
+	.send-renew-password-link{
 		margin-bottom: 42px;
 	}
 	body#authentication #login-form .forgot-password{
 		margin-top: 32px;
 	}
 	#login_form_block.from_blcok,
-	#register_form_block.from_blcok{
+	#register_form_block.from_blcok,
+	body#password .from_blcok,
+	.register_info{
 		padding: 32px !important;
 	}
 	#register_form_block, #login_form_block .sidebar_login_form{
