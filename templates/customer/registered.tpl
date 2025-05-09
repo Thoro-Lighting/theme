@@ -38,7 +38,7 @@
         
 
         {block name='continue_shopping'}
-          <a href="{$urls.pages.index}" class="btn btn-border {if $arrow_buttons}btn_arrow black_arrow bt_left btn_blus{/if}" title="{l s='Continue shopping' d='Shop.Theme.Actions'}">
+          <a href="{$urls.pages.index}" class="btn btn-main w-100 {if $arrow_buttons}btn_arrow black_arrow bt_left btn_blus{/if}" title="{l s='Continue shopping' d='Shop.Theme.Actions'}">
             {*<i class="fto-left-open">*}</i>{l s='Home' d='Shop.Theme.Global'}
           </a>
         {/block}
