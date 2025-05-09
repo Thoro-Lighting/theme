@@ -29,10 +29,10 @@
 {block name='page_content'}
     {hook h='displayAboveContactForm'}
     <div class="row">
-        <div class="col-md-6 text-box">
+        <div class="col-md-6 col-lg-4 text-box">
             {hook h='displayContactFormRight'}
         </div>
-        <div class="col-md-6 form-box">
+        <div class="col-md-6 col-lg-8 form-box">
             {widget name="contactform"}
         </div>
     </div>
