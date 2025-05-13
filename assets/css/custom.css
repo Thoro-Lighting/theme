@@ -1084,6 +1084,7 @@ margin-bottom: 0!important;
 
 /* Designers page */
 
+body#cms #wrapper:has(.designers_banner),
 body#cms #center_column:has(.designers_banner){
   margin: 0px !important;
 }
