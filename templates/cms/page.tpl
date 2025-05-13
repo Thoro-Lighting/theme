@@ -36,6 +36,21 @@
     {block name='cms_content'}
       <div class="style_content cms_content">{$cms.content nofilter}</div>
     {/block}
+
+    {if $request_uri == '/projektanci'}
+      <div class="static-page_form_content force-fullwidth">
+        <div class="container">
+          <div class="static-page_col_left">
+            <h3>{l s='Contact us and lets talk about cooperation opportunities' d='Shop.Theme.Global'}</h3>
+            <p>{l s='We will get back to you as soon as possible' d='Shop.Theme.Global'}</p>
+            {hook h='displayAskAboutProduct'}
+          </div>
+          <div class="static-page_col_right">
+            <img src="https://thoro.pl/img/cms/form_img.png" alt="lampa" />
+          </div>
+        </div>
+      </div>  
+    {/if}
     
     {block name="full_width_bottom" prepend}
     {hook h='displayCMSExtra'}
@@ -50,6 +65,7 @@
     {/block}
   </section>
 {/block}
+
 
 {*{block name="full_width_bottom" prepend}
     {hook h='displayCMSExtra'}
