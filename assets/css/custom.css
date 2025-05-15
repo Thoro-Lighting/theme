@@ -1367,3 +1367,7 @@ body#cms #center_column:has(.designers_banner){
     min-width: 100vw;
   }
 }
+
+body#cms div#switch_left_column_wrap{
+  display: none;
+}
