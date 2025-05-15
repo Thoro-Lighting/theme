@@ -1268,3 +1268,102 @@ body#cms #center_column:has(.designers_banner){
     width: 332px;
   }
 }
+
+
+/* pages info */
+
+#multilink_6 h3.title_block{
+  display: none!important;
+}
+
+#multilink_6 ul.custom_links_list li{
+  margin-bottom: 15px;
+}
+#multilink_6 ul.custom_links_list li a{
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #73716D;
+  transition: all 0.3s ease;
+}
+#multilink_6 ul.custom_links_list li:hover a{
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: #181B1A;
+}
+#multilink_6 ul.custom_links_list li.current a{
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: #181B1A;
+}
+@media only screen and (max-width: 991px) {
+  #multilink_6 ul.custom_links_list li.current a{
+    text-decoration-thickness: 2px;
+  }
+}
+
+.page_heading_infopage{
+  font-size: 40px;
+  font-weight: 500;
+  border-bottom: 1px solid #E3E3E2;
+  padding-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .page_heading_infopage{
+    font-size: 32px!important;
+}
+}
+
+.cms_text_pageinfo{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.cms_text_pageinfo ul {
+  padding-left: 30px;
+}
+@media only screen and (max-width: 991px) {
+  .cms_text_pageinfo ul {
+    padding-left: 15px;
+  }
+}
+
+.cms_text_pageinfo ol {
+  counter-reset: item;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .cms_text_pageinfo ol {
+    padding-left: 15px;
+}
+}
+.cms_text_pageinfo li {
+  display: block;
+  margin-bottom: 10px;
+}
+.cms_text_pageinfo li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item
+}
+
+@media only screen and (max-width: 991px) {
+  .slide_lr_column #left_column{
+    display: block!important;
+  }
+  #multilink_6 ul.custom_links_list{
+    display: flex;
+    overflow-x: scroll;
+  }
+  #multilink_6 ul.custom_links_list li{
+    min-width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  #multilink_6{
+    min-width: 100vw;
+  }
+}
