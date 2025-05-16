@@ -175,6 +175,7 @@ margin-top: 1rem;
 @media only screen and (max-width: 991px) {
   .slide_lr_column #left_column{
     display: block!important;
+    max-width: 100%;
   }
   #multilink_6 ul.custom_links_list{
     display: flex;
@@ -186,7 +187,7 @@ margin-top: 1rem;
     padding-right: 8px;
   }
   #multilink_6{
-    min-width: 100vw;
+    width: 100%;
   }
 }
 
