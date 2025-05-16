@@ -154,11 +154,6 @@ margin-top: 1rem;
 .cms_text_pageinfo ol ol {
   padding-left: 30px;
 }
-@media only screen and (max-width: 991px) {
-  .cms_text_pageinfo ol ol {
-    padding-left: 15px;
-}
-}
 .cms_text_pageinfo li {
   display: block;
   margin-bottom: 10px;
