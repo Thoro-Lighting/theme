@@ -21022,11 +21022,6 @@ supports  (initial-letter: 5) or  (-webkit-initial-letter: 5){ .
 
 .row.myacount_dashbord_list {margin-left: -8px; margin-right: 0px; width: calc(100% + 16px);}
 
-.myacount_dashbord_list .list-group-item:first-child,.myacount_dashbord_list .list-group-item:last-child
-	{
-	border-radius: 0
-}
-
 .myacount_dashbord_list .list-group-item.landing-link {
 	display: none
 }
@@ -21762,19 +21757,15 @@ a.ammount {
 	
 
 /* my_account */
-.my_account_left_column .list-group-item {  border: 0px;  padding-left: 0px;  padding-right: 0px; padding-top: 8px;   padding-bottom: 8px; }
 .my_account_left_column .list-group-item a i { display:none; }
 .myacount_dashbord_list .list-group-item a i { margin-right: 15px; }
 .myacount_dashbord_list .list-group-item {
-    padding: 26px 6px 40px;
-    display: inline-block;
-    font-size: 14px;
-    margin: 0 8px 14px;
-    border-bottom: 1px solid #dbdbdb;
-    border-left: 0;
-    border-right: 0px;
-    border-top: 0px;
+    padding: 48px 0px 36px;
+    display: block;
+    font-size: 16px;
     text-align: left;
+	border: none;
+	border-top: 1px solid #E3E3E2;
 }
 .my_account_page_footer { margin: 45px 0 !important; }
 .account_box_bg {
@@ -21786,10 +21777,9 @@ a.ammount {
     margin: 0px;
 }
 #center_column #main .account_box .page_heading {
-    font-size: 28px;
-    margin-bottom: 15px !important;
+    font-size: 32px;
+    margin-bottom: 0px;
 }
-.myacount_dashbord_list .lc, .myacount_dashbord_list .cc { display:none; }
 .my_account_left_column .center-account-box { display:none; }
 
 h4.account-heading i {
@@ -21800,13 +21790,14 @@ h4.account-heading i {
 
 h4.account-heading {
     font-size: 20px;
+	font-weight: 500;
 }
 .center-account-box-item a {
     display: inline-block;
 }
 .center-account-box-item li {
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 
@@ -23143,5 +23134,88 @@ body#password .from_blcok,
 	}
 	#register_form_block, #login_form_block .sidebar_login_form{
 		padding: 0 !important;
+	}
+}
+
+.account-aside li a{
+	font-size: 16px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 4px 0;
+	margin-bottom: 20px;
+	color: #73716D;
+	border-bottom: 2px solid transparent;
+	transition: .2s ease-in-out;
+}
+
+.account_box{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.myacount_dashbord_list{
+	margin-top: 32px;
+}
+
+.account-heading svg{
+	margin-right: 8px;
+	vertical-align: top;
+}
+
+.center-account-box-item .btn-line-under::after{
+	content: url('data:image/svg+xml,<svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.90225 4.48745L6.05424 1.67145L7.25426 0.439453L12.2303 5.39945L7.25426 10.3595L6.05424 9.12745L8.90225 6.31145H0.40625V4.48745H8.90225Z" fill="%23181B1A"/></svg>');
+	margin-left: 5px;
+}
+
+.center-account-box-item .btn-line-under{
+	font-weight: 500;
+	padding: 4px 0 2px;
+	transition: .2s ease-in-out;
+	border-bottom: 2px solid #181B1A;
+}
+
+.center-account-box-item .btn-line-under:hover{
+	color: #3D4C99;
+	border-bottom: 2px solid #3D4C99;
+}
+
+.account-aside li a.sign-out-link{
+	margin-top: 48px;
+	color: #3D4C99;
+}
+.account-aside li a.sign-out-link svg{
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+
+.account-aside li a.sign-out-link:hover{
+	text-decoration: underline;
+}
+
+.account-aside li a:hover{
+	color: #181B1A;
+}
+
+.account-aside li a.page-current{
+	color: #181B1A;
+	border-bottom: 2px solid #181B1A;
+}
+
+.account_box #easycontent_3{
+	margin-bottom: 16px;
+}
+
+@media screen and (min-width: 992px){
+	h4.account-heading{
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+	.myacount_dashbord_list{
+		margin-top: 16px;
+		margin-bottom: 80px;
+	}
+	.myacount_dashbord_list{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
 	}
 }

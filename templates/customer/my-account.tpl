@@ -29,23 +29,23 @@
 
 {block name='page_content'}
 
-{block name='page_title' hide}
-  {l s='Your account' d='Shop.Theme.Customeraccount'}
-{/block}
-  <h6 class="page_heading">{l s='Hello, %firstname% %lastname%' 
-        d='Shop.Theme.Customeraccount'
-        sprintf=[
-          '%firstname%' => $customer.firstname,
-          '%lastname%' => $customer.lastname
-        ]
-      }</h6>
-  {hook h="displayMyAccountDashboard"}
-  
-  <div class="row myacount_dashbord_list">
+  {block name='page_title' hide}
+    {l s='Your account' d='Shop.Theme.Customeraccount'}
+  {/block}
 
+  <div>
+    <h2 class="page_heading">{l s='Hello, %firstname% %lastname%' 
+            d='Shop.Theme.Customeraccount'
+            sprintf=[
+              '%firstname%' => $customer.firstname,
+              '%lastname%' => $customer.lastname
+            ]
+          }!</h6>
+    {hook h="displayMyAccountDashboard"}
+    <div class="myacount_dashbord_list">
       {include file='customer/_partials/my-account-items.tpl'}
-
     </div>
+  </div>
 {/block}
 
 

@@ -22,8 +22,9 @@
 * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 * International Registered Trademark & Property of PrestaShop SA
 *}
-<div class="list-group-item cc cl">
-<a class="emailsalerts-link btn-line" href="{url entity='module' name='ps_emailalerts' controller='account'}" title="{l s='My alerts' d='Shop.Theme.Catalog'}">
-  <i class="fto-mail-alt mar_r4 fs_lg"></i>{l s='My alerts' d='Shop.Theme.Transformer'}
-</a>
-</div>
+{assign var='alerts_url' value="https:{url entity='module' name='ps_emailalerts' controller='account'}"}
+<li>
+  <a class="emailsalerts-link btn-line{if $urls.current_url == $alerts_url} page-current{/if}" href="{$alerts_url}" title="{l s='My alerts' d='Shop.Theme.Catalog'}">
+    {l s='My alerts' d='Shop.Theme.Transformer'}
+  </a>
+</li>

@@ -12,8 +12,10 @@
 * @license   http://addons.prestashop.com/en/content/12-terms-and-conditions-of-use
 * International Registered Trademark & Property of PrestaShop SA
 *}
-<div class="list-group-item cc cl">
-<a class="lnk_psgdpr btn-line" href="{$link->getModuleLink('psgdpr', 'gdpr')}" title="{l s='My personal data' d='Shop.Theme.Transformer'}">
-  <i class="fto-doc-text-inv mar_r4 fs_lg"></i>{l s='My personal data' d='Shop.Theme.Transformer'}
-</a>
-</div>
+
+{assign var='psgdpr_url' value=$link->getModuleLink('psgdpr', 'gdpr')}
+<li>
+  <a class="lnk_psgdpr btn-line{if $urls.current_url == $psgdpr_url} page-current{/if}" href="{$psgdpr_url}" title="{l s='My personal data' d='Shop.Theme.Catalog'}">
+    {l s='My personal data' d='Shop.Theme.Transformer'}
+  </a>
+</li>

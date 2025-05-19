@@ -148,20 +148,6 @@
 	  .login_two_columns #login-form { padding:0px; }
 		
 	 
-/* ruchome podkreslinie */	
-.btn-line, .btn-line-under {position: relative; text-decoration: none;}		
-.btn-line-under:before, .btn-line:before {
-		position: absolute;
-		right: 0;
-		left: 0;
-		width: 100%;
-		border-bottom: 2px solid;
-		bottom: -4px;
-		-webkit-transition: opacity .2s ease 0s;
-		transition: opacity .2s ease 0s;
-		opacity: 0;
-		content: '';	
-}
 
 .pro_outer_box .btn-line-under::before, .product_middle_column .btn-line-under::before, .product_middle_column .productbuttonplus .hover_fly_btn .btn-line-under:before  {
     border-bottom: 1px solid;
@@ -246,9 +232,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
     z-index: 99;
     position: relative;
 }
-		
-		.myacount_dashbord_list .list-group-item {width: calc(50% - 16px); }
-		
+				
 		#addresses .account_box .account_box_bg article {
 		    min-height: 285px;
 		}
@@ -383,12 +367,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	    border-bottom: 0px;
 	    padding-bottom: 0px;
 	}
-	
-    .myacount_dashbord_list .btn-line-under {
-    border-bottom: 1px solid;
-    padding-bottom: 0;
-    }
-	
+		
     .checkout_left_wrapper {
 		-webkit-box-ordinal-group: 3;
 		-ms-flex-order: 2;
@@ -1188,7 +1167,6 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	    margin-bottom: 15px !important;
 	}
 		
-	#center_column #main .account_box .page_heading { margin-bottom:0px!important; }
 	.account_box_bg {
 	    padding-left: 0px;
 	    padding-right: 0px;
@@ -1228,8 +1206,7 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
 	}
 
    .myacount_dashbord_list .list-group-item {
-	     width: calc(100% - 16px);
-		padding: 30px 6px 20px;
+		padding: 32px 0;
     }
     
     #my-account #center_column #main .page_heading { padding-top: 28px; }
