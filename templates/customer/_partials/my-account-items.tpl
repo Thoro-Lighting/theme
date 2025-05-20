@@ -151,10 +151,6 @@
 						href="{url entity='module' name='stlovedproduct' controller='myloved'}"
 						title="{l s='My loved products' d='Shop.Theme.Transformer'}">{l s='My loved items' d='Shop.Theme.Transformer'}</a>
 			</li>{/if}
-			{if Module::isEnabled('stwishlist')}<li><a class="wishlist-link btn-line-under"
-						href="{url entity='module' name='stwishlist' controller='mywishlist'}"
-						title="{l s='My wishlists' d='Shop.Theme.Transformer'}">{l s='My wishlists' d='Shop.Theme.Transformer'}</a>
-			</li>{/if}
 			{assign var='ma_customer_qty' value=Configuration::get('MA_CUSTOMER_QTY')}
 			{if Module::isEnabled('ps_emailalerts') && $ma_customer_qty == 1}<li><a class="emailsalerts-link btn-line-under"
 						href="{url entity='module' name='ps_emailalerts' controller='account'}"

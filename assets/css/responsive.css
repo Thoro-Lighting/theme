@@ -4,7 +4,6 @@
 	}
 	.ekomi_reviews {transition: right 0.5s; position: fixed;top: 200px; right: -130px;z-index: 100;background: #fff;width: 124px;box-shadow: -5px 0px 10px -3px rgba(0,0,0,0.2);padding: 10px; text-align: center; border-radius: 5px 0px 0px 5px;}
 	
-#module-stlovedproduct-myloved .pro_first_box { position: relative; padding: 0px 15px 15px; }
 	section#wrapper.menu_blur { margin-top:3rem; } 
 .pro_outer_box .add_to_love.layer_btn {right: 30px !important;}
 

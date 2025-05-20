@@ -42,7 +42,7 @@
 
     {if ($field.name =='id_gender' && $ask_for_gender == 1) || $field.name !='id_gender'}
         {if $field.type != 'hidden'}<div class="col-lg-12 {if $row_counter%2==0} first-item-of-large-line  first-item-of-desktop-line first-item-of-line {/if}">{$row_counter=$row_counter+1}{/if}
-          {form_field field=$field file='_partials/form-fields-1.tpl'}
+          {form_field field=$field file='module:steasycheckout/views/templates/hook/_partials/form-fields.tpl'}
         {if $field.type != 'hidden'}</div>{/if}{/if}
         {/block}
       {/foreach}
@@ -56,7 +56,7 @@
     <footer class="form-footer">
       <input type="hidden" name="submitCreate" value="1">
       {block "form_buttons"}
-        <button class="btn btn-default btn_arrow btn-full-width" data-link-action="save-customer" type="submit">
+        <button class="btn-main btn-full-width" data-link-action="save-customer" type="submit">
           {l s='Save' d='Shop.Theme.Actions'}
         </button>
       {/block}
