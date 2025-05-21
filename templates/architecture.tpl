@@ -1,23 +1,22 @@
 {extends file='page.tpl'}
 {block name='page_header_container'}{/block}
 {block name='page_content'}
-   {hook h='displayArchitecture'}
+  {hook h='displayArchitecture'}
 
-   <div class="static-page_form_content force-fullwidth" style="padding-top:64px;">
-      <div class="container">
+  <div class="static-page_form_content force-fullwidth" style="padding-top:64px;">
+    <div class="container">
       <div class="static-page_col_left">
-         <h3>{l s='Fill out the form to learn more about cooperation.' d='Shop.Theme.Global'}</h3>
-         <p>{l s='We will get back to you as soon as possible' d='Shop.Theme.Global'}</p>
-         {hook h='displayAskAboutProduct'}
+        <h3>{l s='Fill out the form to learn more about cooperation.' d='Shop.Theme.Global'}</h3>
+        <p>{l s='We will get back to you as soon as possible' d='Shop.Theme.Global'}</p>
+        <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/czGFjNE1tlASLzl0zn61bZrZJ1Jwi5loDN1xcCt6ri13ZKafzCtoEOkAONvcSPtu83">
+          <script src="https://webforms.pipedrive.com/f/loader"></script>
+        </div>
       </div>
       <div class="static-page_col_right">
-         <img
-         src="https://thoro.pl/img/cms/form_img.png"
-         alt="lampa"
-         />
+        <img src="https://thoro.pl/img/cms/form_img.png" alt="lampa" />
       </div>
-      </div>
-   </div>
+    </div>
+  </div>
 {/block}
 
 {* 
@@ -81,7 +80,7 @@ template
         <div class="architect_about_col2">
           <div class="content_header container-prod-tab">
             <h2>Przestrzeń dla profejsonalistów</h2>
-    
+
             <ul>
               <li><div class="architect_about_col2_subtitle"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M9.6 21.5999H14.4M10.2 9.5999H13.8M6 8.3999C6 5.08619 8.68629 2.3999 12 2.3999C15.3137 2.3999 18 5.08619 18 8.3999C18 10.8603 16.5191 12.874 14.4 13.7999V17.3999C14.4 18.0626 13.8627 18.5999 13.2 18.5999H10.8C10.1373 18.5999 9.6 18.0626 9.6 17.3999V13.9006C7.48091 12.9748 6 10.8603 6 8.3999Z" stroke="#484540" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg>
               <h3>Próbki oraz katalogi</h3>

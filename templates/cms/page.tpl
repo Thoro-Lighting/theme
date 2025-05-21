@@ -26,9 +26,9 @@
 
 {*in order to hide page title, extend page_header_container, not page_title*}
 {block name='page_header_container'}
-{if !$sttheme.cms_title}
-<h1 class="page_heading">{$cms.meta_title}</h1>
-{/if}
+  {if !$sttheme.cms_title}
+    <h1 class="page_heading">{$cms.meta_title}</h1>
+  {/if}
 {/block}
 
 {block name='page_content_container'}
@@ -43,18 +43,20 @@
           <div class="static-page_col_left">
             <h3>{l s='Contact us and lets talk about cooperation opportunities' d='Shop.Theme.Global'}</h3>
             <p>{l s='We will get back to you as soon as possible' d='Shop.Theme.Global'}</p>
-            {hook h='displayAskAboutProduct'}
+            <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6rG3DuWtky4n96tjowJMkVpR5nWIK7bD7NzfSyzgXPiJ8gycptNR1KDMe7uMo9rrOP">
+              <script src="https://webforms.pipedrive.com/f/loader"></script>
+            </div>
           </div>
           <div class="static-page_col_right">
             <img src="https://thoro.pl/img/cms/form_img.png" alt="lampa" />
           </div>
         </div>
-      </div>  
+      </div>
     {/if}
-    
+
     {block name="full_width_bottom" prepend}
-    {hook h='displayCMSExtra'}
-{/block}
+      {hook h='displayCMSExtra'}
+    {/block}
 
     {block name='hook_cms_dispute_information'}
       {hook h='displayCMSDisputeInformation'}

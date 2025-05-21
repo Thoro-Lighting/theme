@@ -1,20 +1,19 @@
 {extends file='page.tpl'}
 {block name='page_header_container'}{/block}
 {block name='page_content'}
-    {hook h='displayDistribution'}
-    
-	<div class="static-page_form_content force-fullwidth">
+  {hook h='displayDistribution'}
+
+  <div class="static-page_form_content force-fullwidth">
     <div class="container">
       <div class="static-page_col_left">
         <h3>{l s='Contact us and lets talk about cooperation opportunities' d='Shop.Theme.Global'}</h3>
         <p>{l s='We will get back to you as soon as possible' d='Shop.Theme.Global'}</p>
-        {hook h='displayAskAboutProduct'}
+        <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6NbXMK4aB9o3eQvuJNLoaxWlBA7BiTWUdj0JHchdCisEI5SGcyjiSvETxaXpB2B45l">
+          <script src="https://webforms.pipedrive.com/f/loader"></script>
+        </div>
       </div>
       <div class="static-page_col_right">
-        <img
-        src="https://thoro.pl/img/cms/form_img.png"
-        alt="lampa"
-        />
+        <img src="https://thoro.pl/img/cms/form_img.png" alt="lampa" />
       </div>
     </div>
   </div>
