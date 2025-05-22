@@ -1268,3 +1268,7 @@ body#cms #center_column:has(.designers_banner){
     width: 332px;
   }
 }
+
+.static-page_col_left .pipedriveWebForms{
+  max-width: 480px;
+}
