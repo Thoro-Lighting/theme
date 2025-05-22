@@ -23145,3 +23145,8 @@ body#password .from_blcok,
 		padding: 0 !important;
 	}
 }
+
+
+.static-page_col_left .pipedriveWebForms{
+  max-width: 480px;
+}
