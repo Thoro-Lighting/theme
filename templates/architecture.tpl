@@ -39,7 +39,7 @@ template
       </div>
       <div class="architect_banner_desc">
         <div class="architect_banner_desc-buttons">
-          <a href="https://thoro.cloud.arlity.com/architect_zone/product?" target="_blank">Skontaktuj się z nami</a>
+          <a href="https://thoro.cloud.arlity.com/architect_zone/product?" target="_blank">Zobacz wszystkie modele 3D</a>
           <a href="/strefa-architekta#kontakt">Skontaktuj się z nami</a>
         </div>
         <p>
