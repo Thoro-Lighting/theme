@@ -38,7 +38,10 @@ template
         </div>
       </div>
       <div class="architect_banner_desc">
-        <a href="/strefa-architekta#kontakt">Skontaktuj się z nami</a>
+        <div class="architect_banner_desc-buttons">
+          <a href="https://thoro.cloud.arlity.com/architect_zone/product?" target="_blank">Skontaktuj się z nami</a>
+          <a href="/strefa-architekta#kontakt">Skontaktuj się z nami</a>
+        </div>
         <p>
           Serdecznie zapraszamy do współpracy architektów, projektantów i dekoratorów wnętrz a także restauracje, sieci hoteli i deweloperów. Oferujemy warunki współpracy, aby Twoje projekty były jeszcze lepsze
         </p>

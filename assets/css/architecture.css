@@ -69,8 +69,13 @@
     align-items: start;
   }
 }
-.architect_banner_desc a {
+.architect_banner_desc-buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   margin-bottom: 32px;
+}
+.architect_banner_desc a {
   background: #3D4C99;
   color: #FBFBFB;
   border-radius: 48px;
@@ -89,12 +94,11 @@
   }
 }
 .architect_banner_desc a:hover {
-  margin-bottom: 32px;
   background: #293573;
   color: #fbfbfb;
 }
 .architect_banner_desc p {
-  margin-bottom: 56px;
+  margin-bottom: 32px;
   max-width: 448px;
   font-size: 16px;
   line-height: 150%;
