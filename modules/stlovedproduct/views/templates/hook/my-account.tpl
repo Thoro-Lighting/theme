@@ -22,8 +22,10 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-<div class="list-group-item cc cl">
-<a class="love-link btn-line" href="{url entity='module' name='stlovedproduct' controller='myloved'}" title="{l s='My loved products' d='Shop.Theme.Transformer'}">
-  <i class="fto-heart-4 icon_btn mar_r4 fs_lg"></i>{l s='My loved items' d='Shop.Theme.Transformer'}
-</a>
-</div>
+
+{assign var='stloved_url' value={url entity='module' name='stlovedproduct' controller='myloved'}}
+<li>
+  <a class="love-link btn-line{if $urls.current_url == $stloved_url} page-current{/if}" href="{$stloved_url}" title="{l s='My loved items' d='Shop.Theme.Catalog'}">
+    {l s='My loved items' d='Shop.Theme.Transformer'}
+  </a>
+</li>

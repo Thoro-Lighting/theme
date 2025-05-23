@@ -26,29 +26,32 @@
 
 
 {block name='page_content'}
-{block name='page_title'}
-  <h6 class="page_heading"><a class="backtoaccount" href="{$urls.pages.my_account}"><i class="fto-angle-double-left side_close_left"></i></a>{l s='Your addresses' d='Shop.Theme.Customeraccount'}</h6>
-{/block}
-  
+  {block name='page_title'}
+    <h6 class="page_heading"><a class="backtoaccount" href="{$urls.pages.my_account}"><i
+          class="fto-angle-double-left side_close_left"></i></a>{l s='Your addresses' d='Shop.Theme.Customeraccount'}</h6>
+  {/block}
+
   <div class="row com_grid_view account_box_bg pad_rwd">
-  <div class="head_account_bg">
-  <div class="hello_info">{l s='Welcome' d='Shop.Theme.Transformer'} {$customer.firstname} {$customer.lastname}</div>
-  <p class="steco_sub_heading_mini">{l s='Create and edit your shipping and billing addresses.' d='Shop.Theme.Transformer'}</p>
-  </div>
-  {foreach $customer.addresses as $address}
-    <div class="col-md-6 {if $address@index%2==0} first-item-of-large-line  first-item-of-desktop-line first-item-of-line {/if}">
-    {block name='customer_address'}
-      {include file='customer/_partials/block-address.tpl' address=$address}
-    {/block}
+    <div class="head_account_bg">
+      <p class="steco_sub_heading_mini">
+        {l s='Create and edit your shipping and billing addresses.' d='Shop.Theme.Transformer'}</p>
     </div>
-  {/foreach}
-  <a href="{$urls.pages.address}" data-link-action="add-address" class="steco_address_btn btn btn-border steco_btn_more_padding btn_arrow black_arrow btn-spin js-submit-active">
+    {foreach $customer.addresses as $address}
+      <div
+        class="col-md-6 {if $address@index%2==0} first-item-of-large-line  first-item-of-desktop-line first-item-of-line {/if}">
+        {block name='customer_address'}
+          {include file='customer/_partials/block-address.tpl' address=$address}
+        {/block}
+      </div>
+    {/foreach}
+    <a href="{$urls.pages.address}" data-link-action="add-address"
+      class="btn-block btn-secondary js-submit-active steco_address_btn">
       {*<i class="fto-plus-2 fs_md mar_r4"></i>*}{l s='Create new address' d='Shop.Theme.Actions'}
     </a>
-  
+
   </div>
 
- {* <div class="addresses-footer mb-3">
+  {* <div class="addresses-footer mb-3">
     <a href="{$urls.pages.address}" data-link-action="add-address" class="">
       <i class="fto-plus-2 fs_md mar_r4"></i>{l s='Create new address' d='Shop.Theme.Actions'}
     </a>

@@ -50,7 +50,25 @@
            <div class="pro_second_box pro_block_align_1">
        <div class="flex_box flex_start mini_name">
       {block name='product_name'}
-      <h3 {if $sttheme.google_rich_snippets && (!isset($no_google_rich_snippets) || !$no_google_rich_snippets)} itemprop="name" {/if} class="s_title_block flex_child two_rows"><a href="{$product.url}" title="{$product.name}" >{$product.name}</a></h3>
+        <h3 {if $sttheme.google_rich_snippets && (!isset($no_google_rich_snippets) || !$no_google_rich_snippets)} itemprop="name" {/if} class="s_title_block flex_child two_rows">
+        <a href="{$product.url}" title="{$product.manufacturer_name|escape:html:'UTF-8'}" >
+          <span class="product-text-above">
+            {assign var='lampTypeAttributeGroupId' value=4}
+            {if $product.product_type == 'combinations'}
+              {foreach from=$product.attributes item=attribute}
+                {if $attribute.id_attribute_group == $lampTypeAttributeGroupId}
+                  {$attribute.name}
+                {/if}
+              {/foreach}
+            {else}
+              {$product.category_name}
+            {/if}
+            </span>
+
+          {$product.manufacturer_name|escape:html:'UTF-8'}
+
+          </a>
+        </h3>
       {/block}
       
       {block name='product_price_and_shipping'}
@@ -81,11 +99,15 @@
      
      </div> 
 
-     <div class="act_box_cart flex_container flex_center display_when_hover add_hide_on_mobile">
-           <div class="pro_list_manufacturer flex_child"><a {if $sttheme.google_rich_snippets} itemprop="brand" itemscope="" itemtype="https://schema.org/Organization" {/if} href="{$link->getManufacturerLink($product.id_manufacturer)}" title="{l s='Collection' d='Shop.Theme.Transformer'}: {$product.manufacturer_name|truncate:60:'...'}">{l s='Collection' d='Shop.Theme.Transformer'}: {$product.manufacturer_name|escape:html:'UTF-8'}</a></div>
-            {include file='catalog/_partials/miniatures/btn-view-more-bottom.tpl' classname=$add_to_cart_class}
-       </div>
-       </div>
+     <ul class="product-attributes">
+         {foreach from=$product.features item=feature}
+           {if $feature.id_feature|in_array:[60, 62, 66, 79]}
+             <li>
+               {$feature.value} {if $feature.id_feature == 62}cm{/if}
+             </li>
+           {/if}
+       {/foreach}
+     </ul>
 
     </div>
                 

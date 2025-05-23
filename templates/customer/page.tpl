@@ -28,14 +28,13 @@
 
 {block name='page_content_container'}
 
-{if $my_account == 1}
   <section id="content" class="page-content row">
     <div class="col-lg-3 hidden-md-down my_account_left_column">
     	{block name='account_links'}
 		    {include file='customer/_partials/my-account-nav.tpl'}
 	    {/block}
-    </div> {/if}
-    <div class="{if $my_account == 1}col-lg-9{else}account-full-width{/if} account_box">
+    </div> 
+    <div class="col-lg-9 account_box">
     	{*{block name='page_content_top'}
 	    	{block name='customer_notifications'}
 			    {include file='_partials/notifications.tpl'}
@@ -45,9 +44,6 @@
 	    {block name='page_content'}
 	      <!-- Page content -->
 	    {/block}
-        {block name='my_account_links'}
-            {include file='customer/_partials/my-account-links.tpl'}
-        {/block}
     </div>
   </section>
 {/block}

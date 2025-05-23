@@ -26,28 +26,32 @@
 
 {block name='page_content'}
 
-{block name='page_title'}
-  {if $editing}
-    <h6 class="page_heading"><a class="backtoaccount" href="{$urls.pages.my_account}"><i class="fto-angle-double-left side_close_left"></i></a>{l s='Update your address' d='Shop.Theme.Customeraccount'}</h6>
-  {else}
-    <h6 class="page_heading"><a class="backtoaccount" href="{$urls.pages.my_account}"><i class="fto-angle-double-left side_close_left"></i></a>{l s='New address' d='Shop.Theme.Customeraccount'}</h6>
-  {/if}
-{/block}
+  {block name='page_title'}
+    {if $editing}
+      <h6 class="page_heading"><a class="backtoaccount" href="{$urls.pages.my_account}"><i
+            class="fto-angle-double-left side_close_left"></i></a>{l s='Update your address' d='Shop.Theme.Customeraccount'}
+      </h6>
+    {else}
+      <h6 class="page_heading"><a class="backtoaccount" href="{$urls.pages.my_account}"><i
+            class="fto-angle-double-left side_close_left"></i></a>{l s='New address' d='Shop.Theme.Customeraccount'}</h6>
+    {/if}
+  {/block}
 
-  
-  <div class="account_box_bg pad_rwd">
+
   <div class="head_account_bg">
 
-  <p class="steco_sub_heading_mini">
-  {if $editing}
-  {l s='You are editing the address.' d='Shop.Theme.Transformer'}
-  {else}
-  {l s='Add a new address to your address book.' d='Shop.Theme.Transformer'}
-  {/if}
-  </p>
+    <p>
+      {if $editing}
+        {l s='You are editing the address.' d='Shop.Theme.Transformer'}
+      {else}
+        {l s='Add a new address to your address book.' d='Shop.Theme.Transformer'}
+      {/if}
+    </p>
   </div>
-  <div class="col-md-9 col-xl-6">
-    {render template="customer/_partials/address-form.tpl" ui=$address_form}
-    </div></div>
-  
+  <div class="row">
+    <div class="col-md-9">
+      {render template="customer/_partials/address-form.tpl" ui=$address_form}
+    </div>
+  </div>
+
 {/block}
