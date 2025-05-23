@@ -138,7 +138,7 @@
 								$("#sendQuestionEmail").attr("disabled", false);
 								$.fancybox.close();
 								var msg = result.question_send ? "{/literal}{l s='Your email with question has been sent successfully.' mod='pdaskaboutproductpro'}{literal}" : "{/literal}{l s='Your e-mail could not be sent.' mod='pdaskaboutproductpro'}{literal}";
-								var title = "{/literal}{l s='Ask about product' mod='pdaskaboutproductpro'}{literal}";
+								var title = "{/literal}{l s='Thank you for contacting us!' d='Shop.Theme.Global'}{literal}";
 								fancyMessageBox(msg, title);
 							}
 							{/literal}

@@ -8,20 +8,19 @@
 	</div>*}
 
 
-  {hook h='displayConfigurator'}
+	{hook h='displayConfigurator'}
 
 	<div class="static-page_form_content force-fullwidth">
 		<div class="container">
 			<div class="static-page_col_left">
 				<h3>{l s='Contact us and lets talk about cooperation opportunities' d='Shop.Theme.Global'}</h3>
 				<p>{l s='We will get back to you as soon as possible' d='Shop.Theme.Global'}</p>
-				{hook h='displayAskAboutProduct'}
+				<div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6FpOmtU5Ufsyxq0xCQWNPOki8rhnScbujnI8uSGPALmImcLa90CuVbe8iE6vCayQBt">
+					<script src="https://webforms.pipedrive.com/f/loader"></script>
+				</div>
 			</div>
 			<div class="static-page_col_right">
-				<img
-				src="https://thoro.pl/img/cms/form_img.png"
-				alt="lampa"
-				/>
+				<img src="https://thoro.pl/img/cms/form_img.png" alt="lampa" />
 			</div>
 		</div>
 	</div>
@@ -35,26 +34,25 @@
 		</script>
 
 		<script>
-
 			window.addEventListener('load', function(e) {
 				jQuery('[data-toggle="arlity-open-fullscreen"]').on('click', function(e) {
 					e.preventDefault();
 				})
 			});
 
-			window.addEventListener('arlity-added-to-cart', ( e ) => {
-				$.post('{/literal}{$link->getPageLink("configuration")}{literal}',{uuid:e.detail.uuid}, function(json){
-					console.log('ok', json);
+			window.addEventListener('arlity-added-to-cart', (e) => {
+			$.post('{/literal}{$link->getPageLink("configuration")}{literal}',{uuid:e.detail.uuid}, function(json){
+			console.log('ok', json);
 
-					if ( json.message == 'ok' ) {
-						$('#arlity-calculation-details-modal [data-dismiss="modal"]').trigger('click');
-						window.location = $('.st_shopping_cart.header_item').attr('href');
-					}
-				});
+			if (json.message == 'ok') {
+				$('#arlity-calculation-details-modal [data-dismiss="modal"]').trigger('click');
+				window.location = $('.st_shopping_cart.header_item').attr('href');
+			}
 			});
-		</script>	
+			});
+		</script>
 	{/literal}
-    
+
 {/block}
 
 {* 

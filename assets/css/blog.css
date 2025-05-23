@@ -235,7 +235,9 @@ article, aside, footer, header, nav, section {
 
 #module-stblog-article #right_column .base_list_line.medium_list .line_item:last-child { border:none; margin-bottom:0px; padding-bottom: 0px; }
 
-
+.blog_content{
+    font-size: 16px;
+}
 
 @media ( min-width :992px) {
 
@@ -274,16 +276,15 @@ article, aside, footer, header, nav, section {
     letter-spacing: -0.5px;
 }
 #module-stblog-article #center_column .page-blog-article h4 {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     margin-bottom: 50px;
 }
 #module-stblog-article #center_column .page-blog-article p { 
-	font-size: 16px;
     line-height: 26px;
 	margin-bottom: 15px;
 }
-#module-stblog-article #center_column .page-blog-article .blog_content img { margin-top: 30px; margin-bottom: 40px; }
+#module-stblog-article #center_column .page-blog-article .blog_content img {margin-bottom: 30px; }
 
 
 
@@ -307,7 +308,6 @@ article, aside, footer, header, nav, section {
 
 #category_blogs_container_6 .category_blogs_container .title_block { }	
 	
-.article_left { text-align:center;  }
 .article_left .social_share_block { flex-direction: column; align-items: center; }
 .article_left .social_share_block a, .article_left .add_to_love, .article_left .left_view {
     margin: 0 auto 10px;
@@ -364,7 +364,6 @@ article, aside, footer, header, nav, section {
     border-top: solid;
     margin-top: 0px;
 }
-.article_center { text-align: justify; }
 
 .blog_info_article, .blog_info_top {
     font-size: 12px;
@@ -501,13 +500,12 @@ article, aside, footer, header, nav, section {
     margin-top: 0px;
     margin-bottom: 8px;
 }		
-#module-stblog-article .blog_content { text-align: justify; }	
 #module-stblog-article #center_column .page-blog-article p {
     font-size: 14px;
     margin-bottom: 15px;
 }
 #module-stblog-article #center_column .page-blog-article h4 {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 22px;
     margin-bottom: 30px;
 }
@@ -629,4 +627,21 @@ padding: 0px 0px 0px 10px;
 .article_left .left_view i.mar_r4 { margin-right:0px; }	
 
 	
+}
+
+.blog_content{
+    text-align: left;
+}
+.blog_content p{
+    font-weight: 400;
+}
+.blog_content li{
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+.blog_content ul li::marker{
+    margin-right: 10px;
+}
+.blog_content li p{
+    display: inline;
 }

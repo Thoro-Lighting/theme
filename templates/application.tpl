@@ -1,5 +1,5 @@
 {* <section class="app_banner force-fullwidth">
-    <div class="app_col_left"><img src="https://thoro.webo.design/img/cms/aplikacja/baner_aplikacja.png"
+    <div class="app_col_left"><img src="https://thoro.pl/img/cms/aplikacja/baner_aplikacja.png"
             alt="Aplikacja Thoro - baner" /></div>
     <div class="app_col_right container">
         <div class="content_header container-prod-tab">
@@ -12,15 +12,15 @@
                 <p class="app_baner_desktop">Zeskanuj kod QR i pobierz aplikację</p>
                 <p class="app_baner_mobile">Pobierz aplikacje już teraz</p>
                 <div class="app_download_links">
-                    <div class="appstore"><img src="https://thoro.webo.design/img/cms/aplikacja/qr_appstore.png"
+                    <div class="appstore"><img src="https://thoro.pl/img/cms/aplikacja/qr_appstore.png"
                             alt="Kod QR do pobrania aplikacji z App Store" /> <a
                             href="https://apps.apple.com/pl/app/thoro/id6457258305?l=pl"> <img
-                                src="https://thoro.webo.design/img/cms/aplikacja/appstore.png"
+                                src="https://thoro.pl/img/cms/aplikacja/appstore.png"
                                 alt="Pobierz z App Store" /> </a></div>
-                    <div class="googleplay"><img src="https://thoro.webo.design/img/cms/aplikacja/qr_google_store.png"
+                    <div class="googleplay"><img src="https://thoro.pl/img/cms/aplikacja/qr_google_store.png"
                             alt="Kod QR do pobrania aplikacji z Google Play" width="120" height="121" /> <a
                             href="https://play.google.com/store/apps/details?id=com.arlity.cloud.thoro&amp;pli=1"> <img
-                                src="https://thoro.webo.design/img/cms/aplikacja/googleplay.png"
+                                src="https://thoro.pl/img/cms/aplikacja/googleplay.png"
                                 alt="Pobierz z Google Play" /> </a></div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
             <div class="app_about_col_right">
                 <div class="app-how__video">
                     <div class="app-how__video-cover"><img
-                            src="https://thoro.webo.design/img/cms/aplikacja/app_video.png"
+                            src="https://thoro.pl/img/cms/aplikacja/app_video.png"
                             alt="Podgląd wideo aplikacji Thoro" width="4096" height="2732" />
                         <div class="video_btn">Zobacz wideo<svg xmlns="http://www.w3.org/2000/svg" width="20"
                                 height="20" viewbox="0 0 20 20" fill="none">
@@ -127,7 +127,7 @@
 <section class="app_about app_about_lastsection">
     <div class="force-fullwidth" style="background-color: #f7f5f1;">
         <div class="app_image_aside container"><img
-                src="https://thoro.webo.design/img/cms/strefa%20architekta/lampa.png" alt="lampa" />
+                src="https://thoro.pl/img/cms/aplikacja/lampa.png" alt="lampa" />
             <div class="app_about_col2">
                 <div class="content_header container-prod-tab">
                     <h2>Twoje wnętrze w idealnym świetle</h2>
@@ -138,16 +138,16 @@
                     <p class="app_baner_desktop app_download_p">Zeskanuj kod QR i pobierz aplikację</p>
                     <p class="app_baner_mobile">Pobierz aplikacje już teraz</p>
                     <div class="app_download_links">
-                        <div class="appstore"><img src="https://thoro.webo.design/img/cms/aplikacja/qr_appstore.png"
+                        <div class="appstore"><img src="https://thoro.pl/img/cms/aplikacja/qr_appstore.png"
                                 alt="Kod QR do pobrania aplikacji Thoro z App Store" /> <a
                                 href="https://apps.apple.com/pl/app/thoro/id6457258305?l=pl"> <img
-                                    src="https://thoro.webo.design/img/cms/aplikacja/appstore.png"
+                                    src="https://thoro.pl/img/cms/aplikacja/appstore.png"
                                     alt="Pobierz aplikację Thoro z App Store" style="margin-bottom: 0px;" /> </a></div>
                         <div class="googleplay"><img
-                                src="https://thoro.webo.design/img/cms/aplikacja/qr_google_store.png"
+                                src="https://thoro.pl/img/cms/aplikacja/qr_google_store.png"
                                 alt="Kod QR do pobrania aplikacji Thoro z Google Play" width="120" height="121" /> <a
                                 href="https://play.google.com/store/apps/details?id=com.arlity.cloud.thoro&amp;pli=1">
-                                <img src="https://thoro.webo.design/img/cms/aplikacja/googleplay.png"
+                                <img src="https://thoro.pl/img/cms/aplikacja/googleplay.png"
                                     alt="Pobierz aplikację Thoro z Google Play" style="margin-bottom: 0px;" /> </a>
                         </div>
                     </div>
