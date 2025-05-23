@@ -54,6 +54,7 @@
 .about_banner_container h1 {
   font-size: 72px;
   font-weight: 500;
+  max-width: 700px;
 }
 @media only screen and (min-width: 992px) {
   .about_banner_container h1 {
@@ -136,7 +137,7 @@
 }
 
 .about_counter {
-  background-color: #F3EFE9;
+  background-color: #FBFAF8;
   color: #181B1A;
 }
 
@@ -169,7 +170,7 @@
 
 .about_counter_col2 p {
   font-size: 18px;
-  margin-bottom: 48px;
+  margin-bottom: 0px;
   font-weight: 400!important;
 }
 
@@ -202,7 +203,7 @@
 }
 
 .mission {
-  background-color: #FBFAF8;
+  background-color: #fff;
   color: #181B1A;
   position: relative!important;
 }
@@ -215,6 +216,7 @@
 @media only screen and (max-width: 992px) {
   .mission_container{
     flex-direction: column-reverse;
+    padding-top: 0px;
   }
   .mission_container img {
     margin-bottom: 32px;
@@ -230,6 +232,7 @@
   bottom: 0;
   right: 0;
   height: 100%;
+  object-fit: cover;
 }
 @media only screen and (max-width: 992px) {
   .mission_col2 img{
@@ -242,6 +245,9 @@
   }
 }
 @media only screen and (min-width: 1300px) {
+  .mission_container{
+    min-height: 770px;
+  }
   .mission_col2 img{
 		width: auto;
   }
@@ -267,6 +273,7 @@
   color: #484540;
   margin-bottom: 32px;
   font-size: 16px!important;
+  font-weight: 400;
 }
 .mission_col1 ul li svg { 
   min-width: 25px;
@@ -282,6 +289,10 @@
   .banner-gradient-circle {
       padding-top: 128px;
       padding-bottom: 128px;
+  }
+
+  .mission{
+    padding-top: 64px !important;
   }
 }
 .banner_gradient {
@@ -348,6 +359,7 @@
 }
 
 .meet_us {
+  background: #fff;
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -368,10 +380,18 @@
   display: flex;
   gap: 16px;
   text-transform: uppercase;
+  font-size: 16px;
+}
+.meet_us_col1 span{
+  font-family: 'ABC Favorit Mono Variable';
+  font-weight: 400;
+  display: block;
+  margin-top: 12px;
 }
 @media only screen and (max-width: 992px) {
   .meet_us_col1 {
     flex-direction: column;
+    font-size: 12px;
   }
 }
 .meet_us_col2 {
@@ -381,6 +401,7 @@
   margin-bottom: 32px;
   font-family: ABC Favorit Variable, sans-serif;
 	text-transform: none!important;
+  font-size: 16px !important;
 }
 .meet_us_1 {
   flex-basis: 60%;
@@ -400,22 +421,15 @@
 }
 
 .meet_us_col2 a {
-  width: fit-content;
-  margin-bottom: 32px;
-  background: #DDD8CF;
-  color: #181B1A;
-  border-radius: 48px;
-  padding: 12px 24px;
-  font-size: 16px;
-  line-height: 150%;
-  text-decoration: none;
+  color: #3D4C99;
   transition: all 0.2s ease;
   display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 16px;
 }
 .meet_us_col2 a:hover {
-  margin-bottom: 32px;
-  background: #293573;
-  color: #fbfbfb;
+  text-decoration: underline;
 }
 
 .meet_us_2 img {
@@ -491,6 +505,10 @@ padding-bottom: 30px;
 	#home_secondary_right .st_banner_block{
 		height: 497px !important;
 	}
+  .meet_us_container img{
+    display: block;
+    width: 100%;
+  }
 }
 .st_image_layered_description{
 	justify-content: end !important;
@@ -501,4 +519,111 @@ padding-bottom: 30px;
 }
 .privat_banner_1 .collection-more {
   display: none;
+}
+
+.box-discover .discover-tiles-container{
+	overflow: visible
+}
+
+.box-discover .discover-tile{
+  position: relative;
+  aspect-ratio: 1 / 1;
+  width: 448px;
+  max-width: 100%;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.box-discover .discover-tile .btn-white{
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+}
+
+.box-discover a.discover-tile:hover .btn-white{
+  background: #3D4C99 !important;
+  color: #fff !important;
+}
+
+.box-discover .discover-tile h3{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  max-width: 320px;
+  position: relative;
+  z-index: 1;
+}
+
+.box-discover .discover-tile img{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box-discover{
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-discover{
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .box-discover .discover-tile{
+    padding: 32px;	
+  }
+  
+  .box-discover .discover-tile h3{
+    font-size: 40px;
+  }
+}
+
+.about_bar .inner-scroll-container {
+  overflow-x: scroll;
+}
+
+.about_bar {
+  background: #F3EFE9;
+  overflow: hidden;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.about_bar_container{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 0;
+  gap: 32px;
+  font-size: 14px;
+}
+@media only screen and (max-width: 992px) {
+  .about_bar_container{
+    width: 100%;
+    justify-content: start;
+  }
+}
+.about_bar_container li {
+  color: #484540;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.static-page_form_header .content_header h2{
+  max-width: 1200px;
 }

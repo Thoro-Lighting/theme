@@ -259,6 +259,8 @@ class StEasyContent extends Module implements WidgetInterface
 		101777   => array('id' =>101777 , 'name' => 'Strona konfiguratora'   , 'hook' => 'Configurator'),
 		101778   => array('id' =>101778 , 'name' => 'Strona aplikacji'   , 'hook' => 'Application'),
 		101779   => array('id' =>101779 , 'name' => 'Strona projektantów'   , 'hook' => 'Designers'),
+        101780   => array('id' =>101780 , 'name' => 'Strona o nas - dolna strefa'   , 'hook' => 'AboutBottom'),
+
         
     );
     // key: type+00
