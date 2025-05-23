@@ -23,7 +23,7 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name="address_form"}
-<div class="article">
+<div class="user-update-form">
 <div class="js-address-form">
   {include file='_partials/form-errors.tpl' errors=$errors['']}
 
@@ -44,7 +44,7 @@
           {foreach from=$formFields item="field"}
             {block name='form_field'}
               {if $field.type != 'hidden'}<div class="{if $field.name == alias}col-lg-12{else}col-lg-6{/if} {if $row_counter%2==0} first-item-of-large-line  first-item-of-desktop-line first-item-of-line {/if}">{$row_counter=$row_counter+1}{/if}
-              {form_field field=$field file='_partials/form-fields-1.tpl'}
+              {form_field field=$field file='module:steasycheckout/views/templates/hook/_partials/form-fields.tpl'}
               {if $field.type != 'hidden'}</div>{/if}
             {/block}
           {/foreach}
@@ -58,7 +58,7 @@
     <footer class="form-footer">
       <input type="hidden" name="submitAddress" value="1">
       {block name='form_buttons'}
-        <button class="btn btn-default btn_arrow btn-full-width" type="submit" class="form-control-submit">
+        <button class="btn-main btn-full-width" type="submit" class="form-control-submit">
           {l s='Save' d='Shop.Theme.Actions'}
         </button>
       {/block}

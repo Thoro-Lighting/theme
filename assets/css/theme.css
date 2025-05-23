@@ -21022,11 +21022,6 @@ supports  (initial-letter: 5) or  (-webkit-initial-letter: 5){ .
 
 .row.myacount_dashbord_list {margin-left: -8px; margin-right: 0px; width: calc(100% + 16px);}
 
-.myacount_dashbord_list .list-group-item:first-child,.myacount_dashbord_list .list-group-item:last-child
-	{
-	border-radius: 0
-}
-
 .myacount_dashbord_list .list-group-item.landing-link {
 	display: none
 }
@@ -21762,23 +21757,19 @@ a.ammount {
 	
 
 /* my_account */
-.my_account_left_column .list-group-item {  border: 0px;  padding-left: 0px;  padding-right: 0px; padding-top: 8px;   padding-bottom: 8px; }
 .my_account_left_column .list-group-item a i { display:none; }
 .myacount_dashbord_list .list-group-item a i { margin-right: 15px; }
 .myacount_dashbord_list .list-group-item {
-    padding: 26px 6px 40px;
-    display: inline-block;
-    font-size: 14px;
-    margin: 0 8px 14px;
-    border-bottom: 1px solid #dbdbdb;
-    border-left: 0;
-    border-right: 0px;
-    border-top: 0px;
+    padding: 48px 0px 36px;
+    display: block;
+    font-size: 16px;
     text-align: left;
+	border: none;
+	border-top: 1px solid #E3E3E2;
 }
 .my_account_page_footer { margin: 45px 0 !important; }
 .account_box_bg {
-    background: #f6f6f6;
+    background: #f7f5f1;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 15px;
@@ -21786,10 +21777,9 @@ a.ammount {
     margin: 0px;
 }
 #center_column #main .account_box .page_heading {
-    font-size: 28px;
-    margin-bottom: 15px !important;
+    font-size: 32px;
+    margin-bottom: 0px;
 }
-.myacount_dashbord_list .lc, .myacount_dashbord_list .cc { display:none; }
 .my_account_left_column .center-account-box { display:none; }
 
 h4.account-heading i {
@@ -21800,13 +21790,14 @@ h4.account-heading i {
 
 h4.account-heading {
     font-size: 20px;
+	font-weight: 500;
 }
 .center-account-box-item a {
     display: inline-block;
 }
 .center-account-box-item li {
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 
@@ -21823,7 +21814,7 @@ h4.account-heading {
 
 .head_account_bg .steco_sub_heading_mini {  padding-left: 20px; padding-bottom: 20px; margin: 0px; font-size: 16px; }
 
-#order-follow table thead, #order-slip table thead, #history table thead, #module-stproductcomments-mycomments .card-header, #discount table thead {  background: #f6f6f6; }
+#order-follow table thead, #order-slip table thead, #history table thead, #module-stproductcomments-mycomments .card-header, #discount table thead {  background: #f7f5f1; }
 #history td.order-actions a, .comments-block .comments_block a, .comments_block {  width: 100%; display: inline-block; text-align: left; float: left; font-size: 12px; }
 .comments-block .comments_block a, .comments_block { font-size: 12px; }
 #order-detail .account_box_bg,
@@ -22057,7 +22048,7 @@ padding: 10px;
 #module-ps_emailalerts-account p.remove_notifications a i { margin:0px; }
 
 #module-stlovedproduct-myloved .best_articles {
-    background: #f5f5f5;
+    background: #f7f5f1;
     margin: 0px;
     padding: 30px 30px;
 }
@@ -23034,11 +23025,13 @@ body#authentication .sidebar_auth_form{
 	padding: 0 !important;
 }
 
-body#authentication input.form-control{
+body#authentication input.form-control,
+body#identity input.form-control{
 	height: 56px;
 }
 
-body#authentication .animation_placeholder .form-control-placeholder{
+body#authentication .animation_placeholder .form-control-placeholder,
+body#identity .animation_placeholder .form-control-placeholder{
 	padding: 16px;
 }
 #login_form_block{
@@ -23065,12 +23058,14 @@ body#password .from_blcok,
 #register_form_block .form-footer .info-required .label_required{
 	font-size: 14px;
 }
-#register_form_block .checkbox-inline .steco_flex_child{
+#register_form_block .checkbox-inline .steco_flex_child,
+.user-update-form .checkbox-inline .steco_flex_child{
 	font-size: 14px;
 	font-weight: 400;
 	color: #181B1A;
 }
-#register_form_block .checkbox-inline .steco_flex_child a{
+#register_form_block .checkbox-inline .steco_flex_child a,
+.user-update-form .checkbox-inline .steco_flex_child a{
 	text-decoration: underline;
 	color: #3D4C99;
 }
@@ -23096,7 +23091,8 @@ body#password .from_blcok,
 	line-height: 24px;
 }
 
-.st_form_item_password .show_password{
+.st_form_item_password .show_password,
+.st_form_item_new_password .show_password{
 	opacity: 1;
 	color: #3D4C99;
 	top: 8px !important;
@@ -23149,4 +23145,135 @@ body#password .from_blcok,
 
 .static-page_col_left .pipedriveWebForms{
   max-width: 480px;
+}
+.account-aside li a{
+	font-size: 16px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 4px 0;
+	margin-bottom: 20px;
+	color: #73716D;
+	border-bottom: 2px solid transparent;
+	transition: .2s ease-in-out;
+}
+
+.account_box{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.myacount_dashbord_list{
+	margin-top: 32px;
+}
+
+.account-heading svg{
+	margin-right: 8px;
+	vertical-align: top;
+}
+
+.center-account-box-item .btn-line-under::after{
+	content: url('data:image/svg+xml,<svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.90225 4.48745L6.05424 1.67145L7.25426 0.439453L12.2303 5.39945L7.25426 10.3595L6.05424 9.12745L8.90225 6.31145H0.40625V4.48745H8.90225Z" fill="%23181B1A"/></svg>');
+	margin-left: 5px;
+}
+
+.center-account-box-item .btn-line-under{
+	font-weight: 500;
+	padding: 4px 0 2px;
+	transition: .2s ease-in-out;
+	border-bottom: 2px solid #181B1A;
+}
+
+.center-account-box-item .btn-line-under:hover{
+	color: #3D4C99;
+	border-bottom: 2px solid #3D4C99;
+}
+
+.account-aside li a.sign-out-link{
+	margin-top: 48px;
+	color: #3D4C99;
+}
+.account-aside li a.sign-out-link svg{
+	margin-right: 5px;
+	vertical-align: bottom;
+}
+
+.account-aside li a.sign-out-link:hover{
+	color: #3D4C99;
+	border-bottom: 2px solid #3D4C99;
+}
+
+.account-aside li a:hover{
+	color: #181B1A;
+}
+
+.account-aside li a.page-current{
+	color: #181B1A;
+	border-bottom: 2px solid #181B1A;
+}
+
+.account_box #easycontent_3{
+	margin-bottom: 16px;
+}
+
+@media screen and (min-width: 992px){
+	h4.account-heading{
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+	.myacount_dashbord_list{
+		margin-top: 16px;
+		margin-bottom: 80px;
+	}
+	.myacount_dashbord_list{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.account_box #easycontent_3{
+		font-size: 18px;
+	}
+}
+
+.user-update-form{
+	max-width: 768px;
+	margin-bottom: 48px;
+}
+
+.user-update-form span.label_required{
+	color: #e60000;
+}
+
+body#identity .steco-custom-input-box .steco-custom-input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body#identity .steco-custom-input-box input.steco-custom-input:checked ~ .steco-custom-input-item{
+  width: 24px;
+  height: 24px;
+  background: #3D4C99 !important;
+  border: 1px solid  #3D4C99 !important;
+}
+
+body#identity #center_column #main .page_heading{
+	margin-bottom: 32px !important;
+}
+
+body#module-psgdpr-gdpr .psgdprinfo17{
+	background: #f7f5f1;
+}
+
+body#module-stlovedproduct-myloved .products.product_list.grid .product_list_item {
+    padding: 0 8px 16px 8px !important;
+}
+
+@media only screen and (min-width: 992px) {
+	body#module-stlovedproduct-myloved .products.product_list.grid .product_list_item {
+		padding: 0 8px 48px 8px !important
+	}
 }

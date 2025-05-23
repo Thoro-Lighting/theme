@@ -25,8 +25,8 @@
         <div class="col-xs-12 psgdprinfo17 mt-0">
             <h3 class="hello_info pl-0 pr-0" >{l s='Access to my data' d='Shop.Theme.Transformer'}</h3>
             <p>{l s='At any time, you have the right to retrieve the data you have provided to our site. Click on "Get my data" to automatically download a copy of your personal data on a pdf or csv file.' d='Shop.Theme.Transformer'}.</p>
-            <a id="exportDataToCsv" class="btn btn-primary st_psgdprgetdatabtn17 ml-0 mb-2" target="_blank" href="{$psgdpr_csv_controller|escape:'htmlall':'UTF-8'}">{l s='GET MY DATA TO CSV' d='Shop.Theme.Transformer'}</a>
-            <a id="exportDataToPdf" class="btn btn-primary st_psgdprgetdatabtn17 mb-2 mx-sm-0" style="margin-left:0px;" target="_blank" href="{$psgdpr_pdf_controller|escape:'htmlall':'UTF-8'}">{l s='GET MY DATA TO PDF' d='Shop.Theme.Transformer'}</a>
+            <a id="exportDataToCsv" class="btn btn-main st_psgdprgetdatabtn17 ml-0 mb-2" target="_blank" href="{$psgdpr_csv_controller|escape:'htmlall':'UTF-8'}">{l s='GET MY DATA TO CSV' d='Shop.Theme.Transformer'}</a>
+            <a id="exportDataToPdf" class="btn btn-main st_psgdprgetdatabtn17 mb-2 mx-sm-0" style="margin-left:0px;" target="_blank" href="{$psgdpr_pdf_controller|escape:'htmlall':'UTF-8'}">{l s='GET MY DATA TO PDF' d='Shop.Theme.Transformer'}</a>
         </div>
         <div class="col-xs-12 psgdprinfo17">
             <h3 class="hello_info  pl-0 pr-0">{l s='Rectification & Erasure requests' d='Shop.Theme.Transformer'}</h3>
