@@ -396,15 +396,11 @@ body {overflow-x: hidden; overflow-y: scroll;}
 
 
 #search .search-subheader {text-align: center; font-size: 16px; font-weight: 500; margin-top: 15px; margin-bottom: 3rem;}
-.search_tag {font-size: 16px; text-align: center; display: inline-block; position: relative;}
+.search_tag {font-size: 16px; display: inline-block; position: relative;}
 #search  .contact-form .form-footer {margin: 2rem auto 5rem; text-align: left;}
-.popular-search-tags span, #search #center_column .serach-text .privat_easy_4 .title_block_inner, #search #center_column .serach-form .search-contact .title_block_inner {width: 100%; float: left; font-size: 16px !important; font-weight: 600; margin-bottom: 20px; padding: 0px; line-height: 24px !important;}
+#search #center_column .serach-text .privat_easy_4 .title_block_inner, #search #center_column .serach-form .search-contact .title_block_inner {width: 100%; float: left; font-size: 16px !important; font-weight: 600; margin-bottom: 20px; padding: 0px; line-height: 24px !important;}
 .serach-form .search-contact .title_block {margin: 0px;}
 .search-contact .form-group.subject_off {position: absolute; left: -9000px; text-indent: -9000px;}
-.popular-search-tags a.search-tag-link {font-size: 13px; border-radius: 1px; padding: 8px 15px; background: #f6f6f6; margin-bottom: 5px; display: inline-block;}
-.popular-search-tags a.search-tag-link:hover {background: #222; color: #fff}
-.popular-search-tags {margin-bottom: 20px; text-align: center; position: relative;}
-.popular-search-tags span {margin: 10px 0px}
 .serach-text .privat_easy_4 p.phone {position: relative}
 .serach-text .privat_easy_4 p.phone:after {content: ''; background-image: url(../img/svg/footer_phone.svg); height: 20px; width: 20px; position: absolute; background-size: 20px; background-repeat: no-repeat; left: -30px;}
 .no-search {text-align: center; position: relative;}

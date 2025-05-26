@@ -30,7 +30,6 @@
      #rightbar {bottom: 15px !important; display: inline-flex !important; right: 15px !important; position: fixed !important; background: transparent;}
 	 #steasy_column_30 .stsocial_block { text-align:center; }	
 
-	.serach-text .privat_easy_4, .popular-search-tags   {margin-left: 35%;}
     .popular-search-tags.tag-top {margin-left: 0px} 
     .serach-form .search-contact {width: 75%;margin-left: 60px;}
 	.rightbar_tri.addtocart_mobile_bar_tri, .fixed_add_to_cart.mobile {display: none}
@@ -2269,4 +2268,3 @@ a:hover .btn-line-under:before, .btn-line-under:hover:before, .btn-line:before, 
        #register_form_block, .register_two_columns .from_blcok,  .login_two_columns .from_blcok {padding: 30px}
       
 }
-     
