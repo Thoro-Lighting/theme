@@ -371,7 +371,7 @@
     _self.product_tabs_column();
     _self.product_tabs_column_sticky();
     _self.mobile_product_top_sticky();
-    _self.search_placeholder();
+    // _self.search_placeholder();
     _self.product_left_content_sticky();
 
     $(window).on("scroll", function () {
@@ -502,7 +502,7 @@
     });
 
     $(
-      "#st_header .dropdown_wrap, .autocomplete-suggestions, #side_search"
+      "#st_header .dropdown_wrap, #side_search"
     ).each(function () {
       observer.observe(jQuery(this)[0], {
         attributes: true,

@@ -21,8 +21,7 @@
 *  @copyright 2007-2017 ST-themes
 *  @license   Use, by you or one client for one Prestashop instance.
 */
-if(typeof(quick_search_as_size) === 'undefined')
-	var quick_search_as_size = 6;
+	var quick_search_as_size = 12;
 if(typeof(quick_search_as_min) === 'undefined')
 	var quick_search_as_min = 3;
 if(typeof(quick_search_as) === 'undefined')
@@ -59,7 +58,7 @@ $(document).ready(function () {
 
 					$('.search_more_products span').text(response.pagination.total_items);
 
-			        return {
+					return {
 			            suggestions: suggestions
 			        };
 			    },
@@ -69,13 +68,14 @@ $(document).ready(function () {
 			    },
 				formatResult: function(suggestion, currentValue) {
 					var result = '<a href="'+suggestion.data.link+'" title="'+suggestion.data.name+'" rel="nofollow" class="search_product_row flex_container">';
-						if (suggestion.data.cover && typeof(suggestion.data.cover.bySize.small_default.url)!='undefined')
-							result += '<img class="search_product_img search_result_item" alt="'+suggestion.data.name+'" src="' + suggestion.data.cover.bySize.small_default.url + '" width="' + suggestion.data.cover.bySize.small_default.width + '" height="' + suggestion.data.cover.bySize.small_default.height + '"/>';
+						if (suggestion.data.cover && typeof(suggestion.data.cover.bySize.medium_default.url)!='undefined')
+							result += '<img class="search_product_img search_result_item" alt="'+suggestion.data.name+'" src="' + suggestion.data.cover.bySize.medium_default.url + '" width="' + suggestion.data.cover.bySize.medium_default.width + '" height="' + suggestion.data.cover.bySize.medium_default.height + '"/>';
+						result += '<div class="search_prod_bottom" >'
 						result += '<div class="search_product_name flex_child search_result_item">' + suggestion.data.name + '</div>';
 						if ( suggestion.data.price_amount > 0 ) {
 							result += '<div class="search_product_price search_result_item price">' + (suggestion.data.has_discount ? suggestion.data.price : suggestion.data.regular_price) + '</div>';
 						}
-						result += '<div class="search_product_tax search_result_item tax">' + suggestion.data.labels.tax_short + '</div>';
+						result += '</div>'
 						result += '</a>';
 					return result;
 				}

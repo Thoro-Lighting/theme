@@ -11400,13 +11400,6 @@ vertical-align: middle; }
 	position: relative
 }
 
-.search_results {
-	position: absolute;
-	left: 0;
-	right: 0;
-	z-index: 8000;
-}
-
 .st-menu .search_results {
 	-webkit-box-shadow: none;
 	box-shadow: none
@@ -11416,17 +11409,9 @@ vertical-align: middle; }
 	position: static
 }
 
-.search_results .autocomplete-suggestion {
-    padding: .5rem 1rem;
-}
-
 #side_search .search_results .autocomplete-suggestion {
 	padding-left: 0;
 	padding-right: 0
-}
-
-.search_results .autocomplete-suggestion:hover {
-	background: #f9f9f9;
 }
 
 .search_results .search_more_products {
@@ -11436,8 +11421,11 @@ vertical-align: middle; }
 }
 
 .search_results .search_product_img {
-	width: 46px;
-	margin-right: .7rem
+	width: 100%;
+	aspect-ratio: 1;
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
 }
 
 .search_product_name span {
@@ -11454,36 +11442,33 @@ vertical-align: middle; }
 }
 
 .search_show_name .search_product_name {
-    margin-right: 15px;
-    line-height: 18px;
+	padding-right: 20px;
+	font-size: 24px;
+	font-weight: 700;
+}
+.search_product_price.search_result_item.price{
+	font-size: 18px;
+	font-weight: 700;
 }
 
 
 .st-effect-0.open_bar_right.mobile_search .st-pusher {-webkit-transform: translate3d(0%, 0, 0);transform: translate3d(0%, 0, 0);}
 .st-effect-0.open_bar_right.mobile_search .st-pusher #st-pusher-after {display: none}
-.st-effect-0 #side_search {z-index: 100; height: 0px;  width: 100%; right: auto !important; left: auto !important; top: 0px; bottom: auto !important; background: transparent;}
+.st-effect-0 #side_search {z-index: 100; height: 0px;  width: 100%; right: auto !important; left: auto !important; top: 94px; background: #FBFAF8; bottom: auto !important; }
 .st-effect-0 #side_search .st-menu-title {background: transparent; height: 68px; border-bottom: 0px; font-weight: 600; font-size: 16px;}
 .st-effect-0 #side_search.st-menu.sidebar_opened .st-menu-title {background: #fff; height: auto; padding-top: 19px; padding-bottom: 19px; box-shadow: none;}
-.search_widget_btn.btn {padding-left: 24px; padding-right: 24px; margin:0px; border-radius: 0px;background: #ddd; color: #fff !important;}
 .st-effect-0 #side_search .st-menu-header .close_right_side .side_close_right {left: 50% !important;top: 0px;right: 50% !important; margin-left: 45px;}
 .st-effect-0 #side_search .st-menu-title span {display: none}
 .st-effect-0.open_bar_right.mobile_search #side_search .st-menu-title span {display: block;}
-.st-effect-0 #side_search #search_block_side {height: 0px;padding: 15px 0px 15px !important; transform: scaleY(0); transform-origin: top; transition: transform 0.26s ease;}
-.st-effect-0.open_bar_right.mobile_search #side_search #search_block_side {height: auto; transform: scaleY(1);}
-.st-effect-0.open_bar_right.mobile_search .header-container  {opacity: 0.15}
-.st-effect-0.open_bar_right.mobile_search #side_search {top: 0px; background: none; height: 100%;}
-.st-effect-0.open_bar_right.mobile_search .search_mobile_bar_tri, 
-.st-effect-0.open_bar_right.mobile_search #mobile_bar_center {opacity: 0}
+.st-effect-0.open_bar_right.mobile_search #side_search {height: auto; bottom:0 !important;}
 #side_search.st-menu .close_right_side i.side_close_right::before {
   background-image: url("../img/svg/close.svg");
   background-size: 14px;
   margin-left: 0px !important;
   background-position: center 24px;
 }
-.mobile_nav_box .search_mobile_nav .input-group-with-border, #side_search .search_mobile_nav .input-group-with-border {width: calc(100% - 40px); margin: 0 auto; height: 50px;}
-.mobile_search .st-menu .autocomplete-suggestions {margin-top: 15px; padding: 10px 25px; border: 0px; -webkit-box-shadow: 0px 3px 6px -2px rgba(0,0,0,.11); box-shadow: 0px 3px 6px -2px rgba(0,0,0,.11);}
-.mobile_nav_box_1 .autocomplete-suggestions {margin-top: 20px; padding: 10px; border: 0px; -webkit-box-shadow: 0px 3px 6px -2px rgba(0,0,0,.11); box-shadow: 0px 3px 6px -2px rgba(0,0,0,.11);}
-.mobile_nav_box .search_mobile_nav .input-group-with-border .form-control, #side_search .search_mobile_nav .input-group-with-border .form-control {
+.mobile_nav_box_1 .autocomplete-suggestions {margin-top: 20px; padding: 10px; border: 0px;}
+.mobile_nav_box .search_mobile_nav .input-group-with-border .form-control{
   height: 50px;
   border-radius: 25px;
   padding-left:25px;
@@ -20930,15 +20915,6 @@ supports  (initial-letter: 5) or  (-webkit-initial-letter: 5){ .
 #register_form_block h3, #create_account_block h3 {padding: 1rem; font-size: 20px;text-transform: none;font-weight: 700;}
 .dropdown_box_viewed {width: 300px;	padding: 8px}
 
-.search_widget_btn.btn {
-  padding-left: 20px;
-  padding-right: 20px;
-  min-width: 45px;
-  margin-left: 0;
-  font-size: 14px;
-  border-radius: 0 25px 25px 0;
-}
-
 .dropdown_list.search_open_side {left: 0% !important; right: auto !important; margin-left: -800px; transition: 0.3s; display: block; padding-top: 28px}
 .stuck .dropdown_list.search_open_side {padding-top: 5px}
 .open .dropdown_list.search_open_side {left: 50% !important; transition: 0.3s; margin-left: -325px;}
@@ -20988,24 +20964,6 @@ supports  (initial-letter: 5) or  (-webkit-initial-letter: 5){ .
 
 .search_widget .search_inline {display: inline-block}
 .search_widget .search_inline .icon_text {display: inline-block}
-
-.search_widget_btn.btn.left.border_on {border-left: 0px; border-right: 1px solid #d9d9d9}
-.search_widget_btn.btn.border_on {border-left: 1px solid #d9d9d9;}
-
-.search_widget_btn.btn i {
-	margin-right: 2px;
-	font-size: 1.5em
-}
-
-.search_widget_3 .search_widget_btn i, #search_block_side .search_mobile_nav .search_widget_btn i {
-	line-height: 80%;
-}
-
-
-.search_widget_form_inner {
-  background: #fff;
-  border-radius: 25px;
-}
 
 .one_column_login .form-group-small .form-control,.one_column_login .form-group-small .input-group
 	{
@@ -21370,16 +21328,6 @@ textarea#delivery_message {
 }
 
 .yes_device_0 {display: none}
-
-.autocomplete-suggestions {
-	padding: 10px 0px;
-	overflow-x: hidden;
-	overflow-y: auto;
-	border: 1px solid #e3e3e3;
-	background: #fff;
-	-webkit-box-shadow: 5px 5px 8px -2px rgba(0,0,0,.11);
-	box-shadow: 5px 5px 8px -2px rgba(0,0,0,.11);	            
-}
 
 #header_right .autocomplete-suggestions {
   border-radius: 25px 25px;
@@ -23277,3 +23225,143 @@ body#module-stlovedproduct-myloved .products.product_list.grid .product_list_ite
 		padding: 0 8px 48px 8px !important
 	}
 }
+
+
+.popular-search-tags{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.popular-search-tags .popular-tag-heading{
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 8px;
+	font-family: 'ABC Favorit Mono Variable';
+	color: #000;
+	text-transform: uppercase;
+}
+.popular-search-tags .search-tag-link{
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	transition: .2s ease-in-out;
+}
+
+.popular-search-tags .search-tag-link:hover{
+	color: #3D4C99;
+}
+
+.search_widget_form{
+	margin-top: 32px;
+	margin-bottom: 64px;
+}
+
+.search_widget_btn.btn{
+	padding: 0;
+	display: flex;
+    align-items: center;
+}
+
+.search_widget_form input.search_widget_text{
+	height: 24px;
+	padding: 1px 20px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #181B1A;
+	background: transparent !important;
+}
+
+.search_widget_form input.search_widget_text::placeholder{
+	color: #9E9D9A;
+}
+
+.search_widget_form .search_btn_clear{
+	appearance: none;
+    background: transparent;
+    border: none;
+    padding: 0;
+    display: flex;
+	cursor: pointer;
+}
+
+.search_widget.search-success .popular-search-tags{
+	display: none;
+}
+
+.search-success .autocomplete-suggestions{
+	display: flex !important;
+	gap: 16px;
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding-bottom: 20px;
+	scrollbar-color: #3D4C99 transparent;
+}
+
+.search-success .autocomplete-suggestion{
+	width: calc((100% - (3 * 16px)) / 4);
+	flex-shrink: 0;
+}
+
+@media (max-width: 991px) {
+  .search-success .autocomplete-suggestion {
+    width: 43%;
+  }
+  .search-success .autocomplete-suggestions{
+	gap: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .search-success .autocomplete-suggestion {
+    width: 77%;
+  }
+}
+
+.search-success .autocomplete-suggestion .search_product_row{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.search_prod_bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	gap: 8px;
+	width: 100%;
+	padding: 0 8px;
+}
+
+
+.search_widget_form_inner{
+	border: none;
+	border-radius: none;
+	background: none;
+}
+
+@media (min-width: 992px){
+	.search_widget_block{
+		padding-bottom: 64px;
+	}
+	.search_widget_form input.search_widget_text{
+		height: 56px;
+		font-size: 56px;
+	}
+	.search_widget_form .search_widget_form_inner svg{
+		height: 48px;
+		width: 48px;
+	}
+	.st-effect-0.open_bar_right.mobile_search #side_search{
+		bottom: auto !important;
+	}
+	#side_search.sidebar_opened ~ .side_search_background{
+		position: absolute;
+		inset: 0;
+		top: 120px;
+		background: #00000070;
+		z-index: 99;
+	}
+}
+

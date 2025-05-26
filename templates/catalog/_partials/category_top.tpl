@@ -42,11 +42,6 @@
             </div>
             {if $page.page_name == 'search'}
               {if $listing.products|count}
-                {if $sttheme.search_tag_visible_in == 1}
-                  <div class="popular-search-tags tag-top"><span>{l s='Other popular searches' d='Shop.Theme.Transformer'}</span>
-                    {$sttheme.search_tag nofilter}
-                  </div>
-                {/if}
               {else}
                 <div class="no-search">
                   <span>{l s='Sorry, we couldnt find any search results for your query' d='Shop.Theme.Transformer'}:</span>
