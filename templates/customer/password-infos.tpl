@@ -44,7 +44,7 @@
     {/foreach}
   </ul>
     {block name='page_footer'}
-  <p><a href="{$urls.pages.authentication}" class="btn {if $arrow_buttons}btn_arrow bt_left btn_blus{/if} btn-primary " title="{l s='Back to Login' d='Shop.Theme.Actions'}">{l s='Back to Login' d='Shop.Theme.Actions'}</a></p>
+  <p><a href="{$urls.pages.authentication}" class="btn-main btn" title="{l s='Back to Login' d='Shop.Theme.Actions'}">{l s='Back to Login' d='Shop.Theme.Actions'}</a></p>
 {/block}
 </div>
 </section>
