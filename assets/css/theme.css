@@ -16000,7 +16000,32 @@ body#checkout.mobile_device.use_mobile_header .st-menu {
 	height: 100%;
 }
 
-.sidebar_button.side {z-index: 10; visibility: hidden; background: #f5f5f5; width: 360px; display: none}
+.sidebar_button.side {z-index: 10; visibility: hidden; background: #FBFAF8; border-top: 1px solid #E3E3E2; width: 360px; display: none; padding: 32px 16px;}
+#side_loved .pro_column_right .s_title_block{
+	font-size: 18px;
+	font-weight: 400;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#side_loved .product-price-and-shipping span{
+	font-size: 18px;
+	font-weight: 400;
+}
+#side_loved .pro_column_left{
+	width: 108px;
+	height: 108px;
+}
+#side_loved .pro_column_left img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#side_loved .pro_column_right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 108px;
+}
 .open_bar_right #side_loved.sidebar_opened + .sidebar_button.loved,
 .open_bar_left #side_loved.sidebar_opened + .sidebar_button.loved {right: 0;
   position: fixed;
@@ -20105,6 +20130,11 @@ hr {
     margin-left: 80px;
     line-height: 20px;
     font-size: 14px;
+}
+
+#side_loved .pro_column_right{
+	padding-left: 20px;
+	margin-left: 0px;
 }
 
 .pro_column_right .date-add {

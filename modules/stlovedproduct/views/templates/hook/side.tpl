@@ -7,12 +7,11 @@
 				</svg> 
 			</a>
 	</div>
-	<div id="side_loved_block" class="pad_10">
+	<div id="side_loved_block" class="px-3 pt-5 pb-3">
 	{if $loved_login == 0 || $customer.is_logged}
 	
 			{assign var='has_love_items' value=0}
 			{if isset($products) && count($products)}
-        		<h3 class="page_heading">{l s='Loved products' d='Shop.Theme.Transformer'}</h3>
 		        {$has_love_items=1}  
 		        <div class="base_list_line medium_list">
 				{foreach $products as $product}
@@ -46,6 +45,6 @@
 {if $has_love_items}
 <div class="sidebar_button side loved">
 <div class="text-center">
-		        	<a href="{url entity='module' name='stlovedproduct' controller='myloved'}" class="btn btn-default btn_full_width {if $arrow_buttons}btn_arrow{/if} btn-more-padding" title="{l s='View all' d='Shop.Theme.Transformer'}" rel="nofollow">{l s='View all' d='Shop.Theme.Transformer'}</a>
+		        	<a href="{url entity='module' name='stlovedproduct' controller='myloved'}" class="btn btn-main btn_full_width {if $arrow_buttons}btn_arrow{/if} btn-more-padding" title="{l s='View all' d='Shop.Theme.Transformer'}" rel="nofollow">{l s='View all' d='Shop.Theme.Transformer'}</a>
 </div></div>
 {/if}
