@@ -9015,7 +9015,7 @@ background-repeat: no-repeat;}
 .animation_placeholder.fields_border_1.form-group.has-error .has_error_icon {right: 0px;}
 
 .placeholder_error_3 .alert, .animation_placeholder.placeholder_error_2 .alert {display: none !important}
-.form-control-placeholder span.label_required {display: inline-block !important;  color: #e60000;}
+.form-control-placeholder span.label_required {display: inline-block;  color: #e60000;}
 .info-required.standard {margin: 0px !important; font-size: 11px !important;}
 .info-required.standard.mt-3 {margin-top: 10px !important}
 
