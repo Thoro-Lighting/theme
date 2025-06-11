@@ -20137,6 +20137,12 @@ hr {
 	margin-left: 0px;
 }
 
+#side_loved .pro_column_right button.loved_remove_product{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
 .pro_column_right .date-add {
     font-size: 12px;
     margin-top: 0px;

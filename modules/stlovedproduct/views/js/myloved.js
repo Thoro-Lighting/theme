@@ -204,4 +204,12 @@ $(document).ready(function () {
         return false;
     });
     stLovedUpdateInCache();
+
+    $('body').on('click', '.delete_all_loved_products', function (event) {
+      event.preventDefault();
+      $('#side_loved .loved_remove_product').each(function () {
+        $(this).trigger('click');
+      });
+    });
+
 });
