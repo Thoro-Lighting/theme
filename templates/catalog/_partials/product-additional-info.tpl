@@ -24,4 +24,6 @@
  *}
 <div class="product-additional-info">
   {hook h='displayProductAdditionalInfo' product=$product}
+
+  {hook h='displayWeboProductFlags' productId = $product.id}
 </div>
