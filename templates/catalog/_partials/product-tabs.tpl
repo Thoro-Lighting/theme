@@ -13,7 +13,7 @@
     {if $product.grouped_features}
     {if !$sttheme.remove_product_details_tab}
     <li class="nav-item">
-      <a class="nav-link{if !$st_active_pro_tab} active{/if}" data-toggle="tab"  href="#product-details">{l s='Data sheet' d='Shop.Theme.Catalog'}</a>
+      <a class="nav-link{if !$st_active_pro_tab} active{/if}" data-toggle="tab"  href="#product-details">{l s='Technical data' d='Shop.Theme.Catalog'}</a>
     </li>
     {if !$st_active_pro_tab}{assign var="st_active_pro_tab" value="product-details"}{/if}
     {/if}{/if}
