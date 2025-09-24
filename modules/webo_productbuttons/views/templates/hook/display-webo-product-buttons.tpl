@@ -1,4 +1,4 @@
-{if !empty($three_dimensional_link) || !empty($ar_linkx)}
+{if !empty($three_dimensional_link) || !empty($ar_link) || !empty($download_link)}
     <div class="product-buttons">
         <div class="product-buttons__wrapper">
             {if !empty($three_dimensional_link)}
@@ -15,6 +15,16 @@
 
                     {l s='Pokaż w 3D' d='Modules.Webodelivery.Front'}
                 </button>
+            {/if}
+            {if !empty($download_link)}
+                <a href="{$download_link}" download class="product-buttons__item btn-white" rel="noopener noreferrer"
+                    data-toggle="arlity-card-open-modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.375 9.1875L12 12M6.375 9.1875V14.8125L12 17.625M6.375 9.1875L12 6.375L17.625 9.1875M12 12L17.625 9.1875M12 12V17.625M12 17.625L17.625 14.8125V9.1875M7.5 3H5.25C4.00736 3 3 4.00736 3 5.25V7.5M7.5 21H5.25C4.00736 21 3 19.9927 3 18.75V16.5M16.5 3H18.75C19.9927 3 21 4.00736 21 5.25V7.5M16.5 21H18.75C19.9927 21 21 19.9927 21 18.75V16.5"
+                            stroke="#3D4C99" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    {l s='Pliki 3D' d='Modules.Webodelivery.Front'}</a>
             {/if}
             {if !empty($ar_link)}
                 <a data-href="{$ar_link}" class="product-buttons__item btn-white" target="_blank" rel="noopener noreferrer"

@@ -46,10 +46,12 @@
                     {block name='product_add_to_cart'}
                       {include file='catalog/_partials/product-add-to-cart.tpl'}
                     {/block}
+
+                    {hook h='displayWeboProductButtonsDownloadLink' productId = $product.id}
                     
                     {block name='product_additional_info'}
-                    {include file='catalog/_partials/product-additional-info.tpl'}
-                  {/block}
+                      {include file='catalog/_partials/product-additional-info.tpl'}
+                    {/block}
 
                   <div class="steasy_divider between_detials_and_buttons"><div class="steasy_divider_item"></div></div>
                   {hook h='displayProductFirstBottom'}
