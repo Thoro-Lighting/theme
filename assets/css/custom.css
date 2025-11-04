@@ -1268,3 +1268,54 @@ body#cms #center_column:has(.designers_banner){
     width: 332px;
   }
 }
+
+.ch2-container{
+  font-family: ABC Favorit Variable, sans-serif !important;
+}
+
+.ch2-container .ch2-btn.ch2-btn-text,
+.ch2-container .ch2-btn.ch2-btn-secondary{
+    font-weight: 500;
+    font-size: 16px;
+    background: transparent;
+    color: #3D4C99;
+    border-radius: 9999px;
+    border: 1px solid #3D4C99;
+    padding: 14px 24px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.ch2-container .ch2-btn.ch2-btn-text:hover,
+.ch2-container .ch2-btn.ch2-btn-secondary:hover{
+	background: #3D4C99;
+	color: #fff;
+}
+
+.ch2-container .ch2-btn.ch2-btn-primary {
+    font-family: 'ABC Favorit Variable';
+    font-weight: 500;
+    font-size: 16px;
+    background: #3D4C99;
+    color: #fff;
+    border-radius: 9999px;
+    padding: 14px 24px;
+    line-height: normal;
+    text-transform: none;
+    height: auto;
+}
+.ch2-container .ch2-btn.ch2-btn-primary:hover {
+  background: #293573;
+  color: #fbfbfb;
+}
+
+.ch2-style-light .ch2-switch input:checked + label, .ch2-style-dark .ch2-switch input:checked + label{
+  background: #3D4C99 !important;
+}
+
+.ch2-container .ch2-switch input:disabled+label:before{
+  background: #fff !important;
+}
