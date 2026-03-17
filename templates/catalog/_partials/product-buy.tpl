@@ -53,6 +53,8 @@
                       {include file='catalog/_partials/product-additional-info.tpl'}
                     {/block}
 
+                    {hook h='DisplayWeboProductArchitectZone' productId = $product.id}
+
                   <div class="steasy_divider between_detials_and_buttons"><div class="steasy_divider_item"></div></div>
                   {hook h='displayProductFirstBottom'}
 
