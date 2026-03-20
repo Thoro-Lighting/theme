@@ -1390,10 +1390,10 @@ section#wrapper.menu_blur{
 .mobile_tab .tab-pane.st_open .tab-pane-body {
 	display: block;
 }
-.product-architect-url{
-  background-color: #F7F5F1;
-  font-weight: 700;
+.product-architect-url {
+    background-color: #3D4C99;
+    font-weight: 700;
 }
-.product-architect-url p{
-  color: #3D4C99;
+.product-architect-url > * {
+    color: #fff !important
 }
